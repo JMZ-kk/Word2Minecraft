@@ -1,0 +1,568 @@
+import argparse
+import json
+import os
+import numpy as np
+import pandas as pd
+from fixers import pad_rows_to_max_length,remove_extra_special_chars
+from solvers import find_characters,parse_grid
+from w2m_tools import *
+
+block_data = [item.replace('minecraft:', '') for item in BLOCKS]
+building_blocks = block_data.remove('water')
+cfg = Config()
+# Define constants
+TILE_SIZE = 16
+CAMERA_WIDTH = 20
+CAMERA_HEIGHT = 16
+INFO_PANEL_HEIGHT = 4  # Number of tiles for the info panel
+
+parser = argparse.ArgumentParser(description="Process game inputs")
+parser.add_argument('--game_path', type=str,
+                    help="A path to JSON file of your game. Derfaults to 'word2world\examples\example_1.json'")
+args = parser.parse_args()
+
+if args.game_path:
+    if not os.path.exists(args.game_path):
+        raise ValueError(f"{args.game_path} does not exist. Please provide an existing path.")
+    with open(args.game_path, 'r') as file:
+        data = json.load(file)
+else:
+    game = "example_20"
+    game_dir = os.path.join(f"word2world", "examples")
+    with open(f'{game_dir}/{game}.json', 'r') as file:
+        data = json.load(file)
+
+
+
+# collect message of original map
+df = pd.read_csv('word2world/items.csv', header=None)
+df2 = pd.read_csv('word2world/enemy.csv', header=None)
+df3 = pd.read_csv('word2world/tools.csv', header=None)
+item_list = df[0].tolist()
+enemy_list = df2[0].tolist()
+tool_list = df3[0].tolist()
+
+round_number = "round_0"
+character_descriptions_dict = {}
+story = data[round_number]['story']
+grid_str = data[round_number]["world"]
+grid_str = pad_rows_to_max_length(grid_str)
+grid_world = map_to_list(grid_str)
+char_tile_mapping = data[round_number]["tile_mapping"]
+walkables = data[round_number]["walkable_tiles"]
+objectives = data[round_number]["objectives"]
+important_tiles = data[round_number]["important_tiles"]
+goals = data[round_number]["goals"]
+world_1st_layer = data[round_number]["world_1st_layer"]["world"]
+world_1st_layer = pad_rows_to_max_length(world_1st_layer)
+grid_1st_layer = map_to_list(world_1st_layer)
+character_chars = find_characters(grid_str)
+tiles_1st_layer = data[round_number]["world_1st_layer"]["tiles"]
+player_pos = [character_chars['@'][0], character_chars['@'][1]]  # Starting position of the player
+enemy_pos = [character_chars['#'][0], character_chars['#'][1]]  # Starting position of the enemy
+walkable_tile_counts, default_walkable_tile = calculate_tile_count(grid_world, walkables)
+tile_counts, default_tile = calculate_tile_count(grid_world)
+sorted_items = sorted(tile_counts.items(), key=lambda x: x[1], reverse=True)
+top_half = sorted_items[:len(tile_counts) // 2]
+top_half_keys = {k for k, v in top_half}
+story_prompt = f"Write a {cfg.story_paragraphs[0]}-{cfg.story_paragraphs[1]} paragraph story which has characters including the protagonist trying to achieve something and the antagonist wanting to stop the protagonist. The story should describe an environment(s) where the story is set up."
+
+last_time=0
+objective_list = []
+objective_des = []
+idx=1
+level_id=random.randint(0,10000)
+for des, val in objectives.items():
+    objective_list.append(Objective(idx+level_id,des, val[0], (val[1], val[2])))
+    objective_des.append(des)
+    idx+=1
+
+objective_types = ['Defeat the enemy', 'Chat with NPC', 'Navigate the maze to find an exit', 'Survive waves of enemies',
+                   'Collect Items']
+goal_prompt, goal_discriptions, goal_dict = extract_goals(objective_des, objective_types)
+false_des = []
+for obj in objective_list:
+    try:
+        if goal_dict[obj.description] == 'Other':
+            false_des.append(obj.description)
+        else:
+            obj.goal = goal_dict[obj.description]
+    except:
+        pass
+if len(false_des) > 0:
+    repair_prompt, repair_discriptions, repair_dict = repair_goals(goal_prompt, goal_discriptions, false_des,
+                                                                   objective_types)
+    for obj in objective_list:
+        for key in repair_dict.keys():
+            if obj.description == key:
+                obj.description = repair_dict[key][0]
+                obj.goal = repair_dict[key][1]
+
+clist=[]
+obj_tag_list=[]
+for obj in objective_list:
+    if obj.goal!='Defeat the enemy':
+        obj_tag_list.append('tag_'+str(obj.id))
+    if obj.goal == 'Navigate the maze to find an exit':
+        obj.map = generate_maze_array()
+        tile_list = extract_submaze_tile(story, story_prompt, obj.description, block_data)
+        obj.tile_dict={}
+        obj.tile_dict['0']=tile_list[0]
+        obj.tile_dict['1'] = tile_list[1]
+    elif obj.goal=='Chat with NPC':
+        obj.npc_info, npc_prompt, npc_discriptions=extract_npc(goal_prompt, goal_discriptions, obj.description,tool_list)
+    elif obj.goal=='Defeat the enemy':
+        enemy = [k for k, v in data[round_number]["tile_mapping"].items() if v == '#'][0]
+        enemy_block=extract_enemy(enemy, enemy_list)
+    else:
+        obj.tile_dict, sub_tile_discriptions, sub_tile_prompt = extract_subworld_tile(story, story_prompt,
+                                                                                      obj.description, block_data)
+        obj.map,sub_world_discriptions,sub_world_prompt=subworld_generation(story, story_prompt,sub_tile_discriptions, sub_tile_prompt,obj.tile_dict)
+        if obj.goal=='Collect Items':
+            clist.append(obj.description)
+if len(clist) > 0:
+    item_dict = extract_item(goal_prompt, goal_discriptions, clist,block_data)
+    for key in item_dict.keys():
+        for obj in objective_list:
+            if obj.description == key:
+                obj.item = item_dict[key]
+
+occupied_positions = []
+objectives_2_map(grid_world, objective_list, walkable_tile_counts, occupied_positions)
+
+check = np.zeros((len(grid_world), len(grid_world[0])))
+for i in range(len(grid_world)):
+    for j in range(len(grid_world[0])):
+        if (i, j) in occupied_positions:
+            check[i][j] = 3
+        if f'''{grid_world[i][j]}''' not in walkables:
+            for m in [-1, 0, 1]:
+                for n in [-1, 0, 1]:
+                    try:
+                        if check[i + m][j + n] == 0:
+                            check[i + m][j + n] = 2
+                    except:
+                        pass
+            check[i][j] = 1
+        elif grid_world[i][j] in ['#', '@']:
+            for m in [-1, 0, 1]:
+                for n in [-1, 0, 1]:
+                    try:
+                        if check[i + m][j + n] == 0:
+                            check[i + m][j + n] = 2
+                    except:
+                        pass
+            check[i][j] = 3
+
+non_special_char_map = {k: v for k, v in data[round_number]["tile_mapping"].items()
+                        if v not in ['#', '@']}
+bottom_half_des2not = {k: v for k, v in non_special_char_map.items() if v not in top_half_keys}
+
+
+tileset, tileset_discriptions, tileset_prompt = extract_tile_set(non_special_char_map, block_data)
+
+#------------------------------------------scaling problem--------------------------------------
+scaling_tiles_list, pick_scaling_discriptions, pick_scaling_prompt = pick_scaling_tiles(bottom_half_des2not, grid_world,story, story_prompt)
+size_dict, size_discriptions, extract_size_prompt = extract_scaling_size(scaling_tiles_list, pick_scaling_discriptions,
+                                                                         pick_scaling_prompt)
+
+compo_dict = {}
+
+for notation, size in size_dict.items():
+    for des, sub_note in data[round_number]["tile_mapping"].items():
+        if notation == sub_note:
+            compo_list, generate_building_discriptions, generate_building_prompt = (
+                generate_building(story, story_prompt, des, building_blocks, size))
+            compo_dict[notation] = compo_list
+            break
+
+for i in range(len(grid_world)):
+    for j in range(len(grid_world[0])):
+        if grid_world[i][j] in scaling_tiles_list:
+            check[i][j] = 4
+
+for building in scaling_tiles_list:
+    for i in range(len(grid_world)):
+        for j in range(len(grid_world[0])):
+            if grid_world[i][j] == building:
+                block_size = int(size_dict[grid_world[i][j]])
+                tar = grid_world[i][j]
+                biggest_m = -1
+                biggest_n = -1
+                biggest = 0
+                for m in [i - block_size + 1, i]:
+                    for n in [j - block_size + 1, j]:
+                        try:
+                            tsum = block_evaluation(check, m, n, tile_counts, grid_world, tar, block_size)
+                            if tsum > biggest:
+                                biggest = tsum
+                                biggest_n = n
+                                biggest_m = m
+                        except Exception as e:
+                            check[i][j] = 5
+                            grid_world[i] = modify_string(grid_world[i], j, default_walkable_tile)
+                            print(e)
+                if biggest_m > -1:
+                    update_map(check, biggest_m, biggest_n, block_size, tar, grid_world)
+print(grid_world)
+#------------------------------------------scaling problem--------------------------------------
+
+# Minecraft map geenration
+
+editor = Editor(buffering=False)
+
+base_x = 0 * (len(grid_world) + 3)
+base_z = 0 * (len(grid_world[0]) + 3)
+base_y = -10
+print(base_x)
+print(base_z)
+
+for x in range(len(grid_world)):
+    for z in range(len(grid_world[0])):
+        editor.placeBlock((base_x + x, base_y - 1, base_z + z), Block('minecraft:dirt'))
+        editor.placeBlock((base_x + x, base_y - 2, base_z + z), Block('minecraft:white_wool'))
+base_map = grid_world
+# base_map=grid_1st_layer
+
+chasing_mode = False
+summon_block_num = 0
+sum_x_len = base_x + len(grid_world)
+finished_scaling = np.zeros((len(grid_world), len(grid_world[0])))
+for x in range(len(base_map)):
+    for z in range(len(base_map[x])):
+        if (x, z) in occupied_positions:
+            for obj in objective_list:
+                try:
+                    if obj.coordinates == (x, z):
+                        start_tag = 'task_' + str(obj.id)
+                        end_tag = 'task_' + str(obj.id) + '_done'
+                        if obj.goal == 'Chat with NPC':
+                            cloth = obj.npc_info[1]
+                            command = (
+                                    'summon armor_stand ' + str(base_x + x) + ' ' + str(base_y + 1) + ' ' + str(
+                                base_z + z) + ' {'
+                                              'CustomName:\'{\\\"text\\\":\\\"' + obj.npc_info[
+                                        0] + '\\\",\\\"color\\\":\\\"red\\\"}\',CustomNameVisible:1b'
+                                             ',ArmorItems:[{id:\\\"minecraft:' + cloth + '_boots\\\",Count:1},'
+                                                                                         '{id:\\\"minecraft:' + cloth + '_leggings\\\",Count:1},'
+                                                                                                                        '{id:\\\"minecraft:' + cloth + '_chestplate\\\",Count:1},'
+                                                                                                                                                       '{id:\\\"minecraft:' + cloth + '_helmet\\\",Count:1}],'
+                                                                                                                                                                                      'HandItems:[{id:\\\"minecraft:' +
+                                    obj.npc_info[2] + '\\\",Count:1},{}]}'
+                            )
+                            print(command)
+                            command1 = (
+                                    'execute as @a[tag=!' + start_tag + '] at @s if entity @e[type=armor_stand, name=\\\"' +
+                                    obj.npc_info[0] + '\\\", distance=..2] run tag @s add ' + start_tag
+                            )
+
+                            command2 = (
+                                    'execute as @a[tag=' + start_tag + ',tag=!' + end_tag + '] run tellraw @s {\\\"text\\\":\\\"' + obj.description + '\\\",\\\"color\\\":\\\"green\\\"}'
+                            )
+
+                            command3 = (
+                                    'execute as @a[tag=' + start_tag + ',tag=!' + end_tag + '] run tag @s add ' + end_tag)
+                            editor.placeBlock((base_x, 60 + base_y + summon_block_num, base_z),
+                                              Block('minecraft:command_block',
+                                                    data=f'{{"Command": "{command}","auto": 1}}'))
+                            summon_block_num += 1
+                            editor.placeBlock((base_x + x, base_y, base_z + z),
+                                              Block('minecraft:repeating_command_block', states={'facing': 'down'},
+                                                    data=f'{{"Command": "{command1}","auto": 1}}'))
+                            editor.placeBlock((base_x + x, base_y - 1, base_z + z),
+                                              Block('minecraft:chain_command_block', states={'facing': 'down'},
+                                                    data=f'{{"Command": "{command2}","auto": 1}}'))
+                            editor.placeBlock((base_x + x, base_y - 2, base_z + z),
+                                              Block('minecraft:chain_command_block', states={'facing': 'down'},
+                                                    data=f'{{"Command": "{command3}","auto": 1}}'))
+                            continue
+    #-----------------------------------place sub map------------------------------
+                        sum_x_len += 2
+                        for m in range(len(obj.map)):
+                            for hh in range(3):
+                                editor.placeBlock((sum_x_len + m, base_y+hh, base_z - 1),
+                                                  Block('minecraft:barrier'))
+                                editor.placeBlock((sum_x_len + m, base_y+hh, base_z + len(obj.map[0])),
+                                                  Block('minecraft:barrier'))
+                        for n in range(len(obj.map[0])):
+                            for hh in range(3):
+                                editor.placeBlock((sum_x_len - 1, base_y+hh, base_z + n),
+                                                  Block('minecraft:barrier'))
+                                editor.placeBlock((sum_x_len + len(obj.map), base_y+hh, base_z + n),
+                                                  Block('minecraft:barrier'))
+                        for m in range(len(obj.map)):
+                            for n in range(len(obj.map[0])):
+                                tx = sum_x_len + m
+                                ty = base_y
+                                tz = base_z + n
+                                if obj.goal == 'Navigate the maze to find an exit':
+                                    path_tile = obj.tile_dict['0']
+                                    wall_tile = obj.tile_dict['1']
+                                    if obj.map[m][n] == 0:
+                                        place_block(editor,tx, ty, tz, path_tile,block_data)
+                                    else:
+                                        place_block(editor,tx, ty, tz, wall_tile,block_data)
+                                        editor.placeBlock((tx, ty + 1, tz),
+                                                          Block('minecraft:' + wall_tile))
+                                        editor.placeBlock((tx, ty + 2, tz),
+                                                          Block('minecraft:barrier'))
+                                else:
+                                    try:
+                                        place_block(editor,tx, ty, tz, obj.tile_dict[obj.map[m][n]],block_data)
+                                    except:
+                                        place_block(editor,tx, ty, tz, tileset.get(default_walkable_tile),block_data)
+                                        print('bug:'+str(obj.map[m][n]))
+                        maze_end_x=sum_x_len + len(obj.map)-2
+                        maze_end_z= base_z + len(obj.map[0])-2
+    # -----------------------------------place sub map done------------------------------
+                        if obj.goal == 'Survive waves of enemies':
+                            timer = 't' + str(obj.id)
+                            timer_b = 'tb' + str(obj.id)
+                            tag = 'rs' + str(obj.id)
+                            tag_b = 'rsb' + str(obj.id)
+                            tag_c = 'tag_'+str(obj.id)
+                            editor.placeBlock((maze_end_x, base_y - 1, maze_end_z-1), Block('minecraft:command_block',
+                                        data='{"Command": "scoreboard objectives add '+timer+' dummy","auto": 1})'))
+                            editor.placeBlock((maze_end_x, base_y - 2, maze_end_z - 1), Block('minecraft:command_block',
+                                        data='{"Command": "scoreboard objectives add ' + timer_b + ' dummy","auto": 1})'))
+                            editor.placeBlock((base_x + x, base_y - 1, base_z + z),
+                                              Block('minecraft:chain_command_block', states={'facing': 'down'},
+                                                    data='{"Command": "scoreboard players set @a ' + timer + ' 10","auto": 1})'))
+                            editor.placeBlock((base_x + x, base_y - 2, base_z + z), Block('minecraft:chain_command_block', states={'facing': 'down'},
+                                        data='{"Command": "/tag @a add '+tag+'","auto": 1})'))
+
+                            countdown(editor,timer, tag, 'Enemy is coming!', maze_end_x, base_y - 3, maze_end_z - 1)
+                            for en in range(obj.enemy_num):
+                                ex=random.randint(maze_end_x-len(obj.map)+2,maze_end_x-2)
+                                ez=random.randint(maze_end_z-len(obj.map[0])+2,maze_end_z-2)
+                                time_command_5 = 'execute as @a[scores={' + timer + '=0},tag=' + tag + '] run summon ' + obj.enemy_name + ' ' + str(
+                                    ex) + ' ' + str(base_y + 2) + ' ' + str(ez)
+                                editor.placeBlock((maze_end_x, base_y - 6-en, maze_end_z-1),
+                                              Block('minecraft:chain_command_block', states={'facing': 'down'},
+                                                    data=f'{{"Command": "{time_command_5}","auto": 1}}'))
+                            editor.placeBlock((maze_end_x, base_y - 6-obj.enemy_num, maze_end_z-1),
+                                              Block('minecraft:chain_command_block', states={'facing': 'down'},
+                                                    data='{"Command": "execute as @a[scores={' + timer + '=0},tag=' + tag + ']'
+                                                                ' run tag @s add ' + tag_b+'","auto": 1})'))
+                            editor.placeBlock((maze_end_x, base_y - 7 - obj.enemy_num, maze_end_z - 1),
+                                              Block('minecraft:chain_command_block', states={'facing': 'down'},
+                                                    data='{"Command": "execute as @a[scores={' + timer + '=0},tag=' + tag + '] '
+                                                'run scoreboard players set @a ' + timer_b + ' 20","auto": 1})'))
+                            editor.placeBlock((maze_end_x, base_y - 8 - obj.enemy_num, maze_end_z - 1),
+                                              Block('minecraft:chain_command_block', states={'facing': 'down'},
+                                                    data='{"Command": "execute as @a[scores={' + timer + '=0},tag=' + tag + '] '
+                                                'run give @s minecraft:shield","auto": 1})'))
+                            editor.placeBlock((maze_end_x, base_y - 9 - obj.enemy_num, maze_end_z - 1),
+                                              Block('minecraft:chain_command_block', states={'facing': 'down'},
+                                                    data='{"Command": "execute as @a[scores={' + timer + '=0},tag=' + tag + '] '
+                                                'run give @s minecraft:diamond_sword","auto": 1})'))
+                            countdown(editor,timer_b, tag_b, 'Survive!', maze_end_x-2, base_y - 3, maze_end_z - 1)
+
+                            editor.placeBlock((maze_end_x - 2, base_y - 6, maze_end_z - 1),
+                                              Block('minecraft:chain_command_block', states={'facing': 'down'},
+                                                    data='{"Command": "execute as @a[scores={' + timer_b + '=0}, tag=' + tag_b + ',tag=!' + tag_c + ']'
+                                                    ' run tp @p ' + str(
+                                                        base_x + player_pos[1]) + ' ' + str(
+                                                        base_y + 4) + ' ' + str(
+                                                        base_z + player_pos[0]) + '","auto": 1}'))
+                            editor.placeBlock((maze_end_x-2, base_y - 7, maze_end_z - 1),
+                                              Block('minecraft:chain_command_block', states={'facing': 'down'},
+                                                    data='{"Command": "execute as @a[scores={' + timer_b + '=0}, tag=' + tag_b + ',tag=!' + tag_c + ']'
+                                                ' run tag @s add ' + tag_c + '","auto": 1}'))
+
+                            time_command_6='execute as @a[scores={'+timer+'=..0}] run scoreboard players reset @a '+timer
+                            editor.placeBlock((maze_end_x - 1, base_y - 2, maze_end_z),
+                                              Block('minecraft:repeating_command_block', states={'facing': 'down'},
+                                                    data=f'{{"Command": "{time_command_6}","auto": 1}}'))
+                            time_command_7 = 'execute as @a[scores={' + timer_b + '=..0}] run scoreboard players reset @a ' + timer_b
+                            editor.placeBlock((maze_end_x - 1, base_y - 3, maze_end_z),
+                                              Block('minecraft:repeating_command_block', states={'facing': 'down'},
+                                                    data=f'{{"Command": "{time_command_7}","auto": 1}}'))
+
+    #-------------------------------tp-----------------------
+                        editor.placeBlock((base_x + x, base_y, base_z + z), Block('minecraft:command_block', states={'facing': 'down'},
+                                                                               data='{"Command": "tp @p ' + str(
+                                                                                   sum_x_len + 1) + ' ' + str(
+                                                                                   base_y + 4) + ' ' + str(
+                                                                                   base_z + 1) + '"}'))
+                        editor.placeBlock((base_x + x, base_y+1, base_z + z), Block('minecraft:stone_pressure_plate'))
+    #-------------------------------tp back-----------------------
+                        text_color='white'
+                        if obj.goal == 'Navigate the maze to find an exit':
+                            text_color='blue'
+                            editor.placeBlock((maze_end_x, base_y, maze_end_z), Block('minecraft:command_block', states={'facing': 'down'},
+                                                                                   data='{"Command": "tp @p ' + str(
+                                                                                       base_x + player_pos[1]) + ' ' + str(
+                                                                                       base_y + 4) + ' ' + str(
+                                                                                       base_z + player_pos[0]) + '"}'))
+                            editor.placeBlock((maze_end_x, base_y+1, maze_end_z), Block('minecraft:stone_pressure_plate'))
+                            command2=f'setblock {base_x + x} {base_y} {base_z + z} minecraft:'+ tileset.get(default_walkable_tile)
+                            command3=f'setblock {base_x + x} {base_y+1} {base_z + z} minecraft:air'
+                            # command4 = f'tag @p add tag_+{obj.id}'
+                            editor.placeBlock((maze_end_x, base_y - 1, maze_end_z),
+                                                  Block('minecraft:chain_command_block', states={'facing': 'down'},
+                                                        data=f'{{"Command": "{command2}","auto": 1}}'))
+                            editor.placeBlock((maze_end_x, base_y - 2, maze_end_z),
+                                                  Block('minecraft:chain_command_block', states={'facing': 'down'},
+                                                        data=f'{{"Command": "{command3}","auto": 1}}'))
+                            # editor.placeBlock((maze_end_x, base_y - 3, maze_end_z),
+                            #                   Block('minecraft:chain_command_block', states={'facing': 'down'},
+                            #                         data=f'{{"Command": "{command4}","auto": 1}}'))
+                        elif obj.goal == 'Survive waves of enemies':
+                            text_color = 'yellow'
+                        elif obj.goal=='Defeat the enemy':
+                            pass
+                            # sub_score=obj.enemy_name+'_kills_'+str(obj.id)
+                            # create_board = 'scoreboard objectives add '+sub_score+' minecraft.killed:minecraft.'+obj.enemy_name
+                            # editor.placeBlock((maze_end_x, base_y-1, maze_end_z),
+                            #                   Block('minecraft:command_block', states={'facing': 'down'},
+                            #                         data=f'{{"Command": "{create_board}","auto": 1}}'))
+                            # editor.placeBlock((maze_end_x, base_y-2, maze_end_z),
+                            #                   Block('minecraft:repeating_command_block', states={'facing': 'down'},
+                            #                         data='{"Command": "execute as @a[scores={'+sub_score+'=3..},tag=!'+end_tag+'] '
+                            #                              'run tp @p ' + str(
+                            #                             base_x + player_pos[1]) + ' ' + str(
+                            #                             base_y + 4) + ' ' + str(
+                            #                             base_z + player_pos[0]) + '","auto": 1}'))
+                            # editor.placeBlock((maze_end_x, base_y - 3, maze_end_z),
+                            #                   Block('minecraft:chain_command_block', states={'facing': 'down'},
+                            #                         data='{"Command": "execute as @a[scores={'+sub_score+'=3..},tag=!' + end_tag + '] run tag @s add ' + end_tag + '","auto": 1}'))
+                            # editor.placeBlock((maze_end_x, base_y-4, maze_end_z),
+                            #                   Block('minecraft:chain_command_block', states={'facing': 'down'},
+                            #                         data='{"Command": "execute as @a[scores={'+sub_score+'=3..}] '
+                            #                              'run scoreboard players reset @a '+sub_score+'","auto": 1}'))
+
+                        elif obj.goal == 'Collect Items':
+
+                            cx = random.randint(maze_end_x - len(obj.map) + 1, maze_end_x - 1)
+                            cz = random.randint(maze_end_z - len(obj.map[0]) + 1, maze_end_z - 1)
+                            chest = Block("chest", data='{Items: [{Slot: 13b, id: ' + obj.item + ', Count: 1b}]}')
+                            editor.placeBlock((cx, base_y + 1, cz), chest)
+                            command1 = (
+                                    'execute as @a[tag=!' + start_tag + '] at @s if entity @a[nbt={Inventory:[{id:\\\"minecraft:' + str(
+                                obj.item) + '\\\"}]}] run tag @s add ' + start_tag
+                            )
+                            command2 = (
+                                    'execute as @a[tag=' + start_tag + ',tag=!' + end_tag + '] at @s if entity @a[nbt={Inventory:[{id:\\\"minecraft:' + str(
+                                obj.item) + '\\\"}]}] run tag @s add ' + end_tag
+                            )
+                            command3 = f'tag @p add tag_+{obj.id}'
+                            editor.placeBlock((maze_end_x, base_y-1, maze_end_z),
+                                              Block('minecraft:repeating_command_block', states={'facing': 'down'},
+                                                    data=f'{{"Command": "{command1}","auto": 1}}'))
+                            editor.placeBlock((maze_end_x, base_y - 2, maze_end_z),
+                                              Block('minecraft:chain_command_block', states={'facing': 'down'},
+                                                    data='{"Command": "execute as @a[tag=' + start_tag + ',tag=!' + end_tag + '] '
+                                                                      'run tp @p ' + str(
+                                                        base_x + player_pos[1]) + ' ' + str(
+                                                        base_y + 4) + ' ' + str(
+                                                        base_z + player_pos[0]) + '","auto": 1}'))
+                            editor.placeBlock((maze_end_x, base_y - 3, maze_end_z),
+                                              Block('minecraft:chain_command_block', states={'facing': 'down'},
+                                                    data=f'{{"Command": "{command2}","auto": 1}}'))
+                            # editor.placeBlock((maze_end_x, base_y - 4, maze_end_z),
+                            #                   Block('minecraft:chain_command_block', states={'facing': 'down'},
+                            #                         data=f'{{"Command": "{command3}","auto": 1}}'))
+                            text_color = 'green'
+                        title_command = (
+                                    'summon armor_stand ' + str(base_x + x) + ' ' + str(base_y + 1) + ' ' + str(base_z + z) + ' {'
+                                    'CustomName:\'{\\\"text\\\":\\\"' + obj.description + '\\\",'
+                                    '\\\"color\\\":\\\"'+text_color+'\\\"}\','
+                                    'CustomNameVisible:1b,NoGravity:1b,Invisible:1b}'
+                            )
+                        editor.placeBlock((base_x, 60 + base_y + summon_block_num, base_z), Block('minecraft:command_block',
+                                                         data=f'{{"Command": "{title_command}","auto": 1}}'))
+                        summon_block_num += 1
+                        if obj.map is not None:
+                            sum_x_len += len(obj.map)
+                        break
+                except:
+                    print('objective bug')
+        else:
+            if grid_world[x][z] in scaling_tiles_list and finished_scaling[x][z] == 0:
+                size = int(size_dict[grid_world[x][z]])
+                for i in range(size):
+                    for j in range(size):
+                        try:
+                            finished_scaling[x + i][z + j] = 1
+                        except:
+                            pass
+                for tuple in compo_dict[grid_world[x][z]]:
+                    editor.placeBlock((base_x + x + tuple[0], base_y + tuple[1], base_z + z + tuple[2]),
+                                      Block('minecraft:' + str(tuple[3])))
+
+            if z == player_pos[0] and x == player_pos[1]:
+                editor.placeBlock((base_x + x, base_y, base_z + z), Block('minecraft:command_block',
+                                                                          data='{"Command": "kill @e[type=minecraft:enderman]"}'))
+            else:
+                try:
+                    tile = tileset.get(base_map[x][z])
+                    block = 'minecraft:' + tile
+                    if base_map[x][z] not in walkables and block not in FILTERING:
+                        for h_y in range(3):
+                            editor.placeBlock((base_x + x, base_y + h_y, base_z + z), Block(block))
+                    else:
+                        place_block(editor,base_x + x, base_y, base_z + z, tile,block_data)
+
+                except:
+                    # print(tile, 'at', x, ',', z)
+                    print(base_map[x][z])
+                    block = 'minecraft:' + tileset.get(default_walkable_tile)
+                    editor.placeBlock((base_x + x, base_y, base_z + z), Block(block))
+
+# print(time()-last_time)
+# last_time = time()
+
+editor.placeBlock((base_x,-63,base_z-1), Block('minecraft:command_block',
+        data='{"Command": "tp @p '+str(base_x+player_pos[1])+' '+str(base_y+4)+' '+str(base_z+player_pos[0])+'","auto": 1}'))
+
+editor.placeBlock((base_x,-63,base_z), Block('minecraft:command_block',
+        data='{"Command": "clear @p","auto": 1})'))
+
+editor.placeBlock((base_x,-63,base_z-2), Block('minecraft:command_block',
+        data='{"Command": "scoreboard objectives add Tick dummy","auto": 1})'))
+
+#-----------------------global time--------------------------------
+time_command='scoreboard players add global Tick 1'
+time_command_1='execute if score global Tick matches 22 run scoreboard players set global Tick 0'
+editor.placeBlock((base_x,-50,base_z+1),
+                  Block('minecraft:repeating_command_block', states={'facing': 'down'},
+                        data=f'{{"Command": "{time_command}","auto": 1}}'))
+editor.placeBlock((base_x,-51,base_z+1),
+                  Block('minecraft:chain_command_block', states={'facing': 'down'},
+                        data=f'{{"Command": "{time_command_1}","auto": 1}}'))
+#-----------------------global kill--------------------------------
+
+start_tag='summon_monster'
+end_tag='summon_monster_done'
+z = enemy_pos[0]
+x = enemy_pos[1]
+
+base_condi='tag=!'+start_tag+',tag=!'+end_tag
+for tag in obj_tag_list:
+    base_condi+=',tag='+tag
+
+command1 = ('execute as @a['+base_condi+'] run tag @s add '+start_tag)
+command2 = ('execute as @a[tag='+start_tag+',tag=!'+end_tag+'] run tellraw @s '
+            '{\\\"text\\\":\\\"Defeat the enemy\\\",\\\"color\\\":\\\"green\\\"}')
+try:
+    command3 = (f'execute as @a[tag={start_tag},tag=!{end_tag}] run summon '
+                f'minecraft:{enemy_block} {base_x + x} {base_y + 2} {base_z + z}')
+    command4 = ('execute as @a[tag='+start_tag+',tag=!'+end_tag+'] if entity @e[type=minecraft:'+enemy_block+', distance=..5] run tag @s add '+end_tag)
+    print(enemy_block)
+except:
+    command3 = (f'execute as @a[tag={start_tag},tag=!{end_tag}] run summon '
+                f'minecraft:zombie {base_x + x} {base_y+2} {base_z + z}')
+    command4 = ('execute as @a[tag='+start_tag+',tag=!'+end_tag+'] if entity @e[type=minecraft:zombie, distance=..5] run tag @s add '+end_tag)
+editor.placeBlock((base_x + x, base_y, base_z + z),
+                    Block('minecraft:repeating_command_block', states={'facing': 'down'},
+        data=f'{{"Command": "{command1}","auto": 1}}'))
+editor.placeBlock((base_x + x, base_y-1, base_z + z),
+                    Block('minecraft:chain_command_block', states={'facing': 'down'},
+        data=f'{{"Command": "{command2}","auto": 1}}'))
+editor.placeBlock((base_x + x, base_y-2, base_z + z),
+                    Block('minecraft:chain_command_block', states={'facing': 'down'},
+        data=f'{{"Command": "{command3}","auto": 1}}'))
+editor.placeBlock((base_x + x, base_y-3, base_z + z),
+                    Block('minecraft:chain_command_block', states={'facing': 'down'},
+        data=f'{{"Command": "{command4}","auto": 1}}'))

@@ -1,0 +1,156 @@
+{
+  "world": [
+    "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "aappppaaapppaaappppppaaapppppaaaaaddddddddaaa",
+    "aaaqqqaasaaaaafffqqqfffaaaaasaaaadddddddggdaa",
+    "aaapppaapppppffaiifpppppppfaiidaaaaagggggggaa",
+    "tttaaaaappffppiiiiippffppppttttaaaaagggbbbgga",
+    "aaaaaappffppiwwwiippffpppisaaaaaaaggbbbfffbgg",
+    "aaaapppppppiwhxiwiippaiiippqaaaaaaagbbbbbgggg",
+    "aaaappffpppiwhhxhwiippppppppaaaaaaaggbbbgggaa",
+    "tttaaafppffpiwwwwwiipffpppptttaaaaaagggggggaa",
+    "aaapffppffpppppggggppiaiiiiisaaaaaaddgggggdaa",
+    "aaaappppppppppaaaaaadbiiiiipqaaaaaddffgggggaa",
+    "aaaapppffppppggggggggdbbpwbppaaaaaddffbggggaa",
+    "aaaaaffffpppppaaaaaaddbbnrbpp@ppppddffbggggaa",
+    "tttaaaaaiiisggggggggddbbbwbppppppffddggggggaa",
+    "aaaaaaaaaiiiihhhhhhhddbbbbppppppppffgggggggaa",
+    "tttaffffffaiiiiuhhhhhddbbbbppppppfffgggggggga",
+    "aaaffffpppiiiiuhhhhhddbbbBFGGppppppfgggggggga",
+    "aaapffpppppiiiiihhhhhddbbbbGGpffppffggggdgggg",
+    "aaaaaaaffpppppavhhhhddbbbbppppffppffgdddggdaa",
+    "taaaaaaaaaaaaiiiihhhdddggggppffppppffggdddggg",
+    "aaapppffaafffaiiiiiipddddgggppppppppppggggdaa",
+    "aaappppppppppiiiiiipppppppaaaaaaaaddddddggggg",
+    "aaaaaaaaaaapffpppppppppppppppppppdddddddddggg",
+    "aaaaaaaaaaaffffpppppppppfdddddaaaffaaaaaddddd",
+    "aaaaaaaaaaaaaaaaaaaaaaaffffaaaaaffffaaaaaffff",
+    "tttaaaaaaa#aaaaaaaaafffffaaaaffffaaaaaffaafff",
+    "aaaaaaffaaaaaaaaaffaffffaaafffaaaffaaaaaaafff"
+  ],
+  "tile_mapping": {
+    "grass_block": "a",
+    "dirt": "b",
+    "oak_log": "d",
+    "poppy": "f",
+    "stone": "g",
+    "dispenser": "h",
+    "oak_planks": "i",
+    "enchanting_table": "n",
+    "oak_leaves": "p",
+    "white_stained_glass_pane": "q",
+    "comparator": "r",
+    "blue_ice": "s",
+    "grass": "t",
+    "dandelion": "u",
+    "mossy_cobblestone": "v",
+    "snow_block": "w",
+    "ice": "x",
+    "lilac": "B",
+    "glass_pane": "F",
+    "end_portal_frame": "G"
+  },
+  "objectives": {
+    "Gather information about the Bloom of Night from ancient scrolls": [
+      "f",
+      3,
+      12
+    ],
+    "Convince the village council to support his pursuit": [
+      "a",
+      1,
+      35
+    ],
+    "Learn the art of magical herbalism from Maela": [
+      "a",
+      4,
+      45
+    ],
+    "Form alliances with creatures and spirits of the land": [
+      "a",
+      14,
+      10
+    ],
+    "Navigate through the Whispering Woods without succumbing to illusions": [
+      "r",
+      12,
+      26
+    ],
+    "Cross the Great Eldorian River with the help of River Nymphs": [
+      "u",
+      17,
+      18
+    ],
+    "Climb the Frostbite Peaks to find the final clue to the bloom\u2019s location": [
+      "w",
+      6,
+      13
+    ],
+    "Defeat Vorath to secure the Bloom of Night in the Grove of Whispers": [
+      "#",
+      1,
+      33
+    ]
+  },
+  "old_tile_mapping": {
+    "Grass Tile": "a",
+    "Dirt Path Tile": "b",
+    "Tree Tile": "d",
+    "Flower Tile": "f",
+    "Rock Tile": "g",
+    "Water Tile": "h",
+    "Bridge Tile": "i",
+    "Magical Artifact Tiles": "n",
+    "Tree Canopy Tile": "p",
+    "Misty Fog Tile": "q",
+    "Illusory Object Tiles": "r",
+    "Rapid Water Tile": "s",
+    "River Bank Tile": "t",
+    "Nymph's Waterfall Tile": "u",
+    "Submersed Rock Tile": "v",
+    "Snow Tile": "w",
+    "Ice Tile": "x",
+    "Enchanted Flower Tile": "B",
+    "Trap Tile": "F",
+    "Portal Tile": "G",
+    "young gardener with green cloak": "@",
+    "dark robed sorcerer": "#"
+  },
+  "compo_dict": {
+    "G": []
+  },
+  "new_obj": {
+    "Collect ancient scrolls to uncover the secrets of the Bloom of Night": [
+      3,
+      13
+    ],
+    "Convince the village council to support his pursuit": [
+      0,
+      35
+    ],
+    "Learn the art of magical herbalism from Maela": [
+      4,
+      44
+    ],
+    "Secure pledges from creatures and spirits of the land through dialogue and quests": [
+      15,
+      10
+    ],
+    "Navigate through the Whispering Woods without succumbing to illusions": [
+      12,
+      25
+    ],
+    "Cross the Great Eldorian River with the help of River Nymphs": [
+      15,
+      15
+    ],
+    "Navigate the hazards of the Frostbite Peaks to discover the last piece of the Bloom of Night puzzle": [
+      5,
+      13
+    ],
+    "Defeat Vorath to secure the Bloom of Night in the Grove of Whispers": [
+      25,
+      10
+    ]
+  }
+}

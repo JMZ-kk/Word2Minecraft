@@ -1,0 +1,272 @@
+{
+  "round_0": {
+    "story": "In the heart of an ancient forest swathed in mist and legend, stood the once-glorious village of Thornwood. Time and nature had reclaimed most of its structures, leaving moss-covered ruins that whispered stories of a golden era. Here lived Elara, a young weaver with dreams woven as vibrantly as the tapestries she crafted. Her main goal, shared only with the wind rustling through the dense canopy, was to restore Thornwood back to its former glory, to see it thrive as a beacon of hope and artistry.\n\nThornwood, however, had its secrets, guarded fiercely by Morven, the reclusive sorcerer who dwelt in the shadowy, twisted groves of the Elderwood bordering the village. Morven, empowered by dark enchantments, saw Elara\u2019s aspirations as a threat to his dominion over the land\u2019s arcane energies. His spells had long kept the village in a state of decay, his control unchallenged until Elara's arrival.\n\nElara\u2019s mission began with eight distinct objectives. First was to rally the scattered descendants of Thornwood, who had fled when the magic of the land had grown wild and dangerous. Second, she aimed to locate the Heartfire Bloom, a rare flower rumored to counteract dark magic, thus purifying the cursed soil. Her third objective was to rebuild the village council hall, a symbol of governance and unity. Fourth, she planned to restore the ancient wellspring that once brought water and life to Thornwood. The fifth step involved rekindling old alliances with the neighboring hill tribes, known for their skilled stone masons and carpenters. Sixth, Elara hoped to establish a new trade route, ensuring sustainability and economic growth. Her seventh goal was to resurrect the annual Harvest Festival, fostering community spirit and culture. Her final, and most daunting objective, was to confront Morven, breaking his sinister influence over the land.\n\nAs the seasons changed, Elara painstakingly achieved her first six objectives, her success breeding both hope and retaliation. Morven, sensing the shift in power, intensified his efforts, casting barriers of thick brambles and sending creatures of the night to dismantle her progress. The annual Harvest Festival, however, brought unexpected allies\u2014a guild of wandering magicians, intrigued by Elara\u2019s courage and tenacity. United in purpose, they helped her locate the Heartfire Bloom on the eve of the festival.\n\nThe decisive confrontation happened under the crimson hues of the Harvest moon. Elara, armed with the Heartfire Bloom tucked securely in her woven satchel, approached the boundary of the Elderwood. Morven, cloaked in shadows, attempted to sway her with illusions of despair and defeat, but the memories of a thriving Thornwood, echoed by the cheers from the festival, fortified her resolve.\n\nWith the magicians chanting incantations, Elara pressed forward, the Bloom\u2019s light casting an aura around her, dissipating Morven\u2019s illusions. With every step, the spectral chains around the village shattered, the land breathing freely again. At the climax, Elara reached Morven, offering peace and redemption in place of conflict. Overcome by the unity and strength of Elara\u2019s renewed Thornwood, and the purifying power of the Heartfire Bloom, Morven\u2019s resolve waned. The sorcerer, defeated yet enlightened by Elara\u2019s determination and kindness, relinquished his control, agreeing to live in harmony as part of the community he once sought to dominate.\n\nThus, the village of Thornwood, guided by Elara and protected by its new allies, blossomed once again into a sanctuary of life and magic, a testament to the enduring spirit of its people and the healing power of compassion and persistence.",
+    "character_information": "Certainly! Creating character sprites based on the story will bring the world of Thornwood to life. Here are the character descriptions useful for defining sprites in a 2D game:\n\n### 1. Elara, the Weaver-Protagonist\n**Appearance:** Elara has a youthful and determined look, with long flowing auburn hair often tied back with a ribbon that matches her weaver\u2019s attire. She dons a practical but beautifully embroidered tunic in earth tones, accented with floral patterns, and sturdy boots suitable for traversing the forested village. Her expressive eyes reflect her creativity and resolve.\n\n**Key Attributes for Sprites:**\n- Tools of her trade such as a weaving loom or fabric scraps often accompany her in her sprite to emphasize her profession.\n- An animated expression showing determination or joy as she progresses through her objectives.\n- Dynamic poses that reflect her active role in rebuilding and exploring.\n\n### 2. Morven, the Sorcerer-Antagonist\n**Appearance:** Morven\u2019s appearance is both imposing and enigmatic, featuring a tall, slim figure cloaked in a dark, hooded robe that obscures most of his features. Only his piercing blue eyes are visible, glowing slightly to signify his magical prowess. His hands are pale, almost ghostly, hinting at his reclusive nature.\n\n**Key Attributes for Sprites:**\n- Visual effects that signify dark magic, such as shadowy tendrils or a faint dark aura.\n- Movement animations that are smooth and almost ghost-like to enhance his mysterious aura.\n- Changes in eye glow intensity depending on his emotions or the use of magic.\n\n### 3. Villagers of Thornwood\n**Appearance:** The villagers are a diverse group, wearing rustic, handmade clothing varying in style but uniformly worn and practical, reflecting their hard lives. They exhibit a variety of hair colors and styles, body types, and ages, from young children to the elderly, all showing signs of resilience and hope.\n\n**Key Attributes for Sprites:**\n- Each villager has a specific role (e.g., blacksmith, herbalist, farmer), reflected in their attire and accessories (aprons, tool belts, baskets).\n- Expressive animations showcasing communal activities like building, farming, or celebrating.\n- Poses and facial expressions reflecting their gradual transition from despair to joy as the village revives.\n\n### 4. Guild of Wandering Magicians\n**Appearance:** This eclectic group features vibrant, exotic clothing with a mix of bright colors and intricate patterns, showcasing their lives of travel and adventure. Each magician carries unique magical items, such as staves, orbs, or spellbooks, which are distinctively designed to reflect their individual magical specialties.\n\n**Key Attributes for Sprites:**\n- Diverse and colorful animations of spell casting, showcasing a variety of magic effects.\n- Dynamic and flamboyant movement animations to emphasize their mysterious and powerful nature.\n- Accessories and attire that hint at their adventures and origins.\n\nThese richly detailed character sprite descriptions can significantly enhance the immersive experience of the game, providing players with visually distinct and memorable characters to interact with in the world of Thornwood.",
+    "tile_mapping": {
+      "Cottage Roof": "A",
+      "Cottage Wall": "B",
+      "Cottage Door": "C",
+      "Pathway Cobblestone": "D",
+      "Pathway Dirt": "E",
+      "Pathway Grass": "F",
+      "Village Square Stone": "G",
+      "Market Stall": "H",
+      "Fountain": "I",
+      "Council Hall Entrance": "J",
+      "Council Hall Wall": "K",
+      "Council Hall Banner": "L",
+      "Well Ancient": "M",
+      "Well Restored": "N",
+      "Field Tilled": "O",
+      "Field Sprouting": "P",
+      "Field Mature": "Q",
+      "Field Harvested": "R",
+      "Festival Banner": "S",
+      "Festival Table": "T",
+      "Festival Stage": "U",
+      "Festival Bonfire": "V",
+      "Forest Tree": "W",
+      "Forest Underbrush": "X",
+      "Forest Ground": "Y",
+      "Forest Stream": "Z",
+      "Forest Grove": "a",
+      "Hill": "b",
+      "Mountain Base": "c",
+      "Mountain Slope": "d",
+      "Cliff Edge": "e",
+      "Cottage Interior Floor": "f",
+      "Cottage Interior Hearth": "g",
+      "Cottage Interior Furniture": "h",
+      "Council Hall Interior Hall": "i",
+      "Council Hall Meeting Room": "j",
+      "Shop Counter": "k",
+      "Shop Shelves": "l",
+      "Dark Magic Ground": "m",
+      "Dark Magic Mist": "n",
+      "Dark Magic Tendrils": "o",
+      "Restoration Glow": "p",
+      "Restoration Sparkle": "q",
+      "Magical Barrier": "r",
+      "Lighting Moon": "s",
+      "Lighting Sun": "t",
+      "Weather Rain": "u",
+      "Weather Snow": "v",
+      "Weather Wind": "w",
+      "Cycle Night": "x",
+      "Cycle Day": "y",
+      "Season Winter": "z",
+      "Season Spring": "A1",
+      "young weaver girl": "@",
+      "shadow-cloaked sorcerer": "#"
+    },
+    "goals": "The main goal of the protagonist, Elara, in the story is to restore and revitalize the ancient village of Thornwood into a thriving community. To achieve this overarching goal, Elara has several smaller objectives:\n\n### Small Goals\n1. **Rally the scattered descendants of Thornwood.**\n   - **Reward:** Increased manpower for rebuilding efforts (+50 points).\n   - **Penalty:** Delay in construction and reduced resources (-30 points).\n\n2. **Locate the Heartfire Bloom to counteract dark magic.**\n   - **Reward:** Neutralization of negative magic effects, allowing faster restoration (+70 points).\n   - **Penalty:** Continued decay and occasional magical attacks on the village (-50 points).\n\n3. **Rebuild the village council hall.**\n   - **Reward:** Establishment of a governance system, improving organization and decision-making (+60 points).\n   - **Penalty:** Lack of leadership and slow decision-making process (-40 points).\n\n4. **Restore the ancient wellspring for water and life.**\n   - **Reward:** Reliable water supply, boosting agriculture and health (+80 points).\n   - **Penalty:** Water scarcity leading to poor health and reduced agricultural output (-60 points).\n\n5. **Rekindle old alliances with the neighboring hill tribes.**\n   - **Reward:** Access to skilled labor and additional resources (+45 points).\n   - **Penalty:** Isolation and lack of external support (-25 points).\n\n6. **Establish a new trade route for economic growth.**\n   - **Reward:** Economic prosperity and more goods available (+50 points).\n   - **Penalty:** Limited resources affecting daily life and progression (-30 points).\n\n7. **Resurrect the annual Harvest Festival.**\n   - **Reward:** Enhanced community spirit and cultural revival (+40 points).\n   - **Penalty:** Loss of cultural heritage and lower morale (-20 points).\n\n8. **Confront and overcome Morven to end his dark influence on the land.**\n   - **Reward:** Permanent removal of a major threat and restoration of peace (+100 points).\n   - **Penalty:** Continued oppression and negative magical influences affecting the village (-80 points).\n\n### Summary of Rewards and Penalties\nBy achieving each of the smaller goals, Elara earns points which contribute to the overall success and revitalization of Thornwood. Failure to achieve these goals incurs penalties which hinder progress and can affect the village\u2019s survival. Each of these objectives builds substantially towards achieving the main goal of transforming Thornwood into a prosperous and harmonious community. Points not only quantify Elara's successes and challenges but also provide a measurable way to track progress toward the ultimate objective throughout the game.",
+    "objectives": {
+      "Rally the scattered descendants of Thornwood": [
+        "G",
+        6,
+        11
+      ],
+      "Locate the Heartfire Bloom to counteract dark magic": [
+        "S",
+        8,
+        15
+      ],
+      "Rebuild the village council hall": [
+        "J",
+        8,
+        15
+      ],
+      "Restore the ancient wellspring for water and life": [
+        "N",
+        7,
+        13
+      ],
+      "Rekindle old alliances with the neighboring hill tribes": [
+        "U",
+        6,
+        13
+      ],
+      "Establish a new trade route for economic growth": [
+        "T",
+        6,
+        16
+      ],
+      "Resurrect the annual Harvest Festival": [
+        "V",
+        6,
+        18
+      ],
+      "Confront and overcome Morven to end his dark influence on the land": [
+        "#",
+        8,
+        20
+      ]
+    },
+    "important_tiles": "[\n    '@',  # Protagonist (Elara)\n    '#',  // Antagonist (Morven)\n    'M',  // Well Ancient\n    'N',  // Well Restored\n    'J',  // Council Hall Entrance\n    'K',  // Council Hall Wall\n    'I',  // Fountain\n    'G',  // Village Square Stone\n    'S',  // Festival Banner\n    'T',  // Festival Table\n    'U',  // Festival Stage\n    'V',  // Festival Bonfire\n    'P',  // Field Sprouting\n    'Q',  // Field Mature\n    'R'   // Field Harvested\n]",
+    "walkable_tiles": "[\n    'D',  # Pathway Cobblestone\n    'E',  # Pathway Dirt\n    'F',  # Pathway Grass\n    'G',  # Village Square Stone\n    'S',  # Festival Banner\n    'T',  # Festival Table\n    'U',  # Festival Stage\n    'V',  # Festival Bonfire\n    'W',  # Forest Tree\n    'X',  # Forest Underbrush\n    'Y',  # Forest Ground\n    'Z',  # Forest Stream\n    'a',  # Forest Grove\n    'b',  # Hill\n    'c',  # Mountain Base\n    'd',  # Mountain Slope\n    'e',  # Cliff Edge\n    'p',  # Restoration Glow\n    'q',  # Restoration Sparkle\n    's',  # Lighting Moon\n    't',  # Lighting Sun\n    'u',  # Weather Rain\n    'v',  # Weather Snow\n    'w',  # Weather Wind\n    'y'   # Cycle Day\n]",
+    "interactive_object_tiles": "[\n    'C',  # Cottage Door\n    'I',  # Fountain\n    'J',  # Council Hall Entrance\n    'N',  # Well Restored\n    'R',  # Field Harvested\n    'T',  # Festival Table\n    'U',  # Festival Stage\n    'V',  # Festival Bonfire\n    'Z',  # Forest Stream\n    'b',  # Hill\n    'd',  # Mountain Slope\n    'e',  # Cliff Edge\n    'g',  # Cottage Interior Hearth\n    'i',  # Council Hall Interior Hall\n    'j',  # Council Hall Meeting Room\n    'k',  # Shop Counter\n    'l'   # Shop Shelves\n]",
+    "world_1st_layer": {
+      "world": "DDEEFFDDGGSSUUUTTTVVVGGSSTUUUVV\nDDDEEFDGGGSSSSUUUTTTVVVVGGSSUUUV\nEFFDDDGGSSTUUVVVGGSSUTTTUVVGGSSU\nEFDGGSSUUTTTVVVGGSSUTTTVVVGGSSUU\nDDGGSSUUTTTVVVGGSSUTTTVVGGSSUUUT\nGGSSUUVVVGGSSUUTTTVVVGGSSUUUTVVV\nGSSUUUTTTVVGGSSUUVVVGGSSUUUTTTVV\nSSUUTTTVVGGSSUUUVVVGGSSUUUTTTVVV\nSUUTTTVVVGGSSUUUVVGGSSUUUTTTVVGG",
+      "tiles": {
+        "Pathway Cobblestone": "D",
+        "Pathway Dirt": "E",
+        "Pathway Grass": "F",
+        "Village Square Stone": "G",
+        "Festival Banner": "S",
+        "Festival Table": "T",
+        "Festival Stage": "U",
+        "Festival Bonfire": "V"
+      }
+    },
+    "world": "DDEEFFDDGGSSUUUTTTVVVGGSSTUUUVV\nDDDEEFDGGGSSSSUUUTTTVVVVGGSSUUUV\nEFFDDDGGSSTUUVVVGGSSUTTTUVVGGSSU\nEFDGGSSUUTTTVVVGGSSUTTTVVVGGSSUU\nDDGGSSUUTTTVVVGGSSUTTTVVGGSSUUUT\nGGSSUUVVVGGSSUUTTTVVVGGSSUUUTVVV\nGSSUUUTTTVVGGSSUUVVVGGSSUUUTTTVV\nSSUUTTTVVGGSSUUUVVVGGSSUUUTTTVV@\nSUUTTTVVVGGSSUUUVVGGSSUUUTTTVV#G",
+    "evaluations": {
+      "agent_reward": 0,
+      "astar_path": 38
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 15,
+      "story_paragraphs": [
+        6,
+        7
+      ],
+      "total_objectives": 8
+    }
+  },
+  "round_1": {
+    "story": "In the heart of an ancient forest swathed in mist and legend, stood the once-glorious village of Thornwood. Time and nature had reclaimed most of its structures, leaving moss-covered ruins that whispered stories of a golden era. Here lived Elara, a young weaver with dreams woven as vibrantly as the tapestries she crafted. Her main goal, shared only with the wind rustling through the dense canopy, was to restore Thornwood back to its former glory, to see it thrive as a beacon of hope and artistry.\n\nThornwood, however, had its secrets, guarded fiercely by Morven, the reclusive sorcerer who dwelt in the shadowy, twisted groves of the Elderwood bordering the village. Morven, empowered by dark enchantments, saw Elara\u2019s aspirations as a threat to his dominion over the land\u2019s arcane energies. His spells had long kept the village in a state of decay, his control unchallenged until Elara's arrival.\n\nElara\u2019s mission began with eight distinct objectives. First was to rally the scattered descendants of Thornwood, who had fled when the magic of the land had grown wild and dangerous. Second, she aimed to locate the Heartfire Bloom, a rare flower rumored to counteract dark magic, thus purifying the cursed soil. Her third objective was to rebuild the village council hall, a symbol of governance and unity. Fourth, she planned to restore the ancient wellspring that once brought water and life to Thornwood. The fifth step involved rekindling old alliances with the neighboring hill tribes, known for their skilled stone masons and carpenters. Sixth, Elara hoped to establish a new trade route, ensuring sustainability and economic growth. Her seventh goal was to resurrect the annual Harvest Festival, fostering community spirit and culture. Her final, and most daunting objective, was to confront Morven, breaking his sinister influence over the land.\n\nAs the seasons changed, Elara painstakingly achieved her first six objectives, her success breeding both hope and retaliation. Morven, sensing the shift in power, intensified his efforts, casting barriers of thick brambles and sending creatures of the night to dismantle her progress. The annual Harvest Festival, however, brought unexpected allies\u2014a guild of wandering magicians, intrigued by Elara\u2019s courage and tenacity. United in purpose, they helped her locate the Heartfire Bloom on the eve of the festival.\n\nThe decisive confrontation happened under the crimson hues of the Harvest moon. Elara, armed with the Heartfire Bloom tucked securely in her woven satchel, approached the boundary of the Elderwood. Morven, cloaked in shadows, attempted to sway her with illusions of despair and defeat, but the memories of a thriving Thornwood, echoed by the cheers from the festival, fortified her resolve.\n\nWith the magicians chanting incantations, Elara pressed forward, the Bloom\u2019s light casting an aura around her, dissipating Morven\u2019s illusions. With every step, the spectral chains around the village shattered, the land breathing freely again. At the climax, Elara reached Morven, offering peace and redemption in place of conflict. Overcome by the unity and strength of Elara\u2019s renewed Thornwood, and the purifying power of the Heartfire Bloom, Morven\u2019s resolve waned. The sorcerer, defeated yet enlightened by Elara\u2019s determination and kindness, relinquished his control, agreeing to live in harmony as part of the community he once sought to dominate.\n\nThus, the village of Thornwood, guided by Elara and protected by its new allies, blossomed once again into a sanctuary of life and magic, a testament to the enduring spirit of its people and the healing power of compassion and persistence.",
+    "character_information": "Certainly! Creating character sprites based on the story will bring the world of Thornwood to life. Here are the character descriptions useful for defining sprites in a 2D game:\n\n### 1. Elara, the Weaver-Protagonist\n**Appearance:** Elara has a youthful and determined look, with long flowing auburn hair often tied back with a ribbon that matches her weaver\u2019s attire. She dons a practical but beautifully embroidered tunic in earth tones, accented with floral patterns, and sturdy boots suitable for traversing the forested village. Her expressive eyes reflect her creativity and resolve.\n\n**Key Attributes for Sprites:**\n- Tools of her trade such as a weaving loom or fabric scraps often accompany her in her sprite to emphasize her profession.\n- An animated expression showing determination or joy as she progresses through her objectives.\n- Dynamic poses that reflect her active role in rebuilding and exploring.\n\n### 2. Morven, the Sorcerer-Antagonist\n**Appearance:** Morven\u2019s appearance is both imposing and enigmatic, featuring a tall, slim figure cloaked in a dark, hooded robe that obscures most of his features. Only his piercing blue eyes are visible, glowing slightly to signify his magical prowess. His hands are pale, almost ghostly, hinting at his reclusive nature.\n\n**Key Attributes for Sprites:**\n- Visual effects that signify dark magic, such as shadowy tendrils or a faint dark aura.\n- Movement animations that are smooth and almost ghost-like to enhance his mysterious aura.\n- Changes in eye glow intensity depending on his emotions or the use of magic.\n\n### 3. Villagers of Thornwood\n**Appearance:** The villagers are a diverse group, wearing rustic, handmade clothing varying in style but uniformly worn and practical, reflecting their hard lives. They exhibit a variety of hair colors and styles, body types, and ages, from young children to the elderly, all showing signs of resilience and hope.\n\n**Key Attributes for Sprites:**\n- Each villager has a specific role (e.g., blacksmith, herbalist, farmer), reflected in their attire and accessories (aprons, tool belts, baskets).\n- Expressive animations showcasing communal activities like building, farming, or celebrating.\n- Poses and facial expressions reflecting their gradual transition from despair to joy as the village revives.\n\n### 4. Guild of Wandering Magicians\n**Appearance:** This eclectic group features vibrant, exotic clothing with a mix of bright colors and intricate patterns, showcasing their lives of travel and adventure. Each magician carries unique magical items, such as staves, orbs, or spellbooks, which are distinctively designed to reflect their individual magical specialties.\n\n**Key Attributes for Sprites:**\n- Diverse and colorful animations of spell casting, showcasing a variety of magic effects.\n- Dynamic and flamboyant movement animations to emphasize their mysterious and powerful nature.\n- Accessories and attire that hint at their adventures and origins.\n\nThese richly detailed character sprite descriptions can significantly enhance the immersive experience of the game, providing players with visually distinct and memorable characters to interact with in the world of Thornwood.",
+    "tile_mapping": {
+      "Cottage Roof": "A",
+      "Cottage Wall": "B",
+      "Cottage Door": "C",
+      "Pathway Cobblestone": "D",
+      "Pathway Dirt": "E",
+      "Pathway Grass": "F",
+      "Village Square Stone": "G",
+      "Market Stall": "H",
+      "Fountain": "I",
+      "Council Hall Entrance": "J",
+      "Council Hall Wall": "K",
+      "Council Hall Banner": "L",
+      "Well Ancient": "M",
+      "Well Restored": "N",
+      "Field Tilled": "O",
+      "Field Sprouting": "P",
+      "Field Mature": "Q",
+      "Field Harvested": "R",
+      "Festival Banner": "S",
+      "Festival Table": "T",
+      "Festival Stage": "U",
+      "Festival Bonfire": "V",
+      "Forest Tree": "W",
+      "Forest Underbrush": "X",
+      "Forest Ground": "Y",
+      "Forest Stream": "Z",
+      "Forest Grove": "a",
+      "Hill": "b",
+      "Mountain Base": "c",
+      "Mountain Slope": "d",
+      "Cliff Edge": "e",
+      "Cottage Interior Floor": "f",
+      "Cottage Interior Hearth": "g",
+      "Cottage Interior Furniture": "h",
+      "Council Hall Interior Hall": "i",
+      "Council Hall Meeting Room": "j",
+      "Shop Counter": "k",
+      "Shop Shelves": "l",
+      "Dark Magic Ground": "m",
+      "Dark Magic Mist": "n",
+      "Dark Magic Tendrils": "o",
+      "Restoration Glow": "p",
+      "Restoration Sparkle": "q",
+      "Magical Barrier": "r",
+      "Lighting Moon": "s",
+      "Lighting Sun": "t",
+      "Weather Rain": "u",
+      "Weather Snow": "v",
+      "Weather Wind": "w",
+      "Cycle Night": "x",
+      "Cycle Day": "y",
+      "Season Winter": "z",
+      "Season Spring": "A1",
+      "young weaver girl": "@",
+      "shadow-cloaked sorcerer": "#"
+    },
+    "goals": "The main goal of the protagonist, Elara, in the story is to restore and revitalize the ancient village of Thornwood into a thriving community. To achieve this overarching goal, Elara has several smaller objectives:\n\n### Small Goals\n1. **Rally the scattered descendants of Thornwood.**\n   - **Reward:** Increased manpower for rebuilding efforts (+50 points).\n   - **Penalty:** Delay in construction and reduced resources (-30 points).\n\n2. **Locate the Heartfire Bloom to counteract dark magic.**\n   - **Reward:** Neutralization of negative magic effects, allowing faster restoration (+70 points).\n   - **Penalty:** Continued decay and occasional magical attacks on the village (-50 points).\n\n3. **Rebuild the village council hall.**\n   - **Reward:** Establishment of a governance system, improving organization and decision-making (+60 points).\n   - **Penalty:** Lack of leadership and slow decision-making process (-40 points).\n\n4. **Restore the ancient wellspring for water and life.**\n   - **Reward:** Reliable water supply, boosting agriculture and health (+80 points).\n   - **Penalty:** Water scarcity leading to poor health and reduced agricultural output (-60 points).\n\n5. **Rekindle old alliances with the neighboring hill tribes.**\n   - **Reward:** Access to skilled labor and additional resources (+45 points).\n   - **Penalty:** Isolation and lack of external support (-25 points).\n\n6. **Establish a new trade route for economic growth.**\n   - **Reward:** Economic prosperity and more goods available (+50 points).\n   - **Penalty:** Limited resources affecting daily life and progression (-30 points).\n\n7. **Resurrect the annual Harvest Festival.**\n   - **Reward:** Enhanced community spirit and cultural revival (+40 points).\n   - **Penalty:** Loss of cultural heritage and lower morale (-20 points).\n\n8. **Confront and overcome Morven to end his dark influence on the land.**\n   - **Reward:** Permanent removal of a major threat and restoration of peace (+100 points).\n   - **Penalty:** Continued oppression and negative magical influences affecting the village (-80 points).\n\n### Summary of Rewards and Penalties\nBy achieving each of the smaller goals, Elara earns points which contribute to the overall success and revitalization of Thornwood. Failure to achieve these goals incurs penalties which hinder progress and can affect the village\u2019s survival. Each of these objectives builds substantially towards achieving the main goal of transforming Thornwood into a prosperous and harmonious community. Points not only quantify Elara's successes and challenges but also provide a measurable way to track progress toward the ultimate objective throughout the game.",
+    "objectives": {
+      "Rally the scattered descendants of Thornwood": [
+        "G",
+        0,
+        7
+      ],
+      "Locate the Heartfire Bloom to counteract dark magic": [
+        "p",
+        6,
+        11
+      ],
+      "Rebuild the village council hall": [
+        "J",
+        0,
+        16
+      ],
+      "Restore the ancient wellspring for water and life": [
+        "N",
+        0,
+        10
+      ],
+      "Rekindle old alliances with the neighboring hill tribes": [
+        "b",
+        0,
+        19
+      ],
+      "Establish a new trade route for economic growth": [
+        "T",
+        4,
+        26
+      ],
+      "Resurrect the annual Harvest Festival": [
+        "S",
+        8,
+        9
+      ],
+      "Confront and overcome Morven to end his dark influence on the land": [
+        "#",
+        8,
+        30
+      ]
+    },
+    "important_tiles": "[\n    '@',  # Protagonist (Elara)\n    '#',  // Antagonist (Morven)\n    'M',  // Well Ancient\n    'N',  // Well Restored\n    'J',  // Council Hall Entrance\n    'K',  // Council Hall Wall\n    'I',  // Fountain\n    'G',  // Village Square Stone\n    'S',  // Festival Banner\n    'T',  // Festival Table\n    'U',  // Festival Stage\n    'V',  // Festival Bonfire\n    'P',  // Field Sprouting\n    'Q',  // Field Mature\n    'R'   // Field Harvested\n]",
+    "walkable_tiles": "[\n    'D',  # Pathway Cobblestone\n    'E',  # Pathway Dirt\n    'F',  # Pathway Grass\n    'G',  # Village Square Stone\n    'S',  # Festival Banner\n    'T',  # Festival Table\n    'U',  # Festival Stage\n    'V',  # Festival Bonfire\n    'W',  # Forest Tree\n    'X',  # Forest Underbrush\n    'Y',  # Forest Ground\n    'Z',  # Forest Stream\n    'a',  # Forest Grove\n    'b',  # Hill\n    'c',  # Mountain Base\n    'd',  # Mountain Slope\n    'e',  # Cliff Edge\n    'p',  # Restoration Glow\n    'q',  # Restoration Sparkle\n    's',  # Lighting Moon\n    't',  # Lighting Sun\n    'u',  # Weather Rain\n    'v',  # Weather Snow\n    'w',  # Weather Wind\n    'y'   # Cycle Day\n]",
+    "interactive_object_tiles": "[\n    'C',  # Cottage Door\n    'I',  # Fountain\n    'J',  # Council Hall Entrance\n    'N',  # Well Restored\n    'R',  # Field Harvested\n    'T',  # Festival Table\n    'U',  # Festival Stage\n    'V',  # Festival Bonfire\n    'Z',  # Forest Stream\n    'b',  # Hill\n    'd',  # Mountain Slope\n    'e',  # Cliff Edge\n    'g',  # Cottage Interior Hearth\n    'i',  # Council Hall Interior Hall\n    'j',  # Council Hall Meeting Room\n    'k',  # Shop Counter\n    'l'   # Shop Shelves\n]",
+    "world_1st_layer": {
+      "world": "DDEEFFDDGGSSUUUTTTVVVGGSSTUUUVV\nDDDEEFDGGGSSSSUUUTTTVVVVGSSUUUV\nEFFDDDGGSSTUUVVVGGSSUTTVVVGSSSU\nEFDGGSSUUTTVVVGGSSUTTVVVGGSSUUU\nDDGGSSUUTTVVVGGSSUTTVVGGSSUUUTT\nGGSSUUVVVGGSSUUTTVVVGGSSUUUTVVV\nGSSUUUTTTVVGGSSUUVVVGGSSUUUTTVV\nSSUUTTTVVGGSSUUUVVVGGSSUUTTTVVV\nSUUTTTVVVGGSSUUUVVGGSSUUTTTVVGG",
+      "tiles": {
+        "Pathway Cobblestone": "D",
+        "Pathway Dirt": "E",
+        "Pathway Grass": "F",
+        "Village Square Stone": "G",
+        "Festival Banner": "S",
+        "Festival Table": "T",
+        "Festival Stage": "U",
+        "Festival Bonfire": "V"
+      }
+    },
+    "world": "DDEEFFDDGGSSUUUTTTVVVGGSSTUUUVV\nDDDEEFDGGGSSSSUUUTTTVVVVGSSUUUV\nEFFDDDGGSSTUUVVVGGSSUTTVVVGSSSU\nEFDGGSSUUTTVVVGGSSUTTVVVGGSSUUU\nDDGGSSUUTTV@VGGSSUTTVVGGSSUUUTT\nGGSSUUVVVGGSSUUTTVVVGGSSUUUTVVV\nGSSUUUTTTVVGGSSUUVVVGGSSUUUTTVV\nSSUUTTTVVGGSSUUUVVVGGSSUUTTTVVV\nSUUTTTVVVGGSSUUUVVGGSSUUTTTVV#G",
+    "evaluations": {
+      "agent_reward": 250,
+      "astar_path": 23
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 16,
+      "story_paragraphs": [
+        6,
+        7
+      ],
+      "total_objectives": 9
+    }
+  }
+}

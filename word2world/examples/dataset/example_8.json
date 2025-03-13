@@ -1,0 +1,262 @@
+{
+  "round_0": {
+    "story": "In the verdant expanses of Willowick, a quaint village nestled between the towering Whispering Woods and the serene Crystal Lake, lived an ambitious but untested young herbalist named Elara. Her dream was to cultivate the legendary Midnight Blossom, a flower said to bloom only under the rare alignment of three moons\u2014a phenomenon that was mere weeks away. According to village lore, this flower could produce an elixir granting the wisdom of nature itself.\n\nElara's quest was fraught with challenges, each demanding specific objectives. First, she needed to gather rare seeds rumored to be kept by the Elder Herbalist, Maive, who lived on the far side of Crystal Lake. This placed her first objective, requiring her to paddle across the gentle waters and persuade the reclusive Maive to part with her precious seeds.\n\nReturning with the seeds, her second objective became clear: gather the enriching minerals from the depths of Whispering Woods. These were essential to prepare the soil in her small but cherished garden back in Willowick. The navigation through the shadowy woods was daunting, and time was an essence, as the minerals had to be collected and applied before the next full moon.\n\nAs her garden's needs were attended, her third task was to protect the growing seedlings from critters. Elara built a small fence around her plot\u2014the physical labor taking her a full three days, fulfilling her time-oriented quest.\n\nHowever, not everyone in Willowick looked upon Elara's quest favorably. A rival herbalist, Corbin, who had long monopolized the village's demand for medicinal herbs, saw her efforts as a direct threat to his business. Stealthy and cunning, Corbin\u2019s interference began subtly\u2014with him attempting to buy out all available supplies Elara might need, thus initiating her fourth objective: to secure a secret and steady supply chain from traders passing through Willowick.\n\nCorbin's tactics escalated to more direct sabotage as Elara\u2019s flowers began to bud. Her fifth objective inadvertently became safeguarding her greenhouse. Reinforcing it required new tools and materials, meaning trips to distant markets, adding breadth to her quest.\n\nAmidst these growing tensions and realizing Corbin\u2019s increasing hostility, Elara\u2019s sixth challenge was to seek an alliance with the local beekeepers, for their bees could help pollinate her blossoms quickly and extensively. Negotiating this alliance required delicate diplomacy and proving that a flourishing Midnight Blossom would benefit the whole community.\n\nAs three moons loomed closer, her seventh objective was most crucial\u2014preparing the concoction under exacting conditions only available at the hilltop of Star\u2019s End, from where the celestial alignment could be clearly observed. This meant transporting her delicate blossoms safely outside the village, away from Corbin\u2019s reach.\n\nFinally, Elara's ultimate objective became clear when Corbin brazenly attempted to uproot her hard work\u2014the literal blossoms of her labor. With the help of her newfound allies, the beekeepers, and the insulated community, Elara devised a stratagem during the climax of the celestial event, misdirecting Corbin long enough for the three moons to cast their fleeting magic.\n\nElara successfully crafted the elixir amidst the whispers of the night, encapsulating the wisdom of the ancients. Corbin, caught in his own hubris, realized too late that his greed had isolated him from the village. In defeat, he retreated, leaving Elara not only victorious but also illuminated by the profound knowledge carried in her Midnight Blossom elixir\u2014which she shared generously, healing and uniting her community like never before.",
+    "character_information": "To create engaging sprites for the 2D game based on the story, each character requires a distinctive design that reflects their personality and role within the narrative of Willowick. Here\u2019s a specific description for each key character, which can serve as a prompt for artists to generate detailed sprites:\n\n### 1. Elara (Protagonist)\n- **Appearance**: Elara has long, flowing auburn hair that she often ties back with a green ribbon. Her eyes sparkle with a curious and vibrant green hue. For clothing, she wears a practical yet charming tunic, predominantly forest green with gold trim, complemented by brown leather boots and a utility belt for her herbalist tools.\n- **Sprite Detail**: Include a few flasks hanging from her belt, a small satchel, and a herbal knife. Her posture is upright, showing her determination and youthful energy.\n\n### 2. Maive (Elder Herbalist)\n- **Appearance**: Maive is an elderly woman with wispy white hair and deep-set, knowledgeable eyes. She wears a long, faded lavender robe that hints at her wisdom and status as an elder. On her head, a small, simple crown made of twining vines and dried flowers.\n- **Sprite Detail**: Maive should have a gentle, slightly stooped posture, leaning on a gnarled wooden staff. Her expression is kindly, inviting trust and respect.\n\n### 3. Corbin (Antagonist)\n- **Appearance**: Corbin is tall and lanky with sharp, angular features, and his hair is slicked back in a dark hue. His eyes are a cold blue, and he frequently has a sly smirk. He dresses in a sleek, dark gray tunic with subtle red accents, giving him a more sinister look. His boots and gloves are finely made, showing his wealth.\n- **Sprite Detail**: Corbin should carry a small pouch of poisons at his belt, and his movements should suggest cunning and stealth. His posture is often leaning forward as if scheming or eavesdropping.\n\n### 4. Local Trader\n- **Appearance**: The trader is a robust, middle-aged man with a beard peppered with gray and a hearty laugh. He wears a wide-brimmed hat and a multicolored vest over a comfy, white shirt, with baggy trousers and sturdy boots.\n- **Sprite Detail**: On his sprite, include a large backpack filled with various goods poking out, such as cloth, herbs, and tools, illustrating his trade's diversity.\n\n### 5. Beekeepers\n- **Appearance**: The beekeepers are twins with sun-kissed, freckled faces and cheerful expressions. They both wear protective light-colored bee suits with mesh veils hanging back when not in use. Their outfits are accented with yellow and black stripes at the cuffs and hems.\n- **Sprite Detail**: Each carries a smoker for subduing bees and a small jar of honey. They should appear active and busy, always in motion as if attending to their hives.\n\nThese descriptions create a visual blueprint for sprite development, ensuring character designs are both reflective of their story roles and visually distinctive for players to easily recognize and relate to in the game.",
+    "tile_mapping": {
+      "Grass Tile": "a",
+      "Dirt Path Tile": "b",
+      "Stone Tile": "c",
+      "Water Tile": "d",
+      "Forest Floor Tile": "e",
+      "Flower Tile": "f",
+      "Village House Tile": "g",
+      "Wooden Fence Tile": "h",
+      "Garden Plot Tile": "i",
+      "Greenhouse Tile": "j",
+      "Bridge Tile": "k",
+      "Boat Dock Tile": "l",
+      "Boat Tile": "m",
+      "Market Stall Tile": "n",
+      "Hive Tile": "o",
+      "Tree Tile": "p",
+      "Bush Tile": "q",
+      "Rock Tile": "r",
+      "Log Tile": "s",
+      "Flower Bed Tile": "t",
+      "Herbalist's Hut Tile": "u",
+      "Star's End Hilltop Tile": "v",
+      "Ancient Altar Tile": "w",
+      "Hidden Cave Tile": "x",
+      "Campsite Tile": "y",
+      "Resource Gathering Points": "z",
+      "NPC Interaction Points": "0",
+      "Obstacle Tiles": "1",
+      "Snow-Covered Tile Versions": "2",
+      "Rain Puddles Tile": "3",
+      "Night Versions": "4",
+      "Elder Herbalist": "!",
+      "Local Trader": "$",
+      "Beekeepers": "%",
+      "green-clad young herbalist": "@",
+      "grey-robed rival herbalist": "#"
+    },
+    "goals": "The main goal for the protagonist, Elara, is to successfully cultivate the legendary Midnight Blossom and produce the elixir of wisdom during the rare celestial alignment of three moons.\n\n### Small Goals to Achieve the Main Goal:\n\n1. **Travel to Crystal Lake and obtain the seeds from Maive**.\n   - **Reward**: Acquire Midnight Blossom seeds (+10 points).\n   - **Penalty**: Fail to persuade Maive, delay in obtaining seeds (-5 points).\n\n2. **Collect enriching minerals from Whispering Woods**.\n   - **Reward**: Successfully gather minerals for soil enrichment (+15 points).\n   - **Penalty**: Get lost or injured in the woods, waste time (-10 points).\n\n3. **Construct a fence around the plot to protect seedlings**.\n   - **Reward**: Complete the fence, ensuring safety of blossoms (+10 points).\n   - **Penalty**: Delay in construction allows animals to damage seedlings (-10 points).\n\n4. **Secure a secret supply chain for additional resources**.\n   - **Reward**: Establish a steady supply of necessary resources (+20 points).\n   - **Penalty**: Lack resources for proper plant care, slowing growth (-15 points).\n\n5. **Reinforce the greenhouse against sabotage**.\n   - **Reward**: Prevent Corbin from damaging the plants (+25 points).\n   - **Penalty**: Fail to reinforce in time, resulting in plant damage (-20 points).\n\n6. **Form an alliance with the local beekeepers**.\n   - **Reward**: Ensure quick and expansive pollination of the blossoms (+20 points).\n   - **Penalty**: Fail to secure the alliance, suboptimal pollination (-10 points).\n\n7. **Prepare and transport blossoms to Star\u2019s End hilltop for concoction**.\n   - **Reward**: Successfully prepare elixir with perfect celestial and environmental conditions (+50 points).\n   - **Penalty**: Mishandle blossoms en route or misprepare, reducing elixir\u2019s effectiveness (-25 points).\n\n8. **Thwart Corbin\u2019s final attempt to destroy the blossoms**.\n   - **Reward**: Successfully defend the Midnight Blossom and complete the elixir (+30 points).\n   - **Penalty**: Partial success in defending against Corbin leads to diminished product quality (-30 points).\n\n### Cumulative Rewards and Penalties:\n- **Total Potential Reward Points**: 180 points (for achieving all positive outcomes).\n- **Total Potential Penalty Points**: -125 points (for experiencing all negative outcomes).\n\nThese rewards and penalties are designed to reflect the protagonist\u2019s journey towards her goal, emphasizing both the successes and the challenges she faces. The scoring system will motivate players to strategically navigate the game, making choices that align best with the objectives to maximize their score and success in cultivating the Midnight Blossom.",
+    "objectives": {
+      "Travel to Crystal Lake and obtain the seeds from Maive": [
+        "m",
+        8,
+        12
+      ],
+      "Collect enriching minerals from Whispering Woods": [
+        "z",
+        10,
+        11
+      ],
+      "Construct a fence around the plot to protect seedlings": [
+        "i",
+        14,
+        17
+      ],
+      "Secure a secret supply chain for additional resources": [
+        "n",
+        3,
+        13
+      ],
+      "Reinforce the greenhouse against sabotage": [
+        "j",
+        14,
+        14
+      ],
+      "Form an alliance with the local beekeepers": [
+        "o",
+        11,
+        14
+      ],
+      "Prepare and transport blossoms to Star\u2019s End hilltop for concoction": [
+        "v",
+        15,
+        7
+      ],
+      "Thwart Corbin\u2019s final attempt to destroy the blossoms": [
+        "@",
+        10,
+        14
+      ]
+    },
+    "important_tiles": "[\n    '@',  # Protagonist: Elara\n    '#',  # Antagonist: Corbin\n    '!',  # Elder Herbalist: Maive\n    '$',  # Local Trader\n    '%',  # Beekeepers\n    'u',  # Herbalist's Hut Tile (Maive's residence)\n    'j',  # Greenhouse Tile (where Elara protects the blossoms)\n    'i',  # Garden Plot Tile (where the Midnight Blossom is cultivated)\n    'v',  # Star's End Hilltop Tile (for the climactic elixir preparation)\n    'w',  # Ancient Altar Tile (used in the elixir preparation)\n    'z',  # Resource Gathering Points (minerals in the Whispering Woods)\n    'n',  # Market Stall Tile (necessary for securing resources secretly)\n    'o',  # Hive Tile (Beekeepers' area for pollination assistance)\n    'm',  # Boat Tile (for crossing Crystal Lake to get to Maive)\n    'k'   # Bridge Tile (various crossings in the landscape)\n]",
+    "walkable_tiles": "[\n    'a',  # Grass Tile\n    'b',  # Dirt Path Tile\n    'c',  # Stone Tile\n    'd',  # Water Tile (assuming it's shallow or character uses a boat)\n    'e',  # Forest Floor Tile\n    'f',  # Flower Tile\n    'h',  # Wooden Fence Tile (walkable around it, not over)\n    'i',  # Garden Plot Tile\n    'j',  # Greenhouse Tile (inside walkable space)\n    'k',  'l',  # Bridge Tile, Boat Dock Tile\n    'm',  # Boat Tile (considered walkable as part of usage)\n    'n',  # Market Stall Tile (around the stall areas)\n    'o',  # Hive Tile (peripheral walkable area)\n    'p',  'q',  # Tree Tile, Bush Tile (paths around these features)\n    'r',  's',  # Rock Tile, Log Tile (walkable around or over small ones)\n    't',  # Flower Bed Tile\n    'v',  # Star's End Hilltop Tile\n    'w',  # Ancient Altar Tile\n    'x',  # Hidden Cave Tile (inside walkable)\n    'y',  'z',  # Campsite Tile, Resource Gathering Points (areas around resources)\n    '0'   # NPC Interaction Points (areas where NPC interactions can occur)\n]\n",
+    "building_tiles": "['Village House Tile', 'Market Stall Tile', 'Hive Tile']",
+    "interactive_object_tiles": "['i', 'j', 'u', 'v', 'w', 'x', 'y', 'z', '0', '@', '#', '!', '$', '%']",
+    "world_1st_layer": {
+      "world": "aaaaaaaaaaaaaaaaaaaa\naaaauaaaaaaaaaaaaaaa\naabbbbbbbbbbbbbaaaaad\naaabgbbbbbbbnbbbbbaddd\naaabbbbbbbbbbbaaaadddd\naaaaaakkkkkkkaaaaaadddd\naaapppppaapppppaaaaaddd\naaaapppppmappppppaaaddd\naaapppppaapppppaaaaaadad\naaeeeeezeeeeeeaaaaaaada\naaeeeeeeeeeoyeeeeaaaaaa\naaaaaaaapaapaaaaaaaaaaa\naaajjjjjjjjjjjjjjiaaaaa\naaaiiiiiiiiiiijjjjaaaaa\naaaajjjijiijijjjjjaaaaa\naaaaaaaavvvvvvaaaaaaaaa\naaaaaawwwwwwwaaaaaaaaaa\naaaaaayyyyyyyaaaaaaaaaa\naaaaxxxxxxxxxxxxxxxaaaaa\naaaaaaaaaaaaaaaaaaaaaa",
+      "tiles": {
+        "Grass Tile": "a",
+        "Dirt Path Tile": "b",
+        "Water Tile": "d",
+        "Forest Floor Tile": "e",
+        "Village House Tile": "g",
+        "Garden Plot Tile": "i",
+        "Greenhouse Tile": "j",
+        "Bridge Tile": "k",
+        "Boat Tile": "m",
+        "Market Stall Tile": "n",
+        "Hive Tile": "o",
+        "Tree Tile": "p",
+        "Herbalist's Hut Tile": "u",
+        "Star's End Hilltop Tile": "v",
+        "Ancient Altar Tile": "w",
+        "Hidden Cave Tile": "x",
+        "Campsite Tile": "y",
+        "Resource Gathering Points": "z"
+      }
+    },
+    "world": "aaaaaaaaaaaaaaaaaaaa\naaaauaaaaaaaaaaaaaaa\naabbbbbbbbbbbbbaaaaad\naaabgbbbbbbbnbbbbbaddd\naaabbbbbbbbbbbaaaadddd\naaaaaakkkkkkkaaaaaadddd\naaapppppaapppppaaaaaddd\naaaapppppmappppppaaaddd\naaapppppaapppppaaaaaadad\naaeeeeez@eeeeaaaaaaada\naaeeeeeeeeeoy#eeaaaaaa\naaaaaaaapaapaaaaaaaaaaa\naaajjjjjjjjjjjjjjiaaaaa\naaaiiiiiiiiiiijjjjaaaaa\naaaajjjijiijijjjjjaaaaa\naaaaaaaavvvvvvaaaaaaaaa\naaaaaawwwwwwwaaaaaaaaaa\naaaaaayyyyyyyaaaaaaaaaa\naaaaxxxxxxxxxxxxxxxaaaaa\naaaaaaaaaaaaaaaaaaaaaa",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 40.0,
+      "Accuracy_of_important_tiles_placed": 80.0,
+      "Average_euclidean_distance": 0,
+      "agent_reward": 200,
+      "astar_path": 19
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 15,
+      "story_paragraphs": [
+        6,
+        7
+      ],
+      "total_objectives": 8
+    }
+  },
+  "round_1": {
+    "story": "In the verdant expanses of Willowick, a quaint village nestled between the towering Whispering Woods and the serene Crystal Lake, lived an ambitious but untested young herbalist named Elara. Her dream was to cultivate the legendary Midnight Blossom, a flower said to bloom only under the rare alignment of three moons\u2014a phenomenon that was mere weeks away. According to village lore, this flower could produce an elixir granting the wisdom of nature itself.\n\nElara's quest was fraught with challenges, each demanding specific objectives. First, she needed to gather rare seeds rumored to be kept by the Elder Herbalist, Maive, who lived on the far side of Crystal Lake. This placed her first objective, requiring her to paddle across the gentle waters and persuade the reclusive Maive to part with her precious seeds.\n\nReturning with the seeds, her second objective became clear: gather the enriching minerals from the depths of Whispering Woods. These were essential to prepare the soil in her small but cherished garden back in Willowick. The navigation through the shadowy woods was daunting, and time was an essence, as the minerals had to be collected and applied before the next full moon.\n\nAs her garden's needs were attended, her third task was to protect the growing seedlings from critters. Elara built a small fence around her plot\u2014the physical labor taking her a full three days, fulfilling her time-oriented quest.\n\nHowever, not everyone in Willowick looked upon Elara's quest favorably. A rival herbalist, Corbin, who had long monopolized the village's demand for medicinal herbs, saw her efforts as a direct threat to his business. Stealthy and cunning, Corbin\u2019s interference began subtly\u2014with him attempting to buy out all available supplies Elara might need, thus initiating her fourth objective: to secure a secret and steady supply chain from traders passing through Willowick.\n\nCorbin's tactics escalated to more direct sabotage as Elara\u2019s flowers began to bud. Her fifth objective inadvertently became safeguarding her greenhouse. Reinforcing it required new tools and materials, meaning trips to distant markets, adding breadth to her quest.\n\nAmidst these growing tensions and realizing Corbin\u2019s increasing hostility, Elara\u2019s sixth challenge was to seek an alliance with the local beekeepers, for their bees could help pollinate her blossoms quickly and extensively. Negotiating this alliance required delicate diplomacy and proving that a flourishing Midnight Blossom would benefit the whole community.\n\nAs three moons loomed closer, her seventh objective was most crucial\u2014preparing the concoction under exacting conditions only available at the hilltop of Star\u2019s End, from where the celestial alignment could be clearly observed. This meant transporting her delicate blossoms safely outside the village, away from Corbin\u2019s reach.\n\nFinally, Elara's ultimate objective became clear when Corbin brazenly attempted to uproot her hard work\u2014the literal blossoms of her labor. With the help of her newfound allies, the beekeepers, and the insulated community, Elara devised a stratagem during the climax of the celestial event, misdirecting Corbin long enough for the three moons to cast their fleeting magic.\n\nElara successfully crafted the elixir amidst the whispers of the night, encapsulating the wisdom of the ancients. Corbin, caught in his own hubris, realized too late that his greed had isolated him from the village. In defeat, he retreated, leaving Elara not only victorious but also illuminated by the profound knowledge carried in her Midnight Blossom elixir\u2014which she shared generously, healing and uniting her community like never before.",
+    "character_information": "To create engaging sprites for the 2D game based on the story, each character requires a distinctive design that reflects their personality and role within the narrative of Willowick. Here\u2019s a specific description for each key character, which can serve as a prompt for artists to generate detailed sprites:\n\n### 1. Elara (Protagonist)\n- **Appearance**: Elara has long, flowing auburn hair that she often ties back with a green ribbon. Her eyes sparkle with a curious and vibrant green hue. For clothing, she wears a practical yet charming tunic, predominantly forest green with gold trim, complemented by brown leather boots and a utility belt for her herbalist tools.\n- **Sprite Detail**: Include a few flasks hanging from her belt, a small satchel, and a herbal knife. Her posture is upright, showing her determination and youthful energy.\n\n### 2. Maive (Elder Herbalist)\n- **Appearance**: Maive is an elderly woman with wispy white hair and deep-set, knowledgeable eyes. She wears a long, faded lavender robe that hints at her wisdom and status as an elder. On her head, a small, simple crown made of twining vines and dried flowers.\n- **Sprite Detail**: Maive should have a gentle, slightly stooped posture, leaning on a gnarled wooden staff. Her expression is kindly, inviting trust and respect.\n\n### 3. Corbin (Antagonist)\n- **Appearance**: Corbin is tall and lanky with sharp, angular features, and his hair is slicked back in a dark hue. His eyes are a cold blue, and he frequently has a sly smirk. He dresses in a sleek, dark gray tunic with subtle red accents, giving him a more sinister look. His boots and gloves are finely made, showing his wealth.\n- **Sprite Detail**: Corbin should carry a small pouch of poisons at his belt, and his movements should suggest cunning and stealth. His posture is often leaning forward as if scheming or eavesdropping.\n\n### 4. Local Trader\n- **Appearance**: The trader is a robust, middle-aged man with a beard peppered with gray and a hearty laugh. He wears a wide-brimmed hat and a multicolored vest over a comfy, white shirt, with baggy trousers and sturdy boots.\n- **Sprite Detail**: On his sprite, include a large backpack filled with various goods poking out, such as cloth, herbs, and tools, illustrating his trade's diversity.\n\n### 5. Beekeepers\n- **Appearance**: The beekeepers are twins with sun-kissed, freckled faces and cheerful expressions. They both wear protective light-colored bee suits with mesh veils hanging back when not in use. Their outfits are accented with yellow and black stripes at the cuffs and hems.\n- **Sprite Detail**: Each carries a smoker for subduing bees and a small jar of honey. They should appear active and busy, always in motion as if attending to their hives.\n\nThese descriptions create a visual blueprint for sprite development, ensuring character designs are both reflective of their story roles and visually distinctive for players to easily recognize and relate to in the game.",
+    "tile_mapping": {
+      "Grass Tile": "a",
+      "Dirt Path Tile": "b",
+      "Stone Tile": "c",
+      "Water Tile": "d",
+      "Forest Floor Tile": "e",
+      "Flower Tile": "f",
+      "Village House Tile": "g",
+      "Wooden Fence Tile": "h",
+      "Garden Plot Tile": "i",
+      "Greenhouse Tile": "j",
+      "Bridge Tile": "k",
+      "Boat Dock Tile": "l",
+      "Boat Tile": "m",
+      "Market Stall Tile": "n",
+      "Hive Tile": "o",
+      "Tree Tile": "p",
+      "Bush Tile": "q",
+      "Rock Tile": "r",
+      "Log Tile": "s",
+      "Flower Bed Tile": "t",
+      "Herbalist's Hut Tile": "u",
+      "Star's End Hilltop Tile": "v",
+      "Ancient Altar Tile": "w",
+      "Hidden Cave Tile": "x",
+      "Campsite Tile": "y",
+      "Resource Gathering Points": "z",
+      "NPC Interaction Points": "0",
+      "Obstacle Tiles": "1",
+      "Snow-Covered Tile Versions": "2",
+      "Rain Puddles Tile": "3",
+      "Night Versions": "4",
+      "Elder Herbalist": "!",
+      "Local Trader": "$",
+      "Beekeepers": "%",
+      "green-clad young herbalist": "@",
+      "grey-robed rival herbalist": "#"
+    },
+    "goals": "The main goal for the protagonist, Elara, is to successfully cultivate the legendary Midnight Blossom and produce the elixir of wisdom during the rare celestial alignment of three moons.\n\n### Small Goals to Achieve the Main Goal:\n\n1. **Travel to Crystal Lake and obtain the seeds from Maive**.\n   - **Reward**: Acquire Midnight Blossom seeds (+10 points).\n   - **Penalty**: Fail to persuade Maive, delay in obtaining seeds (-5 points).\n\n2. **Collect enriching minerals from Whispering Woods**.\n   - **Reward**: Successfully gather minerals for soil enrichment (+15 points).\n   - **Penalty**: Get lost or injured in the woods, waste time (-10 points).\n\n3. **Construct a fence around the plot to protect seedlings**.\n   - **Reward**: Complete the fence, ensuring safety of blossoms (+10 points).\n   - **Penalty**: Delay in construction allows animals to damage seedlings (-10 points).\n\n4. **Secure a secret supply chain for additional resources**.\n   - **Reward**: Establish a steady supply of necessary resources (+20 points).\n   - **Penalty**: Lack resources for proper plant care, slowing growth (-15 points).\n\n5. **Reinforce the greenhouse against sabotage**.\n   - **Reward**: Prevent Corbin from damaging the plants (+25 points).\n   - **Penalty**: Fail to reinforce in time, resulting in plant damage (-20 points).\n\n6. **Form an alliance with the local beekeepers**.\n   - **Reward**: Ensure quick and expansive pollination of the blossoms (+20 points).\n   - **Penalty**: Fail to secure the alliance, suboptimal pollination (-10 points).\n\n7. **Prepare and transport blossoms to Star\u2019s End hilltop for concoction**.\n   - **Reward**: Successfully prepare elixir with perfect celestial and environmental conditions (+50 points).\n   - **Penalty**: Mishandle blossoms en route or misprepare, reducing elixir\u2019s effectiveness (-25 points).\n\n8. **Thwart Corbin\u2019s final attempt to destroy the blossoms**.\n   - **Reward**: Successfully defend the Midnight Blossom and complete the elixir (+30 points).\n   - **Penalty**: Partial success in defending against Corbin leads to diminished product quality (-30 points).\n\n### Cumulative Rewards and Penalties:\n- **Total Potential Reward Points**: 180 points (for achieving all positive outcomes).\n- **Total Potential Penalty Points**: -125 points (for experiencing all negative outcomes).\n\nThese rewards and penalties are designed to reflect the protagonist\u2019s journey towards her goal, emphasizing both the successes and the challenges she faces. The scoring system will motivate players to strategically navigate the game, making choices that align best with the objectives to maximize their score and success in cultivating the Midnight Blossom.",
+    "objectives": {
+      "Travel to Crystal Lake and obtain the seeds from Maive": [
+        "m",
+        7,
+        11
+      ],
+      "Collect enriching minerals from Whispering Woods": [
+        "z",
+        9,
+        6
+      ],
+      "Construct a fence around the plot to protect seedlings": [
+        "i",
+        14,
+        10
+      ],
+      "Secure a secret supply chain for additional resources": [
+        "n",
+        3,
+        13
+      ],
+      "Reinforce the greenhouse against sabotage": [
+        "j",
+        14,
+        13
+      ],
+      "Form an alliance with the local beekeepers": [
+        "o",
+        8,
+        2
+      ],
+      "Prepare and transport blossoms to Star\u2019s End hilltop for concoction": [
+        "v",
+        15,
+        6
+      ],
+      "Thwart Corbin\u2019s final attempt to destroy the blossoms": [
+        "j",
+        14,
+        13
+      ]
+    },
+    "important_tiles": "[\n    '@',  # Protagonist: Elara\n    '#',  # Antagonist: Corbin\n    '!',  # Elder Herbalist: Maive\n    '$',  # Local Trader\n    '%',  # Beekeepers\n    'u',  # Herbalist's Hut Tile (Maive's residence)\n    'j',  # Greenhouse Tile (where Elara protects the blossoms)\n    'i',  # Garden Plot Tile (where the Midnight Blossom is cultivated)\n    'v',  # Star's End Hilltop Tile (for the climactic elixir preparation)\n    'w',  # Ancient Altar Tile (used in the elixir preparation)\n    'z',  # Resource Gathering Points (minerals in the Whispering Woods)\n    'n',  # Market Stall Tile (necessary for securing resources secretly)\n    'o',  # Hive Tile (Beekeepers' area for pollination assistance)\n    'm',  # Boat Tile (for crossing Crystal Lake to get to Maive)\n    'k'   # Bridge Tile (various crossings in the landscape)\n]",
+    "walkable_tiles": "[\n    'a',  # Grass Tile\n    'b',  # Dirt Path Tile\n    'c',  # Stone Tile\n    'd',  # Water Tile (assuming it's shallow or character uses a boat)\n    'e',  # Forest Floor Tile\n    'f',  # Flower Tile\n    'h',  # Wooden Fence Tile (walkable around it, not over)\n    'i',  # Garden Plot Tile\n    'j',  # Greenhouse Tile (inside walkable space)\n    'k',  'l',  # Bridge Tile, Boat Dock Tile\n    'm',  # Boat Tile (considered walkable as part of usage)\n    'n',  # Market Stall Tile (around the stall areas)\n    'o',  # Hive Tile (peripheral walkable area)\n    'p',  'q',  # Tree Tile, Bush Tile (paths around these features)\n    'r',  's',  # Rock Tile, Log Tile (walkable around or over small ones)\n    't',  # Flower Bed Tile\n    'v',  # Star's End Hilltop Tile\n    'w',  # Ancient Altar Tile\n    'x',  # Hidden Cave Tile (inside walkable)\n    'y',  'z',  # Campsite Tile, Resource Gathering Points (areas around resources)\n    '0'   # NPC Interaction Points (areas where NPC interactions can occur)\n]\n",
+    "building_tiles": "['Village House Tile', 'Market Stall Tile', 'Hive Tile']",
+    "interactive_object_tiles": "['i', 'j', 'u', 'v', 'w', 'x', 'y', 'z', '0', '@', '#', '!', '$', '%']",
+    "world_1st_layer": {
+      "world": "aaaaaaaaaaaaaaaaaaaaaa\naaaauaaaaaaaaaaaaaaaag\naabbbbbbbbbbbbbaaaaadg\naaabgbbbbbbbnbbbbbadddd\naaabbbbbbbbbbbaaaaddddd\naaaaaakkkkkkkaaaaaaddddd\naaapppppaapppppaaaaadddd\naaaapppppmappppppaaadddd\naaapppppaapppppaaaaaaddd\naaeeeeezeeeeeeaaaaaaaadd\naaeeeeeeeeeoyeeeeaaaaaag\naaaaaaaapaapaaaaaaaaaggg\naaajjjjjjjjjjjjjjiaaaagg\naaaiiiiiiiiiiijjjjaaaagg\naaaajjjijiijijjjjjaaaaag\naaaaaaaavvvvvvaaaaaaaaaa\naaaaaawwwwwwwaaaaaaaaaaa\naaaaaayyyyyyyaaaaaaaaaaa\naaaaxxxxxxxxxxxxxxxaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa",
+      "tiles": {
+        "Grass Tile": "a",
+        "Dirt Path Tile": "b",
+        "Water Tile": "d",
+        "Forest Floor Tile": "e",
+        "Village House Tile": "g",
+        "Garden Plot Tile": "i",
+        "Greenhouse Tile": "j",
+        "Bridge Tile": "k",
+        "Boat Tile": "m",
+        "Market Stall Tile": "n",
+        "Hive Tile": "o",
+        "Tree Tile": "p",
+        "Herbalist's Hut Tile": "u",
+        "Star's End Hilltop Tile": "v",
+        "Ancient Altar Tile": "w",
+        "Hidden Cave Tile": "x",
+        "Campsite Tile": "y",
+        "Resource Gathering Points": "z"
+      }
+    },
+    "world": "aaaaaaaaaaaaaaaaaaaaaa\naaaauaaaaaaaaaaaaaaaag\naabbbbbbbbbbbbbaaaaadg\naaabgbbbbbbbnbbbbbadddd\naa@bbbbbbbbbbbaaaaddddd\naaaaaakkkkkkkaaaaa#dddd\naaapppppaapppppaaaaadddd\naaaapppppmappppppaaadddd\naa%pppppaapppppaaaaaaddd\naaeeeeezeeeeeeaaaaaaaadd\naaeeeeeeeeeoyeeeeaaaaaag\naaaaaaaapaapaaaaaaaaaggg\naaajjjjjjjjjjjjjjiaaaagg\naaaiiiiiiiiiiijjjjaaaagg\naaaajjjijiijijjjjjaaa$ag\naaaaaaaavvvvvvaaaaaaaaaa\naaaaaawwwwwwwaaaaaaaaaaa\naaaaaayyyyyyyaaaaaaaaaaa\naaaaxxxxxxxxxxxxxxxaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 80.0,
+      "Accuracy_of_important_tiles_placed": 93.33333333333333,
+      "Average_euclidean_distance": 630.6552148361258,
+      "agent_reward": 150,
+      "astar_path": 21
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 16,
+      "story_paragraphs": [
+        6,
+        7
+      ],
+      "total_objectives": 9
+    }
+  }
+}

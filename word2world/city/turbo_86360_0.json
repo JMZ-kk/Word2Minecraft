@@ -1,0 +1,267 @@
+{
+  "round_0": {
+    "story": "In the bustling metropolis of Everbright City, amidst the towering skyscrapers and endless streams of neon lights, young Max Armstrong, a talented software developer, was on the brink of revolutionizing the tech industry. His goal was to finalize and launch HIVE, an app that promised to enhance human productivity by seamlessly integrating AI into daily life. But for Max, HIVE was more than just a project; it was his chance to prove that even someone from the city's gritty East Side could change the world.\n\nMax's first major objective was securing a partnership with Titan Tech, a leader in the tech industry; this required presenting his prototype in their glassy downtown office, soaring above the city's bustling streets. His second was finding a suitable office space, which he found in a revitalized warehouse district turned tech hub with cozy cafes and chic boutiques lining the streets, providing an inspiring environment for creative minds.\n\nHowever, Victor Dorne, Titan Tech's CEO, saw Max\u2019s innovation as a direct threat to his company's dominance. Dorne was notorious in the business world for his ruthless tactics and had no intention of letting Max succeed. He first tried to buy out Max\u2019s project, offering a tempting chapel in a high-end business quarter that Max almost couldn't refuse. When Max declined, Dorne resorted to more underhanded methods, dispatching corporate spies to steal Max\u2019s blueprints.\n\nUnperturbed, Max fortified his cybersecurity and recruited a small, loyal team. His third objective thus became protecting his intellectual property, implementing top-tier encryption at an underground, undisclosed location only accessible to his team. The fourth entailed constructing a server farm in a repurposed parking garage, shielded from prying eyes by its inconspicuous appearance and robust security, where his team could safely test HIVE.\n\nThe fifth and sixth objectives involved reaching out to the community. Max hosted free coding workshops in a local tech incubator, fostering goodwill and subtly building a grassroots base of support. He also collaborated with urban artists to create an engaging, interactive marketing campaign that used the city\u2019s vibrant street art as backdrops, making technology feel accessible and cool.\n\nA critical turning point came when Max discovered a mole within his team, someone planted by Dorne. This betrayal led Max to his seventh objective: rooting out corruption from his venture, which he achieved through a cunning display of counter-espionage, turning the mole into a double agent to feed Dorne false information.\n\nThe climax of Max's campaign was a highly publicized tech expo held at Everbright's expansive convention center, under the gleaming arches and sprawling digital displays, where Max intended to unveil HIVE to the world. Victor Dorne, with his reputation on the line, planned a final sabotage. However, forewarned by his new double agent, Max was ready. The unveiling was a resounding success, simultaneously achieving his eighth objective: exposing Dorne\u2019s unethical practices during a live demonstration, leading to a standing ovation from the crowd and a plummet in Titan Tech\u2019s stock.\n\nMax's journey, from a dream harbored in the shadows of the East Side to shaking the very foundations of the tech industry, was not just about creating HIVE but about proving that integrity and innovation could indeed triumph over greed and treachery. Everbright City, once just a backdrop to his ambitions, had now become the launchpad for a new era of technology, led by none other than Max himself.",
+    "character_information": "For the development of the 2D game based on the above story, here are specific descriptions of each main character to assist in generating detailed sprites:\n\n### 1. Max Armstrong (Protagonist)\n- **Appearance**: Max is in his mid-20s, with a lean, agile build suitable for his dynamic lifestyle. He has short, curly brown hair and wears smart, circular glasses that give him a thoughtful look. His usual attire consists of a casual yet trendy blazer over a graphic t-shirt, paired with dark jeans and comfortable sneakers.\n- **Accessories**: He carries a high-tech backpack filled with gadgets and wears a smartwatch that frequently appears in gameplay, used for various tech interactions.\n- **Pose**: Max has an enthusiastic and confident posture, often depicted with one hand adjusting his glasses, symbolizing his readiness to tackle technical challenges.\n\n### 2. Victor Dorne (Antagonist)\n- **Appearance**: Victor is in his late 40s and carries a commanding presence. He is tall with a broad build, and sports a neatly trimmed beard. His hair is slicked back and peppered with grey, emphasizing his experienced yet formidable demeanor.\n- **Attire**: Dorne wears a sharp, tailored suit that exudes authority and wealth \u2014 usually in darker shades like charcoal or black. He has a shiny, gold lapel pin shaped like a \"V\", representing his company, Titan Tech.\n- **Pose**: Victor\u2019s pose is dominating, often standing with his arms crossed or hands clasped behind his back, projecting control and intimidation.\n\n### 3. Tech Team Member (NPCs for Max's Team)\n- **Appearance**: The team includes a diverse group of individuals. There\u2019s a tall woman with long, jet-black hair and glasses, a shorter man with spiked, blond hair and energetic expressions, and a non-binary person with shaved sides and top hair dyed in pastel colors.\n- **Attire**: They all wear smart-casual tech wear \u2014 polo shirts or hoodies bearing the HIVE logo and comfortable jeans or chinos. Accessories like wristbands, lanyards, and badge holders add to their tech-oriented image.\n- **Pose**: The team members are depicted in various dynamic poses, such as typing on laptops, discussing over digital tablets, or pointing at large screen displays, highlighting their active roles in the project.\n\n### 4. Mole Double Agent (Minor Antagonist turned NPC)\n- **Appearance**: An average height individual with an ambiguous neutral look, short-cropped hair, and an always alert expression. They are somewhat unassuming in appearance, making their role as a mole believable.\n- **Attire**: Initially dressed in a similar tech wear as Max\u2019s team but later switches to a more neutral palette to signify their ambiguous allegiance. \n- **Pose**: They exhibit cautious, sneaky postures \u2014 often shown peeking around corners or quietly working on a separate laptop, signalling their secretive nature.\n\nThese character descriptions should provide clear guidelines for the design of sprites in the 2D game environment, aligning each character\u2019s appearance and demeanor with their roles in the story.",
+    "tile_mapping": {
+      "Asphalt Tile": "A",
+      "Sidewalk Tile": "B",
+      "Crosswalk Tile": "C",
+      "Street Lamp Tile": "D",
+      "Bench Tile": "E",
+      "Trash Can Tile": "F",
+      "Parking Meter Tile": "G",
+      "Manhole Cover Tile": "H",
+      "Traffic Light Tile": "I",
+      "Bus Stop Tile": "J",
+      "Building Entrance Tile": "K",
+      "Window Tile": "L",
+      "Shopfront Tile": "M",
+      "Skyscraper Tile": "N",
+      "Warehouse Tile": "O",
+      "Neon Sign Tile": "P",
+      "Rooftop Tile": "Q",
+      "Garage Door Tile": "R",
+      "Modern Glass Door Tile": "S",
+      "Sleek Wall Tile": "T",
+      "Elevator Tile": "U",
+      "Reception Desk Tile": "V",
+      "Office Desk Tile": "W",
+      "Conference Table Tile": "X",
+      "CEO Office Tile": "Y",
+      "Tech Equipment Tile": "Z",
+      "Interactive Display Tile": "a",
+      "Cafe Table Tile": "b",
+      "Lounge Area Tile": "c",
+      "Brainstorming Board Tile": "d",
+      "Workshop Tool Tile": "e",
+      "Street Art Tile": "f",
+      "Digital Display Tile": "g",
+      "Underground Setting Tile": "h",
+      "Park Greenery Tile": "i",
+      "innovative software developer in casual attire": "@",
+      "ruthless CEO in sleek business suit": "#"
+    },
+    "goals": "The main goal for the protagonist, Max Armstrong, is to successfully launch his revolutionary app, HIVE, while safeguarding his intellectual property against the antagonist, Victor Dorne, who seeks to undermine his efforts.\n\n### Small Goals to Achieve the Main Goal:\n1. **Secure a partnership with Titan Tech**: Demonstrating the potential of HIVE to secure resource backing.\n2. **Set up a secure workspace**: Creating a base of operations that is safe from corporate espionage.\n3. **Protect intellectual property**: Implementing strong cybersecurity measures to fend off hacking attempts.\n4. **Build and test the HIVE server infrastructure**: Ensuring the technical backbone of HIVE is robust and functional.\n5. **Conduct community outreach through workshops**: Building community support and testing HIVE with real users.\n6. **Implement an innovative marketing strategy**: Utilizing urban culture for a grassroots marketing campaign.\n7. **Identify and neutralize the corporate mole**: Securing the internal integrity of the HIVE project team.\n8. **Successfully debut HIVE at the tech expo**: Demonstrating HIVE's capabilities to the public and industry leaders, effectively overshadowing Dorne's attempts to sabotage.\n\n### Rewards and Penalties:\n- **Secure a partnership with Titan Tech**:\n  - **Reward**: +500 points for securing funding and resources.\n  - **Penalty**: -200 points if failed, leading to resource constraints.\n  \n- **Set up a secure workspace**:\n  - **Reward**: +100 points for each setup milestone, ensuring a safe and productive environment.\n  - **Penalty**: -50 points if any security flaw is exploited.\n  \n- **Protect intellectual property**:\n  - **Reward**: +300 points for successfully repelling each cyber-attack.\n  - **Penalty**: -150 points for each piece of data stolen.\n  \n- **Build and test the HIVE server infrastructure**:\n  - **Reward**: +200 points for each successful test, proving system robustness.\n  - **Penalty**: -100 points for each system crash or failure.\n  \n- **Conduct community outreach through workshops**:\n  - **Reward**: +50 points for each successful workshop, increasing public support.\n  - **Penalty**: -25 points for poorly received workshops, causing loss of public interest.\n  \n- **Implement an innovative marketing strategy**:\n  - **Reward**: +150 points for each successful marketing initiative.\n  - **Penalty**: -75 points if initiatives fail to engage the audience.\n  \n- **Identify and neutralize the corporate mole**:\n  - **Reward**: +400 points for successfully turning the mole into a double agent.\n  - **Penalty**: -300 points if the mole causes significant internal damage.\n  \n- **Successfully debut HIVE at the tech expo**:\n  - **Reward**: +1000 points for a successful launch, gaining industry acclaim and user base.\n  - **Penalty**: -500 points if the debut is sabotaged, resulting in a decline in stakeholder confidence.\n\nThese rewards and penalties create direct feedback for players to measure their actions against the story\u2019s progression, enhancing engagement with the narrative and gameplay.",
+    "objectives": {
+      "Secure a partnership with Titan Tech": [
+        "N",
+        2,
+        13
+      ],
+      "Set up a secure workspace": [
+        "O",
+        5,
+        1
+      ],
+      "Protect intellectual property": [
+        "h",
+        6,
+        9
+      ],
+      "Build and test the HIVE server infrastructure": [
+        "O",
+        5,
+        1
+      ],
+      "Conduct community outreach through workshops": [
+        "e",
+        8,
+        29
+      ],
+      "Implement an innovative marketing strategy": [
+        "f",
+        10,
+        27
+      ],
+      "Identify and neutralize the corporate mole": [
+        "d",
+        6,
+        18
+      ],
+      "Successfully debut HIVE at the tech expo": [
+        "g",
+        7,
+        14
+      ],
+      "Defeat the antagonist Victor Dorne": [
+        "#",
+        10,
+        23
+      ]
+    },
+    "important_tiles": "[\n    '@',  # Protagonist (Max)\n    '#',  # Antagonist (Victor Dorne)\n    'K',  # Building Entrance Tile (important for various location access)\n    'N',  # Skyscraper Tile (important for representing Titan Tech headquarters)\n    'O',  # Warehouse Tile (for server farm and secure workspace)\n    'S',  # Modern Glass Door Tile (entry to high-tech areas)\n    'T',  # Sleek Wall Tile (interiors of corporate offices)\n    'U',  # Elevator Tile (access different floors in headquarters)\n    'Y',  # CEO Office Tile (Victor Dorne's office)\n    'Z',  # Tech Equipment Tile (critical for tech operations)\n    'd',  # Brainstorming Board Tile (for workshops and team interactions)\n    'h',  # Underground Setting Tile (protecting intellectual property)\n    'g',  # Digital Display Tile (for the tech expo and marketing)\n    'e',  # Workshop Tool Tile (community outreach workshops)\n    'a'   # Interactive Display Tile (for public tech demonstrations)\n]",
+    "walkable_tiles": "[\n    'A',  # Asphalt Tile\n    'B',  # Sidewalk Tile\n    'C',  # Crosswalk Tile\n    'D',  # Street Lamp Tile\n    'E',  # Bench Tile\n    'F',  # Trash Can Tile\n    'I',  # Traffic Light Tile\n    'J',  # Bus Stop Tile\n    'M',  # Shopfront Tile\n    'P',  # Neon Sign Tile\n    'b',  # Cafe Table Tile\n    'c',  # Lounge Area Tile\n    'f',  # Street Art Tile\n    'i'   # Park Greenery Tile\n]",
+    "interactive_object_tiles": "['K', 'N', 'O', 'S', 'V', 'X', 'Y', 'Z', 'a', 'b', 'd', 'e', 'f', 'g']",
+    "world_1st_layer": {
+      "world": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\nBUUUKUUUUBBBBKUUUUKBBBUKKKUBBBBB\nBTSSSSBBBBBTSSSSBBBTSSSSBTBBBTTTT\nBAAAAAAAAATSSSSAABAAAAAAABBBBBBBB\nBOOPPOOOOOOAAAAAAAAAAAAABBBNNNNN\nBAAPPPAAAAABBBBBBBBBBBBBBBNNNNNN\nBAOAAAADAOODBBBBBBBBBBBBBBNNNNNN\nBGDAAFIFAADDAFDBGEBIDDJAAAPAFAFAD\nBCBBBBBBBBCBBBBBBBBBBBBBBBBBBBBB\nBCBBBBJJJBBCBBBBMCGJPBBMBBJBBFBBB\nBLBBBBBBBBBLBBBBLEBBBBLBBBLBBBBBB\nBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+      "tiles": {
+        "Asphalt Tile": "A",
+        "Sidewalk Tile": "B",
+        "Crosswalk Tile": "C",
+        "Street Lamp Tile": "D",
+        "Bench Tile": "E",
+        "Trash Can Tile": "F",
+        "Parking Meter Tile": "G",
+        "Traffic Light Tile": "I",
+        "Bus Stop Tile": "J",
+        "Building Entrance Tile": "K",
+        "Window Tile": "L",
+        "Shopfront Tile": "M",
+        "Skyscraper Tile": "N",
+        "Warehouse Tile": "O",
+        "Neon Sign Tile": "P",
+        "Modern Glass Door Tile": "S",
+        "Sleek Wall Tile": "T",
+        "Elevator Tile": "U"
+      }
+    },
+    "world": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\nBUUUKUUUUBBBBKUUUUKBBBUKKKUBBBBB\nBTSSSSBBBBBTSSSSBBBTSSSSBTBBBTTTT\nBAAAAAAAAATSSSSAABAAAAAAABBBBBBBB\nBOOPPOOOOOOAAAAAAAAAAAAABBBNNNNN\nBAAPPPAAAAABBBBBBBBBBBBBBBNNNNNN\nBAOAAAADA@ODBBBBBBBBBBBBBBNNNNNN\nBGDAAFIFAADDAFDBGEBIDDJAAAPAFAFAD\nBCBBBBBBBBCBBBBBBBBBBBBBBBBBBBBB\nBCBBBBJJJBBCBBBBMCGJPBBMBBJBBFBBB\nBLBBBYBBBBBLBBBBLEBBBBL#BLBBBBBB\nBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 100.0,
+      "Accuracy_of_important_tiles_placed": 60.0,
+      "Average_euclidean_distance": 0,
+      "agent_reward": 300,
+      "astar_path": 29
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 15,
+      "story_paragraphs": [
+        4,
+        5
+      ],
+      "total_objectives": 8
+    }
+  },
+  "round_1": {
+    "story": "In the bustling metropolis of Everbright City, amidst the towering skyscrapers and endless streams of neon lights, young Max Armstrong, a talented software developer, was on the brink of revolutionizing the tech industry. His goal was to finalize and launch HIVE, an app that promised to enhance human productivity by seamlessly integrating AI into daily life. But for Max, HIVE was more than just a project; it was his chance to prove that even someone from the city's gritty East Side could change the world.\n\nMax's first major objective was securing a partnership with Titan Tech, a leader in the tech industry; this required presenting his prototype in their glassy downtown office, soaring above the city's bustling streets. His second was finding a suitable office space, which he found in a revitalized warehouse district turned tech hub with cozy cafes and chic boutiques lining the streets, providing an inspiring environment for creative minds.\n\nHowever, Victor Dorne, Titan Tech's CEO, saw Max\u2019s innovation as a direct threat to his company's dominance. Dorne was notorious in the business world for his ruthless tactics and had no intention of letting Max succeed. He first tried to buy out Max\u2019s project, offering a tempting chapel in a high-end business quarter that Max almost couldn't refuse. When Max declined, Dorne resorted to more underhanded methods, dispatching corporate spies to steal Max\u2019s blueprints.\n\nUnperturbed, Max fortified his cybersecurity and recruited a small, loyal team. His third objective thus became protecting his intellectual property, implementing top-tier encryption at an underground, undisclosed location only accessible to his team. The fourth entailed constructing a server farm in a repurposed parking garage, shielded from prying eyes by its inconspicuous appearance and robust security, where his team could safely test HIVE.\n\nThe fifth and sixth objectives involved reaching out to the community. Max hosted free coding workshops in a local tech incubator, fostering goodwill and subtly building a grassroots base of support. He also collaborated with urban artists to create an engaging, interactive marketing campaign that used the city\u2019s vibrant street art as backdrops, making technology feel accessible and cool.\n\nA critical turning point came when Max discovered a mole within his team, someone planted by Dorne. This betrayal led Max to his seventh objective: rooting out corruption from his venture, which he achieved through a cunning display of counter-espionage, turning the mole into a double agent to feed Dorne false information.\n\nThe climax of Max's campaign was a highly publicized tech expo held at Everbright's expansive convention center, under the gleaming arches and sprawling digital displays, where Max intended to unveil HIVE to the world. Victor Dorne, with his reputation on the line, planned a final sabotage. However, forewarned by his new double agent, Max was ready. The unveiling was a resounding success, simultaneously achieving his eighth objective: exposing Dorne\u2019s unethical practices during a live demonstration, leading to a standing ovation from the crowd and a plummet in Titan Tech\u2019s stock.\n\nMax's journey, from a dream harbored in the shadows of the East Side to shaking the very foundations of the tech industry, was not just about creating HIVE but about proving that integrity and innovation could indeed triumph over greed and treachery. Everbright City, once just a backdrop to his ambitions, had now become the launchpad for a new era of technology, led by none other than Max himself.",
+    "character_information": "For the development of the 2D game based on the above story, here are specific descriptions of each main character to assist in generating detailed sprites:\n\n### 1. Max Armstrong (Protagonist)\n- **Appearance**: Max is in his mid-20s, with a lean, agile build suitable for his dynamic lifestyle. He has short, curly brown hair and wears smart, circular glasses that give him a thoughtful look. His usual attire consists of a casual yet trendy blazer over a graphic t-shirt, paired with dark jeans and comfortable sneakers.\n- **Accessories**: He carries a high-tech backpack filled with gadgets and wears a smartwatch that frequently appears in gameplay, used for various tech interactions.\n- **Pose**: Max has an enthusiastic and confident posture, often depicted with one hand adjusting his glasses, symbolizing his readiness to tackle technical challenges.\n\n### 2. Victor Dorne (Antagonist)\n- **Appearance**: Victor is in his late 40s and carries a commanding presence. He is tall with a broad build, and sports a neatly trimmed beard. His hair is slicked back and peppered with grey, emphasizing his experienced yet formidable demeanor.\n- **Attire**: Dorne wears a sharp, tailored suit that exudes authority and wealth \u2014 usually in darker shades like charcoal or black. He has a shiny, gold lapel pin shaped like a \"V\", representing his company, Titan Tech.\n- **Pose**: Victor\u2019s pose is dominating, often standing with his arms crossed or hands clasped behind his back, projecting control and intimidation.\n\n### 3. Tech Team Member (NPCs for Max's Team)\n- **Appearance**: The team includes a diverse group of individuals. There\u2019s a tall woman with long, jet-black hair and glasses, a shorter man with spiked, blond hair and energetic expressions, and a non-binary person with shaved sides and top hair dyed in pastel colors.\n- **Attire**: They all wear smart-casual tech wear \u2014 polo shirts or hoodies bearing the HIVE logo and comfortable jeans or chinos. Accessories like wristbands, lanyards, and badge holders add to their tech-oriented image.\n- **Pose**: The team members are depicted in various dynamic poses, such as typing on laptops, discussing over digital tablets, or pointing at large screen displays, highlighting their active roles in the project.\n\n### 4. Mole Double Agent (Minor Antagonist turned NPC)\n- **Appearance**: An average height individual with an ambiguous neutral look, short-cropped hair, and an always alert expression. They are somewhat unassuming in appearance, making their role as a mole believable.\n- **Attire**: Initially dressed in a similar tech wear as Max\u2019s team but later switches to a more neutral palette to signify their ambiguous allegiance. \n- **Pose**: They exhibit cautious, sneaky postures \u2014 often shown peeking around corners or quietly working on a separate laptop, signalling their secretive nature.\n\nThese character descriptions should provide clear guidelines for the design of sprites in the 2D game environment, aligning each character\u2019s appearance and demeanor with their roles in the story.",
+    "tile_mapping": {
+      "Asphalt Tile": "A",
+      "Sidewalk Tile": "B",
+      "Crosswalk Tile": "C",
+      "Street Lamp Tile": "D",
+      "Bench Tile": "E",
+      "Trash Can Tile": "F",
+      "Parking Meter Tile": "G",
+      "Manhole Cover Tile": "H",
+      "Traffic Light Tile": "I",
+      "Bus Stop Tile": "J",
+      "Building Entrance Tile": "K",
+      "Window Tile": "L",
+      "Shopfront Tile": "M",
+      "Skyscraper Tile": "N",
+      "Warehouse Tile": "O",
+      "Neon Sign Tile": "P",
+      "Rooftop Tile": "Q",
+      "Garage Door Tile": "R",
+      "Modern Glass Door Tile": "S",
+      "Sleek Wall Tile": "T",
+      "Elevator Tile": "U",
+      "Reception Desk Tile": "V",
+      "Office Desk Tile": "W",
+      "Conference Table Tile": "X",
+      "CEO Office Tile": "Y",
+      "Tech Equipment Tile": "Z",
+      "Interactive Display Tile": "a",
+      "Cafe Table Tile": "b",
+      "Lounge Area Tile": "c",
+      "Brainstorming Board Tile": "d",
+      "Workshop Tool Tile": "e",
+      "Street Art Tile": "f",
+      "Digital Display Tile": "g",
+      "Underground Setting Tile": "h",
+      "Park Greenery Tile": "i",
+      "innovative software developer in casual attire": "@",
+      "ruthless CEO in sleek business suit": "#"
+    },
+    "goals": "The main goal for the protagonist, Max Armstrong, is to successfully launch his revolutionary app, HIVE, while safeguarding his intellectual property against the antagonist, Victor Dorne, who seeks to undermine his efforts.\n\n### Small Goals to Achieve the Main Goal:\n1. **Secure a partnership with Titan Tech**: Demonstrating the potential of HIVE to secure resource backing.\n2. **Set up a secure workspace**: Creating a base of operations that is safe from corporate espionage.\n3. **Protect intellectual property**: Implementing strong cybersecurity measures to fend off hacking attempts.\n4. **Build and test the HIVE server infrastructure**: Ensuring the technical backbone of HIVE is robust and functional.\n5. **Conduct community outreach through workshops**: Building community support and testing HIVE with real users.\n6. **Implement an innovative marketing strategy**: Utilizing urban culture for a grassroots marketing campaign.\n7. **Identify and neutralize the corporate mole**: Securing the internal integrity of the HIVE project team.\n8. **Successfully debut HIVE at the tech expo**: Demonstrating HIVE's capabilities to the public and industry leaders, effectively overshadowing Dorne's attempts to sabotage.\n\n### Rewards and Penalties:\n- **Secure a partnership with Titan Tech**:\n  - **Reward**: +500 points for securing funding and resources.\n  - **Penalty**: -200 points if failed, leading to resource constraints.\n  \n- **Set up a secure workspace**:\n  - **Reward**: +100 points for each setup milestone, ensuring a safe and productive environment.\n  - **Penalty**: -50 points if any security flaw is exploited.\n  \n- **Protect intellectual property**:\n  - **Reward**: +300 points for successfully repelling each cyber-attack.\n  - **Penalty**: -150 points for each piece of data stolen.\n  \n- **Build and test the HIVE server infrastructure**:\n  - **Reward**: +200 points for each successful test, proving system robustness.\n  - **Penalty**: -100 points for each system crash or failure.\n  \n- **Conduct community outreach through workshops**:\n  - **Reward**: +50 points for each successful workshop, increasing public support.\n  - **Penalty**: -25 points for poorly received workshops, causing loss of public interest.\n  \n- **Implement an innovative marketing strategy**:\n  - **Reward**: +150 points for each successful marketing initiative.\n  - **Penalty**: -75 points if initiatives fail to engage the audience.\n  \n- **Identify and neutralize the corporate mole**:\n  - **Reward**: +400 points for successfully turning the mole into a double agent.\n  - **Penalty**: -300 points if the mole causes significant internal damage.\n  \n- **Successfully debut HIVE at the tech expo**:\n  - **Reward**: +1000 points for a successful launch, gaining industry acclaim and user base.\n  - **Penalty**: -500 points if the debut is sabotaged, resulting in a decline in stakeholder confidence.\n\nThese rewards and penalties create direct feedback for players to measure their actions against the story\u2019s progression, enhancing engagement with the narrative and gameplay.",
+    "objectives": {
+      "Secure a partnership with Titan Tech": [
+        "N",
+        1,
+        20
+      ],
+      "Set up a secure workspace": [
+        "O",
+        16,
+        1
+      ],
+      "Protect intellectual property": [
+        "h",
+        24,
+        20
+      ],
+      "Build and test the HIVE server infrastructure": [
+        "O",
+        16,
+        1
+      ],
+      "Conduct community outreach through workshops": [
+        "e",
+        17,
+        12
+      ],
+      "Implement an innovative marketing strategy": [
+        "f",
+        25,
+        20
+      ],
+      "Identify and neutralize the corporate mole": [
+        "a",
+        2,
+        11
+      ],
+      "Successfully debut HIVE at the tech expo": [
+        "g",
+        24,
+        20
+      ],
+      "Defeat the antagonist": [
+        "#",
+        5,
+        19
+      ]
+    },
+    "important_tiles": "[\n    '@',  # Protagonist (Max)\n    '#',  # Antagonist (Victor Dorne)\n    'K',  # Building Entrance Tile (important for various location access)\n    'N',  # Skyscraper Tile (important for representing Titan Tech headquarters)\n    'O',  # Warehouse Tile (for server farm and secure workspace)\n    'S',  # Modern Glass Door Tile (entry to high-tech areas)\n    'T',  # Sleek Wall Tile (interiors of corporate offices)\n    'U',  # Elevator Tile (access different floors in headquarters)\n    'Y',  # CEO Office Tile (Victor Dorne's office)\n    'Z',  # Tech Equipment Tile (critical for tech operations)\n    'd',  # Brainstorming Board Tile (for workshops and team interactions)\n    'h',  # Underground Setting Tile (protecting intellectual property)\n    'g',  # Digital Display Tile (for the tech expo and marketing)\n    'e',  # Workshop Tool Tile (community outreach workshops)\n    'a'   # Interactive Display Tile (for public tech demonstrations)\n]",
+    "walkable_tiles": "[\n    'A',  # Asphalt Tile\n    'B',  # Sidewalk Tile\n    'C',  # Crosswalk Tile\n    'D',  # Street Lamp Tile\n    'E',  # Bench Tile\n    'F',  # Trash Can Tile\n    'I',  # Traffic Light Tile\n    'J',  # Bus Stop Tile\n    'M',  # Shopfront Tile\n    'P',  # Neon Sign Tile\n    'b',  # Cafe Table Tile\n    'c',  # Lounge Area Tile\n    'f',  # Street Art Tile\n    'i'   # Park Greenery Tile\n]",
+    "interactive_object_tiles": "['K', 'N', 'O', 'S', 'V', 'X', 'Y', 'Z', 'a', 'b', 'd', 'e', 'f', 'g']",
+    "world_1st_layer": {
+      "world": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\nBBBBBBBBBBBBBBBBBBBBBNBBBBNKBBBBBB\nBBBBBBBBBBBBBBKBBBBBBBBBBBBBBBBBBB\nBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\nBBBBBBBBBBBBBBBBBBBBBBBBSBBBBBBBBB\nBBNBBBBBBBBBBBBBBBBNKBBBBBBBBBBBBB\nBBBBBBBBBBBBBBBBBTBBBBKBBBBBBBBBBB\nBBBBBBBBNBBBBNNNNNNNBBNBBBBBBBBBBB\nBBBBBBBBBKBBBBBBBBBBBTBBBBBBBBBBBB\nBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\nBBTBBBBBBBSSBBBBBBBBBBBBBBBBBBBBBB\nBBBBBBBBBBBBBBBBBBBBBBBBBBUUBBBBBB\nBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\nBBBBBBBBBBBBBBBBBBBhBBBBBBBBBBBBBB\nBBBBBBAABBBBBBBBBBAABBBBBBBBBBBBBC\nAABBBBBBBBBBBBBBBABBBBBBBBBBBBBBBC\nBAAAAAAABFABAAAFADAFAAFACCBBBCBBJBB\nBBBBBBBBBAABBBFABBBBBBBBACBBBCBBJBB\nBBBBBBBBBABBBBABBBBBBBBBBCBBBCBBBBB\nBBBBBBBBBBBBBBBBBBBABBBBBCBBBBBBBBB\nBBBBBBBBBBBAAABBBBBBBBBBBBBBBBBBBBB\nBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\nBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\nBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\nBBBBBBBBBBBBBBBBBBBBBBBTAABBBBBBBBB\nBBBBBBBBBBBBBBBBZZZZBBBBBBBBBBBBBBB\nBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\nBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\nBBNNNNBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\nBBBBBBBBBBBBBBBBBBBBBBBBBBNNNNBBNBB",
+      "tiles": {
+        "Asphalt Tile": "A",
+        "Sidewalk Tile": "B",
+        "Crosswalk Tile": "C",
+        "Street Lamp Tile": "D",
+        "Trash Can Tile": "F",
+        "Bus Stop Tile": "J",
+        "Building Entrance Tile": "K",
+        "Skyscraper Tile": "N",
+        "Modern Glass Door Tile": "S",
+        "Sleek Wall Tile": "T",
+        "Elevator Tile": "U",
+        "Tech Equipment Tile": "Z",
+        "Underground Setting Tile": "h"
+      }
+    },
+    "world": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\nBBBBBBBBBBBBBBBBBBBBBNBBBBNKBBBBBB\nBBBBBBBBBB@BBBBKBBBBBBBBBBBBBBBBBB\nBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\nBBBBBBBBBBBBBBBBBBBBBBBBS#BBBBBBBB\nBBNBBBBBBBBBBBBBBBBNKBBBBBBBBBBBBB\nBBBBBBBBBBBBBBBBBTBBBBKBBBBBBBBBBB\nBBBBBBBBNBBBBNNNNNNNBBNBBBBBBBBBBB\nBBBBBBBBBKBBBBBBBBBBBTBBBBBBBBBBBB\nBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\nBBTBBBBBBBSSBBBBBBBBBBBBBBBBBBBBBB\nBBBBBBBBBBBBBBBBBBBBBBBBBBUUBBBBBB\nBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\nBBBBBBBBBBBBBBBBBBBhBBBBBBBBBBBBBB\nBBBBBBAABBBBBBBBBBAABBBBBBBBBBBBBC\nAABBBBBBBBBBBBBBBABBBBBBBBBBBBBBBC\nBAAAAAAABFABAAAFADAFAAFACCBBBCBBJBB\nBBBBBBBBBAABBBFABBBBBBBBACBBBCBBJBB\nBBBBBBBBBABBBBABBBBBBBBBBCBBBCBBBBB\nBBYBBBBBBBBBBBBBBBABBBBBCBBBBBBBBB\nBBYZBBBBBBBAAABBBBBBBBBBBBBBBBBBBBB\nBBBBBBZBBBZZZZBBBBBBBBBBBBBBBBBBBB\nBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\nBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\nBBBBBBBBBBBBBBBBBBBBBBgTAABBBBBBBBB\nBBBBBBBBBBBBBBBBdZZZZBBBBBBBBBBBBBB\nBBBBBBBBBKBBBBBBBaBBBBBBBBBBBBBBBB\nBBBBBBBBBBBBBBBBhBBBZBBBBBBBBBBBBB\nBBNNNNBBBBBBBBBBBBBBBBBBBBBBBBBBBB\nBBBBBBBBBBBBBsBBBBBBBBBBNNNNBBNBBB",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 100.0,
+      "Accuracy_of_important_tiles_placed": 86.66666666666667,
+      "Average_euclidean_distance": 309.6158910650421,
+      "agent_reward": -350,
+      "astar_path": 0
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 15,
+      "story_paragraphs": [
+        4,
+        5
+      ],
+      "total_objectives": 8
+    }
+  }
+}

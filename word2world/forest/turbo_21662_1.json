@@ -1,0 +1,266 @@
+{
+  "round_0": {
+    "story": "In the verdant sprawl of Wakefield Woods, where whispers between leaves painted stories of yore, a young ranger named Elara set out with a heart full of purpose. Her mission was an ancestral one, passed down through generations embedded in her bloodline. At the heart of the forest stood the ancient Weeping Oak, a mystical entity said to house a gem with the power to heal the lands. However, the path was guarded by the vengeful spirit Seraphine, who coveted the gem's powers to bolster her own shadowy existence. Seraphine had ushered decay into the once thriving forest, and Elara was determined to restore it to its former glory.\n\nElara's journey was not a direct path but a compilation of crucial objectives. Her first task was to seek an audience with the wise old sage, Arthos, who lived in a moss-clad cabin by the Silver Creek. The babbling waters that flanked his home had a soft lull, reminiscent of gentler days. Arthos equipped her with an enchanted compass that always pointed towards truth, vital for her succeeding challenges.\n\nThe second objective was to traverse the Whispering Thicket, a dense stretch where the trees seemed to murmur secrets. Here, a hidden grove revealed the storied Moonflowers, whose petals could cast a protective shield against Seraphine's darker influence. Gathering them without disturbing the ghostly whispers was a task of patience and respect for the forest's delicate balance.\n\nNavigating further, Elara reached the Mirror Lake, an expanse of water so clear it reflected one's innermost thoughts. Her third objective was to claim a vial of its water, known to reveal illusions and traps set by Seraphine. The serene environment, with mist that danced upon the water at dawn, belied the peril of hidden snares around the lake's edge.\n\nThe fourth challenge awaited in the Hawksnest Ridge, where the legendary Skythorn Hawk resided. Convincing this majestic, yet fiercely territorial creature to lend a feather for her quest required Elara to demonstrate courage and respect for the natural order. The height of the ridge offered a panoramic view of her conquered trials, yet also a reminder of the looming threats.\n\nHer trek was not solitary for long, as fleeting alliances formed with creatures and spirits of the woods. A minor spirit, Ivy, tasked Elara with restoring a corrupted spring as her fifth objective. Cleansing the spring not only gained Ivy\u2019s trust but empowered the forest\u2019s network of life, strengthening Elara\u2019s bond with the land.\n\nElara's penultimate objective before confronting Seraphine was to light the ancient Beacons of Guidance, scattered and unlit for centuries around the forest. Their ethereal glow was necessary to weaken Seraphine\u2019s shadows that thrived in the absence of light. Each beacon was placed strategically, enhancing the ethereal beauty of the forest under the twilight sky.\n\nThe final objective loomed as Elara, strengths and alliances forged, approached the Weeping Oak. Seraphine materialized, her form a swirling mass of dark vapors and spite, confronting Elara amidst the gnarled roots and timeless branches of the Oak. The battle was fierce, with Elara using every lesson and artifact she had gathered. With a combination of the Moonflower shield, the clarity of the Mirror Lake\u2019s water, and the guiding light from the beacons, Elara dispelled the shadows clinging to Seraphine.\n\nWith the antagonist defeated, Elara reached her eighth and ultimate objective: to heal the forest. Placing the gem back into the heart of the Weeping Oak, the land thrummed with vitality, lush greenery swiftly cloaking the decay. The forest reborn, Elara's quest ended, yet her new role as protector of Wakefield Woods had only just begun.",
+    "character_information": "To create a visually engaging 2D game based on the story of Elara and her quest in Wakefield Woods, here is a detailed breakdown of each character's appearance that can be used as prompts for sprite generation:\n\n1. **Elara** - Protagonist\n   - **Appearance:** Elara is a young, athletic ranger with keen eyes reflecting determination. She has long, auburn hair usually tied in a functional braid. Her outfit consists of forest-green leathers that blend well with the woods, and sturdy boots suitable for lengthy forest treks. Accessories include a leather quiver strapped on her back and a utility belt holding vials and a small dagger.\n   - **Animative features:** As she moves, her cloak should flutter subtly to convey a sense of the forest's breezy environment. Facial expressions change according to the environment and challenges, showing determination or cautiousness.\n\n2. **Seraphine** - Antagonist\n   - **Appearance:** Seraphine is a spirit formed from dark vapors and densely shadowed mist with a vaguely humanoid silhouette. Her eyes glow a piercing red, and her form occasionally flickers with dark tendrils, giving her an ethereal yet threatening demeanor.\n   - **Animative features:** She should appear to continuously morph slightly, never fully settling into a completely fixed form, enhancing her spectral nature. Light flickers around her, suggesting her influence over darkness.\n\n3. **Arthos** - Sage NPC\n   - **Appearance:** Arthos is an aged sage with long, wispy white hair and a full beard. He wears a deep blue robe adorned with silver runes that hint at his mystical knowledge. His eyes twinkle with a mix of mystery and wisdom.\n   - **Animative features:** His sprite should show occasional sparkles around his hands when discussing or performing magic. Movements are slow and deliberate, indicative of his age and calm demeanor.\n\n4. **Skythorn Hawk** - Creature NPC\n   - **Appearance:** The Skythorn Hawk is imposing with a large wingspan, and feathers that shimmer between silver and sky-blue. Its eyes are sharp and observant, and talons are intimidatingly strong and sharp.\n   - **Animative features:** Animation for beating wings should show powerful gusts, capable of stirring up the leaves on the forest floor. When perched, its head can turn 180 degrees, scouting its surroundings.\n\n5. **Ivy** - Minor Spirit NPC\n   - **Appearance:** Ivy appears as a young, sprite-like figure made of green, glowing light, with features subtly outlined by darker green hues. She is ethereal, with a slight transparency, and her hair seems to float as if underwater, made up of fine vines and leaves.\n   - **Animative features:** As she moves, a trail of luminescent particles follows, and when she talks, small flowers bloom temporarily around her.\n\n6. **Mirror Lake Water** (Personified Element as NPC)\n   - **Appearance:** This spirit of the mirror lake manifests as a serene face on the surface of the water, with features that ripple and shift. The color palette is predominantly tranquil blues and whites, embodying purity and clarity.\n   - **Animative features:** The sprite should show constant, gentle motion inherent to water, with a soft glow that reflects (figuratively and literally) its revealing nature.\n\nEach character is designed to reflect their unique traits and roles within the story, while also ensuring that the visual design remains cohesive and evocative of the game's mystical forest environment. This diverse cast not only enriches the storyline but also the visual and interactive appeal of the game.",
+    "tile_mapping": {
+      "Grass": "a",
+      "Dirt Path": "b",
+      "Rocky Terrain": "c",
+      "Mossy Patches": "d",
+      "Mud": "e",
+      "Tree Base": "f",
+      "Tree Crown": "g",
+      "Bush": "h",
+      "Flower Patch": "i",
+      "Fallen Log": "j",
+      "Vine": "k",
+      "Weeping Oak": "l",
+      "Creek": "m",
+      "Mirror Lake": "n",
+      "Swamp": "o",
+      "Small Waterfall": "p",
+      "Spring": "q",
+      "Arthos\u2019s Cabin": "r",
+      "Ancient Beacon": "s",
+      "Wooden Bridge": "t",
+      "Stone Bridge": "u",
+      "Stone Ruin": "v",
+      "Campsite": "w",
+      "Trap": "x",
+      "Main Pathway": "y",
+      "Secret Path": "z",
+      "Stepping Stones": "A",
+      "Cliff Face": "B",
+      "Rocky Outcrop": "C",
+      "Hawksnest Ridge": "D",
+      "Collectible Item": "E",
+      "Interactive Plant": "F",
+      "Magic Hotspot": "G",
+      "Fog Overlay": "H",
+      "Shadow Overlay": "I",
+      "Light Beam": "J",
+      "Wind Effect": "K",
+      "NPC Frame": "L",
+      "Spirit Presence Area": "M",
+      "green-clad young ranger": "@",
+      "shadowy spectral figure": "#"
+    },
+    "goals": "The main goal of the protagonist, Elara, in the story, is to restore balance and life to Wakefield Woods by defeating the antagonist, Seraphine, and placing the mystical gem back into the heart of the Weeping Oak.\n\n**Small Goals to Achieve the Main Goal:**\n\n1. **Meet Arthos, the Sage**: \n   - **Objective**: Gain knowledge and tools necessary for the journey.\n   - **Reward**: Receives the enchanted compass; +50 points.\n   - **Penalty for failure**: Loses time, must find another source of guidance; -20 points.\n\n2. **Navigate the Whispering Thicket and Collect Moonflowers**:\n   - **Objective**: Reach the hidden grove and collect protective Moonflowers.\n   - **Reward**: Gains a protective shield ability for later challenges; +40 points.\n   - **Penalty for failure**: Increased difficulty in later stages due to lack of protection; -30 points.\n\n3. **Acquire Water from Mirror Lake**:\n   - **Objective**: Fill a vial with water from the Mirror Lake that reveals illusions.\n   - **Reward**: Gains ability to see through traps and illusions; +30 points.\n   - **Penalty for failure**: Higher chance of falling into traps later; -25 points.\n\n4. **Convince the Skythorn Hawk to Assist**:\n   - **Objective**: Earn the trust of the Skythorn Hawk to obtain a feather.\n   - **Reward**: Gains an aerial perspective for one critical challenge; +45 points.\n   - **Penalty for failure**: Lack of crucial aerial aid; -15 points.\n\n5. **Restore the Corrupted Spring**:\n   - **Objective**: Purify a corrupted spring to gain the favor of the forest spirits.\n   - **Reward**: Support from minor forest spirits, offering hidden paths and assistance; +35 points.\n   - **Penalty for failure**: Obstacles remain that slow progress; -10 points.\n\n6. **Light the Ancient Beacons of Guidance**:\n   - **Objective**: Find and light ancient beacons to weaken Seraphine\u2019s power.\n   - **Reward**: Decreases the antagonist's strength during the final battle; +60 points.\n   - **Penalty for failure**: Antagonist remains at full strength, increasing battle difficulty; -40 points.\n\n7. **Defeat Seraphine**:\n   - **Objective**: Use all acquired knowledge and tools to confront and defeat Seraphine.\n   - **Reward**: Major point gain and progression to final goal; +100 points.\n   - **Penalty for failure**: Must retry the battle, lost time and resources; -50 points.\n\n8. **Heal the Forest by Placing the Gem in the Weeping Oak**:\n   - **Objective**: Successfully place the gem back into the Weeping Oak to fully restore the forest.\n   - **Reward**: Completes game with maximum score bonus; +200 points.\n   - **Penalty for failure**: If not completed within a time frame, partial restoration only; -100 points.\n\nEach goal is designed to progressively aid the protagonist in overcoming the major challenge, which is defeating the antagonist and restoring the forest, emphasizing a blend of strategy and skill acquisition. The scoring system reflects the impact of each goal on the overall quest, adding a competitive layer for players.",
+    "objectives": {
+      "Meet Arthos, the Sage": [
+        "r",
+        16,
+        13
+      ],
+      "Navigate the Whispering Thicket and Collect Moonflowers": [
+        "i",
+        21,
+        8
+      ],
+      "Acquire Water from Mirror Lake": [
+        "n",
+        5,
+        17
+      ],
+      "Convince the Skythorn Hawk to Assist": [
+        "D",
+        9,
+        30
+      ],
+      "Restore the Corrupted Spring": [
+        "q",
+        8,
+        7
+      ],
+      "Light the Ancient Beacons of Guidance": [
+        "s",
+        17,
+        16
+      ],
+      "Defeat Seraphine": [
+        "#",
+        25,
+        29
+      ],
+      "Heal the Forest by Placing the Gem in the Weeping Oak": [
+        "l",
+        24,
+        21
+      ]
+    },
+    "important_tiles": "[\n    '@',   # Protagonist\n    '#',   # Antagonist\n    'r',   # Arthos\u2019s Cabin\n    'l',   # Weeping Oak\n    'n',   # Mirror Lake\n    'D',   # Hawksnest Ridge\n    'q',   # Spring\n    's',   # Ancient Beacon\n    'i',   # Flower Patch (for Moonflowers)\n    'm',   // Creek\n    'p',   // Small Waterfall\n    'b',   // Dirt Path (common travel paths)\n    'E',   // Collectible Item\n    'G',   // Magic Hotspot\n    'M'    // Spirit Presence Area\n]",
+    "walkable_tiles": "[\n    'a',  # Grass\n    'b',  # Dirt Path\n    'd',  # Mossy Patches\n    'h',  # Bush\n    'i',  # Flower Patch\n    'j',  # Fallen Log\n    'k',  # Vine\n    'm',  # Creek\n    'o',  # Swamp\n    't',  # Wooden Bridge\n    'u',  # Stone Bridge\n    'y',  # Main Pathway\n    'z',  # Secret Path\n    'A',  # Stepping Stones\n    'E',  # Collectible Item\n    'F',  # Interactive Plant\n    'M'   # Spirit Presence Area\n]",
+    "interactive_object_tiles": "['r', 'i', 'n', 'D', 'q', 's', 'E', 'F', 'G']",
+    "world_1st_layer": {
+      "world": "aaaaaaaaaabbbbbbbbbbaaaaaaaaaaa\naaaaaaaabmmmmmmmmmbbaaaaaaaaaaa\naaaaaaabmmmmmmmmmmmmmbbaaaaaaaa\naaaabbbbbmmnnnnnnmmmmmmmbbbbaaa\naaabmmmmmmmmnnnnnnnnmmmmmmmmmba\naabmmmmmmmmmnnnnnnnnnmmmmmmmmmb\nbbmmmmmmmmmmmmmmmmmmmmmmmmmmmmb\nbmmmmmmmmmmmmmmmmmmmmmmmmmmmmmb\nbmmmmmmqmmmmmmmmmmmmmmmmmmDDDDD\nbbmmmmmmmmmmmmmmmmmmmmmmmmDDDDD\naabmmmmmmmmmmmmmmmmmmmmmmmmbbbb\naaabmmmmmmmmmmmmmmmmmmmmmmmbaaa\naaaabbbbbmmmmmmmmmmmmmmmmbbaaaa\naaaaaaabmmmmmmmmmmmmmmmmbbaaaaa\naaaaaaaabbbbbbbbbbbbbbbbbaaaaaa\naaaaaaaaaaaarrrrrrrrrrraaaaaaaa\naaaaaaaaaaaaaabbbbbbbbbaaaaaaaa\nbbbbbbbbbbbbbbsbbbbbbbbbbybbbbb\nyzzzbbbbbbbbbbbbbbtttttttyyyyyyy\nyyyyyzbbbbbbbbbboooooooooyyyyyy\nyyyyyyzbbbbbbbbbboooooooooyyyyyy\nyyyyyyyiibbbbpppoooooooooyyyyyyy\nyyyyyyyhijbbpppppppoooooooyyyyyy\nyyyyyyhijkbbpppppppooooooyyyyyyy\nyyyyyhhijkkbppllllllpoooooyyyyyy\nyyyyhhijjkkbppllllllpoooooyyyyyy\nyyhhhijjkkkbppllllllllooooyyyyyy\nyhhhhijjkkbppllllllllooooooyyyyy\nyhhhhjjkkkkbllllllllooooooooooyy\nyhhhjjjkkkkkkkklllllooooooopttty",
+      "tiles": {
+        "Grass": "a",
+        "Dirt Path": "b",
+        "Bush": "h",
+        "Flower Patch": "i",
+        "Fallen Log": "j",
+        "Vine": "k",
+        "Weeping Oak": "l",
+        "Creek": "m",
+        "Mirror Lake": "n",
+        "Swamp": "o",
+        "Small Waterfall": "p",
+        "Spring": "q",
+        "Arthos\u2019s Cabin": "r",
+        "Ancient Beacon": "s",
+        "Wooden Bridge": "t",
+        "Main Pathway": "y",
+        "Secret Path": "z",
+        "Hawksnest Ridge": "D"
+      }
+    },
+    "world": "aaaaaaaaaabbbbbbbbbbaaaaaaaaaaa\naaaaaaaabmmmmmmmmmbbaaaaaaaaaaa\naaaaaaabmmmmmmmmmmmmmbbaaaaaaaa\naaaabbbbbmmnnnnnnmmmmmmmbbbbaaa\naaabmmmmmmmmnnnnnnnnmmmmmmmmmba\naabmmmmmmmmmnnnnnnnnnmmmmmmmmmb\nbbmmmmmmmmmmmmmmmmmmmmmmmmmmmmb\nbmmmmmmmmmmmmmmmmmmmmmmmmmmmmmb\nbmmmmmmqmmmmmmmmmmmmmmmmmmDDDDD\nbbmmmmmmmmmmmmmmmmmmmmmmmmDDDDD\naabmmmmmmmmmmmmmmmmmmmmmmmmbbbb\naaabmmmmmmmmmmmmmmmmmmmmmmmbaaa\naaaabbbbbmmmmmmmmmmmmmmmmbbaaaa\naaaaaaabmmmmmmmmmmmmmmmmbbaaaaa\naaaaaaaEbbbbbbbbbbbbbFEbaaaaaa@\naaaaaaaaaaaarrrrrrrrrrraaaaaaaa\naaaaaaaaaaaaaabbbbbbbbbaaaaaaaa\nbbbbbbbbbbbbbbsbbbbbbbbbbybbbbb\nyzzzbbbbbbbbbbbbbbtttttttyyyyyyy\nyyyyyzbbbbbbbbbboooooooooyyyyyy\nyyyyyyzbbbbbbbbbboooooooooyyyyyy\nyyyyyyyiibbbbpppoooooooooyyyyyyy\nyyyyyyyhijbbpppppppoooooooyyyyyy\nyyyyyyhijkbbpppppppooooooyyyyyyy\nyyyyyhhijkkbppllllllpoooooyyyyyy\nyyyyhhMjjkkbppllllllpooooo#yyyyy\nyyhhhijjkkkbppllllllllooooyyyyyy\nyhhhhijGkkbppllllllllooooooyyyyy\nyhhhhjjkkkkbllllllllooooooooooyy\nyhhhjjjkkkkkkkklllllooooooopttty",
+    "evaluations": {
+      "agent_reward": -700,
+      "astar_path": 46
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 15,
+      "story_paragraphs": [
+        5,
+        6
+      ],
+      "total_objectives": 8
+    }
+  },
+  "round_1": {
+    "story": "In the verdant sprawl of Wakefield Woods, where whispers between leaves painted stories of yore, a young ranger named Elara set out with a heart full of purpose. Her mission was an ancestral one, passed down through generations embedded in her bloodline. At the heart of the forest stood the ancient Weeping Oak, a mystical entity said to house a gem with the power to heal the lands. However, the path was guarded by the vengeful spirit Seraphine, who coveted the gem's powers to bolster her own shadowy existence. Seraphine had ushered decay into the once thriving forest, and Elara was determined to restore it to its former glory.\n\nElara's journey was not a direct path but a compilation of crucial objectives. Her first task was to seek an audience with the wise old sage, Arthos, who lived in a moss-clad cabin by the Silver Creek. The babbling waters that flanked his home had a soft lull, reminiscent of gentler days. Arthos equipped her with an enchanted compass that always pointed towards truth, vital for her succeeding challenges.\n\nThe second objective was to traverse the Whispering Thicket, a dense stretch where the trees seemed to murmur secrets. Here, a hidden grove revealed the storied Moonflowers, whose petals could cast a protective shield against Seraphine's darker influence. Gathering them without disturbing the ghostly whispers was a task of patience and respect for the forest's delicate balance.\n\nNavigating further, Elara reached the Mirror Lake, an expanse of water so clear it reflected one's innermost thoughts. Her third objective was to claim a vial of its water, known to reveal illusions and traps set by Seraphine. The serene environment, with mist that danced upon the water at dawn, belied the peril of hidden snares around the lake's edge.\n\nThe fourth challenge awaited in the Hawksnest Ridge, where the legendary Skythorn Hawk resided. Convincing this majestic, yet fiercely territorial creature to lend a feather for her quest required Elara to demonstrate courage and respect for the natural order. The height of the ridge offered a panoramic view of her conquered trials, yet also a reminder of the looming threats.\n\nHer trek was not solitary for long, as fleeting alliances formed with creatures and spirits of the woods. A minor spirit, Ivy, tasked Elara with restoring a corrupted spring as her fifth objective. Cleansing the spring not only gained Ivy\u2019s trust but empowered the forest\u2019s network of life, strengthening Elara\u2019s bond with the land.\n\nElara's penultimate objective before confronting Seraphine was to light the ancient Beacons of Guidance, scattered and unlit for centuries around the forest. Their ethereal glow was necessary to weaken Seraphine\u2019s shadows that thrived in the absence of light. Each beacon was placed strategically, enhancing the ethereal beauty of the forest under the twilight sky.\n\nThe final objective loomed as Elara, strengths and alliances forged, approached the Weeping Oak. Seraphine materialized, her form a swirling mass of dark vapors and spite, confronting Elara amidst the gnarled roots and timeless branches of the Oak. The battle was fierce, with Elara using every lesson and artifact she had gathered. With a combination of the Moonflower shield, the clarity of the Mirror Lake\u2019s water, and the guiding light from the beacons, Elara dispelled the shadows clinging to Seraphine.\n\nWith the antagonist defeated, Elara reached her eighth and ultimate objective: to heal the forest. Placing the gem back into the heart of the Weeping Oak, the land thrummed with vitality, lush greenery swiftly cloaking the decay. The forest reborn, Elara's quest ended, yet her new role as protector of Wakefield Woods had only just begun.",
+    "character_information": "To create a visually engaging 2D game based on the story of Elara and her quest in Wakefield Woods, here is a detailed breakdown of each character's appearance that can be used as prompts for sprite generation:\n\n1. **Elara** - Protagonist\n   - **Appearance:** Elara is a young, athletic ranger with keen eyes reflecting determination. She has long, auburn hair usually tied in a functional braid. Her outfit consists of forest-green leathers that blend well with the woods, and sturdy boots suitable for lengthy forest treks. Accessories include a leather quiver strapped on her back and a utility belt holding vials and a small dagger.\n   - **Animative features:** As she moves, her cloak should flutter subtly to convey a sense of the forest's breezy environment. Facial expressions change according to the environment and challenges, showing determination or cautiousness.\n\n2. **Seraphine** - Antagonist\n   - **Appearance:** Seraphine is a spirit formed from dark vapors and densely shadowed mist with a vaguely humanoid silhouette. Her eyes glow a piercing red, and her form occasionally flickers with dark tendrils, giving her an ethereal yet threatening demeanor.\n   - **Animative features:** She should appear to continuously morph slightly, never fully settling into a completely fixed form, enhancing her spectral nature. Light flickers around her, suggesting her influence over darkness.\n\n3. **Arthos** - Sage NPC\n   - **Appearance:** Arthos is an aged sage with long, wispy white hair and a full beard. He wears a deep blue robe adorned with silver runes that hint at his mystical knowledge. His eyes twinkle with a mix of mystery and wisdom.\n   - **Animative features:** His sprite should show occasional sparkles around his hands when discussing or performing magic. Movements are slow and deliberate, indicative of his age and calm demeanor.\n\n4. **Skythorn Hawk** - Creature NPC\n   - **Appearance:** The Skythorn Hawk is imposing with a large wingspan, and feathers that shimmer between silver and sky-blue. Its eyes are sharp and observant, and talons are intimidatingly strong and sharp.\n   - **Animative features:** Animation for beating wings should show powerful gusts, capable of stirring up the leaves on the forest floor. When perched, its head can turn 180 degrees, scouting its surroundings.\n\n5. **Ivy** - Minor Spirit NPC\n   - **Appearance:** Ivy appears as a young, sprite-like figure made of green, glowing light, with features subtly outlined by darker green hues. She is ethereal, with a slight transparency, and her hair seems to float as if underwater, made up of fine vines and leaves.\n   - **Animative features:** As she moves, a trail of luminescent particles follows, and when she talks, small flowers bloom temporarily around her.\n\n6. **Mirror Lake Water** (Personified Element as NPC)\n   - **Appearance:** This spirit of the mirror lake manifests as a serene face on the surface of the water, with features that ripple and shift. The color palette is predominantly tranquil blues and whites, embodying purity and clarity.\n   - **Animative features:** The sprite should show constant, gentle motion inherent to water, with a soft glow that reflects (figuratively and literally) its revealing nature.\n\nEach character is designed to reflect their unique traits and roles within the story, while also ensuring that the visual design remains cohesive and evocative of the game's mystical forest environment. This diverse cast not only enriches the storyline but also the visual and interactive appeal of the game.",
+    "tile_mapping": {
+      "Grass": "a",
+      "Dirt Path": "b",
+      "Rocky Terrain": "c",
+      "Mossy Patches": "d",
+      "Mud": "e",
+      "Tree Base": "f",
+      "Tree Crown": "g",
+      "Bush": "h",
+      "Flower Patch": "i",
+      "Fallen Log": "j",
+      "Vine": "k",
+      "Weeping Oak": "l",
+      "Creek": "m",
+      "Mirror Lake": "n",
+      "Swamp": "o",
+      "Small Waterfall": "p",
+      "Spring": "q",
+      "Arthos\u2019s Cabin": "r",
+      "Ancient Beacon": "s",
+      "Wooden Bridge": "t",
+      "Stone Bridge": "u",
+      "Stone Ruin": "v",
+      "Campsite": "w",
+      "Trap": "x",
+      "Main Pathway": "y",
+      "Secret Path": "z",
+      "Stepping Stones": "A",
+      "Cliff Face": "B",
+      "Rocky Outcrop": "C",
+      "Hawksnest Ridge": "D",
+      "Collectible Item": "E",
+      "Interactive Plant": "F",
+      "Magic Hotspot": "G",
+      "Fog Overlay": "H",
+      "Shadow Overlay": "I",
+      "Light Beam": "J",
+      "Wind Effect": "K",
+      "NPC Frame": "L",
+      "Spirit Presence Area": "M",
+      "green-clad young ranger": "@",
+      "shadowy spectral figure": "#"
+    },
+    "goals": "The main goal of the protagonist, Elara, in the story, is to restore balance and life to Wakefield Woods by defeating the antagonist, Seraphine, and placing the mystical gem back into the heart of the Weeping Oak.\n\n**Small Goals to Achieve the Main Goal:**\n\n1. **Meet Arthos, the Sage**: \n   - **Objective**: Gain knowledge and tools necessary for the journey.\n   - **Reward**: Receives the enchanted compass; +50 points.\n   - **Penalty for failure**: Loses time, must find another source of guidance; -20 points.\n\n2. **Navigate the Whispering Thicket and Collect Moonflowers**:\n   - **Objective**: Reach the hidden grove and collect protective Moonflowers.\n   - **Reward**: Gains a protective shield ability for later challenges; +40 points.\n   - **Penalty for failure**: Increased difficulty in later stages due to lack of protection; -30 points.\n\n3. **Acquire Water from Mirror Lake**:\n   - **Objective**: Fill a vial with water from the Mirror Lake that reveals illusions.\n   - **Reward**: Gains ability to see through traps and illusions; +30 points.\n   - **Penalty for failure**: Higher chance of falling into traps later; -25 points.\n\n4. **Convince the Skythorn Hawk to Assist**:\n   - **Objective**: Earn the trust of the Skythorn Hawk to obtain a feather.\n   - **Reward**: Gains an aerial perspective for one critical challenge; +45 points.\n   - **Penalty for failure**: Lack of crucial aerial aid; -15 points.\n\n5. **Restore the Corrupted Spring**:\n   - **Objective**: Purify a corrupted spring to gain the favor of the forest spirits.\n   - **Reward**: Support from minor forest spirits, offering hidden paths and assistance; +35 points.\n   - **Penalty for failure**: Obstacles remain that slow progress; -10 points.\n\n6. **Light the Ancient Beacons of Guidance**:\n   - **Objective**: Find and light ancient beacons to weaken Seraphine\u2019s power.\n   - **Reward**: Decreases the antagonist's strength during the final battle; +60 points.\n   - **Penalty for failure**: Antagonist remains at full strength, increasing battle difficulty; -40 points.\n\n7. **Defeat Seraphine**:\n   - **Objective**: Use all acquired knowledge and tools to confront and defeat Seraphine.\n   - **Reward**: Major point gain and progression to final goal; +100 points.\n   - **Penalty for failure**: Must retry the battle, lost time and resources; -50 points.\n\n8. **Heal the Forest by Placing the Gem in the Weeping Oak**:\n   - **Objective**: Successfully place the gem back into the Weeping Oak to fully restore the forest.\n   - **Reward**: Completes game with maximum score bonus; +200 points.\n   - **Penalty for failure**: If not completed within a time frame, partial restoration only; -100 points.\n\nEach goal is designed to progressively aid the protagonist in overcoming the major challenge, which is defeating the antagonist and restoring the forest, emphasizing a blend of strategy and skill acquisition. The scoring system reflects the impact of each goal on the overall quest, adding a competitive layer for players.",
+    "objectives": {
+      "Meet Arthos, the Sage": [
+        "r",
+        16,
+        12
+      ],
+      "Navigate the Whispering Thicket and Collect Moonflowers": [
+        "i",
+        21,
+        14
+      ],
+      "Acquire Water from Mirror Lake": [
+        "n",
+        4,
+        21
+      ],
+      "Convince the Skythorn Hawk to Assist": [
+        "D",
+        8,
+        29
+      ],
+      "Restore the Corrupted Spring": [
+        "q",
+        8,
+        8
+      ],
+      "Light the Ancient Beacons of Guidance": [
+        "s",
+        18,
+        14
+      ],
+      "Defeat Seraphine": [
+        "#",
+        9,
+        29
+      ],
+      "Heal the Forest by Placing the Gem in the Weeping Oak": [
+        "l",
+        25,
+        14
+      ]
+    },
+    "important_tiles": "[\n    '@',   # Protagonist\n    '#',   # Antagonist\n    'r',   # Arthos\u2019s Cabin\n    'l',   # Weeping Oak\n    'n',   # Mirror Lake\n    'D',   # Hawksnest Ridge\n    'q',   # Spring\n    's',   # Ancient Beacon\n    'i',   # Flower Patch (for Moonflowers)\n    'm',   // Creek\n    'p',   // Small Waterfall\n    'b',   // Dirt Path (common travel paths)\n    'E',   // Collectible Item\n    'G',   // Magic Hotspot\n    'M'    // Spirit Presence Area\n]",
+    "walkable_tiles": "[\n    'a',  # Grass\n    'b',  # Dirt Path\n    'd',  # Mossy Patches\n    'h',  # Bush\n    'i',  # Flower Patch\n    'j',  # Fallen Log\n    'k',  # Vine\n    'm',  # Creek\n    'o',  # Swamp\n    't',  # Wooden Bridge\n    'u',  # Stone Bridge\n    'y',  # Main Pathway\n    'z',  # Secret Path\n    'A',  # Stepping Stones\n    'E',  # Collectible Item\n    'F',  # Interactive Plant\n    'M'   # Spirit Presence Area\n]",
+    "interactive_object_tiles": "['r', 'i', 'n', 'D', 'q', 's', 'E', 'F', 'G']",
+    "world_1st_layer": {
+      "world": "aaaaaaaaaaabbbbbbbbbbaaaaaaaaaaa\naaaaaaaabmmmmmmmmmbbaaaaaaaaaaa\naaaaaaabmmmmmmmmmmmmmbbaaaaaaaa\naaaabbbbbmmcccccmmmmmmmbbbbaaa\naaabmmmmmmmmcccccnnmmmmmmmmmba\naabmmmmmmmmmmcccccnnmmmmmmmmmb\nbbmmmmmmmmmmmmmmmmmmmmmmmmmmmmb\nbmmmmmmmmmmmmmmmmmmmmmmmmmmmmmb\nbmmmmmmqmmmmmmmmmmmmmmmmmmDDDDD\nbbmmmmmmmmmmmmmmmmmmmmmmmmDDDDD\naabmmmmmmmmmmmmmmmmmmmmmmmmbbbb\naaabmmmmmmmmmmmmmmmmmmmmmmmbaaa\naaaabddddmmmmmmmmmmmmmmbbaaaaaa\naaaaaaabbbbbbbmmmmmmmmmmbbaaaaa\naaaaaaaabbbbbbbbbbbbbbbbbaaaaaa\naaaaaaaaaaaarrrrrrrrrrraaaaaaaa\naaaaaaaabbbbbbbbbbbbbbbbbbbbbbb\nbbbbbbbbbbbbsdddddddddbbbbbbbbb\nbbaaaaaabbbbbbbbbbbbbbbbbbbbbbb\nymmmmmmbbbbbzbbbbbbbbbbooooooooy\nymmmmmmbbbbbzbbbbbbbbbbooooooooy\nyyaaamdibbbbbkbbbbbbbbbbooooooooy\nyyaaamdihjbbbdkppppppppboooooooy\nyydaaadhhjjbbdkppppppppbbbbbbboy\nyyddbbbfhijjbdkfllllllppppppboy\nyyffbbbfhijjbdkfllllllppppppboy\nyyyfffjijjjjjdkfllllllppppppboy\nyyyfffjijjjjjdkfllllllppppppboy\nyyyyfjijjjjjdkkllllllppooobbbbb\nyyyyjjjjjjjddkkkkllllllppoooobb",
+      "tiles": {
+        "Grass": "a",
+        "Dirt Path": "b",
+        "Rocky Terrain": "c",
+        "Mossy Patches": "d",
+        "Tree Base": "f",
+        "Bush": "h",
+        "Flower Patch": "i",
+        "Fallen Log": "j",
+        "Vine": "k",
+        "Weeping Oak": "l",
+        "Creek": "m",
+        "Mirror Lake": "n",
+        "Swamp": "o",
+        "Small Waterfall": "p",
+        "Spring": "q",
+        "Arthos\u2019s Cabin": "r",
+        "Ancient Beacon": "s",
+        "Main Pathway": "y",
+        "Secret Path": "z",
+        "Hawksnest Ridge": "D"
+      }
+    },
+    "world": "aaaaaaaaaaabbbbbbbbbbaaaaaaaaaaa\naaaaaaaabmmmmmmmmmbbaaaaaaaaaaa\naaaaaaabmmmmmmmmmmmmmbbaaaaaaaa\naaaabbbbbmmcccccmmmmmmmbbbbaaa\naaabmmmmmmmmcccccnnmmmmmmmmmba\naabmmmmmmmmmmcccccnnmmmmmmmmmb\nbbmmmmmmmmmmmmmmmmmmmmmmmmmmmmb\nbmmmmmmmmmmmmmmmmmmmmmmmmmmmmmb\nbmmmmmmqm@mmmmmmmmmmmmmmmDDDDD\nbbmmmmmmmmmmmmmmmmmmmmmmm#DDDDD\naabmmmmmmmmmmmmmEEmmmmmmmmbbbb\naaabmmmmmmmmmmmmmmmmmmmmmmmbaaa\naaaabddddmmmmmmmmmmmmmmbbaaaaaa\naaaaaaabbbbbbbmmmmmmmmmmbbaaaaa\naaaaaaaabbbbbbbbMbbbbbbbbaaaaaa\naaaaaaaaaaaarrrrrrrrrrraaaaaaaa\naaaaaaaabbbbbbbbbbbbbbbbbbbbbbb\nbbbbbbbbbbbbsGdddddddddbbbbbbbbb\nbbaaaaaabbbbbbbbbbbbbbbbbbbbbbb\nymmmmmmbbbbbbzbbbbbbbbbboooooooy\nymmmmmmbbbbbbzbbbbbbbbbboooooooy\nyyaaamdibbbbFMkbbbbbbbbbboooooooy\nyyaaamdihjbbbdkppppppppboooooooy\nyydaaadhhjjbbdkppppppppbbbbbbboy\nyyddbbbfhijjbdkfllllllppppppboy\nyyffbbbfhijjbdkfllllllppppppboy\nyyyfffjijjjjjdkfllllllppppppboy\nyyyfffjiiijjjdkfllllllppppppboy\nyyyyfjijjjjjdkkllllllppooobbbbb\nyyyyjjjjjjjddkkkkllllllppoooobb",
+    "evaluations": {
+      "agent_reward": -500,
+      "astar_path": 0
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 15,
+      "story_paragraphs": [
+        5,
+        6
+      ],
+      "total_objectives": 8
+    }
+  }
+}

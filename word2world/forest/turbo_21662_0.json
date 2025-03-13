@@ -1,0 +1,254 @@
+{
+  "round_0": {
+    "story": "In the dense, emerald canopies of Eldwood Forest, young Eli, a brave and curious woodsman, embarked on a quest bestowed upon him by the ethereal whispers of the forest itself. His mission was clear: to recover the eight mythical seeds scattered across the forest\u2019s many domains\u2014each seed holding the power to restore balance between growth and decay, a balance long disrupted by the malevolent Darkroot Witch who once called the forest home.\n\nEli's first objective led him to the Whispering Groves, where ancient trees supposedly spoke secrets to those who listened. Here he found the Seed of Echoes, buried beneath a speaking oak, guarded by puzzles of riddles. The groves were alive with the murmur of leaves, and the cryptic clues left by the trees were as challenging as any physical barrier.\n\nFrom there, Eli progressed to the Luminous Clearing, a radiant meadow where the sun kissed the earth more lovingly than anywhere else in the forest. It was here that the second seed, the Seed of Light, thrived, protected by a herd of luminescent deer, ethereal creatures that would only part with the seed after Eli proved his purity of heart through acts of kindness\u2014feeding the hungry younglings and nursing a wounded elder back to health.\n\nHowever, not all of the forest was friendly, especially as the Darkroot Witch caught wind of Eli\u2019s quest. An eerie chill settled over the lands as he approached the Shading Hollows, home to the Seed of Shadows. The somber environment, cloaked almost entirely from daylight, challenged Eli\u2019s courage deeply as ghostly whispers attempted to lead him astray. With a resolute heart, he managed to unearth the seed hidden beneath a twisted, sinister-looking tree, the branches clawing menacingly at the sky.\n\nIn the cascading Veil Falls, amidst thunderous waters and slippery stones, Eli retrieved the elusive Seed of Waters. His journey led him on increasingly perilous paths, yet he persevered, fueled by an inner fire to save the sanctity of his home. Meanwhile, the antagonist, Darkroot Witch, had been silently thwarting his progress, awakening old spirits and enhancing the natural perils of the forest.\n\nHis last and ultimate challenge awaited in the Forgotten Ruins, where both the final seed and the Darkroot Witch resided. The environment was a shadowy labyrinth of crumbling stone and thick vines, a testament to nature's unforgiving reclaim of manmade follies. A fierce confrontation ensued, where the clever use of all his previously acquired seeds destabilized the witch\u2019s dark magics. Eli\u2019s strategic battle, combining elements of all the seeds\u2014light, shadow, echoes, and more\u2014overpowered the witch, effectively severing her dark influence over the forest.\n\nAs peace settled over Eldwood Forest, the flora thrived like never before under Eli\u2019s nurturing hand, fulfilling his lifelong dream of coexistence. His success not only reinstated harmony to his beloved forest but also stood as a testament to the enduring spirit of nature and the heart of one determined woodsman.",
+    "character_information": "**Eli, the Brave Woodsman:**\n- **Appearance**: Eli is a young, agile woodsman, portrayed with medium-length brown hair and a friendly expression. He wears a simple green tunic, belted at the waist, with dark brown trousers and sturdy leather boots suitable for forest treks. His outfit includes a small, weathered backpack for carrying seeds and other essentials.\n- **Accessories**: Eli carries a wooden staff that doubles as a walking aid and a tool for solving physical challenges throughout his adventures. Occasionally, he wears a cape that signifies his connection to the forest spirits.\n- **Animation suggestions**: Walking (with and without his staff), running, jumping, interacting (e.g., picking up items, pushing objects), and using various seeds with magical effects.\n\n**Darkroot Witch:**\n- **Appearance**: The witch has long, tangled dark hair, and her skin is pale with an almost ethereal glow. Her eyes are bright green, emitting a subtle, eerie light. She wears tattered robes that blend dark purples and blacks, resembling the underbrush of a dense, dark forest.\n- **Accessories**: She carries a twisted staff topped with a crystal that emanates a dark aura. Her robe is adorned with forest motifs and ancient runes that glow occasionally to signify her casting spells.\n- **Animation suggestions**: Hovering slightly above the ground, casting spells (visual effects for different spells), reacting to being hit by Eli's countermeasures, and a dramatic defeat sequence.\n\n**Luminescent Deer (NPC):**\n- **Appearance**: These deer exude a gentle, glowing light, with coats ranging from light blue to soft white. Their antlers are grand and also emit a soft radiance, adding to their ethereal appearance. Their eyes are large and expressive, providing a sense of wisdom and peacefulness.\n- **Animation suggestions**: Grazing, looking around alertly, gentle walking, running away, and interacting with Eli (e.g., receiving food, being healed).\n\n**Ancient Trees in the Whispering Groves (NPC):**\n- **Appearance**: The trees are towering and majestic, with bark that seems to shimmer slightly as if whispering age-old secrets. Their leaves are a vibrant green, and some trees have faces formed in the bark, giving them unique expressions and personalities.\n- **Animation suggestions**: Subtle movements of the branches as if gesturing while talking, leaves rustling, and occasionally, a glow pulsates from within the trunk as if communicating a secret.\n\n**Ghostly Shadows in the Shading Hollows (NPC):**\n- **Appearance**: These shadows are formless and shifting, appearing as wisps of dark smoke with fleeting humanoid forms. Their movements are fluid and unpredictable, enhancing their spooky nature.\n- **Animation suggestions**: Floating or drifting across the ground, expanding and contracting, sudden lunges or retreats, and dissolving into thin air.\n\nEach character's design should be vivid and memorable, clearly reflecting their unique traits and the enchanting yet perilous world of Eldwood Forest. These detailed descriptions will assist artists and animators in creating sprites that bring the characters and the game environment to life.",
+    "tile_mapping": {
+      "Grass Tile": "A",
+      "Dirt Path Tile": "B",
+      "Mud Tile": "C",
+      "Stone Path Tile": "D",
+      "Tree Tile": "E",
+      "Bush Tile": "F",
+      "Flower Tile": "G",
+      "Fallen Log Tile": "H",
+      "Rock Tile": "I",
+      "Water Tile": "J",
+      "Bridge Tile": "K",
+      "Speaking Tree Tile": "L",
+      "Glowing Mushroom Tile": "M",
+      "Bright Grass Tile": "N",
+      "Luminous Flower Tile": "O",
+      "Crystal Pond Tile": "P",
+      "Dark Moss Tile": "Q",
+      "Shadow Mist Tile": "R",
+      "Sinister Tree Tile": "S",
+      "Waterfall Tile": "T",
+      "Wet Stone Tile": "U",
+      "Misty Air Tile": "V",
+      "Ancient Stone Floor Tile": "W",
+      "Vine Overgrowth Tile": "X",
+      "Rubble Tile": "Y",
+      "Stone Wall Tile": "Z",
+      "Campfire Tile": "a",
+      "Item Chest Tile": "b",
+      "Trap Tile": "c",
+      "Magic Portal Tile": "d",
+      "Switch/Pressure Plate Tile": "e",
+      "Rain Tile": "f",
+      "Fog Tile": "g",
+      "Wind Effect Tile": "h",
+      "Day-Night Cycle Tiles": "i",
+      "Protagonist (Eli)": "@",
+      "Antagonist (Darkroot Witch)": "#",
+      "curious young woodsman": "@",
+      "malevolent dark-clad witch": "#"
+    },
+    "goals": "The main goal for the protagonist, Eli, is to restore balance to Eldwood Forest by recovering and planting the eight mythical seeds that control the natural elements and forces within the forest. This overarching quest is vital to thwart the plans of the Darkroot Witch, who seeks to harness these powers for her own dark purposes.\n\n### Small Goals for Protagonist:\n1. **Recover the Seed of Echoes from the Whispering Groves.**\n   - **Reward**: Gains the ability to understand and communicate with all forest creatures (+10 points).\n   - **Penalty**: If failed, increased difficulty in navigating the forest as paths will branch confusingly (-5 points).\n\n2. **Acquire the Seed of Light from the Luminous Clearing.**\n   - **Reward**: Can illuminate dark areas of the forest, revealing hidden paths and items (+10 points).\n   - **Penalty**: Without this seed, darker areas remain inaccessible, limiting exploration (-5 points).\n\n3. **Retrieve the Seed of Shadows from the Shading Hollows.**\n   - **Reward**: Mastery over shadows, allowing temporary invisibility from enemies (+15 points).\n   - **Penalty**: If not acquired, certain nocturnal predators become more aggressive (-10 points).\n\n4. **Collect the Seed of Waters from Veil Falls.**\n   - **Reward**: Ability to manipulate water levels, allowing access to previously unreachable areas (+20 points).\n   - **Penalty**: Certain areas remain flooded and inaccessible, blocking progress (-10 points).\n\n5. **Find and secure the Seed of Earth in the Deep Burrow Caverns.**\n   - **Reward**: Can cause tremors to open new paths or disable traps (+20 points).\n   - **Penalty**: Increased chance of encountering traps and cave-ins (-15 points).\n\n6. **Harvest the Seed of Air from the Cloudtop Peaks.**\n   - **Reward**: Gains the ability to jump higher and control wind currents (+15 points).\n   - **Penalty**: Without this seed, some aerial paths and platforms remain unreachable (-10 points).\n\n7. **Gather the Seed of Fire from the Ember Grove.**\n   - **Reward**: Can light torches and control fire-based obstacles (+10 points).\n   - **Penalty**: Certain cold areas grow excessively frigid, slowing movement and increasing vulnerability to cold-based attacks (-5 points).\n\n8. **Claim the Seed of Life from the Heartwood Sanctuary.**\n   - **Reward**: Ability to heal himself and the forest, restoring dead zones to life (+25 points).\n   - **Penalty**: Without this seed, continuously lose health as the forest decay affects Eli (-20 points).\n\n### Final Goal:\n9. **Defeat the Darkroot Witch using the power of the seeds in the Forgotten Ruins.**\n   - **Reward**: Restores full balance to the forest, heals all corrupted areas, and ensures peace, culminating in the ultimate victory celebration and endgame bonuses (+50 points).\n   - **Penalty**: If defeated by the Darkroot Witch, the game ends and must be restarted from the last checkpoint (-30 points).\n\nThese structured goals, rewards, and penalties provide a progressive challenge, motivating players to strategize effectively to overcome the diverse challenges posed by the narrative and the environment of Eldwood Forest.",
+    "objectives": {
+      "Recover the Seed of Echoes from the Whispering Groves": [
+        "L",
+        1,
+        4
+      ],
+      "Acquire the Seed of Light from the Luminous Clearing": [
+        "O",
+        1,
+        9
+      ],
+      "Retrieve the Seed of Shadows from the Shading Hollows": [
+        "R",
+        5,
+        6
+      ],
+      "Collect the Seed of Waters from Veil Falls": [
+        "T",
+        4,
+        15
+      ],
+      "Defeat the Darkroot Witch using the power of the seeds in the Forgotten Ruins": [
+        "#",
+        12,
+        19
+      ]
+    },
+    "important_tiles": "['@', '#', 'L', 'O', 'R', 'T', 'W', 'b', 'c', 'd', 'e', 'K', 'P', 'J', 'M']",
+    "walkable_tiles": "['A', 'B', 'D', 'F', 'G', 'H', 'K', 'M', 'N', 'O', 'P', 'T', 'U', 'V', 'a', 'b', 'd', 'e', 'h', 'i']",
+    "interactive_object_tiles": "[\n    'L',  # Speaking Tree Tile\n    'M',  # Glowing Mushroom Tile\n    'O',  # Luminous Flower Tile\n    'P',  # Crystal Pond Tile\n    'a',  # Campfire Tile\n    'b',  # Item Chest Tile\n    'c',  # Trap Tile\n    'd',  # Magic Portal Tile\n    'e'   # Switch/Pressure Plate Tile\n]",
+    "world_1st_layer": {
+      "world": "AAAABBBBAAAADDDAAAAA\nAAAALNNNOOOOPPDDDAAA\nABBBDDDOOOOOOOPPPDDA\nABBBDDDPPPPPPPTTTTDA\nCDDDRRRRRSSSTTTTUUUA\nCDDDRRRRRSSSTTTTUUUA\nCDDDRKJKJKJTTTUUUUAJ\nACCDAAADDDTUUUUVVVJA\nAACCCAADDTUUUUVVVVJA\nAAACCAAADUUUVVVVVIJA\nAAAACCAADDUVVVVVVIJA\nAAAAAAAAAXXXXXXXXZA\nAAAABBBBBBBYYYYXXXZA",
+      "tiles": {
+        "Grass Tile": "A",
+        "Dirt Path Tile": "B",
+        "Mud Tile": "C",
+        "Stone Path Tile": "D",
+        "Rock Tile": "I",
+        "Water Tile": "J",
+        "Bridge Tile": "K",
+        "Speaking Tree Tile": "L",
+        "Bright Grass Tile": "N",
+        "Luminous Flower Tile": "O",
+        "Crystal Pond Tile": "P",
+        "Shadow Mist Tile": "R",
+        "Sinister Tree Tile": "S",
+        "Waterfall Tile": "T",
+        "Wet Stone Tile": "U",
+        "Misty Air Tile": "V",
+        "Vine Overgrowth Tile": "X",
+        "Rubble Tile": "Y",
+        "Stone Wall Tile": "Z"
+      }
+    },
+    "world": "AAAABBBBAAAADDDAAAAA\nAAAALNNNOOOOPPDDDAAA\nABBBDDDOOOOOOOPPPDDA\nABBBDDDPPPPPPPTTTTDA\nCDDDRRRRRSSSTTTTUUUA\nCDDDRRRRRSSSTTTTUUUA\nCDDDRKJKJKJTTTUUUUAJ\nACCDAAADDDTUUUUVVVJA\nAACCCAADDTUUUUVVVVJA\nAAACCAAADUUUVVVVVIJA\nAAAACCAADDUVVVVVVIJA\nAAAA@AAXXXXXXXXZA\nAAAABBBBBBBYYYYXXX#A",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 100.0,
+      "Accuracy_of_important_tiles_placed": 60.0,
+      "Average_euclidean_distance": 0,
+      "agent_reward": -400,
+      "astar_path": 26
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 15,
+      "story_paragraphs": [
+        5,
+        6
+      ],
+      "total_objectives": 8
+    }
+  },
+  "round_1": {
+    "story": "In the dense, emerald canopies of Eldwood Forest, young Eli, a brave and curious woodsman, embarked on a quest bestowed upon him by the ethereal whispers of the forest itself. His mission was clear: to recover the eight mythical seeds scattered across the forest\u2019s many domains\u2014each seed holding the power to restore balance between growth and decay, a balance long disrupted by the malevolent Darkroot Witch who once called the forest home.\n\nEli's first objective led him to the Whispering Groves, where ancient trees supposedly spoke secrets to those who listened. Here he found the Seed of Echoes, buried beneath a speaking oak, guarded by puzzles of riddles. The groves were alive with the murmur of leaves, and the cryptic clues left by the trees were as challenging as any physical barrier.\n\nFrom there, Eli progressed to the Luminous Clearing, a radiant meadow where the sun kissed the earth more lovingly than anywhere else in the forest. It was here that the second seed, the Seed of Light, thrived, protected by a herd of luminescent deer, ethereal creatures that would only part with the seed after Eli proved his purity of heart through acts of kindness\u2014feeding the hungry younglings and nursing a wounded elder back to health.\n\nHowever, not all of the forest was friendly, especially as the Darkroot Witch caught wind of Eli\u2019s quest. An eerie chill settled over the lands as he approached the Shading Hollows, home to the Seed of Shadows. The somber environment, cloaked almost entirely from daylight, challenged Eli\u2019s courage deeply as ghostly whispers attempted to lead him astray. With a resolute heart, he managed to unearth the seed hidden beneath a twisted, sinister-looking tree, the branches clawing menacingly at the sky.\n\nIn the cascading Veil Falls, amidst thunderous waters and slippery stones, Eli retrieved the elusive Seed of Waters. His journey led him on increasingly perilous paths, yet he persevered, fueled by an inner fire to save the sanctity of his home. Meanwhile, the antagonist, Darkroot Witch, had been silently thwarting his progress, awakening old spirits and enhancing the natural perils of the forest.\n\nHis last and ultimate challenge awaited in the Forgotten Ruins, where both the final seed and the Darkroot Witch resided. The environment was a shadowy labyrinth of crumbling stone and thick vines, a testament to nature's unforgiving reclaim of manmade follies. A fierce confrontation ensued, where the clever use of all his previously acquired seeds destabilized the witch\u2019s dark magics. Eli\u2019s strategic battle, combining elements of all the seeds\u2014light, shadow, echoes, and more\u2014overpowered the witch, effectively severing her dark influence over the forest.\n\nAs peace settled over Eldwood Forest, the flora thrived like never before under Eli\u2019s nurturing hand, fulfilling his lifelong dream of coexistence. His success not only reinstated harmony to his beloved forest but also stood as a testament to the enduring spirit of nature and the heart of one determined woodsman.",
+    "character_information": "**Eli, the Brave Woodsman:**\n- **Appearance**: Eli is a young, agile woodsman, portrayed with medium-length brown hair and a friendly expression. He wears a simple green tunic, belted at the waist, with dark brown trousers and sturdy leather boots suitable for forest treks. His outfit includes a small, weathered backpack for carrying seeds and other essentials.\n- **Accessories**: Eli carries a wooden staff that doubles as a walking aid and a tool for solving physical challenges throughout his adventures. Occasionally, he wears a cape that signifies his connection to the forest spirits.\n- **Animation suggestions**: Walking (with and without his staff), running, jumping, interacting (e.g., picking up items, pushing objects), and using various seeds with magical effects.\n\n**Darkroot Witch:**\n- **Appearance**: The witch has long, tangled dark hair, and her skin is pale with an almost ethereal glow. Her eyes are bright green, emitting a subtle, eerie light. She wears tattered robes that blend dark purples and blacks, resembling the underbrush of a dense, dark forest.\n- **Accessories**: She carries a twisted staff topped with a crystal that emanates a dark aura. Her robe is adorned with forest motifs and ancient runes that glow occasionally to signify her casting spells.\n- **Animation suggestions**: Hovering slightly above the ground, casting spells (visual effects for different spells), reacting to being hit by Eli's countermeasures, and a dramatic defeat sequence.\n\n**Luminescent Deer (NPC):**\n- **Appearance**: These deer exude a gentle, glowing light, with coats ranging from light blue to soft white. Their antlers are grand and also emit a soft radiance, adding to their ethereal appearance. Their eyes are large and expressive, providing a sense of wisdom and peacefulness.\n- **Animation suggestions**: Grazing, looking around alertly, gentle walking, running away, and interacting with Eli (e.g., receiving food, being healed).\n\n**Ancient Trees in the Whispering Groves (NPC):**\n- **Appearance**: The trees are towering and majestic, with bark that seems to shimmer slightly as if whispering age-old secrets. Their leaves are a vibrant green, and some trees have faces formed in the bark, giving them unique expressions and personalities.\n- **Animation suggestions**: Subtle movements of the branches as if gesturing while talking, leaves rustling, and occasionally, a glow pulsates from within the trunk as if communicating a secret.\n\n**Ghostly Shadows in the Shading Hollows (NPC):**\n- **Appearance**: These shadows are formless and shifting, appearing as wisps of dark smoke with fleeting humanoid forms. Their movements are fluid and unpredictable, enhancing their spooky nature.\n- **Animation suggestions**: Floating or drifting across the ground, expanding and contracting, sudden lunges or retreats, and dissolving into thin air.\n\nEach character's design should be vivid and memorable, clearly reflecting their unique traits and the enchanting yet perilous world of Eldwood Forest. These detailed descriptions will assist artists and animators in creating sprites that bring the characters and the game environment to life.",
+    "tile_mapping": {
+      "Grass Tile": "A",
+      "Dirt Path Tile": "B",
+      "Mud Tile": "C",
+      "Stone Path Tile": "D",
+      "Tree Tile": "E",
+      "Bush Tile": "F",
+      "Flower Tile": "G",
+      "Fallen Log Tile": "H",
+      "Rock Tile": "I",
+      "Water Tile": "J",
+      "Bridge Tile": "K",
+      "Speaking Tree Tile": "L",
+      "Glowing Mushroom Tile": "M",
+      "Bright Grass Tile": "N",
+      "Luminous Flower Tile": "O",
+      "Crystal Pond Tile": "P",
+      "Dark Moss Tile": "Q",
+      "Shadow Mist Tile": "R",
+      "Sinister Tree Tile": "S",
+      "Waterfall Tile": "T",
+      "Wet Stone Tile": "U",
+      "Misty Air Tile": "V",
+      "Ancient Stone Floor Tile": "W",
+      "Vine Overgrowth Tile": "X",
+      "Rubble Tile": "Y",
+      "Stone Wall Tile": "Z",
+      "Campfire Tile": "a",
+      "Item Chest Tile": "b",
+      "Trap Tile": "c",
+      "Magic Portal Tile": "d",
+      "Switch/Pressure Plate Tile": "e",
+      "Rain Tile": "f",
+      "Fog Tile": "g",
+      "Wind Effect Tile": "h",
+      "Day-Night Cycle Tiles": "i",
+      "Protagonist (Eli)": "@",
+      "Antagonist (Darkroot Witch)": "#",
+      "curious young woodsman": "@",
+      "malevolent dark-clad witch": "#"
+    },
+    "goals": "The main goal for the protagonist, Eli, is to restore balance to Eldwood Forest by recovering and planting the eight mythical seeds that control the natural elements and forces within the forest. This overarching quest is vital to thwart the plans of the Darkroot Witch, who seeks to harness these powers for her own dark purposes.\n\n### Small Goals for Protagonist:\n1. **Recover the Seed of Echoes from the Whispering Groves.**\n   - **Reward**: Gains the ability to understand and communicate with all forest creatures (+10 points).\n   - **Penalty**: If failed, increased difficulty in navigating the forest as paths will branch confusingly (-5 points).\n\n2. **Acquire the Seed of Light from the Luminous Clearing.**\n   - **Reward**: Can illuminate dark areas of the forest, revealing hidden paths and items (+10 points).\n   - **Penalty**: Without this seed, darker areas remain inaccessible, limiting exploration (-5 points).\n\n3. **Retrieve the Seed of Shadows from the Shading Hollows.**\n   - **Reward**: Mastery over shadows, allowing temporary invisibility from enemies (+15 points).\n   - **Penalty**: If not acquired, certain nocturnal predators become more aggressive (-10 points).\n\n4. **Collect the Seed of Waters from Veil Falls.**\n   - **Reward**: Ability to manipulate water levels, allowing access to previously unreachable areas (+20 points).\n   - **Penalty**: Certain areas remain flooded and inaccessible, blocking progress (-10 points).\n\n5. **Find and secure the Seed of Earth in the Deep Burrow Caverns.**\n   - **Reward**: Can cause tremors to open new paths or disable traps (+20 points).\n   - **Penalty**: Increased chance of encountering traps and cave-ins (-15 points).\n\n6. **Harvest the Seed of Air from the Cloudtop Peaks.**\n   - **Reward**: Gains the ability to jump higher and control wind currents (+15 points).\n   - **Penalty**: Without this seed, some aerial paths and platforms remain unreachable (-10 points).\n\n7. **Gather the Seed of Fire from the Ember Grove.**\n   - **Reward**: Can light torches and control fire-based obstacles (+10 points).\n   - **Penalty**: Certain cold areas grow excessively frigid, slowing movement and increasing vulnerability to cold-based attacks (-5 points).\n\n8. **Claim the Seed of Life from the Heartwood Sanctuary.**\n   - **Reward**: Ability to heal himself and the forest, restoring dead zones to life (+25 points).\n   - **Penalty**: Without this seed, continuously lose health as the forest decay affects Eli (-20 points).\n\n### Final Goal:\n9. **Defeat the Darkroot Witch using the power of the seeds in the Forgotten Ruins.**\n   - **Reward**: Restores full balance to the forest, heals all corrupted areas, and ensures peace, culminating in the ultimate victory celebration and endgame bonuses (+50 points).\n   - **Penalty**: If defeated by the Darkroot Witch, the game ends and must be restarted from the last checkpoint (-30 points).\n\nThese structured goals, rewards, and penalties provide a progressive challenge, motivating players to strategize effectively to overcome the diverse challenges posed by the narrative and the environment of Eldwood Forest.",
+    "objectives": {
+      "Recover the Seed of Echoes from the Whispering Groves": [
+        "L",
+        3,
+        4
+      ],
+      "Acquire the Seed of Light from the Luminous Clearing": [
+        "O",
+        3,
+        7
+      ],
+      "Retrieve the Seed of Shadows from the Shading Hollows": [
+        "R",
+        8,
+        15
+      ],
+      "Collect the Seed of Waters from Veil Falls": [
+        "T",
+        4,
+        18
+      ],
+      "Find and secure the Seed of Earth in the Deep Burrow Caverns": [
+        "W",
+        10,
+        16
+      ],
+      "Harvest the Seed of Air from the Cloudtop Peaks": [
+        "P",
+        6,
+        6
+      ],
+      "Gather the Seed of Fire from the Ember Grove": [
+        "M",
+        1,
+        8
+      ],
+      "Claim the Seed of Life from the Heartwood Sanctuary": [
+        "W",
+        10,
+        12
+      ],
+      "Defeat the Darkroot Witch using the power of the seeds in the Forgotten Ruins": [
+        "#",
+        1,
+        6
+      ]
+    },
+    "important_tiles": "['@', '#', 'L', 'O', 'R', 'T', 'W', 'b', 'c', 'd', 'e', 'K', 'P', 'J', 'M']",
+    "walkable_tiles": "['A', 'B', 'D', 'F', 'G', 'H', 'K', 'M', 'N', 'O', 'P', 'T', 'U', 'V', 'a', 'b', 'd', 'e', 'h', 'i']",
+    "interactive_object_tiles": "[\n    'L',  # Speaking Tree Tile\n    'M',  # Glowing Mushroom Tile\n    'O',  # Luminous Flower Tile\n    'P',  # Crystal Pond Tile\n    'a',  # Campfire Tile\n    'b',  # Item Chest Tile\n    'c',  # Trap Tile\n    'd',  # Magic Portal Tile\n    'e'   # Switch/Pressure Plate Tile\n]",
+    "world_1st_layer": {
+      "world": "AAAAAAAAAAAAAAAADDDDDDDDDD\nABBBBBBMMMNNNNDDDKVVVVDDDD\nABMMBBLMMMNNNDDDKKVVVUDDDD\nABBBLLOOOOPPPWWDKKKVVUDDDD\nABLLLLOOOOWWPPPPTTTTVVUDDD\nABCBBLOPPPPWWWPTTTTWWUVVVJ\nABCBBLPPPWWWPTTTTWTTTWUVVJ\nCBCCBBPPWWWKKTTTTTTTWUVVVJ\nCBCCBBPPWWKKKKTTTTTWUUUVJJ\nCCCBBBPPWKKKKKKTTTWWWWUUVJ\nCCCBPPPPWWKAAKWWUUWWWWUVVJ\nCBPPPWWWWWWWWAWUUUUUUVVVJJ\nBPPWWPPPPPPPPPDDUUUVVVVVJJ",
+      "tiles": {
+        "Grass Tile": "A",
+        "Dirt Path Tile": "B",
+        "Mud Tile": "C",
+        "Stone Path Tile": "D",
+        "Water Tile": "J",
+        "Bridge Tile": "K",
+        "Speaking Tree Tile": "L",
+        "Glowing Mushroom Tile": "M",
+        "Bright Grass Tile": "N",
+        "Luminous Flower Tile": "O",
+        "Crystal Pond Tile": "P",
+        "Waterfall Tile": "T",
+        "Wet Stone Tile": "U",
+        "Misty Air Tile": "V",
+        "Ancient Stone Floor Tile": "W"
+      }
+    },
+    "world": "AAAAAAAAAAAAAAAADDDDDDDDDD\nABBBBBBMMMNNNNDDDKVVVVDDDD\nABMMB#LMMMNNNDDDKKVVVUDDDD\nABBBLLOOOOPPPWWDKKKVVUDDDD\nABLL@LOOOOWWPPPPTTTTVVUDDD\nABCBBLOPPPPWWWPTTTTWWUVVVJ\nABCBBLPPPWWWPTTTTWTTTWUVVJ\nCBCCBBPPWWWKKTTTTTTTWUVVVJ\nCBCCBBPPWWKKKKTTTTTWUUUVJJ\nCCCBBBPPWKKKKKKTTTWWWWUUVJ\nCCCBPPPPWWKAAKWWUUWWWWUVVJ\nCBPPPWWWWWWWWAWUUUUUUVVVJJ\nBPPWWPPPPPPPPPDDUUbdVVVVJJ",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 100.0,
+      "Accuracy_of_important_tiles_placed": 80.0,
+      "Average_euclidean_distance": 357.6856161491541,
+      "agent_reward": 450,
+      "astar_path": 7
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 16,
+      "story_paragraphs": [
+        5,
+        6
+      ],
+      "total_objectives": 9
+    }
+  }
+}

@@ -1,3 +1,4 @@
+import numpy as np
 from PIL import Image
 import pygame
 import sys
@@ -34,7 +35,8 @@ if args.game_path:
     with open(args.game_path, 'r') as file:
         data = json.load(file)
 else:
-    game = "example_1"
+    game = "example_20"
+    #game='data_gen_Your_word2world_4'
     game_dir = os.path.join(f"word2world", "examples")
 
     with open(f'{game_dir}/{game}.json', 'r') as file:
@@ -47,24 +49,62 @@ round_number = "round_0"
 character_descriptions_dict = {}
 gen_story = data[round_number]["story"]
 grid_str = data[round_number]["world"]
+print(grid_str)
 grid_str = pad_rows_to_max_length(grid_str)
+print('---')
+print(grid_str)
 grid_world = map_to_list(grid_str)
 
 char_tile_mapping = data[round_number]["tile_mapping"]
 
 walkables = data[round_number]["walkable_tiles"]
+
+print(walkables)
+print('---')
+
+# print('buildings')
+# buildings = data[round_number]["building_tiles"]
+# print(buildings)
+# print('---')
+
 important_tiles = data[round_number]["important_tiles"]
+print('important')
+print(important_tiles)
+
 interactive_object_tiles = data[round_number]["interactive_object_tiles"]
 goals = data[round_number]["goals"]
+
+print('object_tiles')
+print(interactive_object_tiles)
+print('---')
+
 
 world_1st_layer = data[round_number]["world_1st_layer"]["world"]
 world_1st_layer = pad_rows_to_max_length(world_1st_layer)
 grid_1st_layer = map_to_list(world_1st_layer)
 
+check=np.zeros((len(grid_1st_layer), len(grid_1st_layer[0])))
+for i in range(len(grid_1st_layer)):
+    for j in range(len(grid_1st_layer[0])):
+        if f'''{grid_world[i][j]}''' not in walkables or f'''{grid_world[i][j]}''' in interactive_object_tiles:
+            for m in [-1,0,1]:
+                for n in [-1,0,1]:
+                    try:
+                        check[i+m][j+n]=1
+                    except:
+                        pass
+
 tiles_1st_layer = data[round_number]["world_1st_layer"]["tiles"]
+print('---')
+print(tiles_1st_layer)
+print('---')
+print(walkables)
 
 tileset, _s = find_most_similar_images(char_tile_mapping, cfg.tile_data_dir)
-
+# for key in tileset.keys():
+#     if f'''{key}''' in buildings:
+#         image_path = f"word2world/data/house.png"
+#         tileset[key] = Image.open(image_path).convert("RGBA")
 
 WIDTH = CAMERA_WIDTH * TILE_SIZE
 HEIGHT = (CAMERA_HEIGHT + INFO_PANEL_HEIGHT) * TILE_SIZE
@@ -77,6 +117,7 @@ character_chars = find_characters(grid_str)
 # Player setup
 player_pos = [character_chars['@'][0], character_chars['@'][1]]  # Starting position of the player
 player_size = TILE_SIZE
+print('player: ',player_pos)
 
 camera_pos = [max(0, player_pos[0] - CAMERA_WIDTH // 2), max(0, player_pos[1] - CAMERA_HEIGHT // 2)]
 
@@ -88,6 +129,8 @@ enemy_direction = 1  # Enemy direction: 1 for right, -1 for left
 enemy_bullets = []  # List to store enemy bullets
 player_bullets = []  # List to store player bullets
 
+print('enemy: ',enemy_pos)
+
 def pil_to_pygame(pil_image):
     """Convert a PIL image to a Pygame surface."""
     mode = pil_image.mode
@@ -98,12 +141,13 @@ def pil_to_pygame(pil_image):
 tile_counts = {}
 for row in world_1st_layer:
     for tile in row:
-        if tile in walkables:
+        if f'''{tile}''' in walkables :
             if tile not in tile_counts:
                 tile_counts[tile] = 1
             else:
                 tile_counts[tile] += 1
 default_walkable_tile = max(tile_counts, key=tile_counts.get)
+print(default_walkable_tile)
 
 def draw_map():
     for y in range(CAMERA_HEIGHT):
@@ -183,7 +227,6 @@ def draw_player():
 
 def draw_enemy():
     screen.blit(enemy_image_surface, ((enemy_pos[0] - camera_pos[0]) * TILE_SIZE, (enemy_pos[1] - camera_pos[1]) * TILE_SIZE))
-
 def draw_bullets():
     for bullet in enemy_bullets:
         pygame.draw.circle(screen, (255, 255, 255), ((bullet[0] - camera_pos[0]) * TILE_SIZE + TILE_SIZE // 2, (bullet[1] - camera_pos[1]) * TILE_SIZE + TILE_SIZE // 2), 3)
@@ -215,7 +258,7 @@ def move_player(dx, dy):
         return False  # Don't move if out of bounds
 
     # Check for collisions
-    if grid_world[new_y][new_x] not in walkables:
+    if f'''{grid_world[new_y][new_x]}''' not in walkables:
         return False  # Can't move into walls
 
     player_pos[0] = new_x
@@ -255,7 +298,7 @@ def move_enemy():
         return
 
     # Check if the new position is out of bounds or collides with a wall
-    if new_x < 0 or new_x >= len(grid_world[0]) or grid_world[enemy_pos[1]][new_x] not in walkables:
+    if new_x < 0 or new_x >= len(grid_world[0]) or f'''{grid_world[enemy_pos[1]][new_x]}''' not in walkables:
         enemy_direction *= -1  # Change direction if it hits a boundary or a non-walkable tile
     else:
         enemy_pos[0] = new_x  # Update the enemy's position if it's a valid move
@@ -294,21 +337,21 @@ def move_bullets():
     for bullet in enemy_bullets[:]:
         bullet[0] += bullet[2]
         bullet[1] += bullet[3]
-        if bullet[0] == player_pos[0] and bullet[1] == player_pos[1]:
-            print("Player hit!")
-            running = False  # End the game if the player is hit
+        # if bullet[0] == player_pos[0] and bullet[1] == player_pos[1]:
+        #     print("Player hit!")
+        #     running = False  # End the game if the player is hit
 
-        if bullet[0] < 0 or bullet[0] >= len(grid_world[0]) or bullet[1] < 0 or bullet[1] >= len(grid_world) or grid_world[bullet[1]][bullet[0]] not in walkables:
+        if bullet[0] < 0 or bullet[0] >= len(grid_world[0]) or bullet[1] < 0 or bullet[1] >= len(grid_world) or f'''{grid_world[bullet[1]][bullet[0]]}''' not in walkables:
             enemy_bullets.remove(bullet)
     for bullet in player_bullets[:]:
         bullet[0] += bullet[2]
         bullet[1] += bullet[3]
-        if bullet[0] == enemy_pos[0] and bullet[1] == enemy_pos[1]:
-            print("Enemy hit!")
-            enemy_pos[0], enemy_pos[1] = -1, -1  
-            player_bullets.remove(bullet)
-        if bullet[0] < 0 or bullet[0] >= len(grid_world[0]) or bullet[1] < 0 or bullet[1] >= len(grid_world) or grid_world[bullet[1]][bullet[0]] not in walkables:
-            player_bullets.remove(bullet)
+        # if bullet[0] == enemy_pos[0] and bullet[1] == enemy_pos[1]:
+        #     print("Enemy hit!")
+        #     enemy_pos[0], enemy_pos[1] = -1, -1
+        #     player_bullets.remove(bullet)
+        # if bullet[0] < 0 or bullet[0] >= len(grid_world[0]) or bullet[1] < 0 or bullet[1] >= len(grid_world) or f'''{grid_world[bullet[1]][bullet[0]]}''' not in walkables:
+        #     player_bullets.remove(bullet)
 
 def hit_enemy():
     

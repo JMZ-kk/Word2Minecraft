@@ -1,0 +1,263 @@
+{
+  "round_0": {
+    "story": "In the bustling, neon-soaked city of Neonopolis, where skyscrapers stretched like colossal specters against a digital sky, lived Adria, a gifted hacker with a singular mission. She needed to decode the Cipher\u2014a legendary digital construct said to contain the secrets to the city's omnipotent network systems. Within the urban labyrinth of glass and steel, Adria navigated from her compact, hardware-crammed apartment in the densely-populated Hacker\u2019s Haven sector to various strategic locations, each holding a piece of the elusive puzzle.\n\nAdria\u2019s first objective was to gather the encrypted files hidden within the desolate archives of the Old Net Sector, a place where disused data went to die, silenced and forgotten amidst cobwebs of obsolete tech. The second objective led her to the bustling tech market of Dyna district, where she had to convince Cal, a gadget dealer and an old ally, to provide her with a rare, prototype decryption device.\n\nAs Adria moved through these environments, meticulously piecing together the Cipher, her actions did not go unnoticed. Ivar, a corporate spy with slicked-back hair and eyes as cold as the cybernetic implants glistening on his temple, was employed by SynthoCorp. He was determined to ensure that the Cipher remained undeciphered to secure his company\u2019s control over the city. He traced Adria\u2019s movements, from the shadowy alleys of Hacker\u2019s Haven to the neon-bathed streets of Dyna district.\n\nBy the time Adria reached her third objective\u2014the secure servers housed in the towering Data Nexus Center\u2014she realized Ivar was manipulating environmental controls to thwart her. She battled through digital storms and artificial earthquakes, her resolve hardening. Her fourth objective arose naturally: to shield her progress by enlisting the help of Nox, a reclusive code sage, who resided in the green-lit underworld of the Terra sector, a place where nature and technology existed in a chaotic fusion.\n\nAdria's subsequent objectives became increasingly fraught with peril. She needed to infiltrate a high-security gala hosted by SynthoCorp (her fifth objective) to install a virus within their system\u2014the Veil, as Nox called it. Following the gala, she sought out the quantum processors at the Zenith Labs (her sixth objective), which could exponentially enhance her hacking capabilities. \n\nHer penultimate goal came in the form of rallying support amongst the independent hackers and data ghosts of Neonopolis, turning her solitary mission into a collective uprising against SynthoCorp\u2019s dominion. This paved her way to the eighth and final objective: confronting Ivar in the heart of SynthoCorp\u2019s digitally simulated fortress, a looming virtual reality realm crafted to demoralize intruders.\n\nThe climactic battle wasn\u2019t just through code and cyber warfare. It tested Adria\u2019s understanding of her allies and her resolve against a seemingly omnipotent antagonist. Ultimately, using every piece of information, every alliance she\u2019d formed, Adria outmaneuvered Ivar, disabling his cybernetic enhancements and leaving him powerless. As he was taken into custody by the city\u2019s cyber-legal authorities, Adria completed her mission by releasing the secrets within the Cipher to the public, ensuring the network\u2019s power was shared for the betterment of all in Neonopolis.\n\nThus, from the digitized ghettos to the corporate citadels, Adria\u2019s journey didn\u2019t just change her but reshaped the entire digital landscape of Neonopolis.",
+
+
+
+    "character_information": "To develop a compelling 2D game based on the story, detailed character descriptions are essential for creating visually distinct and engaging sprites. Here, I'll provide descriptions for the main characters, Adria and Ivar, as well as two secondary characters, Cal and Nox, which can be used as prompts for sprite creation.\n\n### 1. Adria (Protagonist)\n**Appearance:** Adria is a young, agile hacker with an edgy aesthetic. She has luminous blue hair cut into a sharp bob that shines under the neon city lights. Her eyes are covered by a pair of high-tech glasses that display a constant stream of data. Adria wears a sleek, form-fitting black jumpsuit with circuit patterns that glow faintly. Her gear includes a multipurpose hacking device worn on her wrist.\n\n**Sprite Details:**\n- Height: Medium, slim build.\n- Color Palette: Predominantly black and blue, with hints of white and gray.\n- Accessories: Cyber glasses, wrist hacking device, and a backpack with angular, tech-inspired designs.\n\n### 2. Ivar (Antagonist)\n**Appearance:** Ivar is a tall, imposing figure with a cold, corporate look. He has slicked-back silver hair and piercing green eyes which occasionally reflect his cybernetic implants. He dresses in a high-collared, dark gray suit that integrates subtle armor elements, giving him a fortified appearance. His movements are smooth and precise, suggesting enhanced physical capabilities.\n\n**Sprite Details:**\n- Height: Tall with a broad, muscular build.\n- Color Palette: Dark gray, silver, and green.\n- Accessories: Cybernetic enhancements visible on his temples and hands, exuding a subtle green glow.\n\n### 3. Cal (Ally)\n**Appearance:** Cal is a middle-aged gadget dealer with a rugged, charismatic persona. He has a scruffy beard and messy, short brown hair, reflecting his disregard for appearances. Cal wears a leather jacket over a worn-out t-shirt, cargo pants stuffed with various tools and gadgets, and heavy-duty boots.\n\n**Sprite Details:**\n- Height: Slightly above average, robust build.\n- Color Palette: Earth tones \u2014 browns, greens, and some patches of rust orange.\n- Accessories: Gadget belt, several pocketed cargo pants, and a pair of goggles hanging around his neck.\n\n### 4. Nox (Ally)\n**Appearance:** Nox, known for his reclusive lifestyle, appears ethereal and somewhat otherworldly. He has long, flowing white hair and pale skin, with tattoos resembling circuit diagrams running down his arms. His attire consists of a long, dark cloak over a lightweight, neutral-toned undergarment. His eyes are vividly bright, almost entirely glowing.\n\n**Sprite Details:**\n- Height: Medium, wiry build.\n- Color Palette: Whites and grays with hints of blue for the tattoos.\n- Accessories: Digital tattoos that illuminate in sync with his dialogue or emotions, a cloak with hidden pockets, and minimalist sandals.\n\nThese character designs should utilize diverse anatomical features and unique color schemes to ensure they are easily distinguishable in a 2D game environment. Implementing these sprites effectively will contribute to a visually engaging game that captures the essence of each character and their role within the story.",
+    "tile_mapping": {
+      "Asphalt Flooring": "A",
+      "Sidewalk Pavement": "S",
+      "Brick Wall": "B",
+      "Glass Window": "G",
+      "Doorway": "D",
+      "Neon Ground Signs": "N",
+      "Holographic Signs": "H",
+      "LED Road": "L",
+      "Digital Screens": "I",
+      "Rusted Metal Floor": "R",
+      "Abandoned Tech Debris": "T",
+      "Cracked Data Screens": "C",
+      "Market Stall": "M",
+      "Cobblestone Path": "P",
+      "Green Tech Flooring": "F",
+      "Vine-Covered Walls": "V",
+      "Water Puddle": "W",
+      "Server Racks": "K",
+      "Advanced Security Doors": "E",
+      "Control Panels": "O",
+      "Luxury Carpet": "X",
+      "Elegant Wallpaper": "Y",
+      "Chandelier": "Z",
+      "Sterile Tiles": "U",
+      "Lab Equipment": "Q",
+      "Hazard Signs": "J",
+      "Billboard": "J",
+      "Monorail Tracks": "O",
+      "Large Fountain": "f",
+      "Trash Can": "t",
+      "Bench": "b",
+      "Streetlights": "s",
+      "Decorative Plant": "p",
+      "blue-haired hacker girl": "@",
+      "black-suit corporate spy": "#"
+    },
+    "goals": "The main goal for Adria, the protagonist of the story, is to decode the Cipher to gain access to the secrets of Neonopolis\u2019s omnipotent network systems. This act is intended not only to strip a corrupt corporate entity of its undue power but also to redistribute that power back to the citizens of Neonopolis for the common good.\n\n### Small Goals\n1. **Gather Encrypted Files from Old Net Sector**\n   - **Reward:** Find useful data for decoding parts of the Cipher. (+50 points)\n   - **Penalty:** Lose time due to traps or delays. (-10 points)\n\n2. **Acquire a Prototype Decryption Device from Cal**\n   - **Reward:** Gain a tool that increases hacking abilities for future objectives. (+40 points)\n   - **Penalty:** Be spotted, raising Ivar\u2019s alertness early in the game. (-20 points)\n\n3. **Access and Extract Data from Secure Servers in Data Nexus Center**\n   - **Reward:** Significant leap in deciphering the Cipher. (+70 points)\n   - **Penalty:** Trigger a security alert, forcing Adria to escape without some data. (-30 points)\n\n4. **Gain Allies by Meeting Nox in the Terra Sector**\n   - **Reward:** Nox provides advanced algorithms and insights into defeating Ivar. (+50 points)\n   - **Penalty:** Encounter hostile entities or get diverted by misleading routes. (-15 points)\n\n5. **Infiltrate SynthoCorp Gala to Install the Veil Virus**\n   - **Reward:** Reduce SynthoCorp\u2019s digital defenses system-wide. (+60 points)\n   - **Penalty:** Detected by security, making final objectives tougher due to increased guard activities. (-30 points)\n\n6. **Steal the Quantum Processors from Zenith Labs**\n   - **Reward:** Massively boost processing power needed to finalize decryption of the Cipher. (+80 points)\n   - **Penalty:** Alert lab personnel, losing some hacking tools in the escape. (-25 points)\n\n7. **Mobilize Neonopolis\u2019s Independent Hackers for Assistance**\n   - **Reward:** Form a collective, increasing the resources and information available. (+40 points)\n   - **Penalty:** Hurt morale or reduce effectiveness if outreach efforts falter or if Ivar sabotages the efforts. (-20 points)\n\n8. **Confront and Overcome Ivar to Take Control of SynthoCorp\u2019s Systems**\n   - **Reward:** Successfully liberate the network and distribute control to the people. (+100 points)\n   - **Penalty:** Partial completion results in only short-term gains, requiring revisiting steps. (-50 points)\n\nEach of these activities is integral to achieving Adria\u2019s main goal. The scoring and rewards/penalties provide a clear path for progression and consequences that reflect the successes and failures in the pursuit of her mission. These points can then be used to bench mark player progression, to unlock new abilities or story paths, thereby enhancing the game's replayability and depth.",
+    "objectives": {
+      "Gather Encrypted Files from Old Net Sector": [
+        "N",
+        7,
+        10
+      ],
+      "Acquire a Prototype Decryption Device from Cal": [
+        "M",
+        12,
+        11
+      ],
+      "Access and Extract Data from Secure Servers in Data Nexus Center": [
+        "K",
+        11,
+        22
+      ],
+      "Gain Allies by Meeting Nox in the Terra Sector": [
+        "F",
+        9,
+        23
+      ],
+      "Infiltrate SynthoCorp Gala to Install the Veil Virus": [
+        "X",
+        11,
+        17
+      ],
+      "Steal the Quantum Processors from Zenith Labs": [
+        "Q",
+        14,
+        16
+      ],
+      "Mobilize Neonopolis\u2019s Independent Hackers for Assistance": [
+        "L",
+        8,
+        1
+      ],
+      "Confront and Overcome Ivar to Take Control of SynthoCorp\u2019s Systems": [
+        "#",
+        10,
+        4
+      ]
+    },
+    "important_tiles": "[\n    '@',  # Protagonist: Adria\n    '#',  # Antagonist: Ivar\n    'D',  # Doorway\n    'G',  # Glass Window\n    'N',  # Neon Ground Signs\n    'H',  # Holographic Signs\n    'K',  # Server Racks\n    'E',  # Advanced Security Doors\n    'M',  # Market Stall\n    'F',  # Green Tech Flooring\n    'X',  # Luxury Carpet\n    'U',  # Sterile Tiles\n    'Q',  # Lab Equipment\n    'O',  # Control Panels\n    'L'   # LED Road\n]",
+    "walkable_tiles": "[\n    'A', 'S', 'G', 'D', 'N', 'H', 'L', 'I', 'P', 'F', 'W', 'X', 'Y', 't', 'b', 's', 'p'\n]",
+    "interactive_object_tiles": "[\n    'D',  # Doorway\n    'M',  # Market Stall\n    'E',  # Advanced Security Doors\n    'O',  # Control Panels\n    't',  # Trash Can\n    'b'   # Bench\n]",
+    "world_1st_layer": {
+      "world": "AAAAAAAAAAAAAAAAAAAAAAAAAAA\nASSSSSSSSSSSSSGGGSSSSSSSSSA\nABBNHHHHHHNNNNNNGNNNNHHHHBA\nABDNDHHHHHHNNNNGNNHHHHHHDBA\nABNDNDMMMMMMNNNNGMMMMMNNDNBA\nABNNDNDMMMMNNNNNGMMMFFMNNDNBA\nASNNNNGGGGGGGGGGGGGGGGGNNNDSA\nASNNNNDDDDNNGGGGGNNNDDNNNNDSA\nASNNNNNGGGNNNNNNNNNGGGFSNNDSA\nASNNNNNNDDDNNWNWNNNDDDFSNDSA\nALLLLLLLLLLLLLLLLLLLLLLLLDDA\nAAAAAAUUKKKKKXXXXKKKKKUCAAAA\nASSSPUPKKKKKEXXXXEKKKKSQPDSA\nAPSPUPQKKKKEEXXXEEQKKKSQPPDA\nASSSSSSDGGGGEXUXXEGGGGFAAADA\nASSSSSFFGGGGEUXUXEGGGXFAAADA\nASSSFQFFUUUUUUUXUUUUUXFFGGGG\nASSSSSSDDDDDDXXXXXDDDDFAAAAA\nASSSSSSGGGGGGXXXXXGGGGFAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "tiles": {
+        "Asphalt Flooring": "A",
+        "Sidewalk Pavement": "S",
+        "Brick Wall": "B",
+        "Glass Window": "G",
+        "Doorway": "D",
+        "Neon Ground Signs": "N",
+        "Holographic Signs": "H",
+        "LED Road": "L",
+        "Cracked Data Screens": "C",
+        "Market Stall": "M",
+        "Cobblestone Path": "P",
+        "Green Tech Flooring": "F",
+        "Water Puddle": "W",
+        "Server Racks": "K",
+        "Advanced Security Doors": "E",
+        "Luxury Carpet": "X",
+        "Sterile Tiles": "U",
+        "Lab Equipment": "Q"
+      }
+    },
+    "world": "AAAAAAAAAAAAAAAAAAAAAAAAAAA\nASSSSSSSSSSSSSGGGSSSSSSSSSA\nABBNHHHHHHNNNNNNGNNNNHHHHBA\nABDNDHHHHHHNNNNGNNHHHHHHDBA\nABNDNDMMMMMMNNNNGMMMMMNNDNBA\nABNNDNDMMMMNNNNNGMMMFFMNNDNBA\nASNNNNGGGGGGGGGGGGGGGGGNNNDSA\nASNNNNDDDDNNGGGGGNNNDDNN@NDSA\nASNNNNNGGGNNNNNNNNNGGGFSNNDSA\nASNNNNNNDDDNNWNWNNNDDDFSNDSA\nALLL#LLLLLLLLLLLLLLLLLLLLDDA\nAAAAAAUUKKKKKXXXXKKKKKUCAAAA\nASSSPUPKKKKKEXXXXEKKKKSQPDSA\nAPSPUPQKKKKEEXXXEEQKKKSQPPDA\nASSSSSSDGGGGEXUXXEGGGGFAAADA\nASSSSSFFGGGGEUXUXEGGGXFAAADA\nASSSFQFFUUUUUUUXUUUUUXFFGGGG\nASSSSSSDDDDDDXXXXXDDDDFAAAAA\nASSSSSSGGGGGGXXXXXGGGGFAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 100.0,
+      "Accuracy_of_important_tiles_placed": 93.33333333333333,
+      "Average_euclidean_distance": 0,
+      "agent_reward": 250,
+      "astar_path": 0
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 15,
+      "story_paragraphs": [
+        5,
+        6
+      ],
+      "total_objectives": 8
+    }
+  },
+  "round_1": {
+    "story": "In the bustling, neon-soaked city of Neonopolis, where skyscrapers stretched like colossal specters against a digital sky, lived Adria, a gifted hacker with a singular mission. She needed to decode the Cipher\u2014a legendary digital construct said to contain the secrets to the city's omnipotent network systems. Within the urban labyrinth of glass and steel, Adria navigated from her compact, hardware-crammed apartment in the densely-populated Hacker\u2019s Haven sector to various strategic locations, each holding a piece of the elusive puzzle.\n\nAdria\u2019s first objective was to gather the encrypted files hidden within the desolate archives of the Old Net Sector, a place where disused data went to die, silenced and forgotten amidst cobwebs of obsolete tech. The second objective led her to the bustling tech market of Dyna district, where she had to convince Cal, a gadget dealer and an old ally, to provide her with a rare, prototype decryption device.\n\nAs Adria moved through these environments, meticulously piecing together the Cipher, her actions did not go unnoticed. Ivar, a corporate spy with slicked-back hair and eyes as cold as the cybernetic implants glistening on his temple, was employed by SynthoCorp. He was determined to ensure that the Cipher remained undeciphered to secure his company\u2019s control over the city. He traced Adria\u2019s movements, from the shadowy alleys of Hacker\u2019s Haven to the neon-bathed streets of Dyna district.\n\nBy the time Adria reached her third objective\u2014the secure servers housed in the towering Data Nexus Center\u2014she realized Ivar was manipulating environmental controls to thwart her. She battled through digital storms and artificial earthquakes, her resolve hardening. Her fourth objective arose naturally: to shield her progress by enlisting the help of Nox, a reclusive code sage, who resided in the green-lit underworld of the Terra sector, a place where nature and technology existed in a chaotic fusion.\n\nAdria's subsequent objectives became increasingly fraught with peril. She needed to infiltrate a high-security gala hosted by SynthoCorp (her fifth objective) to install a virus within their system\u2014the Veil, as Nox called it. Following the gala, she sought out the quantum processors at the Zenith Labs (her sixth objective), which could exponentially enhance her hacking capabilities. \n\nHer penultimate goal came in the form of rallying support amongst the independent hackers and data ghosts of Neonopolis, turning her solitary mission into a collective uprising against SynthoCorp\u2019s dominion. This paved her way to the eighth and final objective: confronting Ivar in the heart of SynthoCorp\u2019s digitally simulated fortress, a looming virtual reality realm crafted to demoralize intruders.\n\nThe climactic battle wasn\u2019t just through code and cyber warfare. It tested Adria\u2019s understanding of her allies and her resolve against a seemingly omnipotent antagonist. Ultimately, using every piece of information, every alliance she\u2019d formed, Adria outmaneuvered Ivar, disabling his cybernetic enhancements and leaving him powerless. As he was taken into custody by the city\u2019s cyber-legal authorities, Adria completed her mission by releasing the secrets within the Cipher to the public, ensuring the network\u2019s power was shared for the betterment of all in Neonopolis.\n\nThus, from the digitized ghettos to the corporate citadels, Adria\u2019s journey didn\u2019t just change her but reshaped the entire digital landscape of Neonopolis.",
+    "character_information": "To develop a compelling 2D game based on the story, detailed character descriptions are essential for creating visually distinct and engaging sprites. Here, I'll provide descriptions for the main characters, Adria and Ivar, as well as two secondary characters, Cal and Nox, which can be used as prompts for sprite creation.\n\n### 1. Adria (Protagonist)\n**Appearance:** Adria is a young, agile hacker with an edgy aesthetic. She has luminous blue hair cut into a sharp bob that shines under the neon city lights. Her eyes are covered by a pair of high-tech glasses that display a constant stream of data. Adria wears a sleek, form-fitting black jumpsuit with circuit patterns that glow faintly. Her gear includes a multipurpose hacking device worn on her wrist.\n\n**Sprite Details:**\n- Height: Medium, slim build.\n- Color Palette: Predominantly black and blue, with hints of white and gray.\n- Accessories: Cyber glasses, wrist hacking device, and a backpack with angular, tech-inspired designs.\n\n### 2. Ivar (Antagonist)\n**Appearance:** Ivar is a tall, imposing figure with a cold, corporate look. He has slicked-back silver hair and piercing green eyes which occasionally reflect his cybernetic implants. He dresses in a high-collared, dark gray suit that integrates subtle armor elements, giving him a fortified appearance. His movements are smooth and precise, suggesting enhanced physical capabilities.\n\n**Sprite Details:**\n- Height: Tall with a broad, muscular build.\n- Color Palette: Dark gray, silver, and green.\n- Accessories: Cybernetic enhancements visible on his temples and hands, exuding a subtle green glow.\n\n### 3. Cal (Ally)\n**Appearance:** Cal is a middle-aged gadget dealer with a rugged, charismatic persona. He has a scruffy beard and messy, short brown hair, reflecting his disregard for appearances. Cal wears a leather jacket over a worn-out t-shirt, cargo pants stuffed with various tools and gadgets, and heavy-duty boots.\n\n**Sprite Details:**\n- Height: Slightly above average, robust build.\n- Color Palette: Earth tones \u2014 browns, greens, and some patches of rust orange.\n- Accessories: Gadget belt, several pocketed cargo pants, and a pair of goggles hanging around his neck.\n\n### 4. Nox (Ally)\n**Appearance:** Nox, known for his reclusive lifestyle, appears ethereal and somewhat otherworldly. He has long, flowing white hair and pale skin, with tattoos resembling circuit diagrams running down his arms. His attire consists of a long, dark cloak over a lightweight, neutral-toned undergarment. His eyes are vividly bright, almost entirely glowing.\n\n**Sprite Details:**\n- Height: Medium, wiry build.\n- Color Palette: Whites and grays with hints of blue for the tattoos.\n- Accessories: Digital tattoos that illuminate in sync with his dialogue or emotions, a cloak with hidden pockets, and minimalist sandals.\n\nThese character designs should utilize diverse anatomical features and unique color schemes to ensure they are easily distinguishable in a 2D game environment. Implementing these sprites effectively will contribute to a visually engaging game that captures the essence of each character and their role within the story.",
+    "tile_mapping": {
+      "Asphalt Flooring": "A",
+      "Sidewalk Pavement": "S",
+      "Brick Wall": "B",
+      "Glass Window": "G",
+      "Doorway": "D",
+      "Neon Ground Signs": "N",
+      "Holographic Signs": "H",
+      "LED Road": "L",
+      "Digital Screens": "I",
+      "Rusted Metal Floor": "R",
+      "Abandoned Tech Debris": "T",
+      "Cracked Data Screens": "C",
+      "Market Stall": "M",
+      "Cobblestone Path": "P",
+      "Green Tech Flooring": "F",
+      "Vine-Covered Walls": "V",
+      "Water Puddle": "W",
+      "Server Racks": "K",
+      "Advanced Security Doors": "E",
+      "Control Panels": "O",
+      "Luxury Carpet": "X",
+      "Elegant Wallpaper": "Y",
+      "Chandelier": "Z",
+      "Sterile Tiles": "U",
+      "Lab Equipment": "Q",
+      "Hazard Signs": "J",
+      "Billboard": "J",
+      "Monorail Tracks": "O",
+      "Large Fountain": "f",
+      "Trash Can": "t",
+      "Bench": "b",
+      "Streetlights": "s",
+      "Decorative Plant": "p",
+      "blue-haired hacker girl": "@",
+      "black-suit corporate spy": "#"
+    },
+    "goals": "The main goal for Adria, the protagonist of the story, is to decode the Cipher to gain access to the secrets of Neonopolis\u2019s omnipotent network systems. This act is intended not only to strip a corrupt corporate entity of its undue power but also to redistribute that power back to the citizens of Neonopolis for the common good.\n\n### Small Goals\n1. **Gather Encrypted Files from Old Net Sector**\n   - **Reward:** Find useful data for decoding parts of the Cipher. (+50 points)\n   - **Penalty:** Lose time due to traps or delays. (-10 points)\n\n2. **Acquire a Prototype Decryption Device from Cal**\n   - **Reward:** Gain a tool that increases hacking abilities for future objectives. (+40 points)\n   - **Penalty:** Be spotted, raising Ivar\u2019s alertness early in the game. (-20 points)\n\n3. **Access and Extract Data from Secure Servers in Data Nexus Center**\n   - **Reward:** Significant leap in deciphering the Cipher. (+70 points)\n   - **Penalty:** Trigger a security alert, forcing Adria to escape without some data. (-30 points)\n\n4. **Gain Allies by Meeting Nox in the Terra Sector**\n   - **Reward:** Nox provides advanced algorithms and insights into defeating Ivar. (+50 points)\n   - **Penalty:** Encounter hostile entities or get diverted by misleading routes. (-15 points)\n\n5. **Infiltrate SynthoCorp Gala to Install the Veil Virus**\n   - **Reward:** Reduce SynthoCorp\u2019s digital defenses system-wide. (+60 points)\n   - **Penalty:** Detected by security, making final objectives tougher due to increased guard activities. (-30 points)\n\n6. **Steal the Quantum Processors from Zenith Labs**\n   - **Reward:** Massively boost processing power needed to finalize decryption of the Cipher. (+80 points)\n   - **Penalty:** Alert lab personnel, losing some hacking tools in the escape. (-25 points)\n\n7. **Mobilize Neonopolis\u2019s Independent Hackers for Assistance**\n   - **Reward:** Form a collective, increasing the resources and information available. (+40 points)\n   - **Penalty:** Hurt morale or reduce effectiveness if outreach efforts falter or if Ivar sabotages the efforts. (-20 points)\n\n8. **Confront and Overcome Ivar to Take Control of SynthoCorp\u2019s Systems**\n   - **Reward:** Successfully liberate the network and distribute control to the people. (+100 points)\n   - **Penalty:** Partial completion results in only short-term gains, requiring revisiting steps. (-50 points)\n\nEach of these activities is integral to achieving Adria\u2019s main goal. The scoring and rewards/penalties provide a clear path for progression and consequences that reflect the successes and failures in the pursuit of her mission. These points can then be used to bench mark player progression, to unlock new abilities or story paths, thereby enhancing the game's replayability and depth.",
+    "objectives": {
+      "Gather Encrypted Files from Old Net Sector": [
+        "M",
+        15,
+        31
+      ],
+      "Acquire a Prototype Decryption Device from Cal": [
+        "M",
+        12,
+        27
+      ],
+      "Access and Extract Data from Secure Servers in Data Nexus Center": [
+        "K",
+        11,
+        26
+      ],
+      "Gain Allies by Meeting Nox in the Terra Sector": [
+        "F",
+        7,
+        28
+      ],
+      "Infiltrate SynthoCorp Gala to Install the Veil Virus": [
+        "X",
+        12,
+        18
+      ],
+      "Steal the Quantum Processors from Zenith Labs": [
+        "Q",
+        13,
+        24
+      ],
+      "Mobilize Neonopolis\u2019s Independent Hackers for Assistance": [
+        "L",
+        6,
+        2
+      ],
+      "Confront and Overcome Ivar to Take Control of SynthoCorp\u2019s Systems": [
+        "#",
+        13,
+        33
+      ]
+    },
+    "important_tiles": "[\n    '@',  # Protagonist: Adria\n    '#',  # Antagonist: Ivar\n    'D',  # Doorway\n    'G',  # Glass Window\n    'N',  # Neon Ground Signs\n    'H',  # Holographic Signs\n    'K',  # Server Racks\n    'E',  # Advanced Security Doors\n    'M',  # Market Stall\n    'F',  # Green Tech Flooring\n    'X',  # Luxury Carpet\n    'U',  # Sterile Tiles\n    'Q',  # Lab Equipment\n    'O',  # Control Panels\n    'L'   # LED Road\n]",
+    "walkable_tiles": "[\n    'A', 'S', 'G', 'D', 'N', 'H', 'L', 'I', 'P', 'F', 'W', 'X', 'Y', 't', 'b', 's', 'p'\n]",
+    "interactive_object_tiles": "[\n    'D',  # Doorway\n    'M',  # Market Stall\n    'E',  # Advanced Security Doors\n    'O',  # Control Panels\n    't',  # Trash Can\n    'b'   # Bench\n]",
+    "world_1st_layer": {
+      "world": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nASSSSSSSSSSSSSGGGSSSSSSSSSAAD\nABBNHHHHHHNNNNNNGNNNNHHHHBAAS\nABDNDHHHHHHNNNNGNNHHHHHHDBAAP\nABNDNDMMMMMMNNNNGMMMMMNNDNBAN\nABNNDNDMMMMNNNNNGMMMFFMNNDNGS\nASNNNNGGGGGGGGGGGGGGGGGNNNSTA\nASNNNNDDDDNNGGGGGNNNDDNNNNNYA\nASNNNNNGGGNNNNNNNNNGGGFSNNNNA\nASNNNNNNDDDNNWNWNNNDDDFSNNDAD\nALLLLLLLLLLLLLLLLLLLLLLLLDDD\nAAAAAAUUKKKKKXXXXKKKKKUUCAAAA\nASSSPUPKKKKKEXXXXEKKKKQPPPDSA\nAPSPUPQKKKEEEXXXEEEKKKSQQPPDA\nASSSSSSDGGGGEXUXXEGGXXFAAAXAA\nASSSSSFFGGGGEUXUUEGGXXFFXAAAA\nASSSFFUUUUUUUUXUUUUUUXXXFFFFF\nASSSSSSDDDDDDXXXXXDDDDEFAAAAA\nASSSSSSGGGGGGXXXXXGGGGXFAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "tiles": {
+        "Asphalt Flooring": "A",
+        "Sidewalk Pavement": "S",
+        "Brick Wall": "B",
+        "Glass Window": "G",
+        "Doorway": "D",
+        "Neon Ground Signs": "N",
+        "Holographic Signs": "H",
+        "LED Road": "L",
+        "Abandoned Tech Debris": "T",
+        "Cracked Data Screens": "C",
+        "Market Stall": "M",
+        "Cobblestone Path": "P",
+        "Green Tech Flooring": "F",
+        "Water Puddle": "W",
+        "Server Racks": "K",
+        "Advanced Security Doors": "E",
+        "Luxury Carpet": "X",
+        "Elegant Wallpaper": "Y",
+        "Sterile Tiles": "U",
+        "Lab Equipment": "Q"
+      }
+    },
+    "world": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nASSSSSSSSSSSSSGGGSSSSSSSSSAAD\nABBNHHHHHHNNNNNNGNNNNHHHHBAAS\nABDNDHHHHHHNNNNGNNHHHHHHDBAAP\nABNDNDMMMMMMNNNNGMMMMMNNDNBAN\nABNNDNDMMMMNNNNNGMMMFFMNNDNGS\nASNNNNGGGGGGGGGGGGGGGGGNNNSTA\nASNNNNDDDDNNGGGGGNNNDDNNNNNYA\nASNNNNNGGGNNNNNNNNNGGGFSNNNNA\nASNNNNNNDDDNNWNWNNNDDDFSNNDAD\nALLLLLLLLLLLLLLLLLLLLLLLLDDD\nAAAAAAUUKKKKKXXXXKKKKKUUCAAAA\nASSSPUPKKKKKEXXXXEKKKKQPPPDSA\nAPSPUPQKKEEEXXXEEEKKKSQQPPDA#\nASSSSSSDGGGGEXUXXEGGXXFAAAXAA\nASSSSSFFGGGGEUXUUEGGXXFFXAAAA\nASSSFFUUUUUUUUXUUU@UXXXFFFFF\nASSSSSSDDDDDDXXXXXDDDDEFAAAAA\nASSSSSSGGGGGGXXXXXGGGGXFAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 100.0,
+      "Accuracy_of_important_tiles_placed": 93.33333333333333,
+      "Average_euclidean_distance": 457.9661559547823,
+      "agent_reward": -100,
+      "astar_path": 0
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 15,
+      "story_paragraphs": [
+        5,
+        6
+      ],
+      "total_objectives": 8
+    }
+  }
+}

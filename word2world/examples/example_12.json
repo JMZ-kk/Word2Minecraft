@@ -1,0 +1,246 @@
+{
+  "round_0": {
+    "story": "### The Labyrinth of Althar\n\nIn the heart of the dense, whispering forest of Eldoria lay the Labyrinth of Althar, veiled both in mist and enigma. Eldoria itself was a realm of perpetual twilight, with the sun never quite reaching its zenith, casting long, strange shadows that seemed to brush against one\u2019s feet like tendrils of a forgotten dream. It was here that Caelan, a young sage armed with knowledge and resolve, ventured to reclaim a powerful relic believed to control the forces of nature itself\u2014the Orb of Lurea.\n\nThe Orb was hidden by the ancients in the deepest chamber of the labyrinth, a construction so complex that it was said to change its paths with the mood of the stars. Adding to Caelan's perils was Navara, a cunning sorceress whose lust for power made her a violent shadow against any who sought the Orb. She had claimed the labyrinth as her domain and fashioned it with spells and creatures that obeyed her sinister will.\n\nCaelan's mission was manifold. First, to bypass the labyrinth\u2019s serpentine paths, and second, to defeat Navara who, undoubtedly, would not let the relic slip through her fingers easily. Along his journey, Caelan needed to gather scattered ancient manuscripts which held clues to disable magical traps and manipulate the labyrinth\u2019s ever-shifting walls. His third objective was to survive the relentless waves of enchanted guardians that roamed the maze.\n\nIn the labyrinth, Caelan encountered a venerable old man trapped in time named Eldrin, who became his inadvertent guide. Eldrin revealed that the chest Caelan sought, which housed the Orb, could only be opened by assembling three mystical runestones hidden within the labyrinth. Together, they battled through minions, deciphered cryptic carvings on the ancient walls, and collected the necessary runestones.\n\nAs the pair finally located the chest, Navara appeared, her eyes ablaze with dark fury. The final battle was fierce, with Caelan using every slice of wisdom and every fragment of power he had gained. Through clever manipulation of the labyrinth\u2019s mutable architecture, Caelan trapped Navara momentarily, using the time to open the chest and unleash the Orb\u2019s power.\n\nWith the Orb in hand, Caelan\u2019s final objective became clear: to defuse Navara\u2019s control over the labyrinth. Channeling the Orb\u2019s power, he dissolved her enchantments and watched as the walls of the labyrinth settled into a solid, unchanging form. With Navara's defeat, Caelan had not only survived the gauntlet but liberated the labyrinth from her reign, allowing it to once again become a place of wonder rather than fear.\n\nExhausted but victorious, Caelan entrusted the Orb and the labyrinth to Eldrin's care before making his way out of the labyrinth, which now welcomed all entrants with paths clear and unguarded. The forest of Eldoria sensed the change, its dark canopy parting slightly to let the true light fall for the first time in centuries.",
+    "character_information": "### Game Character Sprite Descriptions\n\n**1. Caelan (Protagonist)**  \n- **Appearance**: Caelan is depicted as a youthful sage with an athletic build, standing about average height. He has auburn hair tied back in a low ponytail, revealing sharp, determined eyes that radiate a sage-green hue. His attire consists of a long, cloak-like robe with deep blue and silver accents that hint at mystical origins. He wears durable leather boots suitable for long treks and carries a satchel containing scrolls and potions.\n- **Equipments**: He wields a slender, rune-inscribed wand that glows faintly when enemies are near. This wand is his primary means of combat and interaction with the game world (e.g., solving puzzles, casting spells).\n- **Animation Needs**: Walking, running, casting spells (wand animations), taking damage, and victory pose.\n\n**2. Navara (Antagonist)**  \n- **Appearance**: Navara is tall and imposing, with piercing violet eyes and jet-black hair that falls around her shoulders in wild tangles. Her skin has an almost iridescent quality, shimmering subtly in the labyrinth's dim light. She wears a long, dark cloak that seems to drift unnaturally, as if caught in a perpetual, unseen breeze. Beneath her cloak, she dons armor that is both ornate and functional, dark as obsidian with hints of red.\n- **Equipments**: Navara wields a staff topped with a large, glowing crimson orb that serves as the source of her power. This staff is capable of unleashing devastating spells.\n- **Animation Needs**: Floating (instead of walking), casting spells (staff animations), laughing menacingly, taking damage, and defeat.\n\n**3. Eldrin (Supporting NPC)**  \n- **Appearance**: Eldrin appears as an elderly man, with wisdom evident in his wearied but kind emerald eyes. His hair and long beard are snow-white, and he dresses in a tattered but once-elegant robe, suggesting a noble past. He leans slightly on a gnarled wooden staff, engraved with runes that faintly glow at times.\n- **Equipments**: Eldrin carries a bag full of old, magical artifacts and maps that assist Caelan throughout their adventure.\n- **Animation Needs**: Walking with a staff, talking (gesture animations), offering items to Caelan, and expressing relief or joy.\n\n**Enemies (Generic Descriptions for Sprites)**\n- **Enchanted Guardians**: These beings vary in form but maintain a thematic element of being constructed from the stones and flora of the labyrinth itself. They can appear as stone golems, animated statues, or twisted vine-like creatures, all sharing a rune-marked texture that glows occasionally.\n- **Animation Needs**: Walking or moving, attacking, taking damage, and defeat.\n\nThese descriptions can be used to create visually distinctive, engaging character sprites that align with the narrative and gameplay needs of the game set in the Labyrinth of Althar.",
+    "tile_mapping": {
+      "Stone floor tiles": "a",
+      "Grassy tiles": "b",
+      "Dirt tiles": "c",
+      "Puddle tiles": "d",
+      "Stone wall tiles": "e",
+      "Hedged wall tiles": "f",
+      "Decorated wall tiles": "g",
+      "Trap tiles": "h",
+      "Doorway tiles": "i",
+      "Switch and lever tiles": "j",
+      "Stair tiles": "k",
+      "Chest tiles": "l",
+      "Item tiles": "m",
+      "Key tiles": "n",
+      "Column tiles": "o",
+      "Statue tiles": "p",
+      "Fountain tiles": "q",
+      "Window tiles": "r",
+      "Entrance/Exit tiles": "s",
+      "Portal tiles": "t",
+      "Tree canopy tiles": "u",
+      "Mist/Fog tiles": "v",
+      "Darkness/Shadow tiles": "w",
+      "Water flow tiles": "x",
+      "Fire torch tiles": "y",
+      "Magic aura tiles": "z",
+      "Supporting NPC": "&",
+      "Enemies": "!",
+      "young sage with a blue cloak": "@",
+      "sorceress with dark robes": "#"
+    },
+    "goals": "### Main Goal for Protagonist:\n- **Retrieve the Orb of Lurea from the Labyrinth of Althar.** The Orb holds the power to control natural elements and ensure balance in the realm of Eldoria.\n\n### Small Goals to Achieve the Main Goal:\n\n1. **Navigate through the labyrinth\u2019s complex paths.**\n   - **Reward**: Discovering shortcuts or hidden areas (+50 points).\n   - **Penalty**: Getting lost or backtracking (-20 points).\n\n2. **Collect ancient manuscripts scattered throughout the labyrinth.**\n   - **Reward**: Gaining additional knowledge to disable traps or manipulate the labyrinth\u2019s walls (+30 points each manuscript).\n   - **Penalty**: Missing important manuscripts, resulting in more challenging puzzles later (-15 points each missed).\n\n3. **Survive waves of enchanted guardians.**\n   - **Reward**: Each wave defeated allows progression deeper into the labyrinth, increasing score by +40 points per wave.\n   - **Penalty**: Taking damage from guardians, decreasing health points which may need use of healing items (-10 points each time damaged).\n\n4. **Gather three mystical runestones needed to access the chest containing the Orb.**\n   - **Reward**: Successfully finding a runestone (+60 points per runestone).\n   - **Penalty**: Incorrect handling or missing a runestone, causing delays or additional challenges (-25 points per mistake or omission).\n\n5. **Defeat Navara, the usurper and antagonist, guarding the Orb.**\n   - **Reward**: Defeating Navara not only allows access to the Orb but restores peace to the labyrinth (+200 points).\n   - **Penalty**: Every attempt needed to confront Navara if not successful the first time (-50 points per defeat).\n\n6. **Use the Orb to break the magical hold over the labyrinth.**\n   - **Reward**: Successfully using the Orb's power ensures the safe exit from the labyrinth, restoring its original purpose as a place of knowledge (+100 points).\n   - **Penalty**: Misuse of the Orb's power, causing temporary instabilities or harmful effects (-30 points).\n\n7. **Assist Eldrin, the supporting NPC, to restore his knowledge and position as guardian of the labyrinth.**\n   - **Reward**: Efficient cooperation with Eldrin provides helpful insights and support, easing various challenges (+70 points).\n   - **Penalty**: Ignoring Eldrin\u2019s advice or assistance might lead to missed opportunities or increased difficulty (-15 points).\n\n8. **Safely exit the labyrinth after obtaining the Orb.**\n   - **Reward**: Exiting successfully marks the completion of the journey and the game, earning a bonus score (+150 points).\n   - **Penalty**: If exit strategies are not well planned, additional challenges may arise, leading to penalties (-40 points).\n\nThese structured goals with associated rewards and penalties integrate seamlessly into game mechanics, encouraging strategic thinking and enhancing the overall narrative immersion.",
+    "objectives": {
+      "Navigate through the labyrinth's complex paths": [
+        "i",
+        6,
+        16
+      ],
+      "Collect ancient manuscripts": [
+        "m",
+        7,
+        8
+      ],
+      "Survive waves of enchanted guardians": [
+        "!",
+        14,
+        12
+      ],
+      "Gather three mystical runestones": [
+        "n",
+        15,
+        21
+      ],
+      "Defeat Navara, the usurper and antagonist": [
+        "#",
+        4,
+        12
+      ],
+      "Use the Orb to break the magical hold over the labyrinth": [
+        "l",
+        11,
+        16
+      ],
+      "Assist Eldrin, the supporting NPC, to restore his knowledge": [
+        "&",
+        8,
+        6
+      ],
+      "Safely exit the labyrinth after obtaining the Orb": [
+        "s",
+        16,
+        1
+      ]
+    },
+    "important_tiles": "[\n    '@',  # Protagonist\n    '#',  # Antagonist\n    '&',  # Supporting NPC\n    '!',  # Enemies\n    'i',  # Doorway tiles\n    'h',  # Trap tiles\n    'j',  # Switch and lever tiles\n    'l',  # Chest tiles\n    'm',  # Item tiles\n    'n',  # Key tiles\n    's',  # Entrance/Exit tiles\n    't',  # Portal tiles\n    'y',  # Fire torch tiles\n    'x',  # Water flow tiles\n    'z'   # Magic aura tiles\n]",
+    "walkable_tiles": "['a', 'b', 'c', 'd', 'i', 'm', 'n', 's', 't', '@', '&']",
+    "building_tiles": "['e', 'f', 'g']",
+    "interactive_object_tiles": "['h', 'i', 'j', 'l', 'm', 'n', 's', 't']",
+    "world_1st_layer": {
+      "world": "eeeeeeeeeeeeeeeeeeeeeeeeee\neaiaaaaaaaaaaaaaaaiaaaaaae\nebahbhba\necahchca\nedahdhda\neaaaaaaaaaaaajaaaaaaaaaaaie\nefiffffffffffffffffffffffff\negijige\neaiaaaaaaaaaaaaaaiaaaaaaie\nefiffffffffffffffffffffffff\negajggae\nexaxxxaiaxxxxxaiawxxxaiaxe\neyayyyyyyyyyyyyyyyyyyyayye\nezazzzzzzzzzzzzzzzzzzzzaze\nesaaaaaaaaaaaaiaaaaaaaaaae\netttttttttttttttttttttttate\neeeeeeeeeeeeeeeeeeeeeeeeee",
+      "tiles": {
+        "Stone floor tiles": "a",
+        "Grassy tiles": "b",
+        "Dirt tiles": "c",
+        "Puddle tiles": "d",
+        "Stone wall tiles": "e",
+        "Hedged wall tiles": "f",
+        "Decorated wall tiles": "g",
+        "Trap tiles": "h",
+        "Doorway tiles": "i",
+        "Switch and lever tiles": "j",
+        "Entrance/Exit tiles": "s",
+        "Portal tiles": "t",
+        "Darkness/Shadow tiles": "w",
+        "Water flow tiles": "x",
+        "Fire torch tiles": "y",
+        "Magic aura tiles": "z"
+      }
+    },
+    "world": "eeeeeeeeeeeeeeeeeeeeeeeeee\neaiaaaaaaaaaaaaaaaiaaaaaae\nebahbhba#@\necahchcam\nedahdhdal\neaaaaaaaaaaaajaaaaaaaaaaaien\nefiffffffffffffffffffffffff\negijigej\neaiaaaaaaaaaaaaaaiaaaaaaie\nefiffffffffffffffffffffffffy\negajggaex\nexaxxxaiaxxxxxaiawxxxaiaxe\neyayyyyyyyyyyyyyyyyyyyayyez\nezazzzzzzzzzzzzzzzzzzzzaze\nesaaaaaaaaaaaaiaaaaaaaaaae\netttttttttttttttttttttttate\neeeeeeeeeeeeeeeeeeeeeeeeee",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 50.0,
+      "Accuracy_of_important_tiles_placed": 86.66666666666667,
+      "Average_euclidean_distance": 0,
+      "agent_reward": -600,
+      "astar_path": 0
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 15,
+      "story_paragraphs": [
+        6,
+        7
+      ],
+      "total_objectives": 8
+    }
+  },
+  "round_1": {
+    "story": "### The Labyrinth of Althar\n\nIn the heart of the dense, whispering forest of Eldoria lay the Labyrinth of Althar, veiled both in mist and enigma. Eldoria itself was a realm of perpetual twilight, with the sun never quite reaching its zenith, casting long, strange shadows that seemed to brush against one\u2019s feet like tendrils of a forgotten dream. It was here that Caelan, a young sage armed with knowledge and resolve, ventured to reclaim a powerful relic believed to control the forces of nature itself\u2014the Orb of Lurea.\n\nThe Orb was hidden by the ancients in the deepest chamber of the labyrinth, a construction so complex that it was said to change its paths with the mood of the stars. Adding to Caelan's perils was Navara, a cunning sorceress whose lust for power made her a violent shadow against any who sought the Orb. She had claimed the labyrinth as her domain and fashioned it with spells and creatures that obeyed her sinister will.\n\nCaelan's mission was manifold. First, to bypass the labyrinth\u2019s serpentine paths, and second, to defeat Navara who, undoubtedly, would not let the relic slip through her fingers easily. Along his journey, Caelan needed to gather scattered ancient manuscripts which held clues to disable magical traps and manipulate the labyrinth\u2019s ever-shifting walls. His third objective was to survive the relentless waves of enchanted guardians that roamed the maze.\n\nIn the labyrinth, Caelan encountered a venerable old man trapped in time named Eldrin, who became his inadvertent guide. Eldrin revealed that the chest Caelan sought, which housed the Orb, could only be opened by assembling three mystical runestones hidden within the labyrinth. Together, they battled through minions, deciphered cryptic carvings on the ancient walls, and collected the necessary runestones.\n\nAs the pair finally located the chest, Navara appeared, her eyes ablaze with dark fury. The final battle was fierce, with Caelan using every slice of wisdom and every fragment of power he had gained. Through clever manipulation of the labyrinth\u2019s mutable architecture, Caelan trapped Navara momentarily, using the time to open the chest and unleash the Orb\u2019s power.\n\nWith the Orb in hand, Caelan\u2019s final objective became clear: to defuse Navara\u2019s control over the labyrinth. Channeling the Orb\u2019s power, he dissolved her enchantments and watched as the walls of the labyrinth settled into a solid, unchanging form. With Navara's defeat, Caelan had not only survived the gauntlet but liberated the labyrinth from her reign, allowing it to once again become a place of wonder rather than fear.\n\nExhausted but victorious, Caelan entrusted the Orb and the labyrinth to Eldrin's care before making his way out of the labyrinth, which now welcomed all entrants with paths clear and unguarded. The forest of Eldoria sensed the change, its dark canopy parting slightly to let the true light fall for the first time in centuries.",
+    "character_information": "### Game Character Sprite Descriptions\n\n**1. Caelan (Protagonist)**  \n- **Appearance**: Caelan is depicted as a youthful sage with an athletic build, standing about average height. He has auburn hair tied back in a low ponytail, revealing sharp, determined eyes that radiate a sage-green hue. His attire consists of a long, cloak-like robe with deep blue and silver accents that hint at mystical origins. He wears durable leather boots suitable for long treks and carries a satchel containing scrolls and potions.\n- **Equipments**: He wields a slender, rune-inscribed wand that glows faintly when enemies are near. This wand is his primary means of combat and interaction with the game world (e.g., solving puzzles, casting spells).\n- **Animation Needs**: Walking, running, casting spells (wand animations), taking damage, and victory pose.\n\n**2. Navara (Antagonist)**  \n- **Appearance**: Navara is tall and imposing, with piercing violet eyes and jet-black hair that falls around her shoulders in wild tangles. Her skin has an almost iridescent quality, shimmering subtly in the labyrinth's dim light. She wears a long, dark cloak that seems to drift unnaturally, as if caught in a perpetual, unseen breeze. Beneath her cloak, she dons armor that is both ornate and functional, dark as obsidian with hints of red.\n- **Equipments**: Navara wields a staff topped with a large, glowing crimson orb that serves as the source of her power. This staff is capable of unleashing devastating spells.\n- **Animation Needs**: Floating (instead of walking), casting spells (staff animations), laughing menacingly, taking damage, and defeat.\n\n**3. Eldrin (Supporting NPC)**  \n- **Appearance**: Eldrin appears as an elderly man, with wisdom evident in his wearied but kind emerald eyes. His hair and long beard are snow-white, and he dresses in a tattered but once-elegant robe, suggesting a noble past. He leans slightly on a gnarled wooden staff, engraved with runes that faintly glow at times.\n- **Equipments**: Eldrin carries a bag full of old, magical artifacts and maps that assist Caelan throughout their adventure.\n- **Animation Needs**: Walking with a staff, talking (gesture animations), offering items to Caelan, and expressing relief or joy.\n\n**Enemies (Generic Descriptions for Sprites)**\n- **Enchanted Guardians**: These beings vary in form but maintain a thematic element of being constructed from the stones and flora of the labyrinth itself. They can appear as stone golems, animated statues, or twisted vine-like creatures, all sharing a rune-marked texture that glows occasionally.\n- **Animation Needs**: Walking or moving, attacking, taking damage, and defeat.\n\nThese descriptions can be used to create visually distinctive, engaging character sprites that align with the narrative and gameplay needs of the game set in the Labyrinth of Althar.",
+    "tile_mapping": {
+      "Stone floor tiles": "a",
+      "Grassy tiles": "b",
+      "Dirt tiles": "c",
+      "Puddle tiles": "d",
+      "Stone wall tiles": "e",
+      "Hedged wall tiles": "f",
+      "Decorated wall tiles": "g",
+      "Trap tiles": "h",
+      "Doorway tiles": "i",
+      "Switch and lever tiles": "j",
+      "Stair tiles": "k",
+      "Chest tiles": "l",
+      "Item tiles": "m",
+      "Key tiles": "n",
+      "Column tiles": "o",
+      "Statue tiles": "p",
+      "Fountain tiles": "q",
+      "Window tiles": "r",
+      "Entrance/Exit tiles": "s",
+      "Portal tiles": "t",
+      "Tree canopy tiles": "u",
+      "Mist/Fog tiles": "v",
+      "Darkness/Shadow tiles": "w",
+      "Water flow tiles": "x",
+      "Fire torch tiles": "y",
+      "Magic aura tiles": "z",
+      "Supporting NPC": "&",
+      "Enemies": "!",
+      "young sage with a blue cloak": "@",
+      "sorceress with dark robes": "#"
+    },
+    "goals": "### Main Goal for Protagonist:\n- **Retrieve the Orb of Lurea from the Labyrinth of Althar.** The Orb holds the power to control natural elements and ensure balance in the realm of Eldoria.\n\n### Small Goals to Achieve the Main Goal:\n\n1. **Navigate through the labyrinth\u2019s complex paths.**\n   - **Reward**: Discovering shortcuts or hidden areas (+50 points).\n   - **Penalty**: Getting lost or backtracking (-20 points).\n\n2. **Collect ancient manuscripts scattered throughout the labyrinth.**\n   - **Reward**: Gaining additional knowledge to disable traps or manipulate the labyrinth\u2019s walls (+30 points each manuscript).\n   - **Penalty**: Missing important manuscripts, resulting in more challenging puzzles later (-15 points each missed).\n\n3. **Survive waves of enchanted guardians.**\n   - **Reward**: Each wave defeated allows progression deeper into the labyrinth, increasing score by +40 points per wave.\n   - **Penalty**: Taking damage from guardians, decreasing health points which may need use of healing items (-10 points each time damaged).\n\n4. **Gather three mystical runestones needed to access the chest containing the Orb.**\n   - **Reward**: Successfully finding a runestone (+60 points per runestone).\n   - **Penalty**: Incorrect handling or missing a runestone, causing delays or additional challenges (-25 points per mistake or omission).\n\n5. **Defeat Navara, the usurper and antagonist, guarding the Orb.**\n   - **Reward**: Defeating Navara not only allows access to the Orb but restores peace to the labyrinth (+200 points).\n   - **Penalty**: Every attempt needed to confront Navara if not successful the first time (-50 points per defeat).\n\n6. **Use the Orb to break the magical hold over the labyrinth.**\n   - **Reward**: Successfully using the Orb's power ensures the safe exit from the labyrinth, restoring its original purpose as a place of knowledge (+100 points).\n   - **Penalty**: Misuse of the Orb's power, causing temporary instabilities or harmful effects (-30 points).\n\n7. **Assist Eldrin, the supporting NPC, to restore his knowledge and position as guardian of the labyrinth.**\n   - **Reward**: Efficient cooperation with Eldrin provides helpful insights and support, easing various challenges (+70 points).\n   - **Penalty**: Ignoring Eldrin\u2019s advice or assistance might lead to missed opportunities or increased difficulty (-15 points).\n\n8. **Safely exit the labyrinth after obtaining the Orb.**\n   - **Reward**: Exiting successfully marks the completion of the journey and the game, earning a bonus score (+150 points).\n   - **Penalty**: If exit strategies are not well planned, additional challenges may arise, leading to penalties (-40 points).\n\nThese structured goals with associated rewards and penalties integrate seamlessly into game mechanics, encouraging strategic thinking and enhancing the overall narrative immersion.",
+    "objectives": {
+      "Navigate through the labyrinth": [
+        "i",
+        1,
+        25
+      ],
+      "Collect ancient manuscripts": [
+        "m",
+        8,
+        12
+      ],
+      "Survive waves of enchanted guardians": [
+        "!",
+        21,
+        13
+      ],
+      "Gather three mystical runestones": [
+        "n",
+        8,
+        17
+      ],
+      "Defeat Navara, the usurper and antagonist": [
+        "#",
+        18,
+        5
+      ],
+      "Use the Orb to break the magical hold over the labyrinth": [
+        "z",
+        18,
+        1
+      ],
+      "Assist Eldrin, the supporting NPC": [
+        "&",
+        18,
+        4
+      ],
+      "Safely exit the labyrinth after obtaining the Orb": [
+        "s",
+        0,
+        25
+      ]
+    },
+    "important_tiles": "[\n    '@',  # Protagonist\n    '#',  # Antagonist\n    '&',  # Supporting NPC\n    '!',  # Enemies\n    'i',  # Doorway tiles\n    'h',  # Trap tiles\n    'j',  # Switch and lever tiles\n    'l',  # Chest tiles\n    'm',  # Item tiles\n    'n',  # Key tiles\n    's',  # Entrance/Exit tiles\n    't',  # Portal tiles\n    'y',  # Fire torch tiles\n    'x',  # Water flow tiles\n    'z'   # Magic aura tiles\n]",
+    "walkable_tiles": "['a', 'b', 'c', 'd', 'i', 'm', 'n', 's', 't', '@', '&']",
+    "building_tiles": "['e', 'f', 'g']",
+    "interactive_object_tiles": "['h', 'i', 'j', 'l', 'm', 'n', 's', 't']",
+    "world_1st_layer": {
+      "world": "eeeeeeeeeeeeeeeeeeeeeeeeeeee\neaaaaaaaaaaaaaaaaaaaaaaaaaie\neaiaaaaaaaaaaaaaaaaaaaiaaae\nehahahahahahahahahahahahaae\neaiaaaaaaaaaaaaaaaaaijaaaie\neyaaaaaaaaaaaaaaaaaaaaaaaae\nettttttttttttttttttttttttte\nefifffffffffffffffffffiffffe\neaiaaaammmmmmmmmmmmmmiaaaae\nessssssssssssssssssssssssse\nebbbbbbbbbbbbbbbbbbbbbbbibe\nexxxxtixxxxxxxixxxxxxitxxxxe\neaianmmmmmmmmmmmmmmmmmmiaae\nepppppppppppppppppppppppppe\neaaaaaaaaaaaaaaaaaaaaaaaaaie\neffffffffffffffffffffffffffe\nexxxxxxxxxxxxxxxxxxxxxxxxxxe\nezzzzzzzzzzzzzzzzzzzzzzzzze\netttttttttttttttttttttttttte\neyyyyyyyyyyyyyyyyyyyyyyyyaye\neaaaaaaaaaaaaaaaaaaaaaaaaaie\nehhhhhhhhhhhhhhhhhhhhhhhhhhe\nekkkkkkkkkkkkkkkkkkkkkkkkke\neaaaaaaaaaaaaaaaaaaaaaaaaaie\neeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "tiles": {
+        "Stone floor tiles": "a",
+        "Grassy tiles": "b",
+        "Stone wall tiles": "e",
+        "Hedged wall tiles": "f",
+        "Trap tiles": "h",
+        "Doorway tiles": "i",
+        "Switch and lever tiles": "j",
+        "Stair tiles": "k",
+        "Item tiles": "m",
+        "Key tiles": "n",
+        "Statue tiles": "p",
+        "Entrance/Exit tiles": "s",
+        "Portal tiles": "t",
+        "Water flow tiles": "x",
+        "Fire torch tiles": "y",
+        "Magic aura tiles": "z"
+      }
+    },
+    "world": "eeeeeeeeeeeeeeeeeeeeeeeeeeee\neaaaaaaaaaaaaaaaaaaaaaaaaaie\neaiaaaaaaaaaaaaaaaaaaaiaaae\nehahahahahahahahahahahahaae\neaiaaaaaaaaaaaaaaaaaijaaaie\neyaaaaaaaaaaaa@aaaaaaaaaaae\nettttttttttttttttttttttttte\nefifffffffffffffffffffiffffe\neaiaaaammmmmmmmmmmmmmiaaaae\nessssssssssssssssssssssssse\nebbbbbbbbbbbbbbbbbbbbbbbibe\nexxxxtixxxxxxxixxxxxxitxxxxe\neaianmmmmmmmmmmmmmmmmmmiaae\nepppppppppppppppppppppppppe\neaaaaaaaaaaaaaaaaaaaaaaaaaje\neffffffffffffffffffffffffffe\nexxxxxxxxxxxxxxxxxxxxxxxxxxe\nezzzz#zzzzzzzzzzzzzzzzzzzze\netttttttttttttttttttttttttte\neyyyyyyyyyyyyyyyyyyyyyyyyaye\neaaaaaaaaaaaaaaaaaaaaaaaaaie\nehhhhhhhhhhhhhhhhhhhhhhhhhhe\nekkkkkkkkkkkkkkkkkkkkkkkkke\neaaaaaaaaaaaaaaaaaaaaaaaaaie\neeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 50.0,
+      "Accuracy_of_important_tiles_placed": 80.0,
+      "Average_euclidean_distance": 539.5016218696659,
+      "agent_reward": -425,
+      "astar_path": 18
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 16,
+      "story_paragraphs": [
+        6,
+        7
+      ],
+      "total_objectives": 9
+    }
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "round_0": {
+    "story": "In the lush valleys of Eldoria, a kingdom ruled by nature and magic, young Aelwynn, a skilled herbalist, had taken on the crucial mission of restoring the Life Tree, the source of all magic in her world, which had begun to wither mysteriously. Her small cottage at the forest's edge served as the starting point of her journey. Filled with plants, potion bottles, and ancient scrolls, the cottage was her sanctuary and workshop. Outside, the sprawling forest, thick with emerald foliage and vibrant flowers, whispered secrets of the old world. Aelwynn\u2019s quest was clear: gather the eight Celestial Gems, said to imbue the Life Tree with immense vitality and strength.\n\nDuring her quest, Aelwynn was to journey through the diverse realms of Eldoria: from the Crystal Caves that sang with the voices of the past to the floating islands of Aeris, echoing with silence and wind. Each location held a gem, as well as trials and old guardians who tested her resolve and skill. Her path was filled with obstacles: deciphering ancient riddles, retrieving rare ingredients for powerful concoctions, and braving the darkest parts of the forest, where light scarcely dared to touch.\n\nHowever, her mission was opposed by Mordoc, an enigmatic figure draped in a cloak of shadows, who sought the gems for his selfish gain, hoping to control the kingdom by harnessing the tree\u2019s powers. Mordoc, once a guardian of the Life Tree himself, believed that magic should not flow freely but be contained and used as a tool for domination. His deep understanding of dark magic and the environments of Eldoria crafted him a dangerous adversary.\n\nAelwynn\u2019s journey saw her forging alliances with the creatures and spirits of Eldoria, solving puzzles left by the ancients, and mastering her craft as a herbalist, each step drawing her closer to the gems. She learned the arts of camouflage from the chameleon foxes of the Metallic Woods and the language of the eagles to call them to her aid in the heights of Aeris. Her final and most critical objective was to confront Mordoc in the Ruins of Deroloth, a once-glorious city now claimed by vines and darkness, where the last gem rested in Mordoc\u2019s grasp.\n\nAs twilight blanketed the sky, she faced Mordoc amid the ruins, using her knowledge, agility, and the alliances she had formed. With clever use of a potion that reflected Mordoc\u2019s dark magic back at him and the unyielding courage of her allies, Aelwynn disarmed him and reclaimed the final gem. Mordoc's defeat marked an end to his reign of terror, and Aelwynn\u2019s success in integrating the gems with the Life Tree not only revived it but also dissolved the clouds of darkness engulfing Eldoria. Magic flowed anew, brighter and purer, under the guardianship of Aelwynn, the new protector of the Life Tree, ensuring that the harmony of Eldoria was preserved for generations to come.",
+    "character_information": "Absolutely, here's a detailed description for each key character suited for creating sprites in a 2D game:\n\n### 1. **Aelwynn** (Protagonist)\n- **Appearance:** Aelwynn is a youthful woman of average height, with flowing auburn hair that cascades down her back and occasional braids featuring small flowers and herbal sprigs. Her eyes are a vivid green, reflecting her deep connection with nature.\n- **Outfit:** She wears a practical, yet charming tunic dyed in soft greens and browns, resembling the forest. Her boots are sturdy for travel, and she carries a leather satchel filled with herbs and potions. A cloak with subtle leaf patterns waves behind her.\n- **Accessories:** Around her neck, a pendant glows softly, symbolizing her role as a herbalist. On her belt, various pouches and vials containing colorful concoctions can be seen.\n\n### 2. **Mordoc** (Antagonist)\n- **Appearance:** Mordoc is a tall, imposing figure with sharp, angular features, and his hair is jet black, slicked back to reveal piercing dark eyes that almost seem to absorb light.\n- **Outfit:** He dresses in a long, dark cloak that shimmers with a subtle, unsettling red under certain lights, mimicking the feeling of dark magic. His gloves are detailed with ancient runes that glow faintly in the dark.\n- **Accessories:** A staff topped with a dark crystal, radiating an ominous energy. His cloak clasp is a silver emblem representing a wilted tree, symbolizing his desire to harness and control the Life Tree\u2019s power.\n\n### 3. **Celestial Gems**\n- **Appearance:** Each gem has a unique color corresponding to their environment (e.g., a deep blue for the water realms, a bright yellow for the desert). The gems are medium-sized, with a radiant inner light and intricate, natural facets that suggest they are not merely stones but imbued with potent magic.\n  \n### 4. **Eldorian Creatures** (Allies)\n- **Chameleon Foxes:**\n  - **Appearance:** Small and sleek, with ever-changing colors that shimmer across their fur. Their eyes are large and expressive, adding to their curious nature.\n  - **Outfit:** None, but they have natural patterns that shift in mesmerizing waves.\n- **Eagles of Aeris:**\n  - **Appearance:** Majestic and large, their feathers are a gradient of gray to white. Their eyes are sharp and discerning.\n  - **Outfit:** A harness-like marking of feathers that suggests nobility and ancient lineage.\n\nThese descriptions provide a visual guide for creating distinct, memorable characters in your 2D game, ensuring that each character not only fits their role but also enhances the visual storytelling.",
+    "tile_mapping": {
+      "Grassy Ground Normal": "a",
+      "Grassy Ground Dark": "b",
+      "Grassy Ground Light": "c",
+      "Dirt Dry": "d",
+      "Dirt Moist": "e",
+      "Dirt Rocky": "f",
+      "Stone Pathway": "g",
+      "Gravel Pathway": "h",
+      "Dirt Pathway": "i",
+      "Clear Water": "j",
+      "Murky Water": "k",
+      "Moving Stream": "l",
+      "Still Pond": "m",
+      "Cloud": "n",
+      "Sky": "o",
+      "Oak Tree": "p",
+      "Pine Tree": "q",
+      "Mystic Tree": "r",
+      "Bush": "s",
+      "Flowering Bush": "t",
+      "Wildflower": "u",
+      "Small Rock": "v",
+      "Large Boulder": "w",
+      "Fallen Log": "x",
+      "Tree Stump": "y",
+      "Fungus": "z",
+      "Mushroom": "A",
+      "Colorful Crystal": "B",
+      "Cave Wall": "C",
+      "Stalactite": "D",
+      "Stalagmite": "E",
+      "Mineral Deposit": "F",
+      "Reflective Water": "G",
+      "Illuminating Moss": "H",
+      "Illuminating Lichen": "I",
+      "Cloud Ground": "J",
+      "Weathered Stone": "K",
+      "Wind-Worn Rock": "L",
+      "Aerial Plant": "M",
+      "Mystic Rune": "N",
+      "Ancient Stone": "O",
+      "Overgrown Vines": "P",
+      "Broken Column": "Q",
+      "Cobbled Road": "R",
+      "Mosaic Floor": "S",
+      "Wooden Bridge": "T",
+      "Stone Bridge": "U",
+      "Rope Bridge": "V",
+      "Wood Gate": "W",
+      "Metal Fence": "X",
+      "Rain Effect": "Y",
+      "Fog Effect": "Z",
+      "Sunlight Patch": "1",
+      "Night Time": "2",
+      "Day Time": "3",
+      "Magic Glow": "4",
+      "Sparkle Effect": "5",
+      "Magic Aura": "6",
+      "green-clad herbalist": "@",
+      "shadow-cloaked sorcerer": "#"
+    },
+    "goals": "The main goal for the protagonist, Aelwynn, is to restore the Life Tree using the eight Celestial Gems to ensure the magic and harmony of Eldoria are preserved.\n\n### Small Goals to Achieve the Main Goal:\n1. **Gather Intel about the First Gem\u2019s Location**:\n   - **Reward**: +10 Points. Unlocks knowledge of the first environment.\n   - **Penalty**: -5 Points. Delays progress as incorrect information leads to wandering.\n\n2. **Navigate through the Crystal Caves to Find the First Gem**:\n   - **Reward**: +20 Points. Acquires the first Celestial Gem.\n   - **Penalty**: -10 Points. Takes damage from cave hazards reducing overall health.\n\n3. **Learn the Language of the Eagles of Aeris**:\n   - **Reward**: +15 Points. Enables communication with Eagles for future navigational help.\n   - **Penalty**: -8 Points. Misunderstandings increase journey time and risk.\n\n4. **Acquire the Second Celestial Gem from the Floating Islands of Aeris**:\n   - **Reward**: +25 Points. Gains a gem and favor from the Aeris creatures.\n   - **Penalty**: -15 Points. Falls from an island requiring recovery and rescue.\n\n5. **Form an Alliance with the Chameleon Foxes**:\n   - **Reward**: +18 Points. Gains abilities in stealth and camouflage navigating dangerous territories.\n   - **Penalty**: -12 Points. Without alliance, encounters more enemies and faces increased challenges.\n\n6. **Successfully Brew a Rare Potion from Collected Ingredients**:\n   - **Reward**: +22 Points. Creates a potion facilitating healing or magical abilities.\n   - **Penalty**: -18 Points. A failed potion that causes temporary negative effects.\n\n7. **Decipher Ancient Ruins\u2019 Riddles to Locate Additional Gems**:\n   - **Reward**: +30 Points. Unlocks clues directly leading to two more gems.\n   - **Penalty**: -20 Points. Delays and possible traps are triggered, causing harm or loss of previous gem.\n\n8. **Confront and Defeat Mordoc to Retrieve the Final Gem**:\n   - **Reward**: +50 Points. Secures all gems and leads to restoring the Life Tree.\n   - **Penalty**: -25 Points. If defeated, significant setbacks occur, including loss of collected gems.\n\n### Achieving the Main Goal:\n**Restoring the Life Tree with All Eight Gems**:\n   - **Ultimate Reward**: +100 Points. Ensures the rebirth of the Life Tree and the prosperity of Eldoria, ending game with a victory.\n   - **Penalty for Failure**: -50 Points. Failing results in the withering of the Life Tree and the dominion of darkness over Eldoria, ending game with defeat.\n\nThis structured system of rewards and penalties provides motivation for the players to carefully plan their strategies and encourages engagement through effectively managing risks and resources throughout the game.",
+    "objectives": {
+      "Gather Intel about the First Gem\u2019s Location": [
+        "S",
+        19,
+        19
+      ],
+      "Navigate through the Crystal Caves to Find the First Gem": [
+        "B",
+        10,
+        28
+      ],
+      "Learn the Language of the Eagles of Aeris": [
+        "M",
+        20,
+        55
+      ],
+      "Acquire the Second Celestial Gem from the Floating Islands of Aeris": [
+        "B",
+        10,
+        37
+      ],
+      "Form an Alliance with the Chameleon Foxes": [
+        "H",
+        0,
+        70
+      ],
+      "Successfully Brew a Rare Potion from Collected Ingredients": [
+        "e",
+        6,
+        46
+      ],
+      "Decipher Ancient Ruins\u2019 Riddles to Locate Additional Gems": [
+        "N",
+        9,
+        53
+      ],
+      "Confront and Defeat Mordoc to Retrieve the Final Gem": [
+        "#",
+        8,
+        47
+      ],
+      "Restoring the Life Tree with All Eight Gems": [
+        "O",
+        19,
+        8
+      ]
+    },
+    "important_tiles": "[\n    '@',  # Protagonist\n    '#',  // Antagonist\n    'B',  // Colorful Crystal\n    'C',  // Cave Wall\n    'D',  // Stalactite\n    'N',  // Mystic Rune\n    'O',  // Ancient Stone\n    'P',  // Overgrown Vines\n    'S',  // Mosaic Floor\n    'H',  // Illuminating Moss\n    'G',  // Reflective Water\n    'L',  // Wind-Worn Rock\n    'M',  // Aerial Plant\n    'W',  // Wood Gate\n    'X'   // Metal Fence\n]",
+    "walkable_tiles": "[\n    'a',  # Grassy Ground Normal\n    'b',  # Grassy Ground Dark\n    'c',  # Grassy Ground Light\n    'd',  # Dirt Dry\n    'e',  # Dirt Moist\n    'f',  # Dirt Rocky\n    'g',  # Stone Pathway\n    'h',  # Gravel Pathway\n    'i',  # Dirt Pathway\n    'j',  # Clear Water (shallow/edge)\n    'm',  # Still Pond (shallow/edge)\n    'n',  # Cloud (in aerial environments)\n    's',  # Bush (small/low)\n    't',  # Flowering Bush (small/low)\n    'u',  # Wildflower\n    'v',  # Small Rock\n    'x',  # Fallen Log (crossable)\n    'H',  # Illuminating Moss\n    'I',  # Illuminating Lichen\n    'J',  # Cloud Ground (stable clouds in Aeris)\n    'T',  # Wooden Bridge\n    'U',  # Stone Bridge\n    'V',  # Rope Bridge\n    'W',  # Wood Gate (open)\n    '1',  # Sunlight Patch\n    '3',  # Day Time \n    '4',  # Magic Glow\n    '5',  # Sparkle Effect\n    '6'   # Magic Aura\n]",
+    "building_tiles": "[\n    'Ancient Stone', 'Broken Column', 'Cobbled Road', 'Mosaic Floor', 'Wooden Bridge', 'Stone Bridge', 'Rope Bridge', 'Wood Gate', 'Metal Fence'\n]",
+    "interactive_object_tiles": "['B', 'D', 'E', 'F', 'H', 'I', 'M', 'N', 'P', '@', '#']",
+    "world_1st_layer": {
+      "world": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\nabbbbbbbbbbbaaaaaaaaaaabbbbbbbbbbbaaaaaaaaaaaabbbbbbbbbbbaaaaaaaaaaaaaabbbbbbbbbbba\naccccccccccbaaaaaaaaacccccccccccbaaaaaaaaaaaccccccccccbaaaaaaaaaaaaacccccccccccbba\nadddeeeddddaaaaaaaaaadddeeeddddaaaaaaaaaaaadddeceeddddaaaaaaaaaaaaadddeeeddddddad\nafeeededfeeeedeeedfeeefeeeeedfeeeedeeedfeeefefffeeefeeeeefeeeeeeefeefeeeeedfeefee\naaghhhhhhihaaaaaaaaaghghhhhhhihaaaaaaaaaaaghhhhhhhhhhhaaaaaaaaaaaaghhhhhhhhhhhaa\naaihhhhhhihaaaaaaaaaihhhhhhhhhihaaaaaaaaaaaihhhhhhhhhhaaaaaaaaaaaaighhhhhhhihhhaa\naabbbbbbbbbbbaaaaaaaihhhhhhhhhhhaaaaaaaaaaabbbbbbbbbbbaaaaaaaaaaaaabbbbbbbbbbbbaaa\naaaaaaaaajjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaajmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmjjjjjjaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaajmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmjjjjjjaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaajjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaasssssttttttttttttttttttttttttttttttttttuuuuuuuaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaarrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrraaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaappppppppppppppppppppppppppppxxxxxxxxxxxxxxyyaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaasssrsssrssssstutututustssssssssssssssssssssssaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaddfeeeedfeeefeeeeefeeeeedffeeddffeeeeeefeeddfaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaarrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrraaaaaaaaaaaaaaaaaaaaaaaaaaaaa\nFFTFFTFFTFOFFFFFFFOFFFFTFFTFFFTFFTFFFFFFFFFFFFFFFFFFFFTFFFTFFFTFFFTFFTFFFFFFFFFFFFTF\nGGGGHGHGGGGGGGGGGGGGGGGGHHGGGGGGGGGGGGGGGGHGGGGGGGGGGGGGGGGGHGGGGGGGGHGGGGGGGGGGH\nJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKKKKKKKKKKKJLLJKJKKJKLLMJJMJJMJJKKKKKKKKKKLLLKKKKKL\nPQPSQQQQQQQQQQPSQPPPPQRQQPPPSQPPPPQQRQRSQQRPPSQQPQPPPQQQQQQQQQQRQQQPQPQQQQQQQRPPPP\nTVVVTTTTTTTTTVTTTTTUUUTTUUUUUUTTVTVTTUUTVTTTVVUUVTTVTTUTUTTTUTVVVVUUUUTUUTUTTUTVVTTT\nWWWWWWWWWWWWWWXXWXXXXXXWXXXXXXXXWWWWWWXXWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWXWWWXWWWWWW\n33333333333331ssssusssssusss333313333ssssututusttt333s33333333333333333s3333333333\n66666666666666666666666666666666666666666666666666666666666666666666s666666666666",
+      "tiles": {
+        "Grassy Ground Normal": "a",
+        "Grassy Ground Dark": "b",
+        "Grassy Ground Light": "c",
+        "Dirt Dry": "d",
+        "Dirt Moist": "e",
+        "Dirt Rocky": "f",
+        "Stone Pathway": "g",
+        "Gravel Pathway": "h",
+        "Dirt Pathway": "i",
+        "Clear Water": "j",
+        "Still Pond": "m",
+        "Oak Tree": "p",
+        "Mystic Tree": "r",
+        "Bush": "s",
+        "Flowering Bush": "t",
+        "Wildflower": "u",
+        "Fallen Log": "x",
+        "Tree Stump": "y",
+        "Mineral Deposit": "F",
+        "Reflective Water": "G",
+        "Illuminating Moss": "H",
+        "Cloud Ground": "J",
+        "Weathered Stone": "K",
+        "Wind-Worn Rock": "L",
+        "Aerial Plant": "M",
+        "Ancient Stone": "O",
+        "Overgrown Vines": "P",
+        "Broken Column": "Q",
+        "Cobbled Road": "R",
+        "Mosaic Floor": "S",
+        "Wooden Bridge": "T",
+        "Stone Bridge": "U",
+        "Rope Bridge": "V",
+        "Wood Gate": "W",
+        "Metal Fence": "X",
+        "Sunlight Patch": "1",
+        "Day Time": "3",
+        "Magic Aura": "6"
+      }
+    },
+    "world": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\nabbbbbbbbbbbaaaaaaaaaaabbbbbbbbbbbaaaaaaaaaaaabbbbbbbbbbbaaaaaaaaaaaaaabbbbbbbbbbba\naccccccccccbaaaaaaaaacccccccccccbaaaaaaaaaaaccccccccccbaaaaaaaaaaaaacccccccccccbba\nadddeeeddddaaaaaaaaaadddeeeddddaaaaaaaaaaaadddeceeddddaaaaaaaaaaaaadddeeeddddddad\nafeeededfeeeedeeedfeeefeeeeedfeeeedeeedfeeefefffeeefeeeeefeeeeeeefeefeeeeedfeefee\naaghhhhhhihaaaaaaaaaghghhhhhhihaaaaaaaaaaaghhhhhhhhhhhaaaaaaaaaaaaghhhhhhhhhhhaa\naaihhhhhhihaaaaaaaaaihhhhhhhhhihaaaaaaaaaaaihhhhhhhhhhaaaaaaaaaaaaighhhhhhhihhhaa\naabbbbbbbbbbbaaaaaaaihhhhhhhhhhhaaaaaaaaaaabbbbbbbbbbbaaaaaaaaaaaaa@bbbbbbbbbbbbaa\naaaaaaaaajjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj#jjjjjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaajmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmBBmmmmjjjjjjaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaajmmmmmmmmmmmBBBBBBBBBmmmmmmmmmmmmmmmjjjjjjNBaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaajjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjNjaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaassssPtttttttttttttttttttttttttttttttttNNuuuuaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaarrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrNrrrraaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaapppppppppppppppppppppppppppppppppppppppppxyyaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaasssrsssrssssstututNTustssssssssssssssssssssaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaddfeeeedfeeefeeeeefOeeeeedffeeddffeeeeeefeeddfaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaarrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrraaaaaaaaaaaaaaaaaaaaaaaaaaaaa\nFFFFFFFFFFOFFFFFFFOFFFFFFTFFFFTFFFFFFFFFFFFFFFFOFFFFFFFFFFFTTTTTFFFFFFFFFFOTFFFFOOOO\nGGGGHGGGGGGGGHHHHGGGGGGGGGHHGHHHHHHGGGHHGGGGGHHGGGGGGGGGGGGGHHGGGGGGGGHGGGHHGHGGGGH\nJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKKKKKKKKKKKJLLLLJKJKJKKJKLLMJJMJJMJJKKLLKKKLLLKLLKKL\nPQPSQQQQQQQQQQPSQPPPPQRQQPPPSQPPPPQQRQRSQQRPPSQQPQPPPQQQQQQQQQQQRQQQPQPQQQQQQQRPPPP\nTVVVTTTTTTTTTVTTTTTUTTTUUUUUUUTTTTTTTUUTUTTTTVVVUTTTVTTUTUTTTUTTTTUUUUUTUUTUTNZVVTT\nWWWWWWWWWWWWWWXXWWXXXXWWXXXXXXXXWWWWWWXWWWWWWWWXWWWWXWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW\n33333333333331ssssussssssusss333313333ssssututusttt333s33333333333333333s3333333333\n66666666666666666666666666666666666666666666666666666666666666666666s666666666666",
+    "evaluations": {
+      "agent_reward": -500,
+      "astar_path": 89
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 15,
+      "story_paragraphs": [
+        4,
+        5
+      ],
+      "total_objectives": 8
+    }
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "round_0": {
+    "story": "In the heart of the sprawling expanse of the Atacama, where the sun scorched the earth and the nights bit with cold, there lived a rogue archaeologist named Lara. Her latest quest was to uncover an ancient artifact that was rumored to possess the power to bring water back to the barren lands. Lara\u2019s journey was not just about the thrill of the discovery; it was a promise to her late grandfather, a renowned environmentalist who had dreamed of reversing the desert's expansion.\n\nHer first challenge was to navigate the dreadful Sand Serpent dunes, a maze of ever-shifting landscapes that could confuse even the most experienced travelers. Lara's old Jeep wound through these massive dunes, battling against the sinking sand and relentless winds. Her second task awaited at the Cactus Gates, a natural formation of towering cacti where golden eagles nested. Retrieving samples of the cactus flowers that thrived there, believed to hold secrets of resilience against harsh conditions, would aid in her environmental research.\n\nHowever, her endeavors were closely watched. Dr. Karven, a corporate mogul with designs on exploiting the desert's mineral wealth, had his eyes on the same ancient artifact. Deploying his mercenaries to intercept her, he aimed to use the artifact's power solely for resource extraction. He was the desert hawk to Lara\u2019s wandering dove, always looming close yet unseen, biding his time to strike.\n\nUndaunted, Lara reached the Echoing Canyons. Here, local lore spoke of a cave system where echoes created illusions. Her third challenge was to record these sonic anomalies, invaluable to her project of mapping underground water reservoirs. By the fourth challenge, Lara deciphered ancient glyphs at the Oasis of Whispers\u2014so named for the whispers of past wanderers carried by the winds\u2014a critical clue to the artifact's location.\n\nEach challenge brought Lara closer not only to her goal but also into Dr. Karven\u2019s crosshairs. He finally confronted her at the precipice of the Sunken Valley, site of her fifth and sixth trials: diving into the underground water channels to test their viability for sustainable irrigation, and learning the age-old farming techniques from the valley\u2019s elderly keeper, Se\u00f1ora Miro, who was a living library of desert agriculture.\n\nAs the two adversaries stood on the ancient overhang, the seventh and ultimate challenge unfolded. The artifact was revealed within the heart of the Valley\u2019s deepest cavern, glowing with a soft, azure light, pulsating with the rhythm of the earth. A battle of wits and will ensued, but with clever maneuvering and a daring leap of faith across the cavern\u2019s divide, Lara bested Karven, turning his own mercenaries against him by exposing his exploitative intentions.\n\nHer final task was to install the artifact in the old aqueduct system Se\u00f1ora Miro had shown her, harnessing its power to revitalize the abandoned farms below. As water once again flowed through the land, Lara didn\u2019t just claim victory over Dr. Karven; she fulfilled her grandfather\u2019s legacy and brought hope back to the Atacama.\n\nAs she stood watching the sunset over the newly flourishing lands, Lara felt the desert \u2014 once a place of death \u2014 breathe anew with life.",
+    "character_information": "Certainly! Here are the character descriptions that can be used as prompts for creating sprites for a 2D game based on the story:\n\n1. **Lara, the Protagonist**\n   - **Appearance**: Lara is a young woman in her late twenties, with a lean, athletic build. She has sun-kissed skin and long, dark hair tied back in a practical ponytail. Her eyes are bright and observant, shaded under a rugged, wide-brimmed explorer\u2019s hat.\n   - **Clothing**: She wears a breathable khaki safari shirt with rolled-up sleeves and durable cargo pants, perfect for the harsh desert conditions. Around her waist, a utility belt holds various tools like a compass, a small shovel, and a map case. Sturdy hiking boots cover her feet.\n   - **Accessories**: Lara carries a rugged backpack filled with essential gear for survival and excavation. A pair of binoculars hangs around her neck.\n\n2. **Dr. Karven, the Antagonist**\n   - **Appearance**: Dr. Karven is a man in his early fifties, with a sharp-featured face and slicked-back silver hair that frames piercing grey eyes. His posture is commanding and speaks of a man used to getting his way.\n   - **Clothing**: He wears a tailored dark suit that despite being in a desert, looks immaculate. His suit is paired with a lightweight, open-collar white shirt. On his feet are polished black boots, more for style than practicality.\n   - **Accessories**: A high-tech wristwatch and a cane with an ornate handle, symbolizing both status and power. Occasionally, he puts on mirrored aviator sunglasses.\n\n3. **Se\u00f1ora Miro, the NPC (Non-Player Character)**\n   - **Appearance**: Se\u00f1ora Miro is an elderly woman with a wealth of wisdom etched into her warm smile and the creases of her face. Her hair is white and worn in a simple bun.\n   - **Clothing**: She wears traditional, loose-fitting garments that are brightly colored, adorned with patterns of desert flora and fauna. A long, flowing skirt and a shawl draped over her shoulders characterize her attire, suggesting a deep connection with the land.\n   - **Accessories**: Around her neck are several handmade necklaces, and she carries an ancient-looking book that contains old farming techniques and herbal remedies.\n\nEach sprite should be designed to reflect these characteristics, capturing the essence of each character in a visually appealing and recognizable manner suitable for a 2D game. Facial expressions, posture, and distinctive accessories should be emphasized to enhance player recognition and engagement.",
+    "tile_mapping": {
+      "Sand Tile": "a",
+      "Dune Tile": "b",
+      "Rock Tile": "c",
+      "Cactus Tile": "d",
+      "Oasis Tile": "e",
+      "Cave Entrance Tile": "f",
+      "Cave Interior Tile": "g",
+      "Underground Water Channel Tile": "h",
+      "Ancient Aqueduct Tile": "i",
+      "Ancient Glyphs Wall Tile": "j",
+      "Tent Tile": "k",
+      "Vehicle Tiles": "l",
+      "Tool Stations": "m",
+      "Artifact Tile": "n",
+      "Echo Canyons Tile": "o",
+      "Sunken Valley Edge Tile": "p",
+      "Stone Path Tile": "q",
+      "Sand Path Tile": "r",
+      "Decorated Oasis Path Tile": "s",
+      "Skull/Bones Tile": "t",
+      "Nesting Eagles Tile": "u",
+      "Flora Tiles": "v",
+      "Night Sky Tile": "w",
+      "Animated Wind Effect Tile": "x",
+      "rogue archaeologist with a green jacket": "@",
+      "corporate mogul with a black suit": "#"
+    },
+    "goals": "The main goal for the protagonist, Lara, is to activate the ancient artifact within the desert's Sunken Valley to revitalize the arid and barren lands, fulfilling her grandfather's legacy of environmental rejuvenation.\n\n### Small Goals:\n1. **Navigate through the Sand Serpent Dunes**: Successfully plotting a safe path through the constantly shifting sands.\n   - **Reward**: +100 points for discovering the shortest route.\n   - **Penalty**: -50 points each time the Jeep gets stuck.\n\n2. **Collect samples from the Cactus Gates**: Gathering unique botanical specimens that could prove vital in understanding desert flora.\n   - **Reward**: +150 points for each sample collected.\n   - **Penalty**: -30 points for each damaged sample.\n\n3. **Record Echoes in the Echoing Canyons**: Capturing the unusual acoustic phenomena.\n   - **Reward**: +200 points for a complete set of recordings.\n   - **Penalty**: -100 points if recordings are incomplete or inaudible due to poor equipment setup.\n\n4. **Decipher Ancient Glyphs at the Oasis of Whispers**: Solving puzzles based on glyphs to gain clues about the artifact's location.\n   - **Reward**: +300 points for each glyph successfully interpreted.\n   - **Penalty**: -150 points for misinterpretation leading to delays.\n\n5. **Dive into Underground Water Channels in the Sunken Valley**: Exploring subterranean waters to assess their potential for irrigation.\n   - **Reward**: +250 points for mapping the channels accurately.\n   - **Penalty**: -100 points for inaccurate mapping.\n\n6. **Learn Old Farming Techniques from Se\u00f1ora Miro**: Acquiring knowledge on sustainable agriculture from a local expert.\n   - **Reward**: +200 points for mastering techniques.\n   - **Penalty**: -50 points for each forgotten or incorrectly applied technique.\n\n7. **Confront Dr. Karven**: Outsmarting or overcoming Dr. Karven to secure the artifact.\n   - **Reward**: +500 points for non-violent resolution or winning over mercenaries.\n   - **Penalty**: -300 points if forced to retreat or lose significant time.\n\n8. **Install the Artifact in the Old Aqueduct System**: Properly positioning and activating the artifact to ensure the distribution of water.\n   - **Reward**: +1000 points for successful activation and resultant agricultural development.\n   - **Penalty**: -500 points if incorrectly installed, leading to malfunction.\n\n### Main Achievement:\n- **Revitalizing the Desert with the Artifact**: Successfully turning barren land into fertile ground using ancient technology.\n   - **Final Reward**: Unlocking a bonus level or receiving a commemorative item or title in the game, symbolizing Lara\u2019s ultimate success and honoring her grandfather's vision. \n\nThese rewarding and penalizing systems are designed to keep the gameplay challenging yet rewarding, emphasizing both the journey and the ultimate goal of ecological restoration.",
+    "objectives": {
+      "Navigate through the Sand Serpent Dunes": [
+        "b",
+        2,
+        19
+      ],
+      "Collect samples from the Cactus Gates": [
+        "d",
+        4,
+        13
+      ],
+      "Record Echoes in the Echoing Canyons": [
+        "o",
+        9,
+        25
+      ],
+      "Decipher Ancient Glyphs at the Oasis of Whispers": [
+        "j",
+        9,
+        28
+      ],
+      "Dive into Underground Water Channels in the Sunken Valley": [
+        "h",
+        7,
+        30
+      ],
+      "Learn Old Farming Techniques from Se\u00f1ora Miro": [
+        "p",
+        7,
+        31
+      ],
+      "Confront Dr. Karven": [
+        "#",
+        6,
+        10
+      ],
+      "Install the Artifact in the Old Aqueduct System": [
+        "n",
+        9,
+        30
+      ]
+    },
+    "important_tiles": "[\n    '@',  # Protagonist\n    '#',  # Antagonist\n    'e',  # Oasis Tile\n    'f',  # Cave Entrance Tile\n    'g',  # Cave Interior Tile\n    'h',  # Underground Water Channel Tile\n    'i',  # Ancient Aqueduct Tile\n    'j',  # Ancient Glyphs Wall Tile\n    'n',  # Artifact Tile\n    'o',  # Echo Canyons Tile\n    'p',  # Sunken Valley Edge Tile\n    's',  # Decorated Oasis Path Tile\n    'd',  # Cactus Tile\n    'c',  # Rock Tile\n    'b'   # Dune Tile\n]",
+    "walkable_tiles": "['a', 'b', 'c', 'd', 'e', 'f', 'q', 'r', 's', 'v']",
+    "interactive_object_tiles": "['d', 'h', 'j', 'n', '#']",
+    "world_1st_layer": {
+      "world": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaabbbbaaaaaaaaaaaa\naaaaaabbbbbbbbbbbbbccccbbbbaaaaaaaa\naaaabbbccdddddcbbbbcccccccbbbbbaaaa\naaabbccdeccdddccccdcccccccbbbbbbbba\naabbbccccfbbbbccdddccccccddddddcccb\nbbcccccgbbccccccdddccccfgghhhhhcccbb\nccccccccccccccccfgddddddddhhhhhhhcc\nccccccccbbbccccdddddccffjiiiiiiiiccc\nccccbbbbbbbbbccdddddddddjiiiiiiiiccc\nccbbbbddddddccccccddddddjiiiiiiiiccc\nbbbddccdddddccccccbbccccjiiiiiiicccc\nbbcccdcccccbbbbbbbbbccccccccccccccc\nccbbbbbbbccccbbbbbbbbbbbbbbbbbbcccc",
+      "tiles": {
+        "Sand Tile": "a",
+        "Dune Tile": "b",
+        "Rock Tile": "c",
+        "Cactus Tile": "d",
+        "Oasis Tile": "e",
+        "Cave Entrance Tile": "f",
+        "Cave Interior Tile": "g",
+        "Underground Water Channel Tile": "h",
+        "Ancient Aqueduct Tile": "i",
+        "Ancient Glyphs Wall Tile": "j"
+      }
+    },
+    "world": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaabbbbaaaaaaaaaaaa\naaaaaabbbbbbbbbbbbbccccbbbbaaaaaaaa\naaaabbbccdddddcbbbbcccccccbbbbbaaaa\naaabbccdeccdddccccdcccccccbbbbbbbba\naabbbccccf#bbbccdddccccccddddddcccb\nbbcccccgbbccccccdddccccfgghhhhhcccbb\nccccccccccccccccfgddddddddhhhhhhhcc@\nccccccccbbbccccdddddccffjiiiiiiiiccc\nccccbbbbbbbbbccdddddddddjiiiiiiinccc\nccbbbbddddddccccccddddddjiiiiiiiiccc\nbbbddccdddddccccccbbccccjiiiiiiicccc\nbbcccdcccccbbbbbbbbbccccccccccccccc\nccbbbbbbbccccbbbbbbbbbbbbbbbbbbcccc",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 100.0,
+      "Accuracy_of_important_tiles_placed": 80.0,
+      "Average_euclidean_distance": 0,
+      "agent_reward": -150,
+      "astar_path": 0
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 15,
+      "story_paragraphs": [
+        4,
+        5
+      ],
+      "total_objectives": 8
+    }
+  },
+  "round_1": {
+    "story": "In the heart of the sprawling expanse of the Atacama, where the sun scorched the earth and the nights bit with cold, there lived a rogue archaeologist named Lara. Her latest quest was to uncover an ancient artifact that was rumored to possess the power to bring water back to the barren lands. Lara\u2019s journey was not just about the thrill of the discovery; it was a promise to her late grandfather, a renowned environmentalist who had dreamed of reversing the desert's expansion.\n\nHer first challenge was to navigate the dreadful Sand Serpent dunes, a maze of ever-shifting landscapes that could confuse even the most experienced travelers. Lara's old Jeep wound through these massive dunes, battling against the sinking sand and relentless winds. Her second task awaited at the Cactus Gates, a natural formation of towering cacti where golden eagles nested. Retrieving samples of the cactus flowers that thrived there, believed to hold secrets of resilience against harsh conditions, would aid in her environmental research.\n\nHowever, her endeavors were closely watched. Dr. Karven, a corporate mogul with designs on exploiting the desert's mineral wealth, had his eyes on the same ancient artifact. Deploying his mercenaries to intercept her, he aimed to use the artifact's power solely for resource extraction. He was the desert hawk to Lara\u2019s wandering dove, always looming close yet unseen, biding his time to strike.\n\nUndaunted, Lara reached the Echoing Canyons. Here, local lore spoke of a cave system where echoes created illusions. Her third challenge was to record these sonic anomalies, invaluable to her project of mapping underground water reservoirs. By the fourth challenge, Lara deciphered ancient glyphs at the Oasis of Whispers\u2014so named for the whispers of past wanderers carried by the winds\u2014a critical clue to the artifact's location.\n\nEach challenge brought Lara closer not only to her goal but also into Dr. Karven\u2019s crosshairs. He finally confronted her at the precipice of the Sunken Valley, site of her fifth and sixth trials: diving into the underground water channels to test their viability for sustainable irrigation, and learning the age-old farming techniques from the valley\u2019s elderly keeper, Se\u00f1ora Miro, who was a living library of desert agriculture.\n\nAs the two adversaries stood on the ancient overhang, the seventh and ultimate challenge unfolded. The artifact was revealed within the heart of the Valley\u2019s deepest cavern, glowing with a soft, azure light, pulsating with the rhythm of the earth. A battle of wits and will ensued, but with clever maneuvering and a daring leap of faith across the cavern\u2019s divide, Lara bested Karven, turning his own mercenaries against him by exposing his exploitative intentions.\n\nHer final task was to install the artifact in the old aqueduct system Se\u00f1ora Miro had shown her, harnessing its power to revitalize the abandoned farms below. As water once again flowed through the land, Lara didn\u2019t just claim victory over Dr. Karven; she fulfilled her grandfather\u2019s legacy and brought hope back to the Atacama.\n\nAs she stood watching the sunset over the newly flourishing lands, Lara felt the desert \u2014 once a place of death \u2014 breathe anew with life.",
+    "character_information": "Certainly! Here are the character descriptions that can be used as prompts for creating sprites for a 2D game based on the story:\n\n1. **Lara, the Protagonist**\n   - **Appearance**: Lara is a young woman in her late twenties, with a lean, athletic build. She has sun-kissed skin and long, dark hair tied back in a practical ponytail. Her eyes are bright and observant, shaded under a rugged, wide-brimmed explorer\u2019s hat.\n   - **Clothing**: She wears a breathable khaki safari shirt with rolled-up sleeves and durable cargo pants, perfect for the harsh desert conditions. Around her waist, a utility belt holds various tools like a compass, a small shovel, and a map case. Sturdy hiking boots cover her feet.\n   - **Accessories**: Lara carries a rugged backpack filled with essential gear for survival and excavation. A pair of binoculars hangs around her neck.\n\n2. **Dr. Karven, the Antagonist**\n   - **Appearance**: Dr. Karven is a man in his early fifties, with a sharp-featured face and slicked-back silver hair that frames piercing grey eyes. His posture is commanding and speaks of a man used to getting his way.\n   - **Clothing**: He wears a tailored dark suit that despite being in a desert, looks immaculate. His suit is paired with a lightweight, open-collar white shirt. On his feet are polished black boots, more for style than practicality.\n   - **Accessories**: A high-tech wristwatch and a cane with an ornate handle, symbolizing both status and power. Occasionally, he puts on mirrored aviator sunglasses.\n\n3. **Se\u00f1ora Miro, the NPC (Non-Player Character)**\n   - **Appearance**: Se\u00f1ora Miro is an elderly woman with a wealth of wisdom etched into her warm smile and the creases of her face. Her hair is white and worn in a simple bun.\n   - **Clothing**: She wears traditional, loose-fitting garments that are brightly colored, adorned with patterns of desert flora and fauna. A long, flowing skirt and a shawl draped over her shoulders characterize her attire, suggesting a deep connection with the land.\n   - **Accessories**: Around her neck are several handmade necklaces, and she carries an ancient-looking book that contains old farming techniques and herbal remedies.\n\nEach sprite should be designed to reflect these characteristics, capturing the essence of each character in a visually appealing and recognizable manner suitable for a 2D game. Facial expressions, posture, and distinctive accessories should be emphasized to enhance player recognition and engagement.",
+    "tile_mapping": {
+      "Sand Tile": "a",
+      "Dune Tile": "b",
+      "Rock Tile": "c",
+      "Cactus Tile": "d",
+      "Oasis Tile": "e",
+      "Cave Entrance Tile": "f",
+      "Cave Interior Tile": "g",
+      "Underground Water Channel Tile": "h",
+      "Ancient Aqueduct Tile": "i",
+      "Ancient Glyphs Wall Tile": "j",
+      "Tent Tile": "k",
+      "Vehicle Tiles": "l",
+      "Tool Stations": "m",
+      "Artifact Tile": "n",
+      "Echo Canyons Tile": "o",
+      "Sunken Valley Edge Tile": "p",
+      "Stone Path Tile": "q",
+      "Sand Path Tile": "r",
+      "Decorated Oasis Path Tile": "s",
+      "Skull/Bones Tile": "t",
+      "Nesting Eagles Tile": "u",
+      "Flora Tiles": "v",
+      "Night Sky Tile": "w",
+      "Animated Wind Effect Tile": "x",
+      "rogue archaeologist with a green jacket": "@",
+      "corporate mogul with a black suit": "#"
+    },
+    "goals": "The main goal for the protagonist, Lara, is to activate the ancient artifact within the desert's Sunken Valley to revitalize the arid and barren lands, fulfilling her grandfather's legacy of environmental rejuvenation.\n\n### Small Goals:\n1. **Navigate through the Sand Serpent Dunes**: Successfully plotting a safe path through the constantly shifting sands.\n   - **Reward**: +100 points for discovering the shortest route.\n   - **Penalty**: -50 points each time the Jeep gets stuck.\n\n2. **Collect samples from the Cactus Gates**: Gathering unique botanical specimens that could prove vital in understanding desert flora.\n   - **Reward**: +150 points for each sample collected.\n   - **Penalty**: -30 points for each damaged sample.\n\n3. **Record Echoes in the Echoing Canyons**: Capturing the unusual acoustic phenomena.\n   - **Reward**: +200 points for a complete set of recordings.\n   - **Penalty**: -100 points if recordings are incomplete or inaudible due to poor equipment setup.\n\n4. **Decipher Ancient Glyphs at the Oasis of Whispers**: Solving puzzles based on glyphs to gain clues about the artifact's location.\n   - **Reward**: +300 points for each glyph successfully interpreted.\n   - **Penalty**: -150 points for misinterpretation leading to delays.\n\n5. **Dive into Underground Water Channels in the Sunken Valley**: Exploring subterranean waters to assess their potential for irrigation.\n   - **Reward**: +250 points for mapping the channels accurately.\n   - **Penalty**: -100 points for inaccurate mapping.\n\n6. **Learn Old Farming Techniques from Se\u00f1ora Miro**: Acquiring knowledge on sustainable agriculture from a local expert.\n   - **Reward**: +200 points for mastering techniques.\n   - **Penalty**: -50 points for each forgotten or incorrectly applied technique.\n\n7. **Confront Dr. Karven**: Outsmarting or overcoming Dr. Karven to secure the artifact.\n   - **Reward**: +500 points for non-violent resolution or winning over mercenaries.\n   - **Penalty**: -300 points if forced to retreat or lose significant time.\n\n8. **Install the Artifact in the Old Aqueduct System**: Properly positioning and activating the artifact to ensure the distribution of water.\n   - **Reward**: +1000 points for successful activation and resultant agricultural development.\n   - **Penalty**: -500 points if incorrectly installed, leading to malfunction.\n\n### Main Achievement:\n- **Revitalizing the Desert with the Artifact**: Successfully turning barren land into fertile ground using ancient technology.\n   - **Final Reward**: Unlocking a bonus level or receiving a commemorative item or title in the game, symbolizing Lara\u2019s ultimate success and honoring her grandfather's vision. \n\nThese rewarding and penalizing systems are designed to keep the gameplay challenging yet rewarding, emphasizing both the journey and the ultimate goal of ecological restoration.",
+    "objectives": {
+      "Navigate through the Sand Serpent Dunes": [
+        "b",
+        3,
+        8
+      ],
+      "Collect samples from the Cactus Gates": [
+        "d",
+        3,
+        12
+      ],
+      "Record Echoes in the Echoing Canyons": [
+        "o",
+        6,
+        16
+      ],
+      "Decipher Ancient Glyphs at the Oasis of Whispers": [
+        "j",
+        11,
+        17
+      ],
+      "Dive into Underground Water Channels in the Sunken Valley": [
+        "h",
+        6,
+        21
+      ],
+      "Learn Old Farming Techniques from Se\u00f1ora Miro": [
+        "c",
+        9,
+        20
+      ],
+      "Confront Dr. Karven": [
+        "#",
+        13,
+        39
+      ],
+      "Install the Artifact in the Old Aqueduct System": [
+        "i",
+        12,
+        20
+      ]
+    },
+    "important_tiles": "[\n    '@',  # Protagonist\n    '#',  # Antagonist\n    'e',  # Oasis Tile\n    'f',  # Cave Entrance Tile\n    'g',  # Cave Interior Tile\n    'h',  # Underground Water Channel Tile\n    'i',  # Ancient Aqueduct Tile\n    'j',  # Ancient Glyphs Wall Tile\n    'n',  # Artifact Tile\n    'o',  # Echo Canyons Tile\n    'p',  # Sunken Valley Edge Tile\n    's',  # Decorated Oasis Path Tile\n    'd',  # Cactus Tile\n    'c',  # Rock Tile\n    'b'   # Dune Tile\n]",
+    "walkable_tiles": "['a', 'b', 'c', 'd', 'e', 'f', 'q', 'r', 's', 'v']",
+    "interactive_object_tiles": "['d', 'h', 'j', 'n', '#']",
+    "world_1st_layer": {
+      "world": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaarrqqqqaasqqqqqqqrrrrrrrraaaaa\naaarrrrqabbbqaaasqqqbbbbbbqqrrrraaa\naarrrqbbccdddddddqaaaeedcccqbbbrrra\narrrqcccceddeeeedddedddccccqqbbbbb\narrrbbbbfceeeeeeeccdddeccffhhhaabb\narrbbccccefgheeeeeeeddgfhiiihccbab\nbbbcccbbccddfgheeejjhhddhhhhhhccbb\narrccccccbbdddhheeiiiiihhdddcccbbb\nabcccrcccbbbddhiejjjjiijhhhhhccaaa\nabbrrccrrbbbbddijjjjieeghhhcccccaa\nabbbbrrbbbbbcccijjjjjjffffficccaaa\nbaabbbbrrbbbbbbccijjjjfffficcbbbaa\nbbbccbbccrrrrrrrrrcccccceeccccbbba",
+      "tiles": {
+        "Sand Tile": "a",
+        "Dune Tile": "b",
+        "Rock Tile": "c",
+        "Cactus Tile": "d",
+        "Oasis Tile": "e",
+        "Cave Entrance Tile": "f",
+        "Cave Interior Tile": "g",
+        "Underground Water Channel Tile": "h",
+        "Ancient Aqueduct Tile": "i",
+        "Ancient Glyphs Wall Tile": "j",
+        "Stone Path Tile": "q",
+        "Sand Path Tile": "r",
+        "Decorated Oasis Path Tile": "s"
+      }
+    },
+    "world": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaarrqqqqaasqqqqqqqrrrrrrrraaaaa\naaarrrrqabbbqaaasqqqbbbbbbqqrrrraaa\naarrrqbbccdddddddqaaaeedcccqbbbrrra\narrrqcccceddeeeedddedddccccqqbbbbb\narrrbbbbfceeeeeeeccdddeccffhhhaabb\narrbbccccefgheeeeeeeddgfhiiihccbab\nbbbcccbbccddfgheeejjhhddhhhhhhccbb\narrccccccbbdddhheeiiiiihhdddcccbbb\nabcccrcccbbbddhiejjjjiijhhhhhccaaa\nabbrrccrrbbbbddijjjjieeghhhcccccaa\nabbbbrrbbbbbcccijjjjjjffffficccaaa\nbaabbbbrrbbbbbbccijjj@fffficcbbbaa\nbbbccbbccrrrrrrrrrcccccceeccccbbb#",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 100.0,
+      "Accuracy_of_important_tiles_placed": 80.0,
+      "Average_euclidean_distance": 492.92798662685,
+      "agent_reward": -150,
+      "astar_path": 0
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 15,
+      "story_paragraphs": [
+        4,
+        5
+      ],
+      "total_objectives": 8
+    }
+  }
+}

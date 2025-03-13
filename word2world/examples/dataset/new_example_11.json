@@ -1,0 +1,134 @@
+{
+  "world": [
+    "aaaaaaaaaaaaaaaaaaaaaa",
+    "affffffffffffffffffaaa",
+    "afbbbb@bbbbbbbbbbbsaaa",
+    "afsaaaaaaaaaaaaaaaBaaa",
+    "afrsssssssssssssssDaaa",
+    "afraaaaaaaaaaaaaaaaCaa",
+    "afraaaaaaaaaaaa#aaaCaa",
+    "afjajjjjjjjjjjjjjjaCaa",
+    "afkakkkkkkkkkkkkkkkaCa",
+    "afaaaaaaaaaaaaaaauaaCa",
+    "afvvvvvvvvvvvvvvvaaaaa",
+    "afoooooooooooooooaaaaa",
+    "afpppppppppppppppaaaaa",
+    "aflllllllllllllllaaaaa",
+    "afmmmmmmmmmmmmmmmcaaaa",
+    "afnnnnnnnnnnDnnnngaaaa",
+    "afrrrrrrrrrrCrrrrfaaaa",
+    "afsqqqqqqqqqqqqqqfaaaa",
+    "aewffffffffffwfffwaaaa",
+    "aaaaaaaaaaaaaaaaaaaaaa"
+  ],
+  "tile_mapping": {
+    "stone": "G",
+    "mossy_cobblestone": "b",
+    "cracked_stone_bricks": "c",
+    "dirt": "d",
+    "grass": "e",
+    "stone_brick_wall": "f",
+    "chiseled_stone_bricks": "g",
+    "vine": "h",
+    "terracotta": "i",
+    "dispenser": "n",
+    "oak_fence_gate": "k",
+    "dropper": "l",
+    "iron_bars": "m",
+    "air": "o",
+    "fire": "p",
+    "stone_button": "q",
+    "lever": "r",
+    "piston": "s",
+    "oak_stairs": "t",
+    "end_portal": "u",
+    "spruce_trapdoor": "v",
+    "glowstone": "w",
+    "cartography_table": "x",
+    "gravel": "z",
+    "seagrass": "A",
+    "chest": "B",
+    "chain": "D",
+    "light_blue_wool": "E",
+    "white_wool": "F"
+  },
+  "objectives": {
+    "Navigate the Labyrinth": [
+      "a",
+      1,
+      1
+    ],
+    "Survive Traps and Guardians": [
+      "l",
+      13,
+      4
+    ],
+    "Locate the Azure Chest": [
+      "B",
+      3,
+      18
+    ],
+    "Defeat Thauron": [
+      "#",
+      6,
+      15
+    ],
+    "Gather Artifacts": [
+      "C",
+      5,
+      18
+    ],
+    "Communicate with Mentor": [
+      "D",
+      5,
+      17
+    ],
+    "Evade Thauron's Minions": [
+      "a",
+      2,
+      1
+    ],
+    "Find an Exit": [
+      "a",
+      19,
+      19
+    ]
+  },
+  "old_tile_mapping": {
+    "Stone Floor": "a",
+    "Mossy Stone Floor": "b",
+    "Cracked Stone Floor": "c",
+    "Dirt Floor": "d",
+    "Grass": "e",
+    "Stone Wall": "f",
+    "Crumbling Wall": "g",
+    "Ivy Covered Wall": "h",
+    "Decorative Wall": "i",
+    "Water Surface": "j",
+    "Bridge": "k",
+    "Spike Trap": "l",
+    "Swinging Blade": "m",
+    "Pressure Plate": "n",
+    "Chasm": "o",
+    "Fire Trap": "p",
+    "Button": "q",
+    "Lever": "r",
+    "Movable Block": "s",
+    "Staircase": "t",
+    "Portal": "u",
+    "Secret Door": "v",
+    "Glowing Rune": "w",
+    "Column": "x",
+    "Statue": "y",
+    "Rubble": "z",
+    "Vegetation": "A",
+    "Chest": "B",
+    "Artifact": "C",
+    "Orb": "D",
+    "Sky": "E",
+    "Cloud": "F",
+    "Mountain Landscape": "G",
+    "relic hunter in leather gear": "@",
+    "cursed minotaur-like creature": "#"
+  }
+}

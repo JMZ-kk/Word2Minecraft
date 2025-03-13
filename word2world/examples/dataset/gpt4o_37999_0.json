@@ -1,0 +1,263 @@
+{
+  "round_0": {
+    "story": "In the heart of the sprawling, ancient city of Eldoria, a young inventor named Thalia harbored dreams of lighting the darkest corners of her beloved city with her revolutionary glowlights. The sprawling cobblestone streets and towering stone buildings of Eldoria, veiled often in a heavy blanket of fog, were both beautiful and treacherous. Despite the city's grandeur and history, most streets remained plunged in darkness after sunset, creating an air of mystery but also a breeding ground for those with ill intentions.\n\nA beacon of creativity, Thalia lived among bustling alleys filled with clattering market stalls and vendors hawking exotic wares. Her first objective was to perfect the glowlight prototype. The tiny workshop she called home was cluttered with an assortment of tinkering tools and curious contraptions. Unfortunately, her invention caught the ire of the shadowy councilor, Lorian, who thrived in Eldoria's nocturnal gloom, using the darkness to weave his web of influence and control undetected. Lorian viewed the spread of Thalia's glowlights as a threat to his power and vowed to thwart her ambitions.\n\nAfter numerous attempts and a little serendipity during a lightning storm in the sprawling orchards just outside the city, Thalia's glowlights shone brilliantly\u2014an accidental mixture of lightning-touched minerals proving to be the key. Her second objective achieved, Thalia now needed to secure funding to mass-produce her lights. Set against the backdrop of Eldoria's towering libraries and finance districts, Thalia navigated complex networks of financiers and scholars, relying on the kindness of an elderly patron who believed in her vision.\n\nThe third objective entailed negotiating with local guilds to distribute her lights, an arduous task requiring delicate diplomacy in the rustic taverns and winding guildhalls of Eldoria. However, suspicion loomed, and Thalia quickly realized she was competing against the undercurrents of Lorian\u2019s influence. As her next objective, she had to rally public support by illuminating the city square during the famed Festival of Lumina, transforming the usually somber space into a canvas of vibrant, dancing lights. This spectacle won her the hearts of many, including local artists and performers who volunteered to help, acting as critical allies against Lorian\u2019s dark schemes.\n\nWith pressure mounting, Thalia's subsequent objectives became clear: find the weak spot in Lorian\u2019s counsel and expose his corruption, leading to a confrontation in the catacombs beneath the city\u2014a labyrinthine network of passages and Lorian\u2019s secret lair. Here, in the dimly lit chambers that echoed the sounds of their struggle, she achieved her eighth and final objective: by cleverly leveraging her knowledge of light mechanics, she trapped Lorian in a cage of refracted beams, a symbolic act of banishing darkness with light. This victory in the damp, cold catacombs led to a brighter future for Eldoria, as its streets glowed not only with Thalia's lights but with the promise of newfound hope and unity.",
+    "character_information": "Certainly! Here are detailed descriptions for each character to help generate sprites for a 2D game based on the story:\n\n### Thalia (Protagonist)\n- **Appearance**: Thalia is a young woman in her early 20s with an inventive spirit. She has short, tousled auburn hair and bright green eyes that exude curiosity and determination. Her attire includes a set of practical, slightly worn work clothes: a leather apron over a light cotton shirt and sturdy boots. She carries a satchel filled with small tools and glowing glass orbs clipped to her belt, hinting at her role as an inventor.\n- **Pose/Action**: Thalia often holds her multi-tool, inspecting objects with a focused gaze. Her stance is confident and adaptive, ready to spring into action or fiddle with her devices at a moment's notice.\n\n### Lorian (Antagonist)\n- **Appearance**: Lorian is a menacing figure in his late 40s, with sharp, aristocratic features and a sinister smile. He has slick, dark hair and cold, calculating eyes. His outfit is an elegant, dark cloak embroidered with intricate patterns, suggesting his wealth and influence. Underneath, he wears formal, high-collared garments fitting for a councilor, with an air of authority and intimidation.\n- **Pose/Action**: Often standing with his hands clasped, Lorian\u2019s stance is both commanding and ominous. He might unfurl his cloak theatrically or gesture disdainfully toward opponents.\n\n### Elderly Patron\n- **Appearance**: The elderly patron is a warm and wise mentor in their late 70s. They have gray, wiry hair and a gentle smile with friendly, deep-set eyes. Clothed in a soft, flowing robe with earth-toned colors, they exude an aura of sagacity. They carry a walking stick adorned with simple carvings and sometimes hold a lantern symbolizing hope and guidance.\n- **Pose/Action**: The patron often gestures in a welcoming manner or leans lightly on their walking stick, motioning Thalia towards newfound wisdom or knowledge.\n\n### Guild Leaders\n- **Appearance**: The guild leaders are a diverse group, each representing different trades. One might be a burly blacksmith with soot-covered hands and a leather apron, while another is a refined tailor with a monocle and needlework tunic. They each have distinctive accessories symbolizing their trades, like a hammer or a pair of scissors.\n- **Pose/Action**: Each guild leader has their own characteristic pose: the blacksmith crossing arms defiantly, and the tailor adjusting spectacles or evaluating fabric, indicating their respective strengths and expertise.\n\n### Lorian's Enforcers\n- **Appearance**: Lorian\u2019s henchmen are faceless enforcers, clad in dark armor reminiscent of shadows. Their helmets obscure their faces, and their armor is lined with dull, non-reflective metal. They carry weapons like small crossbows or short swords, and gaudy insignias marked their allegiance to Lorian.\n- **Pose/Action**: They have a looming, watchful pose, often standing guard or sprinting after intruders with efficiency and ruthless intent.\n\n### Local Artists and Performers (Allies)\n- **Appearance**: A colorful array of characters, the artists and performers sport vibrant, eclectic clothing. From a fire dancer with flowing red scarves to a juggler with brightly colored juggling balls, they embody creativity and liveliness. Their features are expressive, with face paint or masks symbolizing their art.\n- **Pose/Action**: Their poses are dynamic and exaggerated: the fire dancer twirls dramatically, leaving a trail of flame, while the juggler deftly tosses balls in mesmerizing patterns.\n\n### Background NPCs: Eldoria Citizens\n- **Appearance**: The citizens vary greatly, resembling a melting pot of cultures and professions. From merchants in simple cloth attire to scholars wearing glasses and tweed coats, they each have distinctive accessories like woven baskets or books.\n- **Pose/Action**: They are often depicted in everyday poses: chatting animatedly, engaging in trade, or reading in quiet contemplation, reflecting the bustling life of Eldoria.\n\nThese character descriptions will aid in generating unique and visually cohesive sprites that together can populate the enchanting world of Eldoria in the 2D game setting.",
+    "tile_mapping": {
+      "Cobblestone Path": "a",
+      "Cobblestone Intersection": "b",
+      "Cobblestone Edges": "c",
+      "Worn Cobblestone": "d",
+      "Stone Building Facades": "e",
+      "Window Variations": "f",
+      "Building Roofs": "g",
+      "Wooden Doors": "h",
+      "City Square": "i",
+      "Fountain Tiles": "j",
+      "Market Stalls": "k",
+      "Benches and Lamps": "l",
+      "Foggy Ground Overlay": "m",
+      "Light Post Variants": "n",
+      "Plant Life": "o",
+      "Miscellaneous Debris": "p",
+      "Wooden Flooring": "q",
+      "Rug Variants": "r",
+      "Shelves and Desks": "s",
+      "Tools and Gadgets": "t",
+      "Banners and Flags": "u",
+      "Performance Stages": "v",
+      "Light Decorations": "w",
+      "Crowd Tiles": "x",
+      "Stone Walls (Damp)": "y",
+      "Floor Tiles": "z",
+      "Archways and Columns": "A",
+      "Torch Scones": "B",
+      "Grassy Terrain": "C",
+      "Tree Tiles": "D",
+      "Orchard Ground": "E",
+      "Weather Effects": "F",
+      "Secret Passage Tiles": "G",
+      "Puzzle Mechanisms": "H",
+      "Lorian\u2019s Lair Signifiers": "I",
+      "Elderly Patron": "$",
+      "Guild Leaders": "%",
+      "Lorian's Enforcers": "&",
+      "Local Artists and Performers": "*",
+      "Eldoria Citizens": "+",
+      "brown-haired girl with goggles": "@",
+      "gray-cloaked councilor": "#"
+    },
+    "goals": "In the story of Eldoria, the main goal for the protagonist, Thalia, is to illuminate the city with her innovative glowlights, thereby bringing safety and prosperity to its citizens and disrupting the darkness leveraged by the antagonist, Lorian, for his control and influence.\n\n### Small Goals for the Protagonist:\n1. **Perfect the Glowlight Prototype**: Thalia must finalize a working model of her glowlight device.\n   - **Reward**: Gain technical insight and reputation (+10 points).\n   - **Penalty**: Loss of resources and motivation if failed (-5 points).\n\n2. **Secure Funding for Mass Production**: Obtain enough financial backing from patrons within the city.\n   - **Reward**: Access to greater resources and support (+15 points).\n   - **Penalty**: Setbacks in production plans (-10 points).\n\n3. **Negotiate with Local Guilds**: Convince guild leaders to collaborate in distributing her glowlights.\n   - **Reward**: Increased influence and reach within Eldoria (+20 points).\n   - **Penalty**: Opposition from guilds, resulting in additional negotiations needed (-10 points).\n\n4. **Rally Public Support During the Festival of Lumina**: Present a demonstration that wins the hearts of the city's people.\n   - **Reward**: Public acclaim and momentum for the project (+25 points).\n   - **Penalty**: Evidence of vulnerability, or efforts going unnoticed (-15 points).\n\n5. **Uncover Lorian\u2019s Weak Spot**: Gather evidence of corruption within Lorian\u2019s administration.\n   - **Reward**: Obtain leverage against Lorian and sway undecided allies (+30 points).\n   - **Penalty**: Increased surveillance by Lorian\u2019s enforcers (-20 points).\n\n6. **Illuminating the City Square**: Successfully place glowlights in key areas of the city center.\n   - **Reward**: Visible proof of concept and community security boost (+20 points).\n   - **Penalty**: Vandalism or sabotage setting back progress (-10 points).\n\n7. **Expose Lorian\u2019s Corruption**: Present undeniable proof of Lorian\u2019s wrongdoing to the city council.\n   - **Reward**: Public denouncement of Lorian and rallying of allies (+35 points).\n   - **Penalty**: Need to gather more evidence if insufficient (-15 points).\n\n8. **Defeat Lorian in the Catacombs**: Confront Lorian in his lair and use her ingenuity to trap him.\n   - **Reward**: Final victory, securing a safer future for Eldoria (+50 points).\n   - **Penalty**: Risk of entrapment or injury, delaying resolution (-25 points).\n\nEach achievement or failure builds on Thalia's journey, influencing not only her personal growth and the development of her glowlights but also altering the balance of power in Eldoria. The scores associated with each reward and penalty reflect the significance and impact of each goal on her overarching mission.",
+    "objectives": {
+      "Perfect the Glowlight Prototype": [
+        "@",
+        2,
+        4
+      ],
+      "Secure Funding for Mass Production": [
+        "$",
+        8,
+        3
+      ],
+      "Negotiate with Local Guilds": [
+        "%",
+        4,
+        4
+      ],
+      "Rally Public Support During the Festival of Lumina": [
+        "*",
+        6,
+        1
+      ],
+      "Uncover Lorian\u2019s Weak Spot": [
+        "I",
+        8,
+        7
+      ],
+      "Illuminating the City Square": [
+        "i",
+        3,
+        2
+      ],
+      "Expose Lorian\u2019s Corruption": [
+        "G",
+        7,
+        0
+      ],
+      "Defeat Lorian in the Catacombs": [
+        "#",
+        9,
+        0
+      ]
+    },
+    "important_tiles": "```python\n['@', '#', '$', '%', '&', '*', '+', 'i', 'v', 'w', 'I', 'G', 't', 'n', 'A']\n```",
+    "walkable_tiles": "```python\n['a', 'b', 'c', 'd', 'i', 'k', 'l', 'm', 'o', 'p', 'q', 't', 'v', 'x', 'z', 'C', 'D', 'E']\n```",
+    "interactive_object_tiles": "```python\n['h', 'k', 's', 't', 'v', 'w', 'G', 'H', '@', '#', '$', '%', '&', '*']\n```",
+    "world_1st_layer": {
+      "world": "eeeeegggg\neffffffff\nennnnnnnn\neioiiinno\nencccccce\neeekkkeee\n*+\n\n\neeeyyyyye",
+      "tiles": {
+        "Cobblestone Edges": "c",
+        "Stone Building Facades": "e",
+        "Window Variations": "f",
+        "Building Roofs": "g",
+        "City Square": "i",
+        "Market Stalls": "k",
+        "Light Post Variants": "n",
+        "Plant Life": "o",
+        "Stone Walls (Damp)": "y",
+        "Local Artists and Performers": "*",
+        "Eldoria Citizens": "+"
+      }
+    },
+    "world": "eeeeegggg\neffffffff\nennn@nnnn\neioiiinno\nencccccce\neeekkkeee\n*+\n#\n\neeeyyyyIe",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 57.14285714285714,
+      "Accuracy_of_important_tiles_placed": 46.666666666666664,
+      "Average_euclidean_distance": 0,
+      "agent_reward": 0,
+      "astar_path": 0
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 15,
+      "story_paragraphs": [
+        5,
+        6
+      ],
+      "total_objectives": 8
+    }
+  },
+  "round_1": {
+    "story": "In the heart of the sprawling, ancient city of Eldoria, a young inventor named Thalia harbored dreams of lighting the darkest corners of her beloved city with her revolutionary glowlights. The sprawling cobblestone streets and towering stone buildings of Eldoria, veiled often in a heavy blanket of fog, were both beautiful and treacherous. Despite the city's grandeur and history, most streets remained plunged in darkness after sunset, creating an air of mystery but also a breeding ground for those with ill intentions.\n\nA beacon of creativity, Thalia lived among bustling alleys filled with clattering market stalls and vendors hawking exotic wares. Her first objective was to perfect the glowlight prototype. The tiny workshop she called home was cluttered with an assortment of tinkering tools and curious contraptions. Unfortunately, her invention caught the ire of the shadowy councilor, Lorian, who thrived in Eldoria's nocturnal gloom, using the darkness to weave his web of influence and control undetected. Lorian viewed the spread of Thalia's glowlights as a threat to his power and vowed to thwart her ambitions.\n\nAfter numerous attempts and a little serendipity during a lightning storm in the sprawling orchards just outside the city, Thalia's glowlights shone brilliantly\u2014an accidental mixture of lightning-touched minerals proving to be the key. Her second objective achieved, Thalia now needed to secure funding to mass-produce her lights. Set against the backdrop of Eldoria's towering libraries and finance districts, Thalia navigated complex networks of financiers and scholars, relying on the kindness of an elderly patron who believed in her vision.\n\nThe third objective entailed negotiating with local guilds to distribute her lights, an arduous task requiring delicate diplomacy in the rustic taverns and winding guildhalls of Eldoria. However, suspicion loomed, and Thalia quickly realized she was competing against the undercurrents of Lorian\u2019s influence. As her next objective, she had to rally public support by illuminating the city square during the famed Festival of Lumina, transforming the usually somber space into a canvas of vibrant, dancing lights. This spectacle won her the hearts of many, including local artists and performers who volunteered to help, acting as critical allies against Lorian\u2019s dark schemes.\n\nWith pressure mounting, Thalia's subsequent objectives became clear: find the weak spot in Lorian\u2019s counsel and expose his corruption, leading to a confrontation in the catacombs beneath the city\u2014a labyrinthine network of passages and Lorian\u2019s secret lair. Here, in the dimly lit chambers that echoed the sounds of their struggle, she achieved her eighth and final objective: by cleverly leveraging her knowledge of light mechanics, she trapped Lorian in a cage of refracted beams, a symbolic act of banishing darkness with light. This victory in the damp, cold catacombs led to a brighter future for Eldoria, as its streets glowed not only with Thalia's lights but with the promise of newfound hope and unity.",
+    "character_information": "Certainly! Here are detailed descriptions for each character to help generate sprites for a 2D game based on the story:\n\n### Thalia (Protagonist)\n- **Appearance**: Thalia is a young woman in her early 20s with an inventive spirit. She has short, tousled auburn hair and bright green eyes that exude curiosity and determination. Her attire includes a set of practical, slightly worn work clothes: a leather apron over a light cotton shirt and sturdy boots. She carries a satchel filled with small tools and glowing glass orbs clipped to her belt, hinting at her role as an inventor.\n- **Pose/Action**: Thalia often holds her multi-tool, inspecting objects with a focused gaze. Her stance is confident and adaptive, ready to spring into action or fiddle with her devices at a moment's notice.\n\n### Lorian (Antagonist)\n- **Appearance**: Lorian is a menacing figure in his late 40s, with sharp, aristocratic features and a sinister smile. He has slick, dark hair and cold, calculating eyes. His outfit is an elegant, dark cloak embroidered with intricate patterns, suggesting his wealth and influence. Underneath, he wears formal, high-collared garments fitting for a councilor, with an air of authority and intimidation.\n- **Pose/Action**: Often standing with his hands clasped, Lorian\u2019s stance is both commanding and ominous. He might unfurl his cloak theatrically or gesture disdainfully toward opponents.\n\n### Elderly Patron\n- **Appearance**: The elderly patron is a warm and wise mentor in their late 70s. They have gray, wiry hair and a gentle smile with friendly, deep-set eyes. Clothed in a soft, flowing robe with earth-toned colors, they exude an aura of sagacity. They carry a walking stick adorned with simple carvings and sometimes hold a lantern symbolizing hope and guidance.\n- **Pose/Action**: The patron often gestures in a welcoming manner or leans lightly on their walking stick, motioning Thalia towards newfound wisdom or knowledge.\n\n### Guild Leaders\n- **Appearance**: The guild leaders are a diverse group, each representing different trades. One might be a burly blacksmith with soot-covered hands and a leather apron, while another is a refined tailor with a monocle and needlework tunic. They each have distinctive accessories symbolizing their trades, like a hammer or a pair of scissors.\n- **Pose/Action**: Each guild leader has their own characteristic pose: the blacksmith crossing arms defiantly, and the tailor adjusting spectacles or evaluating fabric, indicating their respective strengths and expertise.\n\n### Lorian's Enforcers\n- **Appearance**: Lorian\u2019s henchmen are faceless enforcers, clad in dark armor reminiscent of shadows. Their helmets obscure their faces, and their armor is lined with dull, non-reflective metal. They carry weapons like small crossbows or short swords, and gaudy insignias marked their allegiance to Lorian.\n- **Pose/Action**: They have a looming, watchful pose, often standing guard or sprinting after intruders with efficiency and ruthless intent.\n\n### Local Artists and Performers (Allies)\n- **Appearance**: A colorful array of characters, the artists and performers sport vibrant, eclectic clothing. From a fire dancer with flowing red scarves to a juggler with brightly colored juggling balls, they embody creativity and liveliness. Their features are expressive, with face paint or masks symbolizing their art.\n- **Pose/Action**: Their poses are dynamic and exaggerated: the fire dancer twirls dramatically, leaving a trail of flame, while the juggler deftly tosses balls in mesmerizing patterns.\n\n### Background NPCs: Eldoria Citizens\n- **Appearance**: The citizens vary greatly, resembling a melting pot of cultures and professions. From merchants in simple cloth attire to scholars wearing glasses and tweed coats, they each have distinctive accessories like woven baskets or books.\n- **Pose/Action**: They are often depicted in everyday poses: chatting animatedly, engaging in trade, or reading in quiet contemplation, reflecting the bustling life of Eldoria.\n\nThese character descriptions will aid in generating unique and visually cohesive sprites that together can populate the enchanting world of Eldoria in the 2D game setting.",
+    "tile_mapping": {
+      "Cobblestone Path": "a",
+      "Cobblestone Intersection": "b",
+      "Cobblestone Edges": "c",
+      "Worn Cobblestone": "d",
+      "Stone Building Facades": "e",
+      "Window Variations": "f",
+      "Building Roofs": "g",
+      "Wooden Doors": "h",
+      "City Square": "i",
+      "Fountain Tiles": "j",
+      "Market Stalls": "k",
+      "Benches and Lamps": "l",
+      "Foggy Ground Overlay": "m",
+      "Light Post Variants": "n",
+      "Plant Life": "o",
+      "Miscellaneous Debris": "p",
+      "Wooden Flooring": "q",
+      "Rug Variants": "r",
+      "Shelves and Desks": "s",
+      "Tools and Gadgets": "t",
+      "Banners and Flags": "u",
+      "Performance Stages": "v",
+      "Light Decorations": "w",
+      "Crowd Tiles": "x",
+      "Stone Walls (Damp)": "y",
+      "Floor Tiles": "z",
+      "Archways and Columns": "A",
+      "Torch Scones": "B",
+      "Grassy Terrain": "C",
+      "Tree Tiles": "D",
+      "Orchard Ground": "E",
+      "Weather Effects": "F",
+      "Secret Passage Tiles": "G",
+      "Puzzle Mechanisms": "H",
+      "Lorian\u2019s Lair Signifiers": "I",
+      "Elderly Patron": "$",
+      "Guild Leaders": "%",
+      "Lorian's Enforcers": "&",
+      "Local Artists and Performers": "*",
+      "Eldoria Citizens": "+",
+      "brown-haired girl with goggles": "@",
+      "gray-cloaked councilor": "#"
+    },
+    "goals": "In the story of Eldoria, the main goal for the protagonist, Thalia, is to illuminate the city with her innovative glowlights, thereby bringing safety and prosperity to its citizens and disrupting the darkness leveraged by the antagonist, Lorian, for his control and influence.\n\n### Small Goals for the Protagonist:\n1. **Perfect the Glowlight Prototype**: Thalia must finalize a working model of her glowlight device.\n   - **Reward**: Gain technical insight and reputation (+10 points).\n   - **Penalty**: Loss of resources and motivation if failed (-5 points).\n\n2. **Secure Funding for Mass Production**: Obtain enough financial backing from patrons within the city.\n   - **Reward**: Access to greater resources and support (+15 points).\n   - **Penalty**: Setbacks in production plans (-10 points).\n\n3. **Negotiate with Local Guilds**: Convince guild leaders to collaborate in distributing her glowlights.\n   - **Reward**: Increased influence and reach within Eldoria (+20 points).\n   - **Penalty**: Opposition from guilds, resulting in additional negotiations needed (-10 points).\n\n4. **Rally Public Support During the Festival of Lumina**: Present a demonstration that wins the hearts of the city's people.\n   - **Reward**: Public acclaim and momentum for the project (+25 points).\n   - **Penalty**: Evidence of vulnerability, or efforts going unnoticed (-15 points).\n\n5. **Uncover Lorian\u2019s Weak Spot**: Gather evidence of corruption within Lorian\u2019s administration.\n   - **Reward**: Obtain leverage against Lorian and sway undecided allies (+30 points).\n   - **Penalty**: Increased surveillance by Lorian\u2019s enforcers (-20 points).\n\n6. **Illuminating the City Square**: Successfully place glowlights in key areas of the city center.\n   - **Reward**: Visible proof of concept and community security boost (+20 points).\n   - **Penalty**: Vandalism or sabotage setting back progress (-10 points).\n\n7. **Expose Lorian\u2019s Corruption**: Present undeniable proof of Lorian\u2019s wrongdoing to the city council.\n   - **Reward**: Public denouncement of Lorian and rallying of allies (+35 points).\n   - **Penalty**: Need to gather more evidence if insufficient (-15 points).\n\n8. **Defeat Lorian in the Catacombs**: Confront Lorian in his lair and use her ingenuity to trap him.\n   - **Reward**: Final victory, securing a safer future for Eldoria (+50 points).\n   - **Penalty**: Risk of entrapment or injury, delaying resolution (-25 points).\n\nEach achievement or failure builds on Thalia's journey, influencing not only her personal growth and the development of her glowlights but also altering the balance of power in Eldoria. The scores associated with each reward and penalty reflect the significance and impact of each goal on her overarching mission.",
+    "objectives": {
+      "Perfect the Glowlight Prototype": [
+        "@",
+        6,
+        3
+      ],
+      "Secure Funding for Mass Production": [
+        "$",
+        4,
+        7
+      ],
+      "Negotiate with Local Guilds": [
+        "%",
+        9,
+        7
+      ],
+      "Rally Public Support During the Festival of Lumina": [
+        "i",
+        4,
+        3
+      ],
+      "Uncover Lorian\u2019s Weak Spot": [
+        "&",
+        9,
+        8
+      ],
+      "Illuminating the City Square": [
+        "i",
+        4,
+        3
+      ],
+      "Expose Lorian\u2019s Corruption": [
+        "#",
+        3,
+        5
+      ],
+      "Defeat Lorian in the Catacombs": [
+        "I",
+        8,
+        1
+      ]
+    },
+    "important_tiles": "```python\n['@', '#', '$', '%', '&', '*', '+', 'i', 'v', 'w', 'I', 'G', 't', 'n', 'A']\n```",
+    "walkable_tiles": "```python\n['a', 'b', 'c', 'd', 'i', 'k', 'l', 'm', 'o', 'p', 'q', 't', 'v', 'x', 'z', 'C', 'D', 'E']\n```",
+    "interactive_object_tiles": "```python\n['h', 'k', 's', 't', 'v', 'w', 'G', 'H', '@', '#', '$', '%', '&', '*']\n```",
+    "world_1st_layer": {
+      "world": "eeeeegggg\nefffxxfff\nennonnnnn\nelooiwwno\neniicxcne\neqkqlwtee\neekkkkkee\neAeAeeeee\nyIyIyIyIy\nyyyyyyyyy",
+      "tiles": {
+        "Cobblestone Edges": "c",
+        "Stone Building Facades": "e",
+        "Window Variations": "f",
+        "Building Roofs": "g",
+        "City Square": "i",
+        "Market Stalls": "k",
+        "Benches and Lamps": "l",
+        "Light Post Variants": "n",
+        "Plant Life": "o",
+        "Wooden Flooring": "q",
+        "Tools and Gadgets": "t",
+        "Light Decorations": "w",
+        "Crowd Tiles": "x",
+        "Stone Walls (Damp)": "y",
+        "Archways and Columns": "A",
+        "Lorian\u2019s Lair Signifiers": "I"
+      }
+    },
+    "world": "eeeeegggg\nefffxxfff\nennonnnnn\nelooi#wno\neniicxcne\neqkqlwtee\neek@kkkee\neAeAee$%\nyIyIyIy&I\nyyyyyyyyy",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 71.42857142857143,
+      "Accuracy_of_important_tiles_placed": 73.33333333333333,
+      "Average_euclidean_distance": 231.29850842580026,
+      "agent_reward": 0,
+      "astar_path": 5
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 16,
+      "story_paragraphs": [
+        5,
+        6
+      ],
+      "total_objectives": 9
+    }
+  }
+}

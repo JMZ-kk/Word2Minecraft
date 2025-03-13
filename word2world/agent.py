@@ -37,9 +37,9 @@ class Word2WorldEnv(gym.Env):
 
         # Make second layer transparent
 
-        for char, image in self.tiles.items():
-            if char.isalpha():
-                self.tiles[char] = remove(self.tiles[char])
+        # for char, image in self.tiles.items():
+        #     if char.isalpha():
+        #         self.tiles[char] = remove(self.tiles[char])
 
 
         # Count the occurrences of each tile in the map
@@ -162,7 +162,7 @@ class Word2WorldEnv(gym.Env):
                 if not tile.isalpha():
                     tile_img = self.tiles[tile].resize((self.char_tile_size, self.char_tile_size))
                     # Use the image itself as the mask to handle transparency
-                    env_img.paste(tile_img, (j * self.char_tile_size, i * self.char_tile_size), tile_img)    
+                    env_img.paste(tile_img, (j * self.char_tile_size, i * self.char_tile_size), tile_img)
                 else:
                     tile_img = self.tiles[tile].resize((self.tile_size, self.tile_size))
                     # Use the image itself as the mask to handle transparency

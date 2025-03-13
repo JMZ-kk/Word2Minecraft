@@ -1,0 +1,122 @@
+{
+  "world": [
+    "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "eaabbbbbbbbbbbbbbbbegeaaaaabbbbgdaaaaaabbbbabbjee",
+    "eaabbbbbbbbbbbbbbbbegbbbbbbbbbbgdbbbbbbbbbbdbbbbe",
+    "eaaaddhhhhhhhhhhhddegbbbbbbgddgeebbbbbbggdgdggbbe",
+    "eaaaddaaaaaaaaaaddegeknnkoegddekkkkkookgdgdkooeee",
+    "eaaaddabbbbbbbbadbbgeknnkoegddbbkkkkkkogdgdkkkjjj",
+    "eaabbbbbbbbbbbbbbbbegbbnnbbbbdbbbbbbbbbbgdbbbbjjj",
+    "eaabbbbddddddaabbaaaebbaabbbbegdbbbbbbbbdgbbbbjee",
+    "eeeeeteeeeee@eeeesegeewwwwwwwweeeeeeeeee#deeettee",
+    "jabbbbbbjabbhabbbbbbgewwwwwwwwqqbbhhbbahbbbbgttee",
+    "jqbbbbbbbbbbbbbbbbbbegwwwwwwwwqqbbbbbbbbbbbbbbeee",
+    "jdddddddbbddbbddddddbbwwwwwwwwbbddbbddbbddbbbbeee",
+    "jbbbbbbbbsbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbeee",
+    "ebbbbbbbbebbhhbbbbbbehbbbbbbbbhabbbbbbbbbbahbbeee",
+    "eeeeeeeeseseeeseeseeseeeeeeeeseseeeeeseseeseeseee"
+  ],
+  "tile_mapping": {
+    "sandstone": "a",
+    "cobblestone": "b",
+    "stone": "c",
+    "grass_block": "d",
+    "stone_bricks": "e",
+    "cracked_stone_bricks": "f",
+    "piston": "g",
+    "glowstone": "h",
+    "black_concrete": "i",
+    "iron_door": "j",
+    "glass_pane": "r",
+    "red_sandstone": "l",
+    "granite": "m",
+    "acacia_planks": "n",
+    "dispenser": "o",
+    "sand": "p",
+    "chest": "q",
+    "green_glazed_terracotta": "s",
+    "jigsaw": "t",
+    "beacon": "u",
+    "bone_block": "v",
+    "mossy_cobblestone": "w",
+    "brown_carpet": "x",
+    "andesite": "y",
+    "campfire": "z",
+    "honeycomb_block": "!",
+    "spawner": "&"
+  },
+  "objectives": {
+    "Enter the Nightfall Labyrinth without detection": [
+      "j",
+      8,
+      0
+    ],
+    "Navigate through the labyrinth": [
+      "t",
+      8,
+      7
+    ],
+    "Survive encounters with enemies": [
+      "&",
+      9,
+      7
+    ],
+    "Gather necessary ingredients and items": [
+      "h",
+      9,
+      14
+    ],
+    "Send bioluminescent plants back with Tobin": [
+      "h",
+      9,
+      14
+    ],
+    "Solve ancient puzzles": [
+      "t",
+      8,
+      7
+    ],
+    "Neutralize Rashek": [
+      "#",
+      8,
+      35
+    ],
+    "Retrieve the Aegis of Shadows and escape the labyrinth": [
+      "q",
+      10,
+      1
+    ]
+  },
+  "old_tile_mapping": {
+    "Sand Floor Tile": "a",
+    "Rocky Floor Tile": "b",
+    "Cave Floor Tile": "c",
+    "Grass Floor Tile": "d",
+    "Labyrinth Wall Tile": "e",
+    "Labyrinth Cracked Wall Tile": "f",
+    "Labyrinth Moving Wall Tile": "g",
+    "Glowing Plant Tile": "h",
+    "Dark Corner Tile": "i",
+    "Entrance/Gate Tile": "j",
+    "Mirror Surface Tile": "k",
+    "Canyon Wall Tile": "l",
+    "Canyon Cliff Edge Tile": "m",
+    "Bridge Tile": "n",
+    "Water Tile": "o",
+    "Sand Dune Tile": "p",
+    "Chest Tile": "q",
+    "Trap Tile": "r",
+    "Portal Tile": "s",
+    "Puzzle Mechanism Tile": "t",
+    "Healing Spot Tile": "u",
+    "Skeleton Bones Tile": "v",
+    "Ancient Ruins Tile": "w",
+    "Fallen Leaves Tile": "x",
+    "Rock Formations Tile": "y",
+    "Campfire Tile": "z",
+    "NPC Stationary Tile": "!",
+    "Enemy Spawn Tile": "&",
+    "brown-haired adventurer": "@",
+    "dark-robed wizard": "#"
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "round_0": {
+    "story": "The ancient fortress of Skellion rested on the craggy peaks of the Eldan Mountains, an imposing stone structure wrapped in veils of creeping fog and mystery. Once the heart of a mighty kingdom, it now served as the lair for Maldox, a malevolent sorcerer whose dark magic kept the fortress shrouded from prying eyes. Within the maze of corridors and vast chambers, a legendary chest said to contain the Starlight Gem\u2014a stone of immense power\u2014waited to be discovered. \n\nKara, a plucky young adventurer with a knack for decoding ancient scripts and evading traps, ventured into the labyrinthine depths of Skellion. Her objectives were clear: navigate the complex layout, survive the waves of enchanted guardians summoned by Maldox, gather four elemental keys\u2014Earth, Water, Air, and Fire\u2014scattered within, find the legendary chest, defeat Maldox, and find an exit to return safely home.\n\nArmed with her wits and a mystical compass given by her sage mentor Alyron, Kara set foot inside the silent halls. The air buzzed with latent magic, and the walls seemed to whisper of forgotten lore and hidden passages. Her first task was to locate the labyrinth\u2019s heart where the chest was rumored to reside. Using her compass, Kara mapped her path, darting through traps and dodging spectral sentries that floated through the stone walls.\n\nEach key was protected by a series of challenges designed to test the seeker\u2019s strength, intellect, and spirit. In the Water Chamber, Kara waded through deceivingly tranquil pools that housed treacherous undercurrents and mercurial spirits. Retrieving the Water Key demanded timing and patience. The Fire Chamber, a cavern of volcanic vents and ash, required agility and precision to evade burning geysers and obtain the Fire Key. Her resolve hardened with each trial, with the Air and Earth Keys demanding equal cunning and bravery.\n\nDuring her quest, puppet creatures\u2014twisted beasts of shadow and silk weaved by Maldox\u2019s dark spells\u2014came in waves. Each skirmish drained Kara but honed her combat skills, preparing her for the inevitable confrontation with Maldox. He had watched her trials through the eyes of his labyrinth creatures and recognized in her a worthy adversary.\n\nOnce all four keys were gathered, the heart of the labyrinth opened, revealing the chest glowing with an ethereal light. However, the ultimate guardian of the chest was none other than Maldox himself, his eyes alight with fury and dark power. The battle was fierce; Maldox wielded spells of confusion and decay, attempting to turn Kara\u2019s senses against her. But with the elemental keys\u2019 power channeled through her compass, Kara countered each of Maldox\u2019s attacks, finding the rhythm in his chaos.\n\nWith a final, thunderous cry, she used the compass to amplify the elemental powers together, directing them at Maldox. As light engulfed the chamber, Maldox\u2019s form shattered like glass, his spell on the fortress breaking. The Starlight Gem lay before Kara, pulsing softly. Grabbing the jewel, she used its light to guide her to the fortress\u2019s exit, each step taking her closer to freedom and the fresh winds of the outside world.\n\nKara emerged into the dawn, the gem secure in her pack, the fortress of Skellion a silent silhouette against the rising sun. Her journey had not only released the Eldan Mountains from Maldox\u2019s shadow but had also proved her own bravery and ingenuity, marking the first of many adventures to come.",
+    "character_information": "Absolutely, turning the narrative into a 2D game opens up a lot of possibilities! Here\u2019s a description of each character that can help an artist generate sprites for the game:\n\n### 1. Kara - The Protagonist\n**Sprite Description:**\n- **Appearance:** Kara is a youthful, athletic woman with medium-length dark hair tied back in a functional ponytail. She wears a worn leather tunic armored with patches of steel, particularly on her shoulders and chest. Her leggings are rugged and patched, suitable for agility, and her boots are sturdy, designed for grip.\n- **Equipments:** On her back, she carries an ancient-looking backpack filled with scrolls, potions, and the mystical compass. Her belt holds various pouches for items. In her hand, she wields a short sword with runes etched along the blade, emitting a faint glow.\n- **Animation Suggestions:** Running, jumping, sword swinging, puzzle solving (looking through a compass or map), taking damage, victory pose.\n\n### 2. Maldox - The Antagonist\n**Sprite Description:**\n- **Appearance:** Maldox is tall and imposing, with deep-set eyes glowing red under a shadowy hood. His long cloak is black and appears to be made of a flowing, shadow-like material that moves independently as if alive.\n- **Equipments:** In his hand is a twisted staff topped with a dark crystal that pulses with malevolent energy. \n- **Animation Suggestions:** Casting spells (waves of dark energy, summoning creatures), laughing menacingly, taking damage, defeat (shattering like glass).\n\n### 3. Enchanted Guardians - Lesser Enemies\n**Sprite Description:**\n1. **Spectral Sentry**\n   - **Appearance:** Ghostly, translucent figures draped in tattered cloaks, their eyes glowing blue. They float above the ground, drifting through walls and obstacles.\n   - **Animation Suggestions:** Floating movement, passing through walls, attacking (extending arms for spectral touch).\n\n2. **Puppet Creatures**\n   - **Appearance:** These are twisted, humanoid figures with jerky, unnatural movements, sewn together from shadow and patches of old fabric. Their faces are simple masks with eerie, empty eye holes.\n   - **Animation Suggestions:** Jerky walking, attacking with claws, taking damage.\n\n### 4. Elemental Keys - Important Objects\n**Sprite Description:**\n- Represented by small, glowing icons indicating each element:\n  1. **Earth Key:** A small stone carved with ancient earth symbols, radiating a soft green glow.\n  2. **Water Key:** Shaped like a teardrop, crafted from a crystalline material, and glowing with a blue light.\n  3. **Air Key:** Feather-shaped, almost transparent key, floating and glowing with a pale, white light.\n  4. **Fire Key:** Jagged, flame-shaped design with a flickering orange-red ember light.\n\n### 5. The Starlight Gem - Main Object\n**Sprite Description:**\n- **Appearance:** A dazzlingly beautiful gem, large and multifaceted, emitting pulsating waves of rainbow light.\n- **Animation Suggestion:** Pulsating glow, reacting when interacted with or collected.\n\nThe backgrounds and environments can be elaborately designed to match the atmospheric and mystical settings described in the story, enhancing the overall immersive experience of the game.",
+    "tile_mapping": {
+      "Plain Stone Wall": "A",
+      "Moss-Covered Stone Wall": "B",
+      "Cracked Stone Wall": "C",
+      "Regular Stone Floor": "D",
+      "Cracked Stone Floor": "E",
+      "Mossy Stone Floor": "F",
+      "Stone Ceiling": "G",
+      "Large Ornate Door (Locked)": "H",
+      "Large Ornate Door (Unlocked)": "I",
+      "Simple Wooden Door": "J",
+      "Secret Stone Door": "K",
+      "Castle Window (Barred)": "L",
+      "Castle Window": "M",
+      "Stone Staircase Up": "N",
+      "Stone Staircase Down": "O",
+      "Spike Trap (Retracted)": "P",
+      "Spike Trap (Deployed)": "Q",
+      "Swinging Blade (Rest)": "R",
+      "Swinging Blade (Motion)": "S",
+      "Pitfall (Hidden)": "T",
+      "Pitfall (Revealed)": "U",
+      "Fire Geyser (Inactive)": "V",
+      "Fire Geyser (Active)": "W",
+      "Shallow Water": "X",
+      "Deep Water": "Y",
+      "Flowing Lava": "Z",
+      "Lava Pool": "a",
+      "Ice Tile": "b",
+      "Sentinel Statue Intact": "c",
+      "Sentinel Statue Broken": "d",
+      "Decorative Bust": "e",
+      "Broken Table": "f",
+      "Ancient Bookshelf (Empty)": "g",
+      "Ancient Bookshelf (With Books)": "h",
+      "Torches (Unlit)": "i",
+      "Torches (Lit)": "j",
+      "Rug": "k",
+      "Tapestry": "l",
+      "Skeleton Remains": "m",
+      "Water Chamber Reflective Tile": "n",
+      "Water Chamber Stone Platform": "o",
+      "Fire Chamber Blackened Stone": "p",
+      "Fire Chamber Scorched Tile": "q",
+      "Earth Chamber Overgrown Vine": "r",
+      "Earth Chamber Boulder": "s",
+      "Air Chamber Cloud Tile": "t",
+      "Wind Vortex Effect": "u",
+      "Elemental Key": "v",
+      "Locked Chest": "w",
+      "Unlocked Chest": "x",
+      "Lever (Up)": "y",
+      "Lever (Down)": "z",
+      "Pressure Plate (Active)": "0",
+      "Pressure Plate (Inactive)": "1",
+      "Portal (Dormant)": "2",
+      "Portal (Active)": "3",
+      "young adventurer with mystical compass": "@",
+      "dark sorcerer in shadowy robes": "#"
+    },
+    "goals": "The main goal for the protagonist, Kara, in the story is to obtain the Starlight Gem from the ancient fortress of Skellion and defeat the dark sorcerer Maldox, thereby liberating the region from his sinister influence.\n\n### Small Goals to Achieve the Main Goal:\n1. **Navigate Through the Labyrinth:** Successfully find a way through the complex maze within the fortress.\n2. **Survive Waves of Enchanted Guardians:** Defend against and defeat the beings summoned by Maldox.\n3. **Gather Four Elemental Keys:** Collect the Earth, Water, Air, and Fire keys to unlock the chamber containing the Starlight Gem.\n4. **Locate the Legendary Chest:** Find the chest that contains the Starlight Gem.\n5. **Defeat Maldox:** Engage and overcome Maldox in a magical duel to break his power over Skellion.\n6. **Escape the Fortress:** Find an exit from the fortress after accomplishing her mission.\n\n### Rewards and Penalties:\n**Rewards**\n1. **Successfully Navigating Through the Labyrinth**\n   - **Reward:** Gain access to new areas and resources.\n   - **Score Increase:** +100 points\n2. **Surviving Each Wave of Enchanted Guardians**\n   - **Reward:** Acquire rare items and boosts from fallen guardians.\n   - **Score Increase:** +50 points per wave\n3. **Gathering Each Elemental Key**\n   - **Reward:** Each key collected enhances Kara's abilities.\n   - **Score Increase:** +200 points per key\n4. **Locating the Legendary Chest**\n   - **Reward:** Access to the Starlight Gem which grants special powers.\n   - **Score Increase:** +300 points\n5. **Defeating Maldox**\n   - **Reward:** Liberation of the region, significant power upgrade.\n   - **Score Increase:** +500 points\n6. **Escaping the Fortress**\n   - **Reward:** Completion of the adventure and recognition as a hero.\n   - **Score Increase:** +400 points\n\n**Penalties**\n1. **Getting Lost in the Labyrinth**\n   - **Penalty:** Loss of time/resources.\n   - **Score Decrease:** -50 points\n2. **Failing to Defend Against a Wave of Guardians**\n   - **Penalty:** Loss of health or essential items.\n   - **Score Decrease:** -30 points per failed defense\n3. **Missing an Elemental Key**\n   - **Penalty:** Inability to access certain areas or weaken Maldox effectively.\n   - **Score Decrease:** -100 points per missing key\n4. **Failing to Locate the Chest**\n   - **Penalty:** Cannot gain the gem, missing out on major power upgrade.\n   - **Score Decrease:** -200 points\n5. **Being Defeated by Maldox**\n   - **Penalty:** Have to restart the battle or from a checkpoint, loss of gained items.\n   - **Score Decrease:** -150 points\n6. **Failing to Escape the Fortress**\n   - **Penalty:** Trapped until conditions are met for escape.\n   - **Score Decrease:** -100 points\n\nThese objectives, rewards, and penalties are designed to create a challenging yet engaging game experience that motivates players to strategize and achieve critical milestones while navigating the risks associated with their adventure.",
+    "objectives": {
+      "Navigate Through the Labyrinth": [
+        "D",
+        9,
+        5
+      ],
+      "Survive Waves of Enchanted Guardians": [
+        "D",
+        9,
+        10
+      ],
+      "Gather Four Elemental Keys": [
+        "v",
+        9,
+        7
+      ],
+      "Locate the Legendary Chest": [
+        "x",
+        10,
+        14
+      ],
+      "Defeat Maldox": [
+        "#",
+        14,
+        14
+      ],
+      "Escape the Fortress": [
+        "I",
+        18,
+        17
+      ]
+    },
+    "important_tiles": "[\n    '@',  # Protagonist\n    '#',  # Antagonist\n    'H',  # Large Ornate Door (Locked)\n    'I',  # Large Ornate Door (Unlocked)\n    'K',  # Secret Stone Door\n    'Q',  # Spike Trap (Deployed)\n    'W',  # Fire Geyser (Active)\n    'v',  # Elemental Key\n    'w',  # Locked Chest\n    'x',  # Unlocked Chest\n    '0',  # Pressure Plate (Active)\n    '1',  # Pressure Plate (Inactive)\n    '3',  # Portal (Active)\n    'U',  # Pitfall (Revealed)\n    'S'   # Swinging Blade (Motion)\n]",
+    "walkable_tiles": "[\n    'D',  # Regular Stone Floor\n    'E',  # Cracked Stone Floor\n    'F',  # Mossy Stone Floor\n    'I',  # Large Ornate Door (Unlocked)\n    'J',  # Simple Wooden Door\n    'K',  # Secret Stone Door\n    'X',  # Shallow Water\n    'b',  # Ice Tile\n    'n',  # Water Chamber Reflective Tile\n    'o',  # Water Chamber Stone Platform\n    'p',  # Fire Chamber Blackened Stone\n    'q',  # Fire Chamber Scorched Tile\n    'r',  # Earth Chamber Overgrown Vine\n    's',  # Earth Chamber Boulder\n    't',  # Air Chamber Cloud Tile\n    'u',  # Wind Vortex Effect\n    'x',  # Unlocked Chest\n    'y',  # Lever (Up)\n    'z',  # Lever (Down)\n    '1',  # Pressure Plate (Inactive)\n    '2'   # Portal (Dormant)\n]",
+    "building_tiles": "['A', 'B', 'C']",
+    "interactive_object_tiles": "[\n    'H', 'I', 'J', 'K', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'v', 'w', 'x', 'y', 'z', '0', '1', '2', '3'\n]",
+    "world_1st_layer": {
+      "world": "AAAAAAAAAAAAAAAAAAAA\nABBBBABBBBCBBBBBABBA\nACCDCCDCCCCDCCCDCCCJ\nADDDDEDDDDEDDDDEDDEK\nAFFFFAFFFAFFFAFFFAFA\nAGGGGGGGGGGGGGGGGGGA\nACCCCCCCCCCCCCCCCCCC\nADDDDDDDDDDDDDDDDDDF\nAFFFFFFFFFFFFFFFFFGG\nADDDDDDDEDDDDDDDDEDA\nAQWnnnofifoDDDDDDFDD\nApZD1uplbfoqDDQodddl\nAqZo0xWlpstDrso1DXlo\nAqZbFZopq0Kotn0EtEWo\nAXFslWXiFpoqpptoJetD\nAXDrWXWslFqppqZZuEiW\nADnoWWFprrqoQooFttRn\nADxiFFDWXWpqWtniWtni\nAFFFpFFFWWWWppoFFtFt\nAAAAAAAAAAAAAAAAAAAA",
+      "tiles": {
+        "Plain Stone Wall": "A",
+        "Moss-Covered Stone Wall": "B",
+        "Cracked Stone Wall": "C",
+        "Regular Stone Floor": "D",
+        "Cracked Stone Floor": "E",
+        "Mossy Stone Floor": "F",
+        "Stone Ceiling": "G",
+        "Simple Wooden Door": "J",
+        "Secret Stone Door": "K",
+        "Spike Trap (Deployed)": "Q",
+        "Swinging Blade (Rest)": "R",
+        "Fire Geyser (Active)": "W",
+        "Shallow Water": "X",
+        "Flowing Lava": "Z",
+        "Ice Tile": "b",
+        "Sentinel Statue Broken": "d",
+        "Decorative Bust": "e",
+        "Broken Table": "f",
+        "Torches (Unlit)": "i",
+        "Tapestry": "l",
+        "Water Chamber Reflective Tile": "n",
+        "Water Chamber Stone Platform": "o",
+        "Fire Chamber Blackened Stone": "p",
+        "Fire Chamber Scorched Tile": "q",
+        "Earth Chamber Overgrown Vine": "r",
+        "Earth Chamber Boulder": "s",
+        "Air Chamber Cloud Tile": "t",
+        "Wind Vortex Effect": "u",
+        "Unlocked Chest": "x",
+        "Pressure Plate (Active)": "0",
+        "Pressure Plate (Inactive)": "1"
+      }
+    },
+    "world": "AAAAAAAAAAAAAAAAAAAA\nABBBBABBBBCBBBBBABBA\nACCDCCDCCCCDCCCDCCCJ\nADDDDEDDDDEDDDDEDDEK\nAFFFFAFFFAFFFAFFFAFA\nAGGGGGGGGGGGGGGGGGGA\nACCCCCCCCCCCCCCCCCCC\nADDDDDDDDDDDDDDDDDDF\nAFFFFFFFFFFFFFFFFFFG\nADDDD@DDEDDDDDDDDEDA\nAQWnnnofifoDDDDDDFDD\nApZD1uplbfoqDDQodddl\nAqZo0xWlpstDrso1DXlo\nAqZbFZopq0Kotn0EtEWo\nAXFslWXiF#oqpptoJetD\nAXDrWXWslFqppqZZuEiW\nADnoWWFprrqovooFttRn\nADxiFFDWXWpq>vniWtni\nAFFFvFFFWWWWwxoFFtFt\nAAAAAAAAAAAAAAA1AAAA",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 100.0,
+      "Accuracy_of_important_tiles_placed": 66.66666666666666,
+      "Average_euclidean_distance": 0,
+      "agent_reward": 0,
+      "astar_path": 23
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 15,
+      "story_paragraphs": [
+        5,
+        6
+      ],
+      "total_objectives": 8
+    }
+  },
+  "round_1": {
+    "story": "The ancient fortress of Skellion rested on the craggy peaks of the Eldan Mountains, an imposing stone structure wrapped in veils of creeping fog and mystery. Once the heart of a mighty kingdom, it now served as the lair for Maldox, a malevolent sorcerer whose dark magic kept the fortress shrouded from prying eyes. Within the maze of corridors and vast chambers, a legendary chest said to contain the Starlight Gem\u2014a stone of immense power\u2014waited to be discovered. \n\nKara, a plucky young adventurer with a knack for decoding ancient scripts and evading traps, ventured into the labyrinthine depths of Skellion. Her objectives were clear: navigate the complex layout, survive the waves of enchanted guardians summoned by Maldox, gather four elemental keys\u2014Earth, Water, Air, and Fire\u2014scattered within, find the legendary chest, defeat Maldox, and find an exit to return safely home.\n\nArmed with her wits and a mystical compass given by her sage mentor Alyron, Kara set foot inside the silent halls. The air buzzed with latent magic, and the walls seemed to whisper of forgotten lore and hidden passages. Her first task was to locate the labyrinth\u2019s heart where the chest was rumored to reside. Using her compass, Kara mapped her path, darting through traps and dodging spectral sentries that floated through the stone walls.\n\nEach key was protected by a series of challenges designed to test the seeker\u2019s strength, intellect, and spirit. In the Water Chamber, Kara waded through deceivingly tranquil pools that housed treacherous undercurrents and mercurial spirits. Retrieving the Water Key demanded timing and patience. The Fire Chamber, a cavern of volcanic vents and ash, required agility and precision to evade burning geysers and obtain the Fire Key. Her resolve hardened with each trial, with the Air and Earth Keys demanding equal cunning and bravery.\n\nDuring her quest, puppet creatures\u2014twisted beasts of shadow and silk weaved by Maldox\u2019s dark spells\u2014came in waves. Each skirmish drained Kara but honed her combat skills, preparing her for the inevitable confrontation with Maldox. He had watched her trials through the eyes of his labyrinth creatures and recognized in her a worthy adversary.\n\nOnce all four keys were gathered, the heart of the labyrinth opened, revealing the chest glowing with an ethereal light. However, the ultimate guardian of the chest was none other than Maldox himself, his eyes alight with fury and dark power. The battle was fierce; Maldox wielded spells of confusion and decay, attempting to turn Kara\u2019s senses against her. But with the elemental keys\u2019 power channeled through her compass, Kara countered each of Maldox\u2019s attacks, finding the rhythm in his chaos.\n\nWith a final, thunderous cry, she used the compass to amplify the elemental powers together, directing them at Maldox. As light engulfed the chamber, Maldox\u2019s form shattered like glass, his spell on the fortress breaking. The Starlight Gem lay before Kara, pulsing softly. Grabbing the jewel, she used its light to guide her to the fortress\u2019s exit, each step taking her closer to freedom and the fresh winds of the outside world.\n\nKara emerged into the dawn, the gem secure in her pack, the fortress of Skellion a silent silhouette against the rising sun. Her journey had not only released the Eldan Mountains from Maldox\u2019s shadow but had also proved her own bravery and ingenuity, marking the first of many adventures to come.",
+    "character_information": "Absolutely, turning the narrative into a 2D game opens up a lot of possibilities! Here\u2019s a description of each character that can help an artist generate sprites for the game:\n\n### 1. Kara - The Protagonist\n**Sprite Description:**\n- **Appearance:** Kara is a youthful, athletic woman with medium-length dark hair tied back in a functional ponytail. She wears a worn leather tunic armored with patches of steel, particularly on her shoulders and chest. Her leggings are rugged and patched, suitable for agility, and her boots are sturdy, designed for grip.\n- **Equipments:** On her back, she carries an ancient-looking backpack filled with scrolls, potions, and the mystical compass. Her belt holds various pouches for items. In her hand, she wields a short sword with runes etched along the blade, emitting a faint glow.\n- **Animation Suggestions:** Running, jumping, sword swinging, puzzle solving (looking through a compass or map), taking damage, victory pose.\n\n### 2. Maldox - The Antagonist\n**Sprite Description:**\n- **Appearance:** Maldox is tall and imposing, with deep-set eyes glowing red under a shadowy hood. His long cloak is black and appears to be made of a flowing, shadow-like material that moves independently as if alive.\n- **Equipments:** In his hand is a twisted staff topped with a dark crystal that pulses with malevolent energy. \n- **Animation Suggestions:** Casting spells (waves of dark energy, summoning creatures), laughing menacingly, taking damage, defeat (shattering like glass).\n\n### 3. Enchanted Guardians - Lesser Enemies\n**Sprite Description:**\n1. **Spectral Sentry**\n   - **Appearance:** Ghostly, translucent figures draped in tattered cloaks, their eyes glowing blue. They float above the ground, drifting through walls and obstacles.\n   - **Animation Suggestions:** Floating movement, passing through walls, attacking (extending arms for spectral touch).\n\n2. **Puppet Creatures**\n   - **Appearance:** These are twisted, humanoid figures with jerky, unnatural movements, sewn together from shadow and patches of old fabric. Their faces are simple masks with eerie, empty eye holes.\n   - **Animation Suggestions:** Jerky walking, attacking with claws, taking damage.\n\n### 4. Elemental Keys - Important Objects\n**Sprite Description:**\n- Represented by small, glowing icons indicating each element:\n  1. **Earth Key:** A small stone carved with ancient earth symbols, radiating a soft green glow.\n  2. **Water Key:** Shaped like a teardrop, crafted from a crystalline material, and glowing with a blue light.\n  3. **Air Key:** Feather-shaped, almost transparent key, floating and glowing with a pale, white light.\n  4. **Fire Key:** Jagged, flame-shaped design with a flickering orange-red ember light.\n\n### 5. The Starlight Gem - Main Object\n**Sprite Description:**\n- **Appearance:** A dazzlingly beautiful gem, large and multifaceted, emitting pulsating waves of rainbow light.\n- **Animation Suggestion:** Pulsating glow, reacting when interacted with or collected.\n\nThe backgrounds and environments can be elaborately designed to match the atmospheric and mystical settings described in the story, enhancing the overall immersive experience of the game.",
+    "tile_mapping": {
+      "Plain Stone Wall": "A",
+      "Moss-Covered Stone Wall": "B",
+      "Cracked Stone Wall": "C",
+      "Regular Stone Floor": "D",
+      "Cracked Stone Floor": "E",
+      "Mossy Stone Floor": "F",
+      "Stone Ceiling": "G",
+      "Large Ornate Door (Locked)": "H",
+      "Large Ornate Door (Unlocked)": "I",
+      "Simple Wooden Door": "J",
+      "Secret Stone Door": "K",
+      "Castle Window (Barred)": "L",
+      "Castle Window": "M",
+      "Stone Staircase Up": "N",
+      "Stone Staircase Down": "O",
+      "Spike Trap (Retracted)": "P",
+      "Spike Trap (Deployed)": "Q",
+      "Swinging Blade (Rest)": "R",
+      "Swinging Blade (Motion)": "S",
+      "Pitfall (Hidden)": "T",
+      "Pitfall (Revealed)": "U",
+      "Fire Geyser (Inactive)": "V",
+      "Fire Geyser (Active)": "W",
+      "Shallow Water": "X",
+      "Deep Water": "Y",
+      "Flowing Lava": "Z",
+      "Lava Pool": "a",
+      "Ice Tile": "b",
+      "Sentinel Statue Intact": "c",
+      "Sentinel Statue Broken": "d",
+      "Decorative Bust": "e",
+      "Broken Table": "f",
+      "Ancient Bookshelf (Empty)": "g",
+      "Ancient Bookshelf (With Books)": "h",
+      "Torches (Unlit)": "i",
+      "Torches (Lit)": "j",
+      "Rug": "k",
+      "Tapestry": "l",
+      "Skeleton Remains": "m",
+      "Water Chamber Reflective Tile": "n",
+      "Water Chamber Stone Platform": "o",
+      "Fire Chamber Blackened Stone": "p",
+      "Fire Chamber Scorched Tile": "q",
+      "Earth Chamber Overgrown Vine": "r",
+      "Earth Chamber Boulder": "s",
+      "Air Chamber Cloud Tile": "t",
+      "Wind Vortex Effect": "u",
+      "Elemental Key": "v",
+      "Locked Chest": "w",
+      "Unlocked Chest": "x",
+      "Lever (Up)": "y",
+      "Lever (Down)": "z",
+      "Pressure Plate (Active)": "0",
+      "Pressure Plate (Inactive)": "1",
+      "Portal (Dormant)": "2",
+      "Portal (Active)": "3",
+      "young adventurer with mystical compass": "@",
+      "dark sorcerer in shadowy robes": "#"
+    },
+    "goals": "The main goal for the protagonist, Kara, in the story is to obtain the Starlight Gem from the ancient fortress of Skellion and defeat the dark sorcerer Maldox, thereby liberating the region from his sinister influence.\n\n### Small Goals to Achieve the Main Goal:\n1. **Navigate Through the Labyrinth:** Successfully find a way through the complex maze within the fortress.\n2. **Survive Waves of Enchanted Guardians:** Defend against and defeat the beings summoned by Maldox.\n3. **Gather Four Elemental Keys:** Collect the Earth, Water, Air, and Fire keys to unlock the chamber containing the Starlight Gem.\n4. **Locate the Legendary Chest:** Find the chest that contains the Starlight Gem.\n5. **Defeat Maldox:** Engage and overcome Maldox in a magical duel to break his power over Skellion.\n6. **Escape the Fortress:** Find an exit from the fortress after accomplishing her mission.\n\n### Rewards and Penalties:\n**Rewards**\n1. **Successfully Navigating Through the Labyrinth**\n   - **Reward:** Gain access to new areas and resources.\n   - **Score Increase:** +100 points\n2. **Surviving Each Wave of Enchanted Guardians**\n   - **Reward:** Acquire rare items and boosts from fallen guardians.\n   - **Score Increase:** +50 points per wave\n3. **Gathering Each Elemental Key**\n   - **Reward:** Each key collected enhances Kara's abilities.\n   - **Score Increase:** +200 points per key\n4. **Locating the Legendary Chest**\n   - **Reward:** Access to the Starlight Gem which grants special powers.\n   - **Score Increase:** +300 points\n5. **Defeating Maldox**\n   - **Reward:** Liberation of the region, significant power upgrade.\n   - **Score Increase:** +500 points\n6. **Escaping the Fortress**\n   - **Reward:** Completion of the adventure and recognition as a hero.\n   - **Score Increase:** +400 points\n\n**Penalties**\n1. **Getting Lost in the Labyrinth**\n   - **Penalty:** Loss of time/resources.\n   - **Score Decrease:** -50 points\n2. **Failing to Defend Against a Wave of Guardians**\n   - **Penalty:** Loss of health or essential items.\n   - **Score Decrease:** -30 points per failed defense\n3. **Missing an Elemental Key**\n   - **Penalty:** Inability to access certain areas or weaken Maldox effectively.\n   - **Score Decrease:** -100 points per missing key\n4. **Failing to Locate the Chest**\n   - **Penalty:** Cannot gain the gem, missing out on major power upgrade.\n   - **Score Decrease:** -200 points\n5. **Being Defeated by Maldox**\n   - **Penalty:** Have to restart the battle or from a checkpoint, loss of gained items.\n   - **Score Decrease:** -150 points\n6. **Failing to Escape the Fortress**\n   - **Penalty:** Trapped until conditions are met for escape.\n   - **Score Decrease:** -100 points\n\nThese objectives, rewards, and penalties are designed to create a challenging yet engaging game experience that motivates players to strategize and achieve critical milestones while navigating the risks associated with their adventure.",
+    "objectives": {
+      "Navigate Through the Labyrinth": [
+        "D",
+        2,
+        5
+      ],
+      "Survive Waves of Enchanted Guardians": [
+        "G",
+        20,
+        1
+      ],
+      "Gather Four Elemental Keys": [
+        "v",
+        6,
+        5
+      ],
+      "Locate the Legendary Chest": [
+        "x",
+        5,
+        18
+      ],
+      "Defeat Maldox": [
+        "#",
+        6,
+        26
+      ],
+      "Escape the Fortress": [
+        "3",
+        20,
+        30
+      ]
+    },
+    "important_tiles": "[\n    '@',  # Protagonist\n    '#',  # Antagonist\n    'H',  # Large Ornate Door (Locked)\n    'I',  # Large Ornate Door (Unlocked)\n    'K',  # Secret Stone Door\n    'Q',  # Spike Trap (Deployed)\n    'W',  # Fire Geyser (Active)\n    'v',  # Elemental Key\n    'w',  # Locked Chest\n    'x',  # Unlocked Chest\n    '0',  # Pressure Plate (Active)\n    '1',  # Pressure Plate (Inactive)\n    '3',  # Portal (Active)\n    'U',  # Pitfall (Revealed)\n    'S'   # Swinging Blade (Motion)\n]",
+    "walkable_tiles": "[\n    'D',  # Regular Stone Floor\n    'E',  # Cracked Stone Floor\n    'F',  # Mossy Stone Floor\n    'I',  # Large Ornate Door (Unlocked)\n    'J',  # Simple Wooden Door\n    'K',  # Secret Stone Door\n    'X',  # Shallow Water\n    'b',  # Ice Tile\n    'n',  # Water Chamber Reflective Tile\n    'o',  # Water Chamber Stone Platform\n    'p',  # Fire Chamber Blackened Stone\n    'q',  # Fire Chamber Scorched Tile\n    'r',  # Earth Chamber Overgrown Vine\n    's',  # Earth Chamber Boulder\n    't',  # Air Chamber Cloud Tile\n    'u',  # Wind Vortex Effect\n    'x',  # Unlocked Chest\n    'y',  # Lever (Up)\n    'z',  # Lever (Down)\n    '1',  # Pressure Plate (Inactive)\n    '2'   # Portal (Dormant)\n]",
+    "building_tiles": "['A', 'B', 'C']",
+    "interactive_object_tiles": "[\n    'H', 'I', 'J', 'K', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'v', 'w', 'x', 'y', 'z', '0', '1', '2', '3'\n]",
+    "world_1st_layer": {
+      "world": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nABBBBABBBBBBBBBBABBBBBBBBBBABBB\nABCEBCKCBECCCEBCCCKCCCCBCCECCBCB\nADDDEDDDDDDEEDDDIDRDDDDDDDDDDEDE\nAFFFFFAFFFFFFAFSXFAFFFFFFFSFFFFA\nAGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGA\nACCCVXCCXCBCVVCVCYCVCCYVCXCCCCCCC\nADDEDEDEDSXDEDDDDDSDDDDDDSDDDXDDE\nAFEEEFFFAFFFFFFFAFAFFFFEFFFFAAAFA\nADDDEEDEDDDEIEDEXEEDDDDDDDDDEDEDD\nABCCYCCVCBCVCYQQYZVXCCBYBCVCVCBCB\nAFFFYFFFAFFVFFVFFFVSYFFVAFFFXFFFA\nADDDDSFDDDDDSXDDDUXSXDDDDDDDSFFED\nAFYEFAFFAFFAVFFAQQFWFAFAFFAFAFFEA\nADFDDDXDEXXDDEDDDYEEDEDFDDDDDFFDD\nAQQFCBYYWWQQBXCCCYXVQQCFQWWFWZWDZ\nAFFFZFAFFFFFFFAYFAFFFFFFFFFFAFFFF\nADFFXDDDDYEEDEDDDEDDDDDDXDDEDDDDQ\nACBCVBCBBVYCVCBQCBVCCXCVCCCCCYCBC\nADDDDXDEDXDDDDDQSXDFEDEEYDDYDSDDD\nAGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGA",
+      "tiles": {
+        "Plain Stone Wall": "A",
+        "Moss-Covered Stone Wall": "B",
+        "Cracked Stone Wall": "C",
+        "Regular Stone Floor": "D",
+        "Cracked Stone Floor": "E",
+        "Mossy Stone Floor": "F",
+        "Stone Ceiling": "G",
+        "Large Ornate Door (Unlocked)": "I",
+        "Secret Stone Door": "K",
+        "Spike Trap (Deployed)": "Q",
+        "Swinging Blade (Rest)": "R",
+        "Swinging Blade (Motion)": "S",
+        "Pitfall (Revealed)": "U",
+        "Fire Geyser (Inactive)": "V",
+        "Fire Geyser (Active)": "W",
+        "Shallow Water": "X",
+        "Deep Water": "Y",
+        "Flowing Lava": "Z"
+      }
+    },
+    "world": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nABBBBABBBBBBBBBBABBBBBBBBBBABBB\nABCEBCKCBECCCEBCCCKCCCCBCCECCBCB\nADDDEDDDDDDEEDDDIDRDDDDDDDDDDEDE\nAFFFFFAFFFFFFAFSXFAFFFFFFFSFFFFA\nAGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGA\nACCCVXCCXCBCVVCVCYCVCCYVCX#CCCCCC\nADDEDEDEDSXDEDDDDDSDDDDDDSDDDXDDE\nAFEEEFFFAFFFFFFFAFAFFFFEFFFFAAAFA\nADDDEEDEDDDEIEDEXEEDDDDDDDDDEDEDD\nABCCYCCVCBCVCYQQYZVXCCBYBCVCVCBCB\nAFFFYFFFAFFVFFVFFFVSYFFVAFFFXFFFA\nADDDDSFDDDDDSXDDDUXSXDDDDDDDSFFED\nAFYEFAFFAFFAVFFAQQFWFAFAFFAFAFFEA\nADFDDDXDEXXDDEDDDYEEDEDFDDDDDFFDD\nAQQFCBYYWWQQBXCCCYXVQQCFQWWFWZWDZ\nAFFFZFAFFFFFFFAYFAFFFFFFFFFFAFFFF\nADFFXDDDDYEEDEDDDEDDDDDDXDDEDDDDQ\nACBCVBCBBVYCVCBQCBVCCXCVCCCCCYCBC\nADDDDXDEDXDDDDDQSXDFEDEEYDDYDSDDD\nAGGGGGGGGGGGGGGGGGGGGGGG@GGA",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 40.0,
+      "Accuracy_of_important_tiles_placed": 53.333333333333336,
+      "Average_euclidean_distance": 543.0423556224689,
+      "agent_reward": -600,
+      "astar_path": 0
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 15,
+      "story_paragraphs": [
+        5,
+        6
+      ],
+      "total_objectives": 8
+    }
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "round_0": {
+    "story": "In the sprawling, rain-soaked city of Neuvarra, buildings stretched toward the sky like dark spires, their glass facades reflecting the ceaseless neon glow. Within this urban maze, Mara Thorn, a young software engineer with a penchant for AI ethics, had made it her mission to dismantle the pervasive control of Quantum Corp, a tech giant whose surveillance tools threatened individual freedoms. Her first objective was clear: infiltrate Quantum\u2019s highly guarded data center located beneath the bustling Tech Market district, a sprawling hub of innovation and corporate espionage.\n\nAs Mara navigated through the tight, crowded streets of the market, her second task involved procuring a set of illegal encryption chips from Gray, a shady vendor known for his cybernetic enhancements. These chips would allow her to access Quantum\u2019s server room undetected. Her third objective, acquire schematics of the building\u2019s layout, proved challenging but was accomplished with the help of a disillusioned Quantum architect who empathized with her cause. With the blueprints in hand, Mara mapped out her stealthy approach which constituted her fourth objective.\n\nMeanwhile, Quantum\u2019s head of security, Cyrus Knox, a brilliant yet ruthless strategist, had caught wind of Mara\u2019s intentions. Determined to maintain the supremacy of Quantum Corp, Knox bolstered the facility\u2019s defenses, making Mara\u2019s fifth objective\u2014to bypass their advanced biometric security systems\u2014her most daunting task yet. Utilizing the market's network of hackers, Mara gained access to a prototype biometric scrambler, bringing her one step closer to her goal.\n\nWith the security hurdle crossed during a tumultuous thunderstorm that provided cover noise and uncertainty, Mara's sixth goal was within the labyrinthine corridors of Quantum\u2019s data center to implant a virus that would disable the surveillance software. The environment inside was sterile and intimidating, with rows of servers humming ominously, a stark contrast to the chaotic energy of the city above.\n\nThe climax of Mara\u2019s mission approached as she finally confronted Cyrus Knox deep within the core of the data center. Their encounter\u2014her seventh objective\u2014involved a tense game of mental and technological chess. Mara, using a holographic interface, engaged in rapid cyber warfare against Knox, outmaneuvering his defense protocols. Winning this duel meant gaining control of the system, her penultimate goal.\n\nHaving disabled Quantum\u2019s surveillance capabilities and ensuring that the software could be used ethically, Mara achieved her final objective \u2014 escaping the facility amidst the chaos of system failures and alarms. Emerging into the early dawn, the city of Neuvarra appeared different to her now\u2014more hopeful. Mara knew that while her battle was won, the war against unchecked technological power would continue, and she was ready to fight it every step of the way, with the city's network of allies burgeoning in the shadows.",
+    "character_information": "Certainly! Creating accurate character descriptions for sprite generation can help ensure that game characters are visually distinct and fit the game\u2019s art style and story context.\n\n### 1. Mara Thorn (Protagonist)\n**Appearance**: Mara is in her late twenties, medium height with an athletic build. She has short, layered dark hair with a striking blue streak on her left side, symbolizing her rebellious nature. Mara wears a long, fitted trench coat that's a muted gray, ideal for blending into the urban shadows. Underneath, she has a tactical bodysuit equipped with various tech gadgets visibly integrated into the design. She wears augmented reality glasses that have a sleek, modern look.\n\n**Sprite Details**:\n- Hair: Dark with a blue streak, stylized in a messy, layered cut.\n- Clothing: Gray trench coat over a dark, textured bodysuit with visible tech enhancements.\n- Accessories: Slim augmented reality glasses, a utility belt with mini gadgets.\n\n### 2. Cyrus Knox (Antagonist)\n**Appearance**: Cyrus is a man in his forties, tall and imposing with a muscular build. He has a clean-shaven head and sharp, intense eyes that seem to always be analyzing his surroundings. He dresses in a sophisticated, dark suit that integrates subtle armor padding, indicating his readiness for any physical or digital confrontation. His overall demeanor is cold and commanding.\n\n**Sprite Details**:\n- Hair: Bald.\n- Clothing: Dark, armored suit, slightly reflective, signifying high tech.\n- Accessories: Cybernetic enhancements visible on his neck and wrists, perhaps glowing slightly to indicate activity.\n\n### 3. Gray (NPC - Vendor)\n**Appearance**: Gray is a wiry individual in his early thirties with an eclectic fashion sense. He has unruly, shoulder-length hair dyed in multiple pastel colors and sports cybernetic arm enhancements that are clearly visible and full of intricate details. His clothing is a mix of punk-rock and tech-gear, featuring a leather jacket covered in electronic patches and holographic displays.\n\n**Sprite Details**:\n- Hair: Long and multicolored (pastel tones).\n- Clothing: Leather jacket adorned with tech patches and decals, casual, tech-influenced pants.\n- Accessories: Cybernetic arm enhancements, various glowing elements.\n\n### 4. Architect (NPC - Ally)\n**Appearance**: The architect is a middle-aged woman with a refined and stern appearance. She has shoulder-length, neatly styled auburn hair and wears smart, protective eyewear. Her outfit is a smart-casual mix, suitable for an office but with personal touches like a blueprint tube strapped to her back and a digital wristwatch used for designing.\n\n**Sprite Details**:\n- Hair: Auburn, styled in a bob.\n- Clothing: Elegant blouse with a vest, slacks, with a blueprint tube on her back.\n- Accessories: Protective, smart eyewear, and a sophisticated digital wristwatch.\n\nThese descriptions provide a foundation for creating detailed and expressive sprites that will enhance the narrative and immersive experience of the game. Each character's unique style and tools hint at their role and skills within the game's universe.",
+    "tile_mapping": {
+      "Wet Asphalt Tile": "A",
+      "Puddle Tile": "B",
+      "Sidewalk Tile": "C",
+      "Neon Signage Tile": "D",
+      "Street Lamp Tile": "E",
+      "Doorway/Entrance Tile": "F",
+      "Window Tile": "G",
+      "Trash Can and Alley Debris Tiles": "H",
+      "Stall Tiles": "I",
+      "Tech Gadget Display Tile": "J",
+      "Crowd Tile": "K",
+      "Illuminated Panel Floor Tiles": "L",
+      "Overhead Display Tiles": "M",
+      "Neon Outline Tiles": "N",
+      "Security Camera Tiles": "O",
+      "High-security Door Tiles": "P",
+      "Server Rack Tile": "Q",
+      "Floor Lighting Tile": "R",
+      "Control Panel Tile": "S",
+      "Ventilation Shaft Tile": "T",
+      "Glass Wall Tiles": "U",
+      "Hologram Projector Tiles": "V",
+      "Elevator and Stairwell Tiles": "W",
+      "Wall Tiles": "X",
+      "Floor Tiles": "Y",
+      "Ceiling Tiles": "Z",
+      "Interactive Object Tiles": "a",
+      "Biometric Security Scanner Tile": "b",
+      "Emergency Exit Tiles": "c",
+      "Power Source Tiles": "d",
+      "young female software engineer": "@",
+      "security head with strategic mind": "#"
+    },
+    "goals": "The main goal for the protagonist, Mara Thorn, in the story is to dismantle Quantum Corp's oppressive surveillance system, which threatens individual freedom in the futuristic city of Neuvarra.\n\n### Small Goals for achieving the Main Goal:\n\n1. **Infiltrate Quantum\u2019s Data Center.**\n   - **Reward**: Gain access to the internal systems (+100 points).\n   - **Penalty**: If detected, increased security protocols (-50 points).\n\n2. **Acquire Encryption Chips from Gray.**\n   - **Reward**: Enhanced ability to bypass security systems (+80 points).\n   - **Penalty**: Lose time and increase alert level if failed negotiation (-30 points).\n\n3. **Obtain Building Schematics.**\n   - **Reward**: Detailed map access simplifying navigation (+70 points).\n   - **Penalty**: Alert rise if caught snooping around for information (-40 points).\n\n4. **Stealthy Approach to Enter the Server Room.**\n   - **Reward**: Avoid confrontation, easing mission progress (+60 points).\n   - **Penalty**: Alert guards increases the difficulty of future objectives (-20 points).\n\n5. **Bypass Advanced Biometric Security.**\n   - **Reward**: Access to central server room and its data (+150 points).\n   - **Penalty**: Triggering alarms results in lockdown or delay (-100 points).\n\n6. **Implant a Virus in the Surveillance System.**\n   - **Reward**: Disabling the surveillance system, advancing towards freedom (+200 points).\n   - **Penalty**: Partial failure leads to only temporary system disruption (-80 points).\n\n7. **Engage in Cyber Duel with Cyrus Knox.**\n   - **Reward**: Gain control over the data center\u2019s operations (+250 points).\n   - **Penalty**: Loss in duel causes a setback and forceful mission abort (-150 points).\n\n8. **Escape from the Quantum Corp Facility.**\n   - **Reward**: Successfully leaving the site finalizes the mission positively (+90 points).\n   - **Penalty**: Getting caught on exit attempts leads to severe repercussions (-70 points).\n\n### Total Possible Scores:\n- Completing all objectives successfully would provide a cumulative total of up to 900 points.\n- Failing all or major objectives could result in a cumulative penalty of up to -640 points.\n\nThe point system allows for a gameplay experience where choices and performance directly impact the progression and outcome of the mission, creating a highly interactive and challenging environment that tests the player\u2019s skills and strategic decision-making.",
+    "objectives": {
+      "Infiltrate Quantum\u2019s Data Center": [
+        "F",
+        1,
+        10
+      ],
+      "Acquire Encryption Chips from Gray": [
+        "I",
+        7,
+        12
+      ],
+      "Obtain Building Schematics": [
+        "a",
+        12,
+        1
+      ],
+      "Stealthy Approach to Enter the Server Room": [
+        "P",
+        2,
+        7
+      ],
+      "Bypass Advanced Biometric Security": [
+        "b",
+        12,
+        6
+      ],
+      "Implant a Virus in the Surveillance System": [
+        "Q",
+        3,
+        26
+      ],
+      "Engage in Cyber Duel with Cyrus Knox": [
+        "V",
+        13,
+        7
+      ],
+      "Escape from the Quantum Corp Facility": [
+        "c",
+        10,
+        27
+      ]
+    },
+    "important_tiles": "[\n    '@',  # Protagonist\n    '#',  # Antagonist\n    'P',  # High-security Door Tiles (important for security and entry to the data center)\n    'Q',  # Server Rack Tile (central to the protagonist's mission in the data center)\n    'b',  # Biometric Security Scanner Tile (key security feature to bypass)\n    'F',  # Doorway/Entrance Tile (essential for moving between sections)\n    'S',  # Control Panel Tile (interactive for gameplay mechanics)\n    'O',  # Security Camera Tiles (key for avoidance or disabling tasks)\n    'T',  # Ventilation Shaft Tile (for sneaking and alternative paths)\n    'a',  # Interactive Object Tiles (central for various interactions and tasks)\n    'd',  # Power Source Tiles (important for sabotage or control tasks)\n    'V',  # Hologram Projector Tiles (used for data display and mission information)\n    'W',  # Elevator and Stairwell Tiles (important for moving between different levels)\n    'I',  # Stall Tiles (for the scene at the Tech Market)\n    'J'   # Tech Gadget Display Tile (essential for obtaining gadgets)\n]",
+    "walkable_tiles": "['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'T', 'U', 'W', 'Y', 'c']",
+    "interactive_object_tiles": "['J', 'a', 'b', 'c', 'd']",
+    "world_1st_layer": {
+      "world": "AAAAAAAAAAAAAAAAAAAAAAAAAAA\nACCCCEACCCCFUAAAAAAAAAAAUFA\nAXBXXXPXBXBXUPXXXXXXXQXUFPX\nACCCCACCCHOUDCCCCDCQQQQUUCW\nAXBXXXPXBXXUPWXXXXXQXXUUXPX\nACCCCACEACCUDCCCCCCCQQQUUCX\nAXBXXXOXBXBXUPXXXXXXQXXUUXP\nACFCCFACCEAOICCCCCDDDDDDDDC\nAXXXXXXXBXBXUPXXXXXXXUWXXPX\nACCCCAACCCCUDCCCCCCCCCUUCXC\nAXXXXXXXXXXXXXXXXXXXXXXXXPX\nATTTFATTTFATTCCFFCCFFFCCFFC\nAQQQQAQQQQQALCCCCCCCCCCYWCC\nACCCCADDDDDADDCCCCCCCFFCCFC\nAXXXXXGXXXXGXXXXXXXSXXXXXXP",
+      "tiles": {
+        "Wet Asphalt Tile": "A",
+        "Puddle Tile": "B",
+        "Sidewalk Tile": "C",
+        "Neon Signage Tile": "D",
+        "Street Lamp Tile": "E",
+        "Doorway/Entrance Tile": "F",
+        "Window Tile": "G",
+        "Trash Can and Alley Debris Tiles": "H",
+        "Stall Tiles": "I",
+        "Illuminated Panel Floor Tiles": "L",
+        "Security Camera Tiles": "O",
+        "High-security Door Tiles": "P",
+        "Server Rack Tile": "Q",
+        "Control Panel Tile": "S",
+        "Ventilation Shaft Tile": "T",
+        "Glass Wall Tiles": "U",
+        "Elevator and Stairwell Tiles": "W",
+        "Wall Tiles": "X",
+        "Floor Tiles": "Y"
+      }
+    },
+    "world": "AAAAAAAAAAAAAAAAAAAAA@AAAA\nACCCCEACCCCFUAAAAAAAAAAAUFA\nAXBXXXPXBXBXUPXXXXXXXQXUFPX\nACCCCACCCHOUDCCCCDCQQQQUUCW\nAXBXXXPXBXXUPWXXXXXQXXUUXPX\nACCCCCEACCUDCCCCCCCQQQUUCX\nAXBXXXOXBXBXUPXXXXXXQXXUUXP\nACFCCFACCEAOICCCCCDDDDDDDDC\nAXXXXXXXBXBXUPXXXXXXXUWXXPX\nACCCCAACCCCUDCCCCCCCCCUUCXC\nAXXXX#XXXXXXXXXXXXXXXXXXXPX\nATTTFATTTFATTCCFFCCFFFCCFFC\nAaQQQaAQbQQQALCCCCddCCCCYWd\nACCCCADVDDDaDDaCCCCCFFSdCFC\nAXXXXaGXXaXGXXXXXXXaXXXXXPX",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 100.0,
+      "Accuracy_of_important_tiles_placed": 93.33333333333333,
+      "Average_euclidean_distance": 402.6761291570528,
+      "agent_reward": -400,
+      "astar_path": 41
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 15,
+      "story_paragraphs": [
+        6,
+        7
+      ],
+      "total_objectives": 8
+    }
+  },
+  "round_1": {
+    "story": "In the sprawling, rain-soaked city of Neuvarra, buildings stretched toward the sky like dark spires, their glass facades reflecting the ceaseless neon glow. Within this urban maze, Mara Thorn, a young software engineer with a penchant for AI ethics, had made it her mission to dismantle the pervasive control of Quantum Corp, a tech giant whose surveillance tools threatened individual freedoms. Her first objective was clear: infiltrate Quantum\u2019s highly guarded data center located beneath the bustling Tech Market district, a sprawling hub of innovation and corporate espionage.\n\nAs Mara navigated through the tight, crowded streets of the market, her second task involved procuring a set of illegal encryption chips from Gray, a shady vendor known for his cybernetic enhancements. These chips would allow her to access Quantum\u2019s server room undetected. Her third objective, acquire schematics of the building\u2019s layout, proved challenging but was accomplished with the help of a disillusioned Quantum architect who empathized with her cause. With the blueprints in hand, Mara mapped out her stealthy approach which constituted her fourth objective.\n\nMeanwhile, Quantum\u2019s head of security, Cyrus Knox, a brilliant yet ruthless strategist, had caught wind of Mara\u2019s intentions. Determined to maintain the supremacy of Quantum Corp, Knox bolstered the facility\u2019s defenses, making Mara\u2019s fifth objective\u2014to bypass their advanced biometric security systems\u2014her most daunting task yet. Utilizing the market's network of hackers, Mara gained access to a prototype biometric scrambler, bringing her one step closer to her goal.\n\nWith the security hurdle crossed during a tumultuous thunderstorm that provided cover noise and uncertainty, Mara's sixth goal was within the labyrinthine corridors of Quantum\u2019s data center to implant a virus that would disable the surveillance software. The environment inside was sterile and intimidating, with rows of servers humming ominously, a stark contrast to the chaotic energy of the city above.\n\nThe climax of Mara\u2019s mission approached as she finally confronted Cyrus Knox deep within the core of the data center. Their encounter\u2014her seventh objective\u2014involved a tense game of mental and technological chess. Mara, using a holographic interface, engaged in rapid cyber warfare against Knox, outmaneuvering his defense protocols. Winning this duel meant gaining control of the system, her penultimate goal.\n\nHaving disabled Quantum\u2019s surveillance capabilities and ensuring that the software could be used ethically, Mara achieved her final objective \u2014 escaping the facility amidst the chaos of system failures and alarms. Emerging into the early dawn, the city of Neuvarra appeared different to her now\u2014more hopeful. Mara knew that while her battle was won, the war against unchecked technological power would continue, and she was ready to fight it every step of the way, with the city's network of allies burgeoning in the shadows.",
+    "character_information": "Certainly! Creating accurate character descriptions for sprite generation can help ensure that game characters are visually distinct and fit the game\u2019s art style and story context.\n\n### 1. Mara Thorn (Protagonist)\n**Appearance**: Mara is in her late twenties, medium height with an athletic build. She has short, layered dark hair with a striking blue streak on her left side, symbolizing her rebellious nature. Mara wears a long, fitted trench coat that's a muted gray, ideal for blending into the urban shadows. Underneath, she has a tactical bodysuit equipped with various tech gadgets visibly integrated into the design. She wears augmented reality glasses that have a sleek, modern look.\n\n**Sprite Details**:\n- Hair: Dark with a blue streak, stylized in a messy, layered cut.\n- Clothing: Gray trench coat over a dark, textured bodysuit with visible tech enhancements.\n- Accessories: Slim augmented reality glasses, a utility belt with mini gadgets.\n\n### 2. Cyrus Knox (Antagonist)\n**Appearance**: Cyrus is a man in his forties, tall and imposing with a muscular build. He has a clean-shaven head and sharp, intense eyes that seem to always be analyzing his surroundings. He dresses in a sophisticated, dark suit that integrates subtle armor padding, indicating his readiness for any physical or digital confrontation. His overall demeanor is cold and commanding.\n\n**Sprite Details**:\n- Hair: Bald.\n- Clothing: Dark, armored suit, slightly reflective, signifying high tech.\n- Accessories: Cybernetic enhancements visible on his neck and wrists, perhaps glowing slightly to indicate activity.\n\n### 3. Gray (NPC - Vendor)\n**Appearance**: Gray is a wiry individual in his early thirties with an eclectic fashion sense. He has unruly, shoulder-length hair dyed in multiple pastel colors and sports cybernetic arm enhancements that are clearly visible and full of intricate details. His clothing is a mix of punk-rock and tech-gear, featuring a leather jacket covered in electronic patches and holographic displays.\n\n**Sprite Details**:\n- Hair: Long and multicolored (pastel tones).\n- Clothing: Leather jacket adorned with tech patches and decals, casual, tech-influenced pants.\n- Accessories: Cybernetic arm enhancements, various glowing elements.\n\n### 4. Architect (NPC - Ally)\n**Appearance**: The architect is a middle-aged woman with a refined and stern appearance. She has shoulder-length, neatly styled auburn hair and wears smart, protective eyewear. Her outfit is a smart-casual mix, suitable for an office but with personal touches like a blueprint tube strapped to her back and a digital wristwatch used for designing.\n\n**Sprite Details**:\n- Hair: Auburn, styled in a bob.\n- Clothing: Elegant blouse with a vest, slacks, with a blueprint tube on her back.\n- Accessories: Protective, smart eyewear, and a sophisticated digital wristwatch.\n\nThese descriptions provide a foundation for creating detailed and expressive sprites that will enhance the narrative and immersive experience of the game. Each character's unique style and tools hint at their role and skills within the game's universe.",
+    "tile_mapping": {
+      "Wet Asphalt Tile": "A",
+      "Puddle Tile": "B",
+      "Sidewalk Tile": "C",
+      "Neon Signage Tile": "D",
+      "Street Lamp Tile": "E",
+      "Doorway/Entrance Tile": "F",
+      "Window Tile": "G",
+      "Trash Can and Alley Debris Tiles": "H",
+      "Stall Tiles": "I",
+      "Tech Gadget Display Tile": "J",
+      "Crowd Tile": "K",
+      "Illuminated Panel Floor Tiles": "L",
+      "Overhead Display Tiles": "M",
+      "Neon Outline Tiles": "N",
+      "Security Camera Tiles": "O",
+      "High-security Door Tiles": "P",
+      "Server Rack Tile": "Q",
+      "Floor Lighting Tile": "R",
+      "Control Panel Tile": "S",
+      "Ventilation Shaft Tile": "T",
+      "Glass Wall Tiles": "U",
+      "Hologram Projector Tiles": "V",
+      "Elevator and Stairwell Tiles": "W",
+      "Wall Tiles": "X",
+      "Floor Tiles": "Y",
+      "Ceiling Tiles": "Z",
+      "Interactive Object Tiles": "a",
+      "Biometric Security Scanner Tile": "b",
+      "Emergency Exit Tiles": "c",
+      "Power Source Tiles": "d",
+      "young female software engineer": "@",
+      "security head with strategic mind": "#"
+    },
+    "goals": "The main goal for the protagonist, Mara Thorn, in the story is to dismantle Quantum Corp's oppressive surveillance system, which threatens individual freedom in the futuristic city of Neuvarra.\n\n### Small Goals for achieving the Main Goal:\n\n1. **Infiltrate Quantum\u2019s Data Center.**\n   - **Reward**: Gain access to the internal systems (+100 points).\n   - **Penalty**: If detected, increased security protocols (-50 points).\n\n2. **Acquire Encryption Chips from Gray.**\n   - **Reward**: Enhanced ability to bypass security systems (+80 points).\n   - **Penalty**: Lose time and increase alert level if failed negotiation (-30 points).\n\n3. **Obtain Building Schematics.**\n   - **Reward**: Detailed map access simplifying navigation (+70 points).\n   - **Penalty**: Alert rise if caught snooping around for information (-40 points).\n\n4. **Stealthy Approach to Enter the Server Room.**\n   - **Reward**: Avoid confrontation, easing mission progress (+60 points).\n   - **Penalty**: Alert guards increases the difficulty of future objectives (-20 points).\n\n5. **Bypass Advanced Biometric Security.**\n   - **Reward**: Access to central server room and its data (+150 points).\n   - **Penalty**: Triggering alarms results in lockdown or delay (-100 points).\n\n6. **Implant a Virus in the Surveillance System.**\n   - **Reward**: Disabling the surveillance system, advancing towards freedom (+200 points).\n   - **Penalty**: Partial failure leads to only temporary system disruption (-80 points).\n\n7. **Engage in Cyber Duel with Cyrus Knox.**\n   - **Reward**: Gain control over the data center\u2019s operations (+250 points).\n   - **Penalty**: Loss in duel causes a setback and forceful mission abort (-150 points).\n\n8. **Escape from the Quantum Corp Facility.**\n   - **Reward**: Successfully leaving the site finalizes the mission positively (+90 points).\n   - **Penalty**: Getting caught on exit attempts leads to severe repercussions (-70 points).\n\n### Total Possible Scores:\n- Completing all objectives successfully would provide a cumulative total of up to 900 points.\n- Failing all or major objectives could result in a cumulative penalty of up to -640 points.\n\nThe point system allows for a gameplay experience where choices and performance directly impact the progression and outcome of the mission, creating a highly interactive and challenging environment that tests the player\u2019s skills and strategic decision-making.",
+    "objectives": {
+      "Infiltrate Quantum\u2019s Data Center": [
+        "P",
+        2,
+        9
+      ],
+      "Acquire Encryption Chips from Gray": [
+        "I",
+        7,
+        8
+      ],
+      "Obtain Building Schematics": [
+        "J",
+        14,
+        10
+      ],
+      "Stealthy Approach to Enter the Server Room": [
+        "Q",
+        4,
+        22
+      ],
+      "Bypass Advanced Biometric Security": [
+        "b",
+        11,
+        8
+      ],
+      "Implant a Virus in the Surveillance System": [
+        "Q",
+        6,
+        25
+      ],
+      "Engage in Cyber Duel with Cyrus Knox": [
+        "V",
+        4,
+        23
+      ],
+      "Escape from the Quantum Corp Facility": [
+        "c",
+        11,
+        16
+      ]
+    },
+    "important_tiles": "[\n    '@',  # Protagonist\n    '#',  # Antagonist\n    'P',  # High-security Door Tiles (important for security and entry to the data center)\n    'Q',  # Server Rack Tile (central to the protagonist's mission in the data center)\n    'b',  # Biometric Security Scanner Tile (key security feature to bypass)\n    'F',  # Doorway/Entrance Tile (essential for moving between sections)\n    'S',  # Control Panel Tile (interactive for gameplay mechanics)\n    'O',  # Security Camera Tiles (key for avoidance or disabling tasks)\n    'T',  # Ventilation Shaft Tile (for sneaking and alternative paths)\n    'a',  # Interactive Object Tiles (central for various interactions and tasks)\n    'd',  # Power Source Tiles (important for sabotage or control tasks)\n    'V',  # Hologram Projector Tiles (used for data display and mission information)\n    'W',  # Elevator and Stairwell Tiles (important for moving between different levels)\n    'I',  # Stall Tiles (for the scene at the Tech Market)\n    'J'   # Tech Gadget Display Tile (essential for obtaining gadgets)\n]",
+    "walkable_tiles": "['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'T', 'U', 'W', 'Y', 'c']",
+    "interactive_object_tiles": "['J', 'a', 'b', 'c', 'd']",
+    "world_1st_layer": {
+      "world": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nACDCCBACCFFUAAAAAAAAAAAUFFFA\nAXBXXXPXBXBXUPXXXXXPQXUFPXPX\nACCCCACCCHOUDCCCCCCQRLQQSUUF\nAXBXXXPXBXBXUPXXXXXXQXXUUXVX\nACCCCACCCACCUDCCCCCCCQSVUUCX\nAXBXXXBXBXBXUPXXXXXXQXXUUXPQ\nACFCCPACCDVCIDCCCCRRRDDDDLRM\nAXXXXXPXBXXUPXXXXXXXUWXXPXPX\nACCCCYCNCNCSYDCCCCCCCRRRMUCN\nAXXXXWXWXYZXXXXXXXYXXXWXXXPX\nATTTFATTTDATTCCFFFFUFFFFVRFF\nAQQQRDQQQQQLLCCCCLLLLLFWWCCC\nACCCCADDDDNRDDCCCCSCFFLCCFFC\nAXXXXGXXXXGXXXSXXXPXXXXXXXPX",
+      "tiles": {
+        "Wet Asphalt Tile": "A",
+        "Puddle Tile": "B",
+        "Sidewalk Tile": "C",
+        "Neon Signage Tile": "D",
+        "Doorway/Entrance Tile": "F",
+        "Window Tile": "G",
+        "Trash Can and Alley Debris Tiles": "H",
+        "Stall Tiles": "I",
+        "Illuminated Panel Floor Tiles": "L",
+        "Overhead Display Tiles": "M",
+        "Neon Outline Tiles": "N",
+        "Security Camera Tiles": "O",
+        "High-security Door Tiles": "P",
+        "Server Rack Tile": "Q",
+        "Floor Lighting Tile": "R",
+        "Control Panel Tile": "S",
+        "Ventilation Shaft Tile": "T",
+        "Glass Wall Tiles": "U",
+        "Hologram Projector Tiles": "V",
+        "Elevator and Stairwell Tiles": "W",
+        "Wall Tiles": "X",
+        "Floor Tiles": "Y",
+        "Ceiling Tiles": "Z"
+      }
+    },
+    "world": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nACDCCBACCFFUAAAAAAAAAAAUFFFA\nAXBXXXPXBXBXUPXXXXXPQXUFPXPX\nACCCCACCCHOUDCCCCCCQRLQQSUUF\nAXBXXXPXBXBXUPXXXXXXQXXUUXVX\nACCCCACCCACCUDCCCCCCCQSVUUCX\nAXBXXXBXBXBXUPXXXXXXQXXU@XPQ\nACFCCPACCDVCIDCCCCRRRDDDDLRM\n#XXXXXPXBXXUPXXXXXXXUWXXPXPX\nACCCCYCNCNCSYDCCCCCCCRRRdUCN\nAXXXXWXWbYZXXXXXXXYXXXWXXXPX\nATTTFATTTDATTCCFFFFUFFFFVRFF\nAQQQRDQQaQQLLCCCCLLLLaFWWCCC\nACCCCADDDDNRDDCCCCSCFFLCCFFC\nAXXXXGXXXXGXXXSXXXPXXXXXXXPX",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 100.0,
+      "Accuracy_of_important_tiles_placed": 93.33333333333333,
+      "Average_euclidean_distance": 415.6128128704166,
+      "agent_reward": -350,
+      "astar_path": 4
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 16,
+      "story_paragraphs": [
+        6,
+        7
+      ],
+      "total_objectives": 9
+    }
+  }
+}
