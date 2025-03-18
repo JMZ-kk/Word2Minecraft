@@ -1,0 +1,174 @@
+{
+  "world": [
+    "AAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "ASSSSSSSSSSSSSGGGSSSSSSSSSAAA",
+    "ABBNHHHHHHNNNNNNGNNNNHHHHBAAA",
+    "ABDNDHHHHHHNNNNGNNHHHHHHDBAAA",
+    "ABNDNDMMMMMMNNNNGMMMMMMNDNBAA",
+    "ABNNDNMMMMMMNNNNGMMMMMMNNDNBA",
+    "ASNNNNGGGGGGGGGGGGGGGGGNNNDSA",
+    "ASNNNNDDDDNNGGGGGNNNDDNN@NDSA",
+    "ASNNNNNGGGNNNNNNNNNGGGFSNNDSA",
+    "ASNNNNNNDDDNNWNWNNNDDDFSNDSAA",
+    "ALLL#LLLLLLLLLLLLLLLLLLLLDDAA",
+    "AAAAAAUUKKKKKXXXXKQQQKUCAAAAA",
+    "ASSSPUPKKKKEEXXXEEQQQKSQQQSAA",
+    "APSPQQQKKKKEEXXXEEQQQKSQQQDAA",
+    "ASSSQQQDGGGEEXUXXEEGGGFQQQDAA",
+    "ASSSQQQFGGGEEUXUXEEGGXFAAADAA",
+    "ASSQQQFFUUUUUUUXUUUUUXFFGGGGG",
+    "ASSQQQSDDDDDDXXXXXDDDDFAAAAAA",
+    "ASSAAASGGGGGGXXXXXGGGGFAAAAAA",
+    "AAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+  ],
+  "tile_mapping": {
+    "black_concrete": "A",
+    "stone": "S",
+    "bricks": "B",
+    "glass_pane": "G",
+    "oak_door": "D",
+    "glowstone": "N",
+    "end_rod": "H",
+    "redstone_lamp": "L",
+    "observer": "I",
+    "iron_trapdoor": "R",
+    "ancient_debris": "T",
+    "cracked_stone_bricks": "C",
+    "loom": "M",
+    "cobblestone": "P",
+    "green_concrete": "F",
+    "vine": "V",
+    "peony": "W",
+    "blast_furnace": "K",
+    "iron_door": "E",
+    "powered_rail": "O",
+    "purple_carpet": "X",
+    "terracotta": "Y",
+    "lantern": "s",
+    "quartz_block": "U",
+    "brewing_stand": "Q",
+    "white_banner": "J",
+    "cauldron": "t",
+    "oak_slab": "b",
+    "cornflower": "p"
+  },
+  "objectives": {
+    "Gather Encrypted Files from Old Net Sector": [
+      "N",
+      7,
+      10
+    ],
+    "Acquire a Prototype Decryption Device from Cal": [
+      "M",
+      12,
+      11
+    ],
+    "Access and Extract Data from Secure Servers in Data Nexus Center": [
+      "K",
+      11,
+      22
+    ],
+    "Gain Allies by Meeting Nox in the Terra Sector": [
+      "F",
+      9,
+      23
+    ],
+    "Infiltrate SynthoCorp Gala to Install the Veil Virus": [
+      "X",
+      11,
+      17
+    ],
+    "Steal the Quantum Processors from Zenith Labs": [
+      "Q",
+      14,
+      16
+    ],
+    "Mobilize Neonopolis\u2019s Independent Hackers for Assistance": [
+      "L",
+      8,
+      1
+    ],
+    "Confront and Overcome Ivar to Take Control of SynthoCorp\u2019s Systems": [
+      "#",
+      10,
+      4
+    ]
+  },
+  "old_tile_mapping": {
+    "Asphalt Flooring": "A",
+    "Sidewalk Pavement": "S",
+    "Brick Wall": "B",
+    "Glass Window": "G",
+    "Doorway": "D",
+    "Neon Ground Signs": "N",
+    "Holographic Signs": "H",
+    "LED Road": "L",
+    "Digital Screens": "I",
+    "Rusted Metal Floor": "R",
+    "Abandoned Tech Debris": "T",
+    "Cracked Data Screens": "C",
+    "Market Stall": "M",
+    "Cobblestone Path": "P",
+    "Green Tech Flooring": "F",
+    "Vine-Covered Walls": "V",
+    "Water Puddle": "W",
+    "Server Racks": "K",
+    "Advanced Security Doors": "E",
+    "Control Panels": "O",
+    "Luxury Carpet": "X",
+    "Elegant Wallpaper": "Y",
+    "Chandelier": "Z",
+    "Sterile Tiles": "U",
+    "Lab Equipment": "Q",
+    "Hazard Signs": "J",
+    "Billboard": "J",
+    "Monorail Tracks": "O",
+    "Large Fountain": "f",
+    "Trash Can": "t",
+    "Bench": "b",
+    "Streetlights": "s",
+    "Decorative Plant": "p",
+    "blue-haired hacker girl": "@",
+    "black-suit corporate spy": "#"
+  },
+  "compo_dict": {
+    "M": [],
+    "E": [],
+    "Q": [],
+    "O": []
+  },
+  "new_obj": {
+    "Gather Encrypted Files from Old Net Sector": [
+      7,
+      10
+    ],
+    "Acquire a Prototype Decryption Device from Cal": [
+      4,
+      11
+    ],
+    "Access and Extract Data from Secure Servers in Data Nexus Center While Surviving Security Defense Waves": [
+      11,
+      21
+    ],
+    "Gain Allies by Meeting Nox in the Terra Sector": [
+      9,
+      22
+    ],
+    "Infiltrate SynthoCorp Gala to Install the Veil Virus": [
+      11,
+      16
+    ],
+    "Steal the Quantum Processors from Zenith Labs": [
+      13,
+      18
+    ],
+    "Mobilize Neonopolis\u2019s Independent Hackers for Assistance": [
+      10,
+      1
+    ],
+    "Confront and Overcome Ivar to Take Control of SynthoCorp\u2019s Systems": [
+      10,
+      4
+    ]
+  }
+}

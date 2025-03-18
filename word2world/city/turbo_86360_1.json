@@ -1,0 +1,267 @@
+{
+  "round_0": {
+    "story": "In the bustling metropolis of Meridian City, where skyscrapers reached the clouds and neon lights painted the night eternal, Caitlin Shaw, a young software engineer, found herself in a race against time. She had devised an innovative algorithm that could potentially revolutionize cybersecurity, ensuring the safety of private information against escalating cyber threats. Caitlin was determined to present her groundbreaking invention at the upcoming Global Tech Summit, but she was not the only one with eyes on this prize.\n\nHer primary antagonist, a notorious hacker known only as Cipher, had learned about Caitlin\u2019s algorithm. Cipher thrived in the digital chaos of data theft and had every intention to ensure Caitlin\u2019s invention never saw the light of day. Cipher feared the new algorithm could put him out of business\u2014or worse, behind bars. Thus, his objective was clear: sabotage Caitlin\u2019s efforts by any means necessary.\n\nCaitlin\u2019s journey was arduous, filled with multiple objectives intricately tied to Meridian City\u2019s beating heart. Her first task was securing an endorsement from Jessica Tran, CEO of TransLite Technologies, at her office tower downtown. The sleek, glass-clad building was bustling with tech gurus and innovators, a perfect breeding ground for ideas, yet also for industrial espionage.\n\nShe then had to code-lock her algorithm in the secure server room nestled deep within the Meridian Tech Hub, a sprawling complex revered as the Silicon Valley of the East. Each corridor buzzed with the energy of keystrokes and coding marathons, a hacker\u2019s treasure trove if left unprotected. Cipher\u2019s digital fingerprints were almost discovered here, where he\u2019d tried to infiltrate Caitlin's secure server.\n\nNext, Caitlin aimed to gather public support by introducing her concept during a tech meet up at the vibrant GreenLeaf Caf\u00e9, a pothouse for the city\u2019s brightest minds. Here, amid the clatter of keyboards and the aroma of espresso, she shared her vision, winning allies and crucial crowd-funding for further development.\n\nSubsequently, Caitlin planned a series of secretive meetings with potential investors at various locations, from high-rise rooftops overseeing Meridian City\u2019s skyline to quiet, unsuspecting back-alley diners. Each spot was chosen for its ability to serve as a quiet haven from Cipher\u2019s prying eyes.\n\nAnd finally, Caitlin had to fine-tune her presentation skills at MindFrame, a small startup offering virtual reality scenarios for public speaking. There, amid virtual audiences reacting in real-time, she honed her pitch, preparing to unveil her project at the summit.\n\nCipher, growing desperate, launched a series of attacks: DDoS assaults on her digital meetups, phishing attempts targeting her backers, and even a tense confrontation through proxies at the GreenLeaf Caf\u00e9.\n\nTo counter Cipher's relentless onslaught, Caitlin enlisted the help of Milo Ventura, a seasoned cybersecurity expert. Together, they traced Cipher\u2019s digital trails, anticipating his moves and countering his attacks. As the summit approached, Caitlin fortified her defenses, synchronizing her network with fail-safe encryptions provided by Milo.\n\nOn the day of the summit, amid the grandeur of the Meridian Convention Center\u2014a sprawling edifice highlighting the city\u2019s architectural advancements\u2014Caitlin presented her algorithm. Despite Cipher\u2019s final attempt to discredit her through a smuggled virus into the summit's mainframe, Caitlin's preparations held firm. The audience, captivated by the resilience and innovation of her project, erupted in applause.\n\nCaitlin's victory was not just in the applause that filled the auditorium, nor in the lucrative contracts that followed but in proving that in the digital age, ingenuity and perseverance could indeed triumph over malice and disorder.",
+    "character_information": "**Caitlin Shaw - The Protagonist**\n- **Appearance:** Caitlin is a young, spirited software engineer with a modern style. She has shoulder-length tousled black hair and wears hip, smart eyeglasses that reflect her tech-savvy nature. Her typical attire includes a sleek, form-fitting turtleneck (deep blue) and grey trousers, complemented by a pair of comfortable sneakers. \n- **Sprite Details:** The sprite should convey movement and intelligence, capturing her quick, thoughtful gestures like typing or swiping on a digital device. Emotions range from focused concentration to triumphant joy. Caitlin carries a high-tech backpack with glowing elements, symbolizing her tech expertise.\n\n**Cipher - The Antagonist**\n- **Appearance:** Cipher is an infamous hacker with a mysterious and intimidating presence. He wears a hooded cloak that obscures much of his face, showing only his grim smirk and piercing, calculating eyes. The hoodie is dark, littered with digital motifs and subtle LEDs. He often is depicted with shadowy features, almost blending with the darker environments of the game.\n- **Sprite Details:** The sprite emphasizes stealth and menace. Movements are smooth and sneaky, with occasional glances over his shoulder or smirking when a plan unfolds. His presence should be signaled by a faint digital distortion effect around him, hinting at his hacking prowess.\n\n**Jessica Tran - CEO of TransLite Technologies**\n- **Appearance:** Jessica is a charismatic and sharp businesswoman. She sports an elegant, tailored suit (classic black) that signifies her powerful status. Her hair is styled in a sleek bob, and she wears high heels. Accessories like a smartwatch and a thin tablet demonstrate her connection to tech.\n- **Sprite Details:** The sprite should depict her as decisive and professional. Movements are confident and direct, often seen discussing with NPCs or examining digital tablets. Her posture denotes authority and determination.\n\n**Milo Ventura - Cybersecurity Expert**\n- **Appearance:** Milo is a ruggedly handsome man in his mid-thirties, often dressed in casual-smart attire - a buttoned-up shirt (earth tones), dark denim jeans, and durable boots. His face sports a light beard, and his hair is slightly disheveled, suggesting long hours spent in cybersecurity warfare.\n- **Sprite Details:** His sprite should feature him often working on a laptop or communicating through a headset, highlighting his role in operations and tactical support. Physical actions might include typing rapidly or a thoughtful tap on his chin while strategizing.\n\n**Environment Sprites and Inspirations**\n- **Cityscape (Meridian City):** The city should appear vibrant yet digitally enhanced, filled with towering skyscrapers adorned with LED and neon accents. Streets are busy, with details like hover cars and digital billboards, mimicking a futuristic yet slightly familiar urban sprawl.\n- **Tech Hub:** A maze of sleek, polished surfaces with ambient blue and green lighting. Servers blink actively, and there are holographic displays scattered about.\n- **GreenLeaf Caf\u00e9:** Cozy, with an eco-modern twist featuring plenty of green plants meshing with rustic wood and modern tech. The caf\u00e9 is bustling, with various characters interacting with digital devices.\n- **Convention Center:** Grand and imposing, the convention center is filled with large holographic displays and a main stage equipped for high-tech presentations.\n\nEach of these sprites and environments should provide a visually compelling backdrop that supports the narrative\u2019s cyber-tech theme while being functional for gameplay mechanics like exploration, interaction, and conflict resolution.",
+    "tile_mapping": {
+      "Sidewalk": "A",
+      "Asphalt Road": "B",
+      "Road Markings": "C",
+      "Building Base": "D",
+      "Building Middle": "E",
+      "Building Top": "F",
+      "Neon Sign": "G",
+      "Street Furniture": "H",
+      "Static Vehicle": "I",
+      "Turning Vehicle": "J",
+      "Walking NPC": "K",
+      "Standing NPC": "L",
+      "Sitting NPC": "M",
+      "Modern Floor": "N",
+      "Tech Wall": "O",
+      "Server Rack": "P",
+      "Holographic Display": "Q",
+      "Tech Decor": "R",
+      "Eco-floor": "S",
+      "Caf\u00e9 Wall": "T",
+      "Wooden Furniture": "U",
+      "Indoor Plant": "V",
+      "Caf\u00e9 Window": "W",
+      "Caf\u00e9 Lighting": "X",
+      "Exhibition Floor": "Y",
+      "Convention Wall": "Z",
+      "Stage": "a",
+      "Audience Seating": "b",
+      "Info Desk": "c",
+      "Doorway": "d",
+      "Elevator": "e",
+      "Staircase": "f",
+      "Trap": "g",
+      "Interactive Screen": "h",
+      "Neon Flicker Effect": "i",
+      "Water Effect": "j",
+      "Lighting Effect": "k",
+      "Digital Glitch": "l",
+      "young software engineer sporting smart glasses": "@",
+      "shadowy figure in a hacker hoodie": "#"
+    },
+    "goals": "The main goal for the protagonist, Caitlin Shaw, in the story is to successfully present her innovative cybersecurity algorithm at the Global Tech Summit and ensure its implementation to safeguard digital information against threats like those posed by the antagonist, Cipher.\n\n### Small Goals to Achieve Main Goal:\n1. **Secure endorsement from Jessica Tran, CEO of TransLite Technologies.**\n   - **Reward:** Gaining a powerful ally and additional funding (+50 points).\n   - **Penalty:** Loss of potential resources and credibility (-30 points).\n\n2. **Secure the algorithm in the Meridian Tech Hub's server room.**\n   - **Reward:** Ensures data integrity and builds trust among potential investors (+40 points).\n   - **Penalty:** Vulnerability to hacking and data theft (-25 points).\n\n3. **Gather public support at the GreenLeaf Caf\u00e9 tech meet-up.**\n   - **Reward:** Increased public interest and crowd-funding (+30 points).\n   - **Penalty:** Lack of public interest resulting in decreased morale and support (-20 points).\n\n4. **Hold private meetings with potential investors at various safe locations.**\n   - **Reward:** Financial backing and network expansion (+45 points).\n   - **Penalty:** Missed opportunities and limited resources for development (-35 points).\n\n5. **Fine-tune presentation skills at MindFrame startup using VR scenarios.**\n   - **Reward:** Enhanced ability to communicate ideas effectively, gaining a competitive edge at the summit (+35 points).\n   - **Penalty:** Poor presentation skills leading to a less impactful pitch (-15 points).\n\n6. **Strengthen network and system security with help from Milo Ventura.**\n   - **Reward:** Reduced risk of sabotage and stronger defense against Cipher\u2019s attacks (+60 points).\n   - **Penalty:** Increased susceptibility to cyber-attacks, risking the entire project (-50 points).\n\n7. **Trace and anticipate Cipher\u2019s moves meticulously using advanced forensics.**\n   - **Reward:** Preemptively thwart attacks, maintaining stability of the project\u2019s progress (+55 points).\n   - **Penalty:** Being caught off guard by an attack, leading to possible data breach or loss of progress (-40 points).\n\n8. **Successfully unveiling and defending the project at the Global Tech Summit.**\n   - **Reward:** Recognition, successful deployment of the algorithm, and defeat of Cipher (+100 points).\n   - **Penalty:** Failing to convince the summit's audience and panel results in project shelving (-75 points).\n\n### Comprehensive Scoring System and Mechanics:\n- Points are cumulatively added or subtracted based on the outcomes of Caitlin\u2019s actions aligned with each small goal.\n- Achieving a net positive score based on these activities leads to the successful culmination of Caitlin\u2019s main goal.\n- Specific milestones or critical points (like successfully defending against an attack during the summit) can also trigger mini-games or bonus rounds, yielding additional points or recuperating lost points.\n- The game also features smaller penalties for minor missteps (e.g., -5 points for minor security lapses that are quickly rectified) to add complexity and ongoing challenge within the gameplay. \n\nThis reward and penalty system ties back to the narrative goal of enhancing gameplay immersion by aligning with the protagonist's objectives and challenges. It also aids in creating a dynamic game environment where decisions have meaningful consequences influencing the ultimate outcome of the game.",
+    "objectives": {
+      "Secure endorsement from CEO at TransLite Technologies": [
+        "L",
+        10,
+        33
+      ],
+      "Secure the algorithm in the server room": [
+        "P",
+        5,
+        20
+      ],
+      "Gather public support at the GreenLeaf Caf\u00e9": [
+        "U",
+        8,
+        23
+      ],
+      "Hold private meetings with potential investors": [
+        "M",
+        11,
+        32
+      ],
+      "Fine-tune presentation skills at MindFrame": [
+        "N",
+        5,
+        2
+      ],
+      "Strengthen network and system security with Milo Ventura": [
+        "N",
+        6,
+        20
+      ],
+      "Trace and anticipate Cipher\u2019s moves": [
+        "N",
+        0,
+        34
+      ],
+      "Successfully unveil and defend project at the Global Tech Summit": [
+        "#",
+        11,
+        36
+      ]
+    },
+    "important_tiles": "['@', '#', 'K', 'L', 'M', 'D', 'E', 'F', 'N', 'P', 'Q', 'S', 'T', 'U', 'a']",
+    "walkable_tiles": "[\n    'A',  # Sidewalk\n    'B',  # Asphalt Road\n    'C',  # Road Markings\n    'H',  # Street Furniture\n    'I',  # Static Vehicle\n    'K',  # Walking NPC\n    'L',  # Standing NPC\n    'M',  # Sitting NPC\n    'N',  # Modern Floor\n    'S',  # Eco-floor\n    'U',  # Wooden Furniture\n    'V',  # Indoor Plant\n    'Y',  # Exhibition Floor\n    'b',  # Audience Seating\n    'c',  # Info Desk\n    'd',  # Doorway\n    'e',  # Elevator\n    'f',  # Staircase\n    'h',  # Interactive Screen\n    'i',  # Neon Flicker Effect\n    'j',  # Water Effect\n    'k'   # Lighting Effect\n]",
+    "interactive_object_tiles": "['P', 'Q', 'U', 'W', 'X', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']",
+    "world_1st_layer": {
+      "world": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBA\nACCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCA\nADDDDDDDDDDEEEDDDDEEEEEEEEEEEEEEFFFFFFFDADDA\nADDDDDDDDDDEEEDDDEEEEEEEEEEEEEEFFFFFFFDADDDA\nANNNNNNNNNNNNNNPPPPPPPPPPPPPPPPPPPPPPPPNNNNA\nANNNNNNNNNNNNNNNNPPPPPPPPPPPPPNNNNNNNNNNNNNA\nASSSSSSSSSSSSSSSSTUTTTTTTTTTTTTSSSSSSSSSSSSA\nASSSSSSSSSSSSSSSSTUTTTTTTTTTTTTSSSSSSSSSSSSA\nAAVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVAA\nAKKKKKKKKKKKKKKKKLLLLLLLLLLLLLKKKKKKKKKKKKKA\nAMMMMMMMMMMMMMMMMMMMMMMMMMMMMMLMMMMMMMMMMMMA\nADDDDDDDDDDDDDDDDDEEEEEEEEEEEEEFFFDADDDDDDAA\nADDDDFDDDFDFDFDFDEEEEEEEEEEEEEEFFDADDDDDDDAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "tiles": {
+        "Sidewalk": "A",
+        "Asphalt Road": "B",
+        "Road Markings": "C",
+        "Building Base": "D",
+        "Building Middle": "E",
+        "Building Top": "F",
+        "Walking NPC": "K",
+        "Standing NPC": "L",
+        "Sitting NPC": "M",
+        "Modern Floor": "N",
+        "Server Rack": "P",
+        "Eco-floor": "S",
+        "Caf\u00e9 Wall": "T",
+        "Wooden Furniture": "U",
+        "Indoor Plant": "V"
+      }
+    },
+    "world": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBA\nACCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCA\nADDDDDDDDDDEEEDDDDEEEEEEEEEEEEEEFFFFFFFDADDA\nADDDDDDDDDDEEEDDDEEEEEEEEEEEEEEFFFFFFFDADDDA\nANNNNNNNNNNNNNNPPPPPPPPPPPPPPPPPPPPPPPPNNNNA\nANNNNNNNNNNNNNNNNPPPPPPPPPPPPPNNNNNNNNNNNNNA\nASSSSSSSSSSSSSSSSTUTTTTTTTTTTTTSSSSSSSSSSSSA\nASSSSSSSSSS@SSSSTUTTTTTTTTTTTTSSSSSSSSSSSSSA\nAAVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVAA\nAKKKKKKKKKKKKKKKKLLLLLLLLLLLLLKKKKKKKKKKKKKA\nAMMMMMMMMMMMMMMMMMMMMMMMMMMMMMLMMMM#MMMMMA\nADDDDDDDDDDDDDDDDDHEEEEEEEEEEEEFADDDDDAA\nADDDDFDDDFDFDFDFDEEEEEEEEEEEEEEFFDADDDDDDDAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 100.0,
+      "Accuracy_of_important_tiles_placed": 86.66666666666667,
+      "Average_euclidean_distance": 381.24630245792434,
+      "agent_reward": -450,
+      "astar_path": 56
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 15,
+      "story_paragraphs": [
+        5,
+        6
+      ],
+      "total_objectives": 8
+    }
+  },
+  "round_1": {
+    "story": "In the bustling metropolis of Meridian City, where skyscrapers reached the clouds and neon lights painted the night eternal, Caitlin Shaw, a young software engineer, found herself in a race against time. She had devised an innovative algorithm that could potentially revolutionize cybersecurity, ensuring the safety of private information against escalating cyber threats. Caitlin was determined to present her groundbreaking invention at the upcoming Global Tech Summit, but she was not the only one with eyes on this prize.\n\nHer primary antagonist, a notorious hacker known only as Cipher, had learned about Caitlin\u2019s algorithm. Cipher thrived in the digital chaos of data theft and had every intention to ensure Caitlin\u2019s invention never saw the light of day. Cipher feared the new algorithm could put him out of business\u2014or worse, behind bars. Thus, his objective was clear: sabotage Caitlin\u2019s efforts by any means necessary.\n\nCaitlin\u2019s journey was arduous, filled with multiple objectives intricately tied to Meridian City\u2019s beating heart. Her first task was securing an endorsement from Jessica Tran, CEO of TransLite Technologies, at her office tower downtown. The sleek, glass-clad building was bustling with tech gurus and innovators, a perfect breeding ground for ideas, yet also for industrial espionage.\n\nShe then had to code-lock her algorithm in the secure server room nestled deep within the Meridian Tech Hub, a sprawling complex revered as the Silicon Valley of the East. Each corridor buzzed with the energy of keystrokes and coding marathons, a hacker\u2019s treasure trove if left unprotected. Cipher\u2019s digital fingerprints were almost discovered here, where he\u2019d tried to infiltrate Caitlin's secure server.\n\nNext, Caitlin aimed to gather public support by introducing her concept during a tech meet up at the vibrant GreenLeaf Caf\u00e9, a pothouse for the city\u2019s brightest minds. Here, amid the clatter of keyboards and the aroma of espresso, she shared her vision, winning allies and crucial crowd-funding for further development.\n\nSubsequently, Caitlin planned a series of secretive meetings with potential investors at various locations, from high-rise rooftops overseeing Meridian City\u2019s skyline to quiet, unsuspecting back-alley diners. Each spot was chosen for its ability to serve as a quiet haven from Cipher\u2019s prying eyes.\n\nAnd finally, Caitlin had to fine-tune her presentation skills at MindFrame, a small startup offering virtual reality scenarios for public speaking. There, amid virtual audiences reacting in real-time, she honed her pitch, preparing to unveil her project at the summit.\n\nCipher, growing desperate, launched a series of attacks: DDoS assaults on her digital meetups, phishing attempts targeting her backers, and even a tense confrontation through proxies at the GreenLeaf Caf\u00e9.\n\nTo counter Cipher's relentless onslaught, Caitlin enlisted the help of Milo Ventura, a seasoned cybersecurity expert. Together, they traced Cipher\u2019s digital trails, anticipating his moves and countering his attacks. As the summit approached, Caitlin fortified her defenses, synchronizing her network with fail-safe encryptions provided by Milo.\n\nOn the day of the summit, amid the grandeur of the Meridian Convention Center\u2014a sprawling edifice highlighting the city\u2019s architectural advancements\u2014Caitlin presented her algorithm. Despite Cipher\u2019s final attempt to discredit her through a smuggled virus into the summit's mainframe, Caitlin's preparations held firm. The audience, captivated by the resilience and innovation of her project, erupted in applause.\n\nCaitlin's victory was not just in the applause that filled the auditorium, nor in the lucrative contracts that followed but in proving that in the digital age, ingenuity and perseverance could indeed triumph over malice and disorder.",
+    "character_information": "**Caitlin Shaw - The Protagonist**\n- **Appearance:** Caitlin is a young, spirited software engineer with a modern style. She has shoulder-length tousled black hair and wears hip, smart eyeglasses that reflect her tech-savvy nature. Her typical attire includes a sleek, form-fitting turtleneck (deep blue) and grey trousers, complemented by a pair of comfortable sneakers. \n- **Sprite Details:** The sprite should convey movement and intelligence, capturing her quick, thoughtful gestures like typing or swiping on a digital device. Emotions range from focused concentration to triumphant joy. Caitlin carries a high-tech backpack with glowing elements, symbolizing her tech expertise.\n\n**Cipher - The Antagonist**\n- **Appearance:** Cipher is an infamous hacker with a mysterious and intimidating presence. He wears a hooded cloak that obscures much of his face, showing only his grim smirk and piercing, calculating eyes. The hoodie is dark, littered with digital motifs and subtle LEDs. He often is depicted with shadowy features, almost blending with the darker environments of the game.\n- **Sprite Details:** The sprite emphasizes stealth and menace. Movements are smooth and sneaky, with occasional glances over his shoulder or smirking when a plan unfolds. His presence should be signaled by a faint digital distortion effect around him, hinting at his hacking prowess.\n\n**Jessica Tran - CEO of TransLite Technologies**\n- **Appearance:** Jessica is a charismatic and sharp businesswoman. She sports an elegant, tailored suit (classic black) that signifies her powerful status. Her hair is styled in a sleek bob, and she wears high heels. Accessories like a smartwatch and a thin tablet demonstrate her connection to tech.\n- **Sprite Details:** The sprite should depict her as decisive and professional. Movements are confident and direct, often seen discussing with NPCs or examining digital tablets. Her posture denotes authority and determination.\n\n**Milo Ventura - Cybersecurity Expert**\n- **Appearance:** Milo is a ruggedly handsome man in his mid-thirties, often dressed in casual-smart attire - a buttoned-up shirt (earth tones), dark denim jeans, and durable boots. His face sports a light beard, and his hair is slightly disheveled, suggesting long hours spent in cybersecurity warfare.\n- **Sprite Details:** His sprite should feature him often working on a laptop or communicating through a headset, highlighting his role in operations and tactical support. Physical actions might include typing rapidly or a thoughtful tap on his chin while strategizing.\n\n**Environment Sprites and Inspirations**\n- **Cityscape (Meridian City):** The city should appear vibrant yet digitally enhanced, filled with towering skyscrapers adorned with LED and neon accents. Streets are busy, with details like hover cars and digital billboards, mimicking a futuristic yet slightly familiar urban sprawl.\n- **Tech Hub:** A maze of sleek, polished surfaces with ambient blue and green lighting. Servers blink actively, and there are holographic displays scattered about.\n- **GreenLeaf Caf\u00e9:** Cozy, with an eco-modern twist featuring plenty of green plants meshing with rustic wood and modern tech. The caf\u00e9 is bustling, with various characters interacting with digital devices.\n- **Convention Center:** Grand and imposing, the convention center is filled with large holographic displays and a main stage equipped for high-tech presentations.\n\nEach of these sprites and environments should provide a visually compelling backdrop that supports the narrative\u2019s cyber-tech theme while being functional for gameplay mechanics like exploration, interaction, and conflict resolution.",
+    "tile_mapping": {
+      "Sidewalk": "A",
+      "Asphalt Road": "B",
+      "Road Markings": "C",
+      "Building Base": "D",
+      "Building Middle": "E",
+      "Building Top": "F",
+      "Neon Sign": "G",
+      "Street Furniture": "H",
+      "Static Vehicle": "I",
+      "Turning Vehicle": "J",
+      "Walking NPC": "K",
+      "Standing NPC": "L",
+      "Sitting NPC": "M",
+      "Modern Floor": "N",
+      "Tech Wall": "O",
+      "Server Rack": "P",
+      "Holographic Display": "Q",
+      "Tech Decor": "R",
+      "Eco-floor": "S",
+      "Caf\u00e9 Wall": "T",
+      "Wooden Furniture": "U",
+      "Indoor Plant": "V",
+      "Caf\u00e9 Window": "W",
+      "Caf\u00e9 Lighting": "X",
+      "Exhibition Floor": "Y",
+      "Convention Wall": "Z",
+      "Stage": "a",
+      "Audience Seating": "b",
+      "Info Desk": "c",
+      "Doorway": "d",
+      "Elevator": "e",
+      "Staircase": "f",
+      "Trap": "g",
+      "Interactive Screen": "h",
+      "Neon Flicker Effect": "i",
+      "Water Effect": "j",
+      "Lighting Effect": "k",
+      "Digital Glitch": "l",
+      "young software engineer sporting smart glasses": "@",
+      "shadowy figure in a hacker hoodie": "#"
+    },
+    "goals": "The main goal for the protagonist, Caitlin Shaw, in the story is to successfully present her innovative cybersecurity algorithm at the Global Tech Summit and ensure its implementation to safeguard digital information against threats like those posed by the antagonist, Cipher.\n\n### Small Goals to Achieve Main Goal:\n1. **Secure endorsement from Jessica Tran, CEO of TransLite Technologies.**\n   - **Reward:** Gaining a powerful ally and additional funding (+50 points).\n   - **Penalty:** Loss of potential resources and credibility (-30 points).\n\n2. **Secure the algorithm in the Meridian Tech Hub's server room.**\n   - **Reward:** Ensures data integrity and builds trust among potential investors (+40 points).\n   - **Penalty:** Vulnerability to hacking and data theft (-25 points).\n\n3. **Gather public support at the GreenLeaf Caf\u00e9 tech meet-up.**\n   - **Reward:** Increased public interest and crowd-funding (+30 points).\n   - **Penalty:** Lack of public interest resulting in decreased morale and support (-20 points).\n\n4. **Hold private meetings with potential investors at various safe locations.**\n   - **Reward:** Financial backing and network expansion (+45 points).\n   - **Penalty:** Missed opportunities and limited resources for development (-35 points).\n\n5. **Fine-tune presentation skills at MindFrame startup using VR scenarios.**\n   - **Reward:** Enhanced ability to communicate ideas effectively, gaining a competitive edge at the summit (+35 points).\n   - **Penalty:** Poor presentation skills leading to a less impactful pitch (-15 points).\n\n6. **Strengthen network and system security with help from Milo Ventura.**\n   - **Reward:** Reduced risk of sabotage and stronger defense against Cipher\u2019s attacks (+60 points).\n   - **Penalty:** Increased susceptibility to cyber-attacks, risking the entire project (-50 points).\n\n7. **Trace and anticipate Cipher\u2019s moves meticulously using advanced forensics.**\n   - **Reward:** Preemptively thwart attacks, maintaining stability of the project\u2019s progress (+55 points).\n   - **Penalty:** Being caught off guard by an attack, leading to possible data breach or loss of progress (-40 points).\n\n8. **Successfully unveiling and defending the project at the Global Tech Summit.**\n   - **Reward:** Recognition, successful deployment of the algorithm, and defeat of Cipher (+100 points).\n   - **Penalty:** Failing to convince the summit's audience and panel results in project shelving (-75 points).\n\n### Comprehensive Scoring System and Mechanics:\n- Points are cumulatively added or subtracted based on the outcomes of Caitlin\u2019s actions aligned with each small goal.\n- Achieving a net positive score based on these activities leads to the successful culmination of Caitlin\u2019s main goal.\n- Specific milestones or critical points (like successfully defending against an attack during the summit) can also trigger mini-games or bonus rounds, yielding additional points or recuperating lost points.\n- The game also features smaller penalties for minor missteps (e.g., -5 points for minor security lapses that are quickly rectified) to add complexity and ongoing challenge within the gameplay. \n\nThis reward and penalty system ties back to the narrative goal of enhancing gameplay immersion by aligning with the protagonist's objectives and challenges. It also aids in creating a dynamic game environment where decisions have meaningful consequences influencing the ultimate outcome of the game.",
+    "objectives": {
+      "Secure endorsement from Jessica Tran": [
+        "D",
+        1,
+        5
+      ],
+      "Secure the algorithm in the Meridian Tech Hub's server room": [
+        "P",
+        4,
+        12
+      ],
+      "Gather public support at the GreenLeaf Caf\u00e9 tech meet-up": [
+        "T",
+        6,
+        9
+      ],
+      "Hold private meetings with potential investors at various safe locations": [
+        "S",
+        7,
+        6
+      ],
+      "Fine-tune presentation skills at MindFrame startup using VR scenarios": [
+        "N",
+        4,
+        1
+      ],
+      "Strengthen network and system security with help from Milo Ventura": [
+        "N",
+        4,
+        15
+      ],
+      "Trace and anticipate Cipher\u2019s moves meticulously using advanced forensics": [
+        "#",
+        11,
+        39
+      ],
+      "Successfully unveil and defend the project at the Global Tech Summit": [
+        "a",
+        13,
+        17
+      ]
+    },
+    "important_tiles": "['@', '#', 'K', 'L', 'M', 'D', 'E', 'F', 'N', 'P', 'Q', 'S', 'T', 'U', 'a']",
+    "walkable_tiles": "[\n    'A',  # Sidewalk\n    'B',  # Asphalt Road\n    'C',  # Road Markings\n    'H',  # Street Furniture\n    'I',  # Static Vehicle\n    'K',  # Walking NPC\n    'L',  # Standing NPC\n    'M',  # Sitting NPC\n    'N',  # Modern Floor\n    'S',  # Eco-floor\n    'U',  # Wooden Furniture\n    'V',  # Indoor Plant\n    'Y',  # Exhibition Floor\n    'b',  # Audience Seating\n    'c',  # Info Desk\n    'd',  # Doorway\n    'e',  # Elevator\n    'f',  # Staircase\n    'h',  # Interactive Screen\n    'i',  # Neon Flicker Effect\n    'j',  # Water Effect\n    'k'   # Lighting Effect\n]",
+    "interactive_object_tiles": "['P', 'Q', 'U', 'W', 'X', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']",
+    "world_1st_layer": {
+      "world": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nADDDDDDDDEEEDDDDDEEEEEEEEEEEEEEFFFFFFFDADDDDDDA\nABBBBBBBBBBBBBBCCCCCCCCCCCBBBBBBBBBBBBBBBBBBBBA\nADDDDDDDDFEEDDDDDEEEEEEEEEEEEEEFFFFFFFDADDDDDDA\nANNNNNNNNNNPPPPPPPPPPPPPPPPPPPNNNNNNNNNNNNNNNNA\nASSSSSSSTTTTTUUSSUUUUTTTTUTTSSSSSTUUUTSSSSSSSSA\nASSSSVVVVSSSTTTUUUUUTTTTSTUUUUTSTUTSSSSVVVVSSSA\nAVVVVVVVVVVVTUTUTTTTTTTTTTSTUTTTUTVTTTVVVVVVVVA\nAPPPPPPPPPPPPPPPNNNNNNPPPPPPPPPPPPPPPNNNNNNPPPA\nAKKKKLLKKKKKKKKKLLLLLLLKKLLLKKKKKKKKKKKKKKKKKKA\nAKLLKLLKKLLKKKKLLLLLLLKKKKKKKKLLLLLLLLLLLLLKKKA\nANNNNNNNNPPPPPPPPPQQQQQQQQQQQQQQQQPPPPPPNNNNNNA\nAYYYYYYYYYYYYYYbcYYYYYYYYYYYYYYYYYYYYYYYYYYYYYA\nAZZZZZZZZZZZZZZZaZZZZZZZZZZZZZZZZZZZZZZZZZZZZZA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "tiles": {
+        "Sidewalk": "A",
+        "Asphalt Road": "B",
+        "Road Markings": "C",
+        "Building Base": "D",
+        "Building Middle": "E",
+        "Building Top": "F",
+        "Walking NPC": "K",
+        "Standing NPC": "L",
+        "Modern Floor": "N",
+        "Server Rack": "P",
+        "Holographic Display": "Q",
+        "Eco-floor": "S",
+        "Caf\u00e9 Wall": "T",
+        "Wooden Furniture": "U",
+        "Indoor Plant": "V",
+        "Exhibition Floor": "Y",
+        "Convention Wall": "Z",
+        "Stage": "a",
+        "Audience Seating": "b",
+        "Info Desk": "c"
+      }
+    },
+    "world": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nADDDDDDDDEEEDDDDDEEEEEEEEEEEEEEFFFFFFFDADDDDDDA\nABBBBBBBBBBBBBBCCCCCCCCCCCBBBBBBBBBBBBBBBBBBBBA\nADDDDDDDDFEEDDDDDEEEEEEEEEEEEEEFFFFFFFDADDDDDDA\nANNNNNNNNNNPPPPPPPPPPPPPPPPPPPNNNNNNNNNNNNNNNNA\nASSSSSSSTTTTTUUSSUUUUTTTTUTTSSSSSTUUUTSSSSSSSSA\nASSSSVVVVSSSTTTUUUUUTTTTSTUUUUTSTUTSSSSVVVVSSSA\nAVVVVVVVVVVVTUTUTTTTTTTTTTSTUTTTUTVTTTVVVVVVVVA\nAPPPPPPPPPPPPPPPNNNNNNPPPPPPPPPPPPPPPNNNNNNPPPA\nAKKKKLLKKKKKKKKKLLLLLLLKKLLLKKKKKKKKKKKKKKKKKKA\nAKLLKLLKKLLKKKKLLLLLLLKKKKKKKKLLLLLLLLLLLLLKKKA\nANNNNNNNNPPPPPPPPPQQQQQQQQQQQQQQQQ#@PPPPNNNNNNA\nAYYYYYYYYYYYYYYbcYYYYYYYYYYYYYYYYYYYYYYYYYYYYYA\nAZZZZZZZZZZZZZZZaZZZZZZZZZZZZZZZZZZZZZZZZZZZZZA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 100.0,
+      "Accuracy_of_important_tiles_placed": 93.33333333333333,
+      "Average_euclidean_distance": 436.9537584796237,
+      "agent_reward": 50,
+      "astar_path": 59
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 16,
+      "story_paragraphs": [
+        5,
+        6
+      ],
+      "total_objectives": 9
+    }
+  }
+}

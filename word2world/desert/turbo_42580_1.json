@@ -1,0 +1,249 @@
+{
+  "round_0": {
+    "story": "In the scorched heart of the Sonoran Desert, Alex Turner, an ambitious archaeologist, was on a quest to uncover the legendary Golden Scarab of Cleto-Rei, an artifact said to be imbued with the powers of the ancient desert spirits. The desert was vast and relentless, filled with swirling sands and mirages that gave a surreal beauty to its enduring harshness. Each grain seemed to hold the secrets of time, a confounding maze for Alex to navigate.\n\nAlex's journey was fraught with challenges. His first objective was to locate the ancient Map of Nisroc, hidden in a crumbling stone temple half-buried by sand dunes. The environment here was a vast, open canvas of undulating sands and wind-carved rocks, deceptive in its tranquil appearance but perilous with hidden underfoot traps of quicksand.\n\nNext, Alex had to traverse the treacherous Black Canyon, enveloped in shadows cast by towering, jagged cliffs. He needed to find the entrance to the subterranean water channels that old desert tribes had used, navigating by starlight and surviving off scarce water stored under the canyon\u2019s stone bowls.\n\nHowever, his mission faced opposition from Lara Venn, a ruthless treasure hunter who also sought the Scarab for its rumored power and wealth. Lara employed all means from sabotaging Alex\u2019s equipment to hiring desert bandits to intimidate or mislead him. Her presence was like a looming storm cloud over the arid expanse, striking whenever least expected.\n\nUndeterred, Alex had more objectives to achieve: deciphering the Riddle of the Sphinx-like Cacti\u2014giant, ominous cacti that guarded an essential clue; camping overnight amidst the Howling Dunes where the winds whispered ancient secrets; earning the trust and gaining insight from a wandering tribe of Tuwal nomads who possessed ancestral knowledge about the artifact\u2019s location; and finally, fooling a nest of diamondback serpents guarding the Cavern of Whispers where the Scarab was said to be sealed.\n\nIn a climactic confrontation inside the Cavern of Whispers, Alex faced Lara amid stalactites and echoing stone chambers that magnified every movement and sound. By cleverly using his knowledge of the desert\u2019s echo system, Alex orchestrated deceptive sounds that disoriented Lara, allowing him to trap her in a dead-end canyon pathway using a fallen rock barrier.\n\nWith Lara temporarily out of action, Alex solved the final geometric puzzle that revealed the Scarab, glinting enigmatically in the dim light. As he held the ancient artifact up to the light, it seemed as if the spirits of the desert had blessed him, wrapping him in a warm, golden glow. Here in this cavern, surrounded by time-worn rock and the victorious echoes of his struggle, Alex realized that the desert was not just a place of desolation, but of history, mystery, and adventure.",
+    "character_information": "For the development of the 2D game based on the story above, here is a detailed description of each primary character to guide the creation of character sprites:\n\n### 1. Alex Turner (Protagonist)\n- **Appearance**: Alex is a young, energetic archaeologist. He has a scholarly appearance with medium-length brown hair, often unkempt due to his explorations. Wears a light khaki shirt rolled up at the sleeves, brown cargo pants, sturdy hiking boots, and a fedora hat. He carries a rugged backpack filled with excavation tools and a strapped water bottle.\n- **Accessories**: Around his neck hangs a leather-bound magnifying glass. His belt hosts various pouches containing maps, a compass, and other archaeological instruments.\n- **Expressions**: Portray Alex with a determined look, a slight smirk indicating his confidence, and occasionally, a brow furrowed in concentration.\n\n### 2. Lara Venn (Antagonist)\n- **Appearance**: Lara is a formidable treasure hunter possessing a commanding presence. She has long, raven black hair tied back in a tight braid. Her attire includes a tactical vest over a fitted dark green shirt, black tactical pants, and combat boots. Lara\u2019s appearance evokes both allure and menace.\n- **Accessories**: Equipped with a utility belt that holds an ancient-looking dagger, Lara also wears gloves and has a night vision goggle pushed up on her head when not in use.\n- **Expressions**: Lara's usual expressions are smirking, sly, and her piercing gaze gives off an intimidating aura. Occasionally, show a scowl of frustration or scheming.\n\n### 3. Tuwal Nomad (NPC)\n- **Appearance**: The tribal nomad of the Tuwal, a desert dweller, is adorned in traditional desert robes that are vibrant with intricate patterns, primarily in red and gold. The outfit includes a large turban and a flowing robe that provides protection from the desert sun.\n- **Accessories**: Carries a long, curved staff used both for walking and ceremonial purposes.\n- **Expressions**: This character has a wise and serene facade, often smiling and offering a welcoming gesture.\n\n### 4. Desert Bandits (NPCs)\n- **Appearance**: The bandits are rough-looking individuals with assorted mismatched desert gear, largely tattered and worn. They have scarves covering their lower faces and rugged, sun-faded clothes.\n- **Accessories**: Each bandit has unique, makeshift weapons like rusty swords or old rifles. Bandanas and mismatched pieces of armor (some might have shoulder guards, others might have knee pads) add to their ragtag look.\n- **Expressions**: Generally showing sneering or aggressive demeanors.\n\nThese descriptions focus on highlighting distinctive clothing, accessories, and expressions that convey each character's role and personality in the game. This setup enhances the visual storytelling and can guide artists in creating engaging and memorable sprites that players will interact with in the game.",
+    "tile_mapping": {
+      "Sand Tile": "a",
+      "Rock Tile": "b",
+      "Dune Tile": "c",
+      "Gravel Tile": "d",
+      "Oasis Tile": "e",
+      "Canyon Wall Tile": "f",
+      "Canyon Floor Tile": "g",
+      "Quicksand Tile": "h",
+      "Cacti Tile": "i",
+      "Stone Path Tile": "j",
+      "Temple Wall Tile": "k",
+      "Broken Column Tile": "l",
+      "Decorated Door Tile": "m",
+      "Temple Floor Tile": "n",
+      "Artifact Pedestal Tile": "o",
+      "Cave Entrance Tile": "p",
+      "Cave Wall Tile": "q",
+      "Cave Floor Tile": "r",
+      "Stalactite/Stalagmite Tile": "s",
+      "Snake Pit Tile": "t",
+      "Rockfall Tile": "u",
+      "Wind Gust Tile": "v",
+      "Campfire Tile": "w",
+      "Ancient Map Tile": "x",
+      "Treasure Chest Tile": "y",
+      "Sky Tile": "z",
+      "Cloud Tile": "A",
+      "Sunset/Rise Tile": "B",
+      "adventurous archaeologist": "@",
+      "ruthless treasure hunter": "#"
+    },
+    "goals": "The **main goal** for the protagonist, Alex Turner, in the story is to find and retrieve the legendary Golden Scarab of Cleto-Rei. This ancient artifact is not only valued for its historical significance but is believed to also possess mystical powers.\n\n### Small Goals to Achieve the Main Goal:\n1. **Locate the ancient Map of Nisroc** hidden in a stone temple:\n   - **Reward**: +50 points for acquiring the map.\n   - **Penalty**: -20 points if the map is damaged during retrieval.\n\n2. **Traverse the Black Canyon** and find the entrance to the subterranean water channels:\n   - **Reward**: +40 points for successful navigation.\n   - **Penalty**: -10 points for every wrong pathway chosen.\n\n3. **Decipher the Riddle of the Sphinx-like Cacti**:\n   - **Reward**: +30 points for solving the riddle.\n   - **Penalty**: -15 points for each incorrect attempt.\n\n4. **Survive a night in the Howling Dunes**:\n   - **Reward**: +25 points for setting up a secure camp.\n   - **Penalty**: -5 points for every essential supply lost.\n\n5. **Gain insight from the Tuwal nomads** about the artifact\u2019s location:\n   - **Reward**: +35 points for earning their trust and gathering information.\n   - **Penalty**: -30 points if relations sour or if misleading information is followed.\n\n6. **Navigate past a nest of diamondback serpents in the Cavern of Whispers**:\n   - **Reward**: +45 points for avoiding or safely handling snakes.\n   - **Penalty**: -20 points for each snake bite received.\n\n7. **Solve the final geometric puzzle in the Cavern of Whispers** to reveal the Scarab:\n   - **Reward**: +60 points for uncovering the Scarab.\n   - **Penalty**: -25 points for every wrong configuration of the puzzle.\n\n8. **Defeat Lara Venn and thwart her attempts to steal the Scarab**:\n   - **Reward**: +70 points for successfully outsmarting or trapping Lara.\n   - **Penalty**: -50 points if Lara manages to temporarily steal the Scarab.\n\n### Overall Scoring:\n- **Ultimate Reward**: Completing the main goal by retrieving the Scarab grants +100 bonus points.\n- **Ultimate Penalty**: If Alex fails to retrieve the Scarab or loses it to Lara permanently, -100 points.\n\nThese scores can be used to gauge a player\u2019s progress and effectiveness in overcoming the challenges posed in the game\u2019s desert adventure setting.",
+    "objectives": {
+      "Locate the ancient Map of Nisroc": [
+        "x",
+        11,
+        16
+      ],
+      "Traverse the Black Canyon and find the entrance to the subterranean water channels": [
+        "p",
+        7,
+        0
+      ],
+      "Decipher the Riddle of the Sphinx-like Cacti": [
+        "i",
+        0,
+        14
+      ],
+      "Survive a night in the Howling Dunes": [
+        "c",
+        1,
+        7
+      ],
+      "Gain insight from the Tuwal nomads about the artifact\u2019s location": [
+        "j",
+        2,
+        10
+      ],
+      "Navigate past a nest of diamondback serpents in the Cavern of Whispers": [
+        "t",
+        11,
+        13
+      ],
+      "Solve the final geometric puzzle in the Cavern of Whispers": [
+        "o",
+        2,
+        15
+      ],
+      "Defeat Lara Venn and thwart her attempts to steal the Scarab": [
+        "#",
+        13,
+        14
+      ]
+    },
+    "important_tiles": "['@', '#', 'e', 'j', 'k', 'm', 'n', 'o', 'p', 'q', 'r', 't', 'u', 'v', 'x']",
+    "walkable_tiles": "['a', 'b', 'c', 'd', 'e', 'g', 'i', 'j', 'n', 'r', 'w', 'x', 'y']",
+    "interactive_object_tiles": "['x', 'o', 'y', '@', '#']",
+    "world_1st_layer": {
+      "world": "aaaaaaaaaaaaaaaajaaaaaaaaaaaa\naaaaaaccckkkkkkaeakkkgggbbbbb\naaaakmmnnooooaajjkkknggbbbbaa\naaaaakkknnnkkkaeakkkkgggbbbbbb\naaaaaccccckkkkaaaaaaagggbbbbaa\naaaaaaabaaadddddddaaaaaggbbbbb\naaaaaaabaaaggggggggaaaagggbbba\nppppppppppprrrrrrrrrrrrgggbbbb\nqqqqqqqqqqqrrrrrrrrrrrrgggbbbb\nqqqqqqqqqqqrrrrrrrrrrrrgggbbb\nqqqqqqqqqqqrrrrrrrrrrrrgggbbba\nqqqqqqqqqqqsttttttttttrgggbbba\nqqqqqqqqqqqrrrrrrrrrrrrgggbbba\nqqqqqqqqqqqrrrrrrrrrrrrggbbbbb\nppppppppppprrrrrrrrrrrrgggbbbb\naaaaaauaaaaaaaaaaaaaaaggbbbbb\naaaaaauaaaaaaaaaeaaaaaggbbbbb\naaaaaggggggggggggggggggggbbbbb\naaaaaggggggggggggggggggggbbbbb",
+      "tiles": {
+        "Sand Tile": "a",
+        "Rock Tile": "b",
+        "Dune Tile": "c",
+        "Gravel Tile": "d",
+        "Oasis Tile": "e",
+        "Canyon Floor Tile": "g",
+        "Stone Path Tile": "j",
+        "Temple Wall Tile": "k",
+        "Decorated Door Tile": "m",
+        "Temple Floor Tile": "n",
+        "Artifact Pedestal Tile": "o",
+        "Cave Entrance Tile": "p",
+        "Cave Wall Tile": "q",
+        "Cave Floor Tile": "r",
+        "Stalactite/Stalagmite Tile": "s",
+        "Snake Pit Tile": "t",
+        "Rockfall Tile": "u"
+      }
+    },
+    "world": "aaaaaaaaaaaaaaaajaaaaaaaaaaaa\naaaaaaccckkkkkkaeakkkgggbbbbb\naaaakmmnnooooaajjkkknggbbbbaa\naaaaakkknnnkkkaeakkkkgggbbbbbb\naaaaaccccckkkkaaaaaaagggbbbbaa\naaaaaaabaaadddddddaaaaaggbbbbb\naaaaaaabaaaggggggggaaaagggbbba\nppppppppppprrrrrrrrrrrrgggbbbb\nqqqqqqqqqqqrrrrrrrrrrrrgggbbbb\nqqqqqqqqqqqrrrrrrrrrrrrgggbbb\nqqqqqqqqqqqsttttttttttrgggbbba\nqqqqqqqqqqqrrrrrrxxrrrrgggbbba\nqqqqqqqqqqqrrr@rrrrrrrrgggbbba\nqqqqqqqqqqqrrrr#rrrrrrrggbbbbb\nppppppppppprrrrrrrrrrrrgggbbbb\naaaaaauaaaaaaaaaaaaaaaggbbbbb\naaaaaauaaaaaaaaaeaaaaaggbbbbb\naaaaaggggggggggggggggggggbbbbb\naaaaaggggggggggggggggggggbbbbb",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 100.0,
+      "Accuracy_of_important_tiles_placed": 93.33333333333333,
+      "Average_euclidean_distance": 543.6855676093367,
+      "agent_reward": -350,
+      "astar_path": 0
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 15,
+      "story_paragraphs": [
+        4,
+        5
+      ],
+      "total_objectives": 8
+    }
+  },
+  "round_1": {
+    "story": "In the scorched heart of the Sonoran Desert, Alex Turner, an ambitious archaeologist, was on a quest to uncover the legendary Golden Scarab of Cleto-Rei, an artifact said to be imbued with the powers of the ancient desert spirits. The desert was vast and relentless, filled with swirling sands and mirages that gave a surreal beauty to its enduring harshness. Each grain seemed to hold the secrets of time, a confounding maze for Alex to navigate.\n\nAlex's journey was fraught with challenges. His first objective was to locate the ancient Map of Nisroc, hidden in a crumbling stone temple half-buried by sand dunes. The environment here was a vast, open canvas of undulating sands and wind-carved rocks, deceptive in its tranquil appearance but perilous with hidden underfoot traps of quicksand.\n\nNext, Alex had to traverse the treacherous Black Canyon, enveloped in shadows cast by towering, jagged cliffs. He needed to find the entrance to the subterranean water channels that old desert tribes had used, navigating by starlight and surviving off scarce water stored under the canyon\u2019s stone bowls.\n\nHowever, his mission faced opposition from Lara Venn, a ruthless treasure hunter who also sought the Scarab for its rumored power and wealth. Lara employed all means from sabotaging Alex\u2019s equipment to hiring desert bandits to intimidate or mislead him. Her presence was like a looming storm cloud over the arid expanse, striking whenever least expected.\n\nUndeterred, Alex had more objectives to achieve: deciphering the Riddle of the Sphinx-like Cacti\u2014giant, ominous cacti that guarded an essential clue; camping overnight amidst the Howling Dunes where the winds whispered ancient secrets; earning the trust and gaining insight from a wandering tribe of Tuwal nomads who possessed ancestral knowledge about the artifact\u2019s location; and finally, fooling a nest of diamondback serpents guarding the Cavern of Whispers where the Scarab was said to be sealed.\n\nIn a climactic confrontation inside the Cavern of Whispers, Alex faced Lara amid stalactites and echoing stone chambers that magnified every movement and sound. By cleverly using his knowledge of the desert\u2019s echo system, Alex orchestrated deceptive sounds that disoriented Lara, allowing him to trap her in a dead-end canyon pathway using a fallen rock barrier.\n\nWith Lara temporarily out of action, Alex solved the final geometric puzzle that revealed the Scarab, glinting enigmatically in the dim light. As he held the ancient artifact up to the light, it seemed as if the spirits of the desert had blessed him, wrapping him in a warm, golden glow. Here in this cavern, surrounded by time-worn rock and the victorious echoes of his struggle, Alex realized that the desert was not just a place of desolation, but of history, mystery, and adventure.",
+    "character_information": "For the development of the 2D game based on the story above, here is a detailed description of each primary character to guide the creation of character sprites:\n\n### 1. Alex Turner (Protagonist)\n- **Appearance**: Alex is a young, energetic archaeologist. He has a scholarly appearance with medium-length brown hair, often unkempt due to his explorations. Wears a light khaki shirt rolled up at the sleeves, brown cargo pants, sturdy hiking boots, and a fedora hat. He carries a rugged backpack filled with excavation tools and a strapped water bottle.\n- **Accessories**: Around his neck hangs a leather-bound magnifying glass. His belt hosts various pouches containing maps, a compass, and other archaeological instruments.\n- **Expressions**: Portray Alex with a determined look, a slight smirk indicating his confidence, and occasionally, a brow furrowed in concentration.\n\n### 2. Lara Venn (Antagonist)\n- **Appearance**: Lara is a formidable treasure hunter possessing a commanding presence. She has long, raven black hair tied back in a tight braid. Her attire includes a tactical vest over a fitted dark green shirt, black tactical pants, and combat boots. Lara\u2019s appearance evokes both allure and menace.\n- **Accessories**: Equipped with a utility belt that holds an ancient-looking dagger, Lara also wears gloves and has a night vision goggle pushed up on her head when not in use.\n- **Expressions**: Lara's usual expressions are smirking, sly, and her piercing gaze gives off an intimidating aura. Occasionally, show a scowl of frustration or scheming.\n\n### 3. Tuwal Nomad (NPC)\n- **Appearance**: The tribal nomad of the Tuwal, a desert dweller, is adorned in traditional desert robes that are vibrant with intricate patterns, primarily in red and gold. The outfit includes a large turban and a flowing robe that provides protection from the desert sun.\n- **Accessories**: Carries a long, curved staff used both for walking and ceremonial purposes.\n- **Expressions**: This character has a wise and serene facade, often smiling and offering a welcoming gesture.\n\n### 4. Desert Bandits (NPCs)\n- **Appearance**: The bandits are rough-looking individuals with assorted mismatched desert gear, largely tattered and worn. They have scarves covering their lower faces and rugged, sun-faded clothes.\n- **Accessories**: Each bandit has unique, makeshift weapons like rusty swords or old rifles. Bandanas and mismatched pieces of armor (some might have shoulder guards, others might have knee pads) add to their ragtag look.\n- **Expressions**: Generally showing sneering or aggressive demeanors.\n\nThese descriptions focus on highlighting distinctive clothing, accessories, and expressions that convey each character's role and personality in the game. This setup enhances the visual storytelling and can guide artists in creating engaging and memorable sprites that players will interact with in the game.",
+    "tile_mapping": {
+      "Sand Tile": "a",
+      "Rock Tile": "b",
+      "Dune Tile": "c",
+      "Gravel Tile": "d",
+      "Oasis Tile": "e",
+      "Canyon Wall Tile": "f",
+      "Canyon Floor Tile": "g",
+      "Quicksand Tile": "h",
+      "Cacti Tile": "i",
+      "Stone Path Tile": "j",
+      "Temple Wall Tile": "k",
+      "Broken Column Tile": "l",
+      "Decorated Door Tile": "m",
+      "Temple Floor Tile": "n",
+      "Artifact Pedestal Tile": "o",
+      "Cave Entrance Tile": "p",
+      "Cave Wall Tile": "q",
+      "Cave Floor Tile": "r",
+      "Stalactite/Stalagmite Tile": "s",
+      "Snake Pit Tile": "t",
+      "Rockfall Tile": "u",
+      "Wind Gust Tile": "v",
+      "Campfire Tile": "w",
+      "Ancient Map Tile": "x",
+      "Treasure Chest Tile": "y",
+      "Sky Tile": "z",
+      "Cloud Tile": "A",
+      "Sunset/Rise Tile": "B",
+      "adventurous archaeologist": "@",
+      "ruthless treasure hunter": "#"
+    },
+    "goals": "The **main goal** for the protagonist, Alex Turner, in the story is to find and retrieve the legendary Golden Scarab of Cleto-Rei. This ancient artifact is not only valued for its historical significance but is believed to also possess mystical powers.\n\n### Small Goals to Achieve the Main Goal:\n1. **Locate the ancient Map of Nisroc** hidden in a stone temple:\n   - **Reward**: +50 points for acquiring the map.\n   - **Penalty**: -20 points if the map is damaged during retrieval.\n\n2. **Traverse the Black Canyon** and find the entrance to the subterranean water channels:\n   - **Reward**: +40 points for successful navigation.\n   - **Penalty**: -10 points for every wrong pathway chosen.\n\n3. **Decipher the Riddle of the Sphinx-like Cacti**:\n   - **Reward**: +30 points for solving the riddle.\n   - **Penalty**: -15 points for each incorrect attempt.\n\n4. **Survive a night in the Howling Dunes**:\n   - **Reward**: +25 points for setting up a secure camp.\n   - **Penalty**: -5 points for every essential supply lost.\n\n5. **Gain insight from the Tuwal nomads** about the artifact\u2019s location:\n   - **Reward**: +35 points for earning their trust and gathering information.\n   - **Penalty**: -30 points if relations sour or if misleading information is followed.\n\n6. **Navigate past a nest of diamondback serpents in the Cavern of Whispers**:\n   - **Reward**: +45 points for avoiding or safely handling snakes.\n   - **Penalty**: -20 points for each snake bite received.\n\n7. **Solve the final geometric puzzle in the Cavern of Whispers** to reveal the Scarab:\n   - **Reward**: +60 points for uncovering the Scarab.\n   - **Penalty**: -25 points for every wrong configuration of the puzzle.\n\n8. **Defeat Lara Venn and thwart her attempts to steal the Scarab**:\n   - **Reward**: +70 points for successfully outsmarting or trapping Lara.\n   - **Penalty**: -50 points if Lara manages to temporarily steal the Scarab.\n\n### Overall Scoring:\n- **Ultimate Reward**: Completing the main goal by retrieving the Scarab grants +100 bonus points.\n- **Ultimate Penalty**: If Alex fails to retrieve the Scarab or loses it to Lara permanently, -100 points.\n\nThese scores can be used to gauge a player\u2019s progress and effectiveness in overcoming the challenges posed in the game\u2019s desert adventure setting.",
+    "objectives": {
+      "Locate the ancient Map of Nisroc": [
+        "x",
+        15,
+        7
+      ],
+      "Traverse the Black Canyon and find the entrance to the subterranean water channels": [
+        "p",
+        14,
+        8
+      ],
+      "Decipher the Riddle of the Sphinx-like Cacti": [
+        "i",
+        17,
+        12
+      ],
+      "Survive a night in the Howling Dunes": [
+        "w",
+        2,
+        31
+      ],
+      "Gain insight from the Tuwal nomads about the artifact\u2019s location": [
+        "n",
+        2,
+        11
+      ],
+      "Navigate past a nest of diamondback serpents in the Cavern of Whispers": [
+        "t",
+        11,
+        12
+      ],
+      "Solve the final geometric puzzle in the Cavern of Whispers to reveal the Scarab": [
+        "o",
+        2,
+        14
+      ],
+      "Defeat Lara Venn and thwart her attempts to steal the Scarab": [
+        "#",
+        4,
+        5
+      ]
+    },
+    "important_tiles": "['@', '#', 'e', 'j', 'k', 'm', 'n', 'o', 'p', 'q', 'r', 't', 'u', 'v', 'x']",
+    "walkable_tiles": "['a', 'b', 'c', 'd', 'e', 'g', 'i', 'j', 'n', 'r', 'w', 'x', 'y']",
+    "interactive_object_tiles": "['x', 'o', 'y', '@', '#']",
+    "world_1st_layer": {
+      "world": "aaaacccaaddddaaaaeeeeeeeebbaa\naaaajjjjajjjjjjjeeeeeeebbbbjj\njaakkkkknnooomoomkkkkbbbbbwwwj\neeakknnkknnnnnooomkkkggggbbbb\neeaccccckknnoomooooooogggbbbbb\nppppaaaddjjjjjjaaaaaaaaagggbb\nppppddaddddddddaaaaaaaagggbbb\npppppppppprrrrrpppppppprrgggbb\nqqqqqqqqqqqrrrrqqqqqqqqrrrgbbb\nqqqqqqquuuuurrrqqqqqqqqrrrggbb\nqqqqqqqtttturrrqqqqqqqqrrrgbbb\nqqqqqqqqqqqrrrrqqqqqqqqrrgggbb\nqqqqqqqqqqqrrrrqqqvvvqqrrggbbb\nqqqqqqqqqqqrrrrqqqqqqqqrrggbbj\npppppppppprrrrppppppppprgggbbj\naaaaccaccccccccccceeeccjggbbbj\naaaaaauuauauaueauaeuaaugjbbbbj\naaaaggggggggggggggggggggggbbb\naaaxgggggggygggygxggxgggggbbbj",
+      "tiles": {
+        "Sand Tile": "a",
+        "Rock Tile": "b",
+        "Dune Tile": "c",
+        "Gravel Tile": "d",
+        "Oasis Tile": "e",
+        "Canyon Floor Tile": "g",
+        "Stone Path Tile": "j",
+        "Temple Wall Tile": "k",
+        "Decorated Door Tile": "m",
+        "Temple Floor Tile": "n",
+        "Artifact Pedestal Tile": "o",
+        "Cave Entrance Tile": "p",
+        "Cave Wall Tile": "q",
+        "Cave Floor Tile": "r",
+        "Snake Pit Tile": "t",
+        "Rockfall Tile": "u",
+        "Wind Gust Tile": "v",
+        "Campfire Tile": "w",
+        "Ancient Map Tile": "x",
+        "Treasure Chest Tile": "y"
+      }
+    },
+    "world": "aaaacccaaddddaaaaeeeeeee@bbaa\naaaajjjjajjjjjjjeeeeeeebbbbjj\njaakkkkknnooomoomkkkkbbbbbwwwj\neeakknnkknnnnnooomkkkggggbbbb\neeaccc#ckknnoomooooooogggbbbbb\nppppaaaddjjjjjjaaaaaaaaagggbb\nppppddaddddddddaaaaaaaagggbbb\npppppppppprrrrrpppppppprrgggbb\nqqqqqqqqqqqrrrrqqqqqqqqrrrgbbb\nqqqqqqquuuuurrrqqqqqqqqrrrggbb\nqqqqqqqtttturrrqqqqqqqqrrrgbbb\nqqqqqqqqqqqrrryqqqqqqqqrrgggbb\nqqqqqqqqqqqrrrrqqqvvvqqrrggbbb\nqqqqqqqqqqqrrrrqqqqqqqqrrggbbj\nppppoqqqpprrrrppppppppprgggbbj\naaaaccxxcccccccccceeeccjggbbbj\naaaaaauuauauoieauaeuaaugjbbbbj\naaaaggggggggggggggggggggggbbb\naaaxgggggggygggygxggxgggggbbbj",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 100.0,
+      "Accuracy_of_important_tiles_placed": 100.0,
+      "Average_euclidean_distance": 534.7458748337716,
+      "agent_reward": -700,
+      "astar_path": 19
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 15,
+      "story_paragraphs": [
+        4,
+        5
+      ],
+      "total_objectives": 8
+    }
+  }
+}

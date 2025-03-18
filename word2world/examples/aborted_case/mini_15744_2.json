@@ -1,0 +1,206 @@
+{
+  "round_0": {
+    "story": "In the heart of Eldergrove, a secluded village nestled between the sprawling Whispering Woods and the jagged peaks of the Frostbite Mountains, the air buzzed with tension. The villagers whispered of the shattered peace, the shadow of the malevolent sorceress Morwenna that loomed ever closer. Darin, a courageous young man with an indomitable spirit, listened to the elders recount tales of the ancient artifact\u2014the Heart of Eldoria\u2014hidden deep in the Labyrinth of Shadows. It was said that whoever controlled the Heart could either restore the land\u2019s magic or plunge it into despair. Darin knew he had to find it before Morwenna did.\n\nWith a heart steeled by determination, Darin set forth into the Whispering Woods, the first environment he must conquer. The woods were a maze of darkened paths where the trees whispered secrets only the brave dared to uncover. His objectives were clear: first, he needed to gather sacred herbs from the Forest Guardian, a reclusive spirit known to be mistrustful of outsiders. The Guardian, a glowing figure wreathed in vines, initially dismissed Darin, but he showcased his genuine intent to protect Eldergrove. After a test of bravery against the twisted canopies of enchanted vines, the Guardian gifted Darin with the herbs.\n\nVenturing deeper into the woods, Darin encountered a lively stream populated by the Merfolks\u2014guardians of the Water Crystal. His second objective was to retrieve this crystal, as it held the power to purify the Heart of Eldoria. After understanding their mistrust of humans, he won them over by helping a trapped baby Merman escape from a tangle of debris. Grateful, the Merfolk bestowed upon him the Water Crystal, which shimmered with the promise of hope. However, Morwenna\u2019s minions were already shadowing his every move, a constant reminder of the threat looming over his mission.\n\nAs he ascended towards the Frostbite Mountains, the temperature plummeted. Frosted cliffs and treacherous blizzards formed the third environment, where Darin had to navigate the treacherous paths while retrieving shards of the Ice Gem from the Snow Spirits\u2014a volatile group that resented intruders. Their icy winds tested his resolve, but he managed to convince the Spirits of his noble quest, earning their trust with an earnest pledge of unity against Morwenna. Sweeping storms unleashed their fury, yet Darin stood tall, emerging victorious with the shards in hand.\n\nFinally, fortified with the herbs, the Water Crystal, and the Ice Gem, his last objective was to confront Morwenna in the Misty Citadel\u2014her dark lair. The environment was foreboding; swirling fog obscured the treacherous cliffs around the citadel, and jagged rocks jutted out of the depths below. Just as he stood against Morwenna, filled with desperation and malice, he realized the key to defeating her lay in his gathered powers. Using the magical objects, Darin channeled the forces of nature and light to confront her. In a ferocious battle of magic and will, he unleashed the combined strengths of the elements, banishing Morwenna from Eldergrove. \n\nWith peace finally restored, the Heart of Eldoria pulsed with renewed energy, illuminating the village once more. Darin returned home a hero, joined by the newfound allies he had made: the Forest Guardian, the Merfolk, and the Snow Spirits. Together, they vowed to protect Eldergrove from any future threats, forging an alliance that promised peace for generations to come.",
+    "character_information": "Here are descriptions for the main characters and NPCs in the 2D game based on the story. Each description is designed to provide a clear visual concept for sprite generation.\n\n### Protagonist: Darin\n**Appearance:** Darin is a young man in his early twenties with tousled chestnut hair that falls just above his eyebrows. He has bright green eyes filled with determination and courage. Darin wears a rugged, earth-toned tunic made from durable leather, allowing for easy movement through the wild environments. His trousers are dark and fitted, complemented by sturdy brown boots that have seen many adventures. He carries a satchel slung across his shoulder, holding various magical items. His overall look is that of a valiant hero ready to embark on a quest.\n\n**Sprite Details:** \n- Texture for leather with subtle stitching details\n- Animation for running, jumping, and using magic\n- Expressions including determination, joy, and seriousness\n\n### Antagonist: Morwenna\n**Appearance:** Morwenna is a tall, imposing sorceress with an ethereal beauty that belies her malevolence. She has long, flowing silver hair that appears almost luminescent against the dark backdrop of her tattered black robes. Her piercing violet eyes are framed by sharp, angular features, giving her a fierce and intimidating appearance. Dressed in a gown that appears to swirl and shift like smoke, she carries a gnarled staff topped with a dark crystal that crackles with dark energy.  \n\n**Sprite Details:** \n- Flowing robes with a gradient of deep purples and blacks\n- Animation for casting spells with dramatic arm movements \n- Expressions conveying smugness, anger, and cunning\n\n### Ally: Forest Guardian\n**Appearance:** The Forest Guardian is a mystical creature appearing as a combination of humanoid and nature elements. They have bark-like skin with green tendrils and glowing blue orbs embedded in their body. Their hair resembles vines adorned with luminescent flowers, giving them an enchanting look. The Guardian's robes are made from intertwined leaves and vines, seamlessly merging them with their forest surroundings. Their eyes are bright like gemstones, radiating wisdom and authority.\n\n**Sprite Details:**  \n- Textured bark-like skin with intricate patterns\n- Animation for floating gracefully and conjuring nature magic\n- Expressions showing calmness, insight, and empowerment\n\n### Ally: Merfolk\n**Appearance:** The leader of the Merfolk is a charismatic figure with shimmering scales that change color from turquoise to deep blue. Their long hair flows like water, decorated with seashells and small corals. A fin adorns their head, and their body is partially human, partially fish, with a beautifully ornate tail that resembles a flowing gown. The Merfolk's eyes are large, curious, and glowing with an otherworldly light.\n\n**Sprite Details:**\n- Luminescent scales with gradient shading\n- Animation for swimming motions and communicating with water creatures\n- Expressions featuring joy, curiosity, and determination\n\n### Ally: Snow Spirits\n**Appearance:** The Snow Spirits are ethereal beings that appear ghost-like, with flowing white and blue forms that shift as they move. They have delicate, ice-like features with bright silver eyes that hold a sense of wisdom and playfulness. Each spirit wears a gown made of swirling snowflakes that glimmer in the light, and their hair flows like frost-laced wind. \n\n**Sprite Details:** \n- Animation for drifting gently and swirling, as if carried by a breeze\n- Features of soft, sparkly textures reminiscent of frost\n- Expressions conveying mischief, serenity, and valor\n\nThese descriptions should serve as a solid foundation for creating unique and visually appealing sprites for the characters within the 2D game, enhancing the overall gameplay experience.",
+    "tile_mapping": {
+      "Rocky Ground with Snow": "R",
+      "Ice-Covered Ground": "I",
+      "Frozen Streams": "F",
+      "Jagged Rock Formations": "C",
+      "Cracked Ice Pillars": "X",
+      "Snowdrifts": "D",
+      "Glimmering Snowflake Patterns": "N",
+      "Crisscrossing Trails": "A",
+      "Slippery Ice Sections": "Y",
+      "Ice Caves": "V",
+      "Icicles": "E",
+      "Snow-Covered Mountain Peaks": "M",
+      "Blustery Cloud Overlays": "Q",
+      "brave young man with long brown hair and a determined expression, wearing rugged leather armor": "@",
+      "malevolent sorceress with flowing dark robes, piercing violet eyes, and an aura of shadowy magic": "#"
+    },
+    "goals": "### Main Goal for the Protagonist\n**Main Goal:** To locate and retrieve the Heart of Eldoria before the antagonist, Morwenna, can seize it, ultimately restoring peace and magic to Eldergrove.\n\n### Small Goals (Objectives) for the Protagonist\n1. **Gather Sacred Herbs from the Forest Guardian**\n   - **Reward:** 50 points for successfully collecting the herbs.\n   - **Penalty:** -10 points for failing the Forest Guardian's test.\n\n2. **Retrieve the Water Crystal from the Merfolk**\n   - **Reward:** 70 points for convincing the Merfolk and acquiring the crystal.\n   - **Penalty:** -15 points if Darin tries to take the crystal by force.\n\n3. **Collect Shards of the Ice Gem from the Snow Spirits**\n   - **Reward:** 80 points for collecting all necessary shards.\n   - **Penalty:** -20 points for upsetting the Snow Spirits and losing their trust.\n\n4. **Navigate the Dangerous Terrain of the Frostbite Mountains Successfully**\n   - **Reward:** 60 points for avoiding environmental hazards.\n   - **Penalty:** -15 points for falling or being caught in blizzards.\n\n5. **Find the Labyrinth of Shadows Entrance**\n   - **Reward:** 30 points for uncovering the labyrinth entrance.\n   - **Penalty:** -5 points for getting lost in the woods.\n\n6. **Solve Mystical Puzzles Within the Labyrinth**\n   - **Reward:** 100 points for each puzzle solved correctly.\n   - **Penalty:** -25 points for incorrectly solving a puzzle and triggering traps.\n\n7. **Defeat Morwenna in the Misty Citadel**\n   - **Reward:** 200 points for successfully defeating Morwenna.\n   - **Penalty:** -50 points if defeated by her during the confrontation.\n\n8. **Return to Eldergrove with the Heart of Eldoria**\n   - **Reward:** 150 points for successfully bringing the Heart back.\n   - **Penalty:** -30 points for losing the Heart during the return journey.\n\n### Summary of Scores\n\n- **Rewards:**\n  - Sacred Herbs: +50 points\n  - Water Crystal: +70 points\n  - Ice Gem Shards: +80 points\n  - Successful Navigation: +60 points\n  - Labyrinth Entrance: +30 points\n  - Puzzles (per correct): +100 points\n  - Defeating Morwenna: +200 points\n  - Returning the Heart: +150 points\n  \n- **Penalties:**\n  - Failing Guardian's Test: -10 points\n  - Forceful Tactics with Merfolk: -15 points\n  - Losing Trust of Snow Spirits: -20 points\n  - Falling in Mountains: -15 points\n  - Getting Lost: -5 points\n  - Trapped by Puzzle Mistakes: -25 points\n  - Defeat by Morwenna: -50 points\n  - Losing the Heart on Return: -30 points\n\nThis structure allows for a clear scoring system that reflects the protagonist's progress through the adventure while providing motivation and consequences for actions taken during the game.",
+    "objectives": {
+      "Gather Sacred Herbs from the Forest Guardian": [
+        "B",
+        6,
+        2
+      ],
+      "Retrieve the Water Crystal from the Merfolk": [
+        "F",
+        6,
+        3
+      ],
+      "Collect Shards of the Ice Gem from the Snow Spirits": [
+        "X",
+        5,
+        4
+      ],
+      "Navigate the Dangerous Terrain of the Frostbite Mountains Successfully": [
+        "R",
+        4,
+        3
+      ],
+      "Find the Labyrinth of Shadows Entrance": [
+        "M",
+        7,
+        6
+      ],
+      "Solve Mystical Puzzles Within the Labyrinth": [
+        "N",
+        5,
+        5
+      ],
+      "Defeat Morwenna in the Misty Citadel": [
+        "#",
+        12,
+        5
+      ],
+      "Return to Eldergrove with the Heart of Eldoria": [
+        "M",
+        15,
+        5
+      ]
+    },
+    "important_tiles": "```python\nimportant_tiles = [\n    '@',  # Protagonist: Darin\n    '#',  # Antagonist: Morwenna\n    'R',  # Rocky Ground with Snow\n    'I',  # Ice-Covered Ground\n    'F',  # Frozen Streams\n    'C',  # Jagged Rock Formations\n    'X',  # Cracked Ice Pillars\n    'D',  # Snowdrifts\n    'A',  # Crisscrossing Trails\n    'Y',  # Slippery Ice Sections\n    'V',  # Ice Caves\n    'E',  # Icicles\n    'M',  # Snow-Covered Mountain Peaks\n    'N',  # Glimmering Snowflake Patterns\n    'Q',  # Blustery Cloud Overlays\n    'B'   # NPC: Forest Guardian or allies (as an example)\n]\n```",
+    "walkable_tiles": "```python\nwalkable_tiles = ['R', 'I', 'F', 'C', 'X', 'D', 'N', 'A', 'V', 'E', 'M']\n```",
+    "interactive_object_tiles": "```python\ninteractable_tiles = ['R', 'I', 'F', 'C', 'X', 'D', 'A', 'Y', 'V', 'E']\n```",
+    "world_1st_layer": {
+      "world": "MMMMMMMMMMQMMMMMMMMMMM\nMMMMMMMMMMQMMMMMMMMMMM\nMMMMMMRIIIIIIIIMMMMMMMM\nMMMMRRRRRRRQIIIMMMDMMMM\nMMRRFXXXXXXNINMMDRMMMM\nMFFCCCCCCNAAAADMMMAMMMM\nFYYYYYYYYYMMMMRMMMMMMM\nFYYYYYXYXYYYIIIMMMMMMM\nFYYYNAAAAAAADDDMMMMMMM\nRYYCCCDDDDDDXXMMMMMMRM\nRYYYYYYYYYYYDRMMMMMDRM\nRDRRYYYCRREEEMMMMMMRE\nRDRRYYYYYYYYRIIIIIQRMM\nRRRYYYYYDRDRRYYYYYQMM\nMMNYYYYYYQRYYYYYYQMM\nMMMMMMMMMMMMMMMMMMMMMM",
+      "tiles": {
+        "Rocky Ground with Snow": "R",
+        "Ice-Covered Ground": "I",
+        "Frozen Streams": "F",
+        "Jagged Rock Formations": "C",
+        "Cracked Ice Pillars": "X",
+        "Snowdrifts": "D",
+        "Glimmering Snowflake Patterns": "N",
+        "Crisscrossing Trails": "A",
+        "Slippery Ice Sections": "Y",
+        "Icicles": "E",
+        "Snow-Covered Mountain Peaks": "M",
+        "Blustery Cloud Overlays": "Q"
+      }
+    },
+    "world": "MMMMMMMMMMQMMMMMMMMMMM\nMMMMMMMMMMQMMMMMMMMMMM\nMMMMMMRIIIIIIIIMMMMMMMM\nMMMMRRRRRRRQIIIMMMDMMMM\nMMRRFXXXXXXNINMMDRMMMM\nMFFCCCCCCNAAAADMMMAMMMM\nFYYYYYYYYYMMMMRMMMMMMM\nFYYYYYXYXYYYIIIMMMMMMM\nFYYYNAAAAAAADDDMMMMMMM\nRYYCCCDDDDDDXXMMMMMMRM\nRYYYYYYYYYYDRMMMMMDRM\nRDRRYYYCRREEEMMMMMMRE\nRDRRYYYYYYYYRIIIIIQRMM\nRRRYYYYYDRDRRYYYYYQMM\nMMNYYYYYYQRYYYYYYQMM\nMMMMMMMMMMMMMMMMMMMMMM",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 0,
+      "Accuracy_of_important_tiles_placed": 75.0,
+      "Average_euclidean_distance": 393.6342035301536,
+      "agent_reward": 0,
+      "astar_path": 0
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 15,
+      "story_paragraphs": [
+        4,
+        5
+      ],
+      "total_objectives": 8
+    }
+  },
+  "round_1": {
+    "story": "In the heart of Eldergrove, a secluded village nestled between the sprawling Whispering Woods and the jagged peaks of the Frostbite Mountains, the air buzzed with tension. The villagers whispered of the shattered peace, the shadow of the malevolent sorceress Morwenna that loomed ever closer. Darin, a courageous young man with an indomitable spirit, listened to the elders recount tales of the ancient artifact\u2014the Heart of Eldoria\u2014hidden deep in the Labyrinth of Shadows. It was said that whoever controlled the Heart could either restore the land\u2019s magic or plunge it into despair. Darin knew he had to find it before Morwenna did.\n\nWith a heart steeled by determination, Darin set forth into the Whispering Woods, the first environment he must conquer. The woods were a maze of darkened paths where the trees whispered secrets only the brave dared to uncover. His objectives were clear: first, he needed to gather sacred herbs from the Forest Guardian, a reclusive spirit known to be mistrustful of outsiders. The Guardian, a glowing figure wreathed in vines, initially dismissed Darin, but he showcased his genuine intent to protect Eldergrove. After a test of bravery against the twisted canopies of enchanted vines, the Guardian gifted Darin with the herbs.\n\nVenturing deeper into the woods, Darin encountered a lively stream populated by the Merfolks\u2014guardians of the Water Crystal. His second objective was to retrieve this crystal, as it held the power to purify the Heart of Eldoria. After understanding their mistrust of humans, he won them over by helping a trapped baby Merman escape from a tangle of debris. Grateful, the Merfolk bestowed upon him the Water Crystal, which shimmered with the promise of hope. However, Morwenna\u2019s minions were already shadowing his every move, a constant reminder of the threat looming over his mission.\n\nAs he ascended towards the Frostbite Mountains, the temperature plummeted. Frosted cliffs and treacherous blizzards formed the third environment, where Darin had to navigate the treacherous paths while retrieving shards of the Ice Gem from the Snow Spirits\u2014a volatile group that resented intruders. Their icy winds tested his resolve, but he managed to convince the Spirits of his noble quest, earning their trust with an earnest pledge of unity against Morwenna. Sweeping storms unleashed their fury, yet Darin stood tall, emerging victorious with the shards in hand.\n\nFinally, fortified with the herbs, the Water Crystal, and the Ice Gem, his last objective was to confront Morwenna in the Misty Citadel\u2014her dark lair. The environment was foreboding; swirling fog obscured the treacherous cliffs around the citadel, and jagged rocks jutted out of the depths below. Just as he stood against Morwenna, filled with desperation and malice, he realized the key to defeating her lay in his gathered powers. Using the magical objects, Darin channeled the forces of nature and light to confront her. In a ferocious battle of magic and will, he unleashed the combined strengths of the elements, banishing Morwenna from Eldergrove. \n\nWith peace finally restored, the Heart of Eldoria pulsed with renewed energy, illuminating the village once more. Darin returned home a hero, joined by the newfound allies he had made: the Forest Guardian, the Merfolk, and the Snow Spirits. Together, they vowed to protect Eldergrove from any future threats, forging an alliance that promised peace for generations to come.",
+    "character_information": "Here are descriptions for the main characters and NPCs in the 2D game based on the story. Each description is designed to provide a clear visual concept for sprite generation.\n\n### Protagonist: Darin\n**Appearance:** Darin is a young man in his early twenties with tousled chestnut hair that falls just above his eyebrows. He has bright green eyes filled with determination and courage. Darin wears a rugged, earth-toned tunic made from durable leather, allowing for easy movement through the wild environments. His trousers are dark and fitted, complemented by sturdy brown boots that have seen many adventures. He carries a satchel slung across his shoulder, holding various magical items. His overall look is that of a valiant hero ready to embark on a quest.\n\n**Sprite Details:** \n- Texture for leather with subtle stitching details\n- Animation for running, jumping, and using magic\n- Expressions including determination, joy, and seriousness\n\n### Antagonist: Morwenna\n**Appearance:** Morwenna is a tall, imposing sorceress with an ethereal beauty that belies her malevolence. She has long, flowing silver hair that appears almost luminescent against the dark backdrop of her tattered black robes. Her piercing violet eyes are framed by sharp, angular features, giving her a fierce and intimidating appearance. Dressed in a gown that appears to swirl and shift like smoke, she carries a gnarled staff topped with a dark crystal that crackles with dark energy.  \n\n**Sprite Details:** \n- Flowing robes with a gradient of deep purples and blacks\n- Animation for casting spells with dramatic arm movements \n- Expressions conveying smugness, anger, and cunning\n\n### Ally: Forest Guardian\n**Appearance:** The Forest Guardian is a mystical creature appearing as a combination of humanoid and nature elements. They have bark-like skin with green tendrils and glowing blue orbs embedded in their body. Their hair resembles vines adorned with luminescent flowers, giving them an enchanting look. The Guardian's robes are made from intertwined leaves and vines, seamlessly merging them with their forest surroundings. Their eyes are bright like gemstones, radiating wisdom and authority.\n\n**Sprite Details:**  \n- Textured bark-like skin with intricate patterns\n- Animation for floating gracefully and conjuring nature magic\n- Expressions showing calmness, insight, and empowerment\n\n### Ally: Merfolk\n**Appearance:** The leader of the Merfolk is a charismatic figure with shimmering scales that change color from turquoise to deep blue. Their long hair flows like water, decorated with seashells and small corals. A fin adorns their head, and their body is partially human, partially fish, with a beautifully ornate tail that resembles a flowing gown. The Merfolk's eyes are large, curious, and glowing with an otherworldly light.\n\n**Sprite Details:**\n- Luminescent scales with gradient shading\n- Animation for swimming motions and communicating with water creatures\n- Expressions featuring joy, curiosity, and determination\n\n### Ally: Snow Spirits\n**Appearance:** The Snow Spirits are ethereal beings that appear ghost-like, with flowing white and blue forms that shift as they move. They have delicate, ice-like features with bright silver eyes that hold a sense of wisdom and playfulness. Each spirit wears a gown made of swirling snowflakes that glimmer in the light, and their hair flows like frost-laced wind. \n\n**Sprite Details:** \n- Animation for drifting gently and swirling, as if carried by a breeze\n- Features of soft, sparkly textures reminiscent of frost\n- Expressions conveying mischief, serenity, and valor\n\nThese descriptions should serve as a solid foundation for creating unique and visually appealing sprites for the characters within the 2D game, enhancing the overall gameplay experience.",
+    "tile_mapping": {
+      "Rocky Ground with Snow": "R",
+      "Ice-Covered Ground": "I",
+      "Frozen Streams": "F",
+      "Jagged Rock Formations": "C",
+      "Cracked Ice Pillars": "X",
+      "Snowdrifts": "D",
+      "Glimmering Snowflake Patterns": "N",
+      "Crisscrossing Trails": "A",
+      "Slippery Ice Sections": "Y",
+      "Ice Caves": "V",
+      "Icicles": "E",
+      "Snow-Covered Mountain Peaks": "M",
+      "Blustery Cloud Overlays": "Q",
+      "brave young man with long brown hair and a determined expression, wearing rugged leather armor": "@",
+      "malevolent sorceress with flowing dark robes, piercing violet eyes, and an aura of shadowy magic": "#"
+    },
+    "goals": "### Main Goal for the Protagonist\n**Main Goal:** To locate and retrieve the Heart of Eldoria before the antagonist, Morwenna, can seize it, ultimately restoring peace and magic to Eldergrove.\n\n### Small Goals (Objectives) for the Protagonist\n1. **Gather Sacred Herbs from the Forest Guardian**\n   - **Reward:** 50 points for successfully collecting the herbs.\n   - **Penalty:** -10 points for failing the Forest Guardian's test.\n\n2. **Retrieve the Water Crystal from the Merfolk**\n   - **Reward:** 70 points for convincing the Merfolk and acquiring the crystal.\n   - **Penalty:** -15 points if Darin tries to take the crystal by force.\n\n3. **Collect Shards of the Ice Gem from the Snow Spirits**\n   - **Reward:** 80 points for collecting all necessary shards.\n   - **Penalty:** -20 points for upsetting the Snow Spirits and losing their trust.\n\n4. **Navigate the Dangerous Terrain of the Frostbite Mountains Successfully**\n   - **Reward:** 60 points for avoiding environmental hazards.\n   - **Penalty:** -15 points for falling or being caught in blizzards.\n\n5. **Find the Labyrinth of Shadows Entrance**\n   - **Reward:** 30 points for uncovering the labyrinth entrance.\n   - **Penalty:** -5 points for getting lost in the woods.\n\n6. **Solve Mystical Puzzles Within the Labyrinth**\n   - **Reward:** 100 points for each puzzle solved correctly.\n   - **Penalty:** -25 points for incorrectly solving a puzzle and triggering traps.\n\n7. **Defeat Morwenna in the Misty Citadel**\n   - **Reward:** 200 points for successfully defeating Morwenna.\n   - **Penalty:** -50 points if defeated by her during the confrontation.\n\n8. **Return to Eldergrove with the Heart of Eldoria**\n   - **Reward:** 150 points for successfully bringing the Heart back.\n   - **Penalty:** -30 points for losing the Heart during the return journey.\n\n### Summary of Scores\n\n- **Rewards:**\n  - Sacred Herbs: +50 points\n  - Water Crystal: +70 points\n  - Ice Gem Shards: +80 points\n  - Successful Navigation: +60 points\n  - Labyrinth Entrance: +30 points\n  - Puzzles (per correct): +100 points\n  - Defeating Morwenna: +200 points\n  - Returning the Heart: +150 points\n  \n- **Penalties:**\n  - Failing Guardian's Test: -10 points\n  - Forceful Tactics with Merfolk: -15 points\n  - Losing Trust of Snow Spirits: -20 points\n  - Falling in Mountains: -15 points\n  - Getting Lost: -5 points\n  - Trapped by Puzzle Mistakes: -25 points\n  - Defeat by Morwenna: -50 points\n  - Losing the Heart on Return: -30 points\n\nThis structure allows for a clear scoring system that reflects the protagonist's progress through the adventure while providing motivation and consequences for actions taken during the game.",
+    "objectives": {
+      "Gather Sacred Herbs from the Forest Guardian": [
+        "B",
+        5,
+        4
+      ],
+      "Retrieve the Water Crystal from the Merfolk": [
+        "F",
+        6,
+        0
+      ],
+      "Collect Shards of the Ice Gem from the Snow Spirits": [
+        "I",
+        3,
+        2
+      ],
+      "Navigate the Dangerous Terrain of the Frostbite Mountains Successfully": [
+        "R",
+        3,
+        3
+      ],
+      "Find the Labyrinth of Shadows Entrance": [
+        "N",
+        7,
+        4
+      ],
+      "Solve Mystical Puzzles Within the Labyrinth": [
+        "Y",
+        9,
+        2
+      ],
+      "Defeat Morwenna in the Misty Citadel": [
+        "#",
+        12,
+        6
+      ],
+      "Return to Eldergrove with the Heart of Eldoria": [
+        "M",
+        15,
+        11
+      ]
+    },
+    "important_tiles": "```python\nimportant_tiles = [\n    '@',  # Protagonist: Darin\n    '#',  # Antagonist: Morwenna\n    'R',  # Rocky Ground with Snow\n    'I',  # Ice-Covered Ground\n    'F',  # Frozen Streams\n    'C',  # Jagged Rock Formations\n    'X',  # Cracked Ice Pillars\n    'D',  # Snowdrifts\n    'A',  # Crisscrossing Trails\n    'Y',  # Slippery Ice Sections\n    'V',  # Ice Caves\n    'E',  # Icicles\n    'M',  # Snow-Covered Mountain Peaks\n    'N',  # Glimmering Snowflake Patterns\n    'Q',  # Blustery Cloud Overlays\n    'B'   # NPC: Forest Guardian or allies (as an example)\n]\n```",
+    "walkable_tiles": "```python\nwalkable_tiles = ['R', 'I', 'F', 'C', 'X', 'D', 'N', 'A', 'V', 'E', 'M']\n```",
+    "interactive_object_tiles": "```python\ninteractable_tiles = ['R', 'I', 'F', 'C', 'X', 'D', 'A', 'Y', 'V', 'E']\n```",
+    "world_1st_layer": {
+      "world": "MMMMMMMMMMMMMMMMMMMMM\nMMMMMMMMMMMMMMMMMMMMM\nMMMMMMRIIIIIIIMMMDMMM\nMMMMRRFXXXXSNINMDRMMM\nMMRMFCDDCDAAAADMMMMMM\nMMRRFXXXXXXDNNMMMDRM\nFYYYYYYYYYMMMMRMMMMMM\nFYYYYYYYYYYYIIIMMMMMM\nFYYNAAAAAAADDDMMMMMM\nYYYCCCDDDDDDXXMMMMMMR\nYYYYYYYYYYYYRMMMMMDRM\nRRYYYYYYYYYDRMMMMMMRE\nRRRYYYYYYYYRIIIIIQRM\nRRRYYYYYDRDRYYYYYQMM\nMMMMMMMMMMMMMMMMMMQMM\nMMMMMMMMMMMMMMMMMMMMM",
+      "tiles": {
+        "Rocky Ground with Snow": "R",
+        "Ice-Covered Ground": "I",
+        "Frozen Streams": "F",
+        "Jagged Rock Formations": "C",
+        "Cracked Ice Pillars": "X",
+        "Snowdrifts": "D",
+        "Glimmering Snowflake Patterns": "N",
+        "Crisscrossing Trails": "A",
+        "Slippery Ice Sections": "Y",
+        "Icicles": "E",
+        "Snow-Covered Mountain Peaks": "M",
+        "Blustery Cloud Overlays": "Q"
+      }
+    },
+    "world": "MMMMMMMMMMMMMMMMMMMMM\nMMMMMMMMMMMMMMMMMMMMM\nMMMMMMRIIIIIIIMMMDMMM\nMMMMRRFXXXXSNINMDRMMM\nMMRMFCDDCDAAAADMMMMMM\nMMRRFXXXXXXDNNMMMDRM\nFYYYYYYYYYMMMMRMMMMMM\nFYYYYYYYYYYYIIIMMMMMM\nFYYNAAAAAAADDDMMMMMM\nYYYCCCDDDDDDXXMMMMMMR\nYYYYYYYYYYYYRMMMMMDRM\nRRYYYYYYYYYDRMMMMMMRE\nRRRYYYYYYYYRIIIIIQRM\nRRRYYYYYDRDRYYYYYQMM\nMMMMMMMMMMMMMMMMMMQMM\nMMMMMMMMMMMMMMMMMMMMM",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 0,
+      "Accuracy_of_important_tiles_placed": 75.0,
+      "Average_euclidean_distance": 399.4105194409518,
+      "agent_reward": 0,
+      "astar_path": 0
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 15,
+      "story_paragraphs": [
+        4,
+        5
+      ],
+      "total_objectives": 8
+    }
+  }
+}

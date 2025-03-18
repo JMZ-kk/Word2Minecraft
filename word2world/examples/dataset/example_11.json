@@ -1,0 +1,265 @@
+{
+  "round_0": {
+    "story": "In the depths of the ancient labyrinth known as the Vortex Spiral, a relic hunter named Elara Skywhisper embarked on the most perilous quest of her career. Her mission was to retrieve the illustrious Azure Chest reputed to contain the Starsight Gem, a stone capable of transforming mere thoughts into reality. The labyrinth itself sprawled beneath the forgotten city of Mirathus, a once-thriving metropolis now shrouded in ivy and mystery.\n\nThe Vortex Spiral was a true architect's nightmare \u2013 an interminable, crumbling maze of stone walls that shifted positions with the passing hours, governed by the ancient magics that still thrummed through the veins of the city. Eight key objectives lay before Elara: navigate the labyrinth\u2019s constantly changing routes, survive the lethal traps and guardians scattered throughout, locate the Azure Chest, defeat the malevolent Minotaur-like creature Thauron who considered the labyrinth his domain, gather essential artifacts needed to unlock the chest, send these findings to her trusted mentor via the mystical orbs scattered throughout the maze, evade Thauron\u2019s monstrous minions, and, finally, find a way out of the Vortex Spiral upon securing the gem.\n\nThauron, having been bound to the labyrinth by a curse, sought the Starsight Gem to break his chains of servitude \u2013 and he knew Elara was the key to its retrieval. Fearful of her success and determined to use her to achieve his own freedom, Thauron unleashed his minions and manipulated the labyrinth\u2019s paths to thwart her at every turn.\n\nAs Elara navigated the labyrinth, she met various NPCs who had been trapped within the maze, remnants of failed expeditions from decades past. One such figure, an elderly scholar named Orin, provided Elara with a map that revealed the locations of the mystical orbs needed to communicate with her mentor. Elara shared her provisions and helped her newfound allies find safer areas within the labyrinth, earning their trust and gathering crucial information about Thauron\u2019s weaknesses.\n\nDespite numerous close encounters with prowling enemies and the constant threat of collapsing walls, Elara managed to assemble all needed artifacts by solving riddles and defeating guardian creatures that tested her intellect and combat skills. Each victory brought her closer to the Azure Chest, and ultimately to the heart of Thauron\u2019s lair.\n\nThe final showdown loomed as Elara entered a grand chamber where Thauron awaited. Using the artifacts, she unlocked the Azure Chest and grasped the Starsight Gem, which pulsed with pure, raw energy. As Thauron charged, Elara focused her thoughts through the gem, envisioning a powerful cage of light to contain him. The gem's energy surged, responding to her vivid imagery, and Thauron was ensnared in a brilliant trap of her making.\n\nWith Thauron defeated and the labyrinth's control released, the ancient walls ceased their menacing dance. Elara found her exit, guided by the newly liberated paths of the Vortex Spiral. Beyond its confines, she emerged into the light of Mirathus, gem in hand, ready to explore the secrets it held. Awaiting outside, her mentor greeted her, and together, they pondered the new mysteries they could unlock, now that the labyrinth\u2019s heart was conquered.",
+    "character_information": "Sure! Below are specific descriptions for the character sprites in the proposed 2D game based on the story:\n\n### 1. Elara Skywhisper (Protagonist)\n- **Appearance**: Elara is depicted as a fierce yet graceful female relic hunter. She has long, flowing silver hair tied back into a practical braid. Her eyes are a striking shade of emerald green, glowing slightly to hint at her latent magical abilities. \n- **Attire**: She wears a leather tunic dyed in deep forest greens and browns, adorned with gold trim that symbolizes her expertise in relic hunting. Her boots and gloves are rugged and reinforced for agility and handling ancient artifacts. Attached to her belt are various pouches containing maps, scrolls, and tools for her expeditions.\n- **Weapon**: Elara carries a compact, ornately carved crossbow, symbolizing her readiness and precision. \n- **Special Item**: A glowing gem pendant hangs around her neck as a sign of her quest for the Starsight Gem.\n\n### 2. Thauron (Antagonist)\n- **Appearance**: Thauron is a formidable, Minotaur-like beast standing tall and intimidating with a broad, muscular build. His fur is dark as night, and his eyes burn red, betraying his malevolent nature.\n- **Attire**: Around his waist is a tattered cloth from ancient armor, hinting at his cursed origins. Chains, partially broken, hang from his wrists and ankles, symbolizing his bound servitude.\n- **Weapon**: Thauron wields a massive, aged battle-axe with runes etched into the blade, glowing faintly red.\n- **Special Trait**: Occasionally, a dark aura emanates from him, indicating his ability to manipulate the labyrinth\u2019s paths.\n\n### 3. Orin (NPC - Scholar)\n- **Appearance**: Orin is an elderly scholar with a frail build and stooped posture. He has wispy white hair and kind, wrinkled eyes behind round spectacles.\n- **Attire**: Wears a faded blue robe, covered in dust and patches, with a large, cluttered leather belt where he keeps his writing tools and scrolls.\n- **Special Item**: Carries an ancient, rolled-up map that occasionally sparkles with magical glyphs, indicating secret passages or important locations in the labyrinth.\n\n### 4. Additional NPCs (Trapped Explorers)\n- **General Appearance**: These NPCs vary in race and gender but share a common theme of wear and despair from being trapped in the maze.\n- **Attire**: Each character wears remnants of once-adventurous gear, now torn and dirty. Elements such as torn capes, dusty boots, and faded hats are common.\n- **Special Traits**: Each NPC carries a unique item that represents their original quest or skill set, such as a broken compass, a dim lantern, or a rusty sword.\n\nThese character descriptions should serve as detailed prompts to guide the creation of sprites and animations in the development of the 2D game, enhancing the game\u2019s visual storytelling and immersive atmosphere.",
+    "tile_mapping": {
+      "Stone Floor": "a",
+      "Mossy Stone Floor": "b",
+      "Cracked Stone Floor": "c",
+      "Dirt Floor": "d",
+      "Grass": "e",
+      "Stone Wall": "f",
+      "Crumbling Wall": "g",
+      "Ivy Covered Wall": "h",
+      "Decorative Wall": "i",
+      "Water Surface": "j",
+      "Bridge": "k",
+      "Spike Trap": "l",
+      "Swinging Blade": "m",
+      "Pressure Plate": "n",
+      "Chasm": "o",
+      "Fire Trap": "p",
+      "Button": "q",
+      "Lever": "r",
+      "Movable Block": "s",
+      "Staircase": "t",
+      "Portal": "u",
+      "Secret Door": "v",
+      "Glowing Rune": "w",
+      "Column": "x",
+      "Statue": "y",
+      "Rubble": "z",
+      "Vegetation": "A",
+      "Chest": "B",
+      "Artifact": "C",
+      "Orb": "D",
+      "Sky": "E",
+      "Cloud": "F",
+      "Mountain Landscape": "G",
+      "relic hunter in leather gear": "@",
+      "cursed minotaur-like creature": "#"
+    },
+    "goals": "The main goal for the protagonist, Elara Skywhisper, in the story is to retrieve the Starsight Gem from the ancient labyrinth of the Vortex Spiral. This gem has the power to transform thoughts into reality, making it an invaluable artifact.\n\n### Small Goals to Achieve the Main Goal:\n1. **Navigate the Labyrinth**: Successfully find the way through the ever-changing paths of the labyrinth.\n2. **Survive Traps and Guardians**: Overcome various traps and defeat guardian creatures placed to protect the labyrinth.\n3. **Locate the Azure Chest**: Discover where the chest containing the Starsight Gem is hidden within the labyrinth.\n4. **Defeat Thauron**: Confront and defeat the antagonist who guards the gem.\n5. **Gather Artifacts**: Collect necessary ancient artifacts scattered throughout the labyrinth, required to unlock the Azure Chest.\n6. **Communicate with Mentor**: Use the mystical orbs to send findings and receive guidance from her mentor.\n7. **Evade Thauron\u2019s Minions**: Successfully avoid or defeat the minions sent by Thauron to stop her.\n8. **Find an Exit**: After obtaining the gem, locate and traverse the exit route from the labyrinth.\n\n### Rewards and Penalties:\n- **Reward for Successfully Navigating the Labyrinth**: Gain a map or key item that aids in further navigation (+10 points).\n- **Penalty for Getting Lost**: Lose time, which could mean increased encounters with minions or Thauron himself (-5 points).\n  \n- **Reward for Surviving Traps and Guardians**: Obtain ancient coins or magical items that can be used to enhance abilities or health (+15 points).\n- **Penalty for Triggering Traps or Being Defeated by Guardians**: Lose health or essential supplies (-10 points).\n  \n- **Reward for Locating the Azure Chest**: Access to the Starsight Gem, which is necessary for the game's completion (+30 points).\n  \n- **Reward for Defeating Thauron**: Thauron\u2019s axe becomes a new, powerful weapon in the player's arsenal (+25 points).\n- **Penalty for Being Defeated by Thauron**: Forced to respawn at the last checkpoint, lose some collected artifacts (-20 points).\n  \n- **Reward for Gathering Artifacts**: Each artifact collected increases player\u2019s wisdom or unlocks new abilities (+5 points per artifact).\n  \n- **Reward for Communicating with Mentor**: Receive hints or solutions to complex puzzles or critical story insights (+10 points).\n  \n- **Reward for Evading Thauron\u2019s Minions**: Maintain health and conserve resources for more significant battles (+10 points).\n- **Penalty for Confrontations with Minions**: Drain resources or health when dealing with unnecessary fights (-5 points per encounter).\n  \n- **Reward for Finding an Exit**: Successfully complete the labyrinth with the Gem, leading to game completion and unlocking a new game mode or bonus content (+50 points).\n\nThese goals, rewards, and penalties will guide the progression system of the game, ensuring that players feel continuously challenged and rewarded as they navigate the labyrinth and interact with its elements.",
+    "objectives": {
+      "Navigate the Labyrinth": [
+        "a",
+        1,
+        1
+      ],
+      "Survive Traps and Guardians": [
+        "l",
+        13,
+        4
+      ],
+      "Locate the Azure Chest": [
+        "B",
+        3,
+        18
+      ],
+      "Defeat Thauron": [
+        "#",
+        6,
+        15
+      ],
+      "Gather Artifacts": [
+        "C",
+        5,
+        18
+      ],
+      "Communicate with Mentor": [
+        "D",
+        5,
+        17
+      ],
+      "Evade Thauron's Minions": [
+        "a",
+        2,
+        1
+      ],
+      "Find an Exit": [
+        "a",
+        19,
+        19
+      ]
+    },
+    "important_tiles": "[\n    '@',  # Protagonist\n    '#',  # Antagonist\n    'B',  # Chest containing the Starsight Gem\n    'C',  # Artifacts necessary for the quest\n    'D',  # Orb for communication with the mentor\n    'l',  # Spike Trap, a typical hazard in the labyrinth\n    'm',  # Swinging Blade, another critical hazard\n    'n',  # Pressure Plate, often tied to opening paths or activating traps\n    'p',  # Fire Trap, significant for challenging player navigation\n    'r',  # Lever, used to manipulate parts of the environment\n    's',  # Movable Block, part of solving puzzles within the game\n    't',  # Staircase, necessary for advancing levels or areas\n    'u',  # Portal, important for quick or mystical transportation\n    'v',  # Secret Door, integral for discovering hidden areas\n    'w'   # Glowing Rune, offering hints or magical boosts\n]",
+    "walkable_tiles": "['a', 'b', 'c', 'd', 'e', 'j', 'k', 'q', 'r', 's', 't', 'u', 'v', 'A', 'B', 'C', 'D']",
+    "building_tiles": "['f', 'g', 'i']",
+    "interactive_object_tiles": "['q', 'r', 's', 'B', 'C', 'D']",
+    "world_1st_layer": {
+      "world": "aaaaaaaaaaaaaaaaaaaa\naffffffffffffffffffa\nafbbbbbbbbbbbbbbbbsa\nafsaaaaaaaaaaaaaaaBa\nafrsssssssssssssssDa\nafraaaaaaaaaaaaaaaaCa\nafraaaaaaaaaaaaaaaaCa\nafjajjjjjjjjjjjjjjaCa\nafkakkkkkkkkkkkkkkkaCa\nafaaaaaaaaaaaaaaauaaCa\nafvvvvvvvvvvvvvvvaaaaa\nafoooooooooooooooaaaaa\nafpppppppppppppppaaaaa\naflllllllllllllllaaaaa\nafmmmmmmmmmmmmmmmcaaaa\nafnnnnnnnnnnnnnnngaaaa\nafrrrrrrrrrrrrrrrfaaaa\nafsddddddddddddddfaaaa\naeffffffffffffffffaaaa\naaaaaaaaaaaaaaaaaaaaaa",
+      "tiles": {
+        "Stone Floor": "a",
+        "Mossy Stone Floor": "b",
+        "Cracked Stone Floor": "c",
+        "Dirt Floor": "d",
+        "Grass": "e",
+        "Stone Wall": "f",
+        "Crumbling Wall": "g",
+        "Water Surface": "j",
+        "Bridge": "k",
+        "Spike Trap": "l",
+        "Swinging Blade": "m",
+        "Pressure Plate": "n",
+        "Chasm": "o",
+        "Fire Trap": "p",
+        "Lever": "r",
+        "Movable Block": "s",
+        "Portal": "u",
+        "Secret Door": "v",
+        "Chest": "B",
+        "Artifact": "C",
+        "Orb": "D"
+      }
+    },
+    "world": "aaaaaaaaaaaaaaaaaaaa\naffffffffffffffffffa\nafbbbb@bbbbbbbbbbbsa\nafsaaaaaaaaaaaaaaaBa\nafrsssssssssssssssDa\nafraaaaaaaaaaaaaaaaCa\nafraaaaaaaaaaaa#aaaCa\nafjajjjjjjjjjjjjjjaCa\nafkakkkkkkkkkkkkkkkaCa\nafaaaaaaaaaaaaaaauaaCa\nafvvvvvvvvvvvvvvvaaaaa\nafoooooooooooooooaaaaa\nafpppppppppppppppaaaaa\naflllllllllllllllaaaaa\nafmmmmmmmmmmmmmmmcaaaa\nafnnnnnnnnnnDnnnngaaaa\nafrrrrrrrrrrCrrrrfaaaa\nafsqqqqqqqqqqqqqqfaaaa\naewffffffffffwfffwaaaa\naaaaaaaaaaaaaaaaaaaaaa",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 100.0,
+      "Accuracy_of_important_tiles_placed": 93.33333333333333,
+      "Average_euclidean_distance": 0,
+      "agent_reward": 300,
+      "astar_path": 12
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 15,
+      "story_paragraphs": [
+        5,
+        6
+      ],
+      "total_objectives": 8
+    }
+  },
+  "round_1": {
+    "story": "In the depths of the ancient labyrinth known as the Vortex Spiral, a relic hunter named Elara Skywhisper embarked on the most perilous quest of her career. Her mission was to retrieve the illustrious Azure Chest reputed to contain the Starsight Gem, a stone capable of transforming mere thoughts into reality. The labyrinth itself sprawled beneath the forgotten city of Mirathus, a once-thriving metropolis now shrouded in ivy and mystery.\n\nThe Vortex Spiral was a true architect's nightmare \u2013 an interminable, crumbling maze of stone walls that shifted positions with the passing hours, governed by the ancient magics that still thrummed through the veins of the city. Eight key objectives lay before Elara: navigate the labyrinth\u2019s constantly changing routes, survive the lethal traps and guardians scattered throughout, locate the Azure Chest, defeat the malevolent Minotaur-like creature Thauron who considered the labyrinth his domain, gather essential artifacts needed to unlock the chest, send these findings to her trusted mentor via the mystical orbs scattered throughout the maze, evade Thauron\u2019s monstrous minions, and, finally, find a way out of the Vortex Spiral upon securing the gem.\n\nThauron, having been bound to the labyrinth by a curse, sought the Starsight Gem to break his chains of servitude \u2013 and he knew Elara was the key to its retrieval. Fearful of her success and determined to use her to achieve his own freedom, Thauron unleashed his minions and manipulated the labyrinth\u2019s paths to thwart her at every turn.\n\nAs Elara navigated the labyrinth, she met various NPCs who had been trapped within the maze, remnants of failed expeditions from decades past. One such figure, an elderly scholar named Orin, provided Elara with a map that revealed the locations of the mystical orbs needed to communicate with her mentor. Elara shared her provisions and helped her newfound allies find safer areas within the labyrinth, earning their trust and gathering crucial information about Thauron\u2019s weaknesses.\n\nDespite numerous close encounters with prowling enemies and the constant threat of collapsing walls, Elara managed to assemble all needed artifacts by solving riddles and defeating guardian creatures that tested her intellect and combat skills. Each victory brought her closer to the Azure Chest, and ultimately to the heart of Thauron\u2019s lair.\n\nThe final showdown loomed as Elara entered a grand chamber where Thauron awaited. Using the artifacts, she unlocked the Azure Chest and grasped the Starsight Gem, which pulsed with pure, raw energy. As Thauron charged, Elara focused her thoughts through the gem, envisioning a powerful cage of light to contain him. The gem's energy surged, responding to her vivid imagery, and Thauron was ensnared in a brilliant trap of her making.\n\nWith Thauron defeated and the labyrinth's control released, the ancient walls ceased their menacing dance. Elara found her exit, guided by the newly liberated paths of the Vortex Spiral. Beyond its confines, she emerged into the light of Mirathus, gem in hand, ready to explore the secrets it held. Awaiting outside, her mentor greeted her, and together, they pondered the new mysteries they could unlock, now that the labyrinth\u2019s heart was conquered.",
+    "character_information": "Sure! Below are specific descriptions for the character sprites in the proposed 2D game based on the story:\n\n### 1. Elara Skywhisper (Protagonist)\n- **Appearance**: Elara is depicted as a fierce yet graceful female relic hunter. She has long, flowing silver hair tied back into a practical braid. Her eyes are a striking shade of emerald green, glowing slightly to hint at her latent magical abilities. \n- **Attire**: She wears a leather tunic dyed in deep forest greens and browns, adorned with gold trim that symbolizes her expertise in relic hunting. Her boots and gloves are rugged and reinforced for agility and handling ancient artifacts. Attached to her belt are various pouches containing maps, scrolls, and tools for her expeditions.\n- **Weapon**: Elara carries a compact, ornately carved crossbow, symbolizing her readiness and precision. \n- **Special Item**: A glowing gem pendant hangs around her neck as a sign of her quest for the Starsight Gem.\n\n### 2. Thauron (Antagonist)\n- **Appearance**: Thauron is a formidable, Minotaur-like beast standing tall and intimidating with a broad, muscular build. His fur is dark as night, and his eyes burn red, betraying his malevolent nature.\n- **Attire**: Around his waist is a tattered cloth from ancient armor, hinting at his cursed origins. Chains, partially broken, hang from his wrists and ankles, symbolizing his bound servitude.\n- **Weapon**: Thauron wields a massive, aged battle-axe with runes etched into the blade, glowing faintly red.\n- **Special Trait**: Occasionally, a dark aura emanates from him, indicating his ability to manipulate the labyrinth\u2019s paths.\n\n### 3. Orin (NPC - Scholar)\n- **Appearance**: Orin is an elderly scholar with a frail build and stooped posture. He has wispy white hair and kind, wrinkled eyes behind round spectacles.\n- **Attire**: Wears a faded blue robe, covered in dust and patches, with a large, cluttered leather belt where he keeps his writing tools and scrolls.\n- **Special Item**: Carries an ancient, rolled-up map that occasionally sparkles with magical glyphs, indicating secret passages or important locations in the labyrinth.\n\n### 4. Additional NPCs (Trapped Explorers)\n- **General Appearance**: These NPCs vary in race and gender but share a common theme of wear and despair from being trapped in the maze.\n- **Attire**: Each character wears remnants of once-adventurous gear, now torn and dirty. Elements such as torn capes, dusty boots, and faded hats are common.\n- **Special Traits**: Each NPC carries a unique item that represents their original quest or skill set, such as a broken compass, a dim lantern, or a rusty sword.\n\nThese character descriptions should serve as detailed prompts to guide the creation of sprites and animations in the development of the 2D game, enhancing the game\u2019s visual storytelling and immersive atmosphere.",
+    "tile_mapping": {
+      "Stone Floor": "a",
+      "Mossy Stone Floor": "b",
+      "Cracked Stone Floor": "c",
+      "Dirt Floor": "d",
+      "Grass": "e",
+      "Stone Wall": "f",
+      "Crumbling Wall": "g",
+      "Ivy Covered Wall": "h",
+      "Decorative Wall": "i",
+      "Water Surface": "j",
+      "Bridge": "k",
+      "Spike Trap": "l",
+      "Swinging Blade": "m",
+      "Pressure Plate": "n",
+      "Chasm": "o",
+      "Fire Trap": "p",
+      "Button": "q",
+      "Lever": "r",
+      "Movable Block": "s",
+      "Staircase": "t",
+      "Portal": "u",
+      "Secret Door": "v",
+      "Glowing Rune": "w",
+      "Column": "x",
+      "Statue": "y",
+      "Rubble": "z",
+      "Vegetation": "A",
+      "Chest": "B",
+      "Artifact": "C",
+      "Orb": "D",
+      "Sky": "E",
+      "Cloud": "F",
+      "Mountain Landscape": "G",
+      "relic hunter in leather gear": "@",
+      "cursed minotaur-like creature": "#"
+    },
+    "goals": "The main goal for the protagonist, Elara Skywhisper, in the story is to retrieve the Starsight Gem from the ancient labyrinth of the Vortex Spiral. This gem has the power to transform thoughts into reality, making it an invaluable artifact.\n\n### Small Goals to Achieve the Main Goal:\n1. **Navigate the Labyrinth**: Successfully find the way through the ever-changing paths of the labyrinth.\n2. **Survive Traps and Guardians**: Overcome various traps and defeat guardian creatures placed to protect the labyrinth.\n3. **Locate the Azure Chest**: Discover where the chest containing the Starsight Gem is hidden within the labyrinth.\n4. **Defeat Thauron**: Confront and defeat the antagonist who guards the gem.\n5. **Gather Artifacts**: Collect necessary ancient artifacts scattered throughout the labyrinth, required to unlock the Azure Chest.\n6. **Communicate with Mentor**: Use the mystical orbs to send findings and receive guidance from her mentor.\n7. **Evade Thauron\u2019s Minions**: Successfully avoid or defeat the minions sent by Thauron to stop her.\n8. **Find an Exit**: After obtaining the gem, locate and traverse the exit route from the labyrinth.\n\n### Rewards and Penalties:\n- **Reward for Successfully Navigating the Labyrinth**: Gain a map or key item that aids in further navigation (+10 points).\n- **Penalty for Getting Lost**: Lose time, which could mean increased encounters with minions or Thauron himself (-5 points).\n  \n- **Reward for Surviving Traps and Guardians**: Obtain ancient coins or magical items that can be used to enhance abilities or health (+15 points).\n- **Penalty for Triggering Traps or Being Defeated by Guardians**: Lose health or essential supplies (-10 points).\n  \n- **Reward for Locating the Azure Chest**: Access to the Starsight Gem, which is necessary for the game's completion (+30 points).\n  \n- **Reward for Defeating Thauron**: Thauron\u2019s axe becomes a new, powerful weapon in the player's arsenal (+25 points).\n- **Penalty for Being Defeated by Thauron**: Forced to respawn at the last checkpoint, lose some collected artifacts (-20 points).\n  \n- **Reward for Gathering Artifacts**: Each artifact collected increases player\u2019s wisdom or unlocks new abilities (+5 points per artifact).\n  \n- **Reward for Communicating with Mentor**: Receive hints or solutions to complex puzzles or critical story insights (+10 points).\n  \n- **Reward for Evading Thauron\u2019s Minions**: Maintain health and conserve resources for more significant battles (+10 points).\n- **Penalty for Confrontations with Minions**: Drain resources or health when dealing with unnecessary fights (-5 points per encounter).\n  \n- **Reward for Finding an Exit**: Successfully complete the labyrinth with the Gem, leading to game completion and unlocking a new game mode or bonus content (+50 points).\n\nThese goals, rewards, and penalties will guide the progression system of the game, ensuring that players feel continuously challenged and rewarded as they navigate the labyrinth and interact with its elements.",
+    "objectives": {
+      "Navigate the Labyrinth": [
+        "a",
+        17,
+        10
+      ],
+      "Survive Traps and Guardians": [
+        "l",
+        4,
+        3
+      ],
+      "Locate the Azure Chest": [
+        "B",
+        3,
+        18
+      ],
+      "Defeat Thauron": [
+        "#",
+        15,
+        18
+      ],
+      "Gather Artifacts": [
+        "C",
+        17,
+        9
+      ],
+      "Communicate with Mentor": [
+        "D",
+        3,
+        18
+      ],
+      "Evade Thauron\u2019s Minions": [
+        "a",
+        12,
+        12
+      ],
+      "Find an Exit": [
+        "u",
+        3,
+        18
+      ]
+    },
+    "important_tiles": "[\n    '@',  # Protagonist\n    '#',  # Antagonist\n    'B',  # Chest containing the Starsight Gem\n    'C',  # Artifacts necessary for the quest\n    'D',  # Orb for communication with the mentor\n    'l',  # Spike Trap, a typical hazard in the labyrinth\n    'm',  # Swinging Blade, another critical hazard\n    'n',  # Pressure Plate, often tied to opening paths or activating traps\n    'p',  # Fire Trap, significant for challenging player navigation\n    'r',  # Lever, used to manipulate parts of the environment\n    's',  # Movable Block, part of solving puzzles within the game\n    't',  # Staircase, necessary for advancing levels or areas\n    'u',  # Portal, important for quick or mystical transportation\n    'v',  # Secret Door, integral for discovering hidden areas\n    'w'   # Glowing Rune, offering hints or magical boosts\n]",
+    "walkable_tiles": "['a', 'b', 'c', 'd', 'e', 'j', 'k', 'q', 'r', 's', 't', 'u', 'v', 'A', 'B', 'C', 'D']",
+    "building_tiles": "['f', 'g', 'i']",
+    "interactive_object_tiles": "['q', 'r', 's', 'B', 'C', 'D']",
+    "world_1st_layer": {
+      "world": "aaaaaaaaaaaaaaaaaaaa\nafffffffffffffffffffa\nafblluubbubblubbubsfa\naksaaaaaaaaaaaaaaauBa\nafrllmmnnmmnnmmssssDa\nafraasasasasaasaasaaa\nafrsssststssssaasasaa\nafuajujjjjjjjjjjjjjra\nafkakurkrkrkrkrkrkrka\nafvaaaallllllllllucaa\nafppppmmvvvvmmmmvvaaa\nafooooooooonoooooaaaa\nafmpppspppppppsppaaaa\nafllmmllmmllmmlllmaaa\nafnnnnnnnnnnnnnnncaaa\nafrrrrrxrrrrrrrrxffaa\nafsssssxsxsxsxsxsffaa\naexxxffxfffxxxxxxfaaa\naaeeeeeeeeeaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaa",
+      "tiles": {
+        "Stone Floor": "a",
+        "Mossy Stone Floor": "b",
+        "Cracked Stone Floor": "c",
+        "Grass": "e",
+        "Stone Wall": "f",
+        "Water Surface": "j",
+        "Bridge": "k",
+        "Spike Trap": "l",
+        "Swinging Blade": "m",
+        "Pressure Plate": "n",
+        "Chasm": "o",
+        "Fire Trap": "p",
+        "Lever": "r",
+        "Movable Block": "s",
+        "Staircase": "t",
+        "Portal": "u",
+        "Secret Door": "v",
+        "Column": "x",
+        "Chest": "B",
+        "Orb": "D"
+      }
+    },
+    "world": "aaaaaaaaaaaaaaaaaaaa\nafffffffffffffffffffa\nafblluubbubblubbubsfa\naksaaaaaaaaaaaaaaauBa\nafrllmmnnmmnnmmssssDa\nafraasasasasaasaasaaa\nafrsssststssssaasasaa\nafuajujjjjjjjjjjjjjra\nafkakurkrkrkrkrkrkrka\nafvaaaallllllllllucaa\nafppppmmvvvvmmmmvvaaa\nafooooooooonoooooaaaa\nafmpppspppppppsppaaaa\nafllmmllmmllmmlllmaaa\n@fnnnnnnnnnnnnnnncaaa\nafrrrrrrrrrrrrrrr#faa\nafsssssxsxsxsxsxsffB\naexxxffxxCfxDxxxxxCfa\naaeeeeeeeeeaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaa",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 100.0,
+      "Accuracy_of_important_tiles_placed": 93.33333333333333,
+      "Average_euclidean_distance": 586.886701161306,
+      "agent_reward": -250,
+      "astar_path": 51
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 15,
+      "story_paragraphs": [
+        5,
+        6
+      ],
+      "total_objectives": 8
+    }
+  }
+}

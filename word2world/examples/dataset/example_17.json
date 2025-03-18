@@ -1,0 +1,296 @@
+{
+  "round_0": {
+    "story": "In the heart of the sprawling Eurekton Forest, where twisted trees clawed at the sky and streams whispered secrets of the old world, Cassia found herself staring down the mouth of the fabled Labyrinth of Ghal-Maraz. Legend said it concealed treasures beyond imagining, yet none before her had returned with either riches or reason. The entrance, an intimidating arch of ancient stone, swallowed light and sound, promising only peril within its depths.\n\nCassia, bearing the map tattooed onto the back of her trusted companion, the falcon Atrix, had eight objectives ordained to her by the village oracle. First, survive the shifting walls of the labyrinth. Second, locate and retrieve the celestial chest reputed to be hidden within. Third, decode the cryptic puzzles carved on the guardians of stone. Next, gather the three Eldorwood fruits, needed for their curative properties. Furthermore, defeat the malevolent wraith, Malakar, who sought the chest to plunge the world into eternal shadow. And, importantly, find the mystical exit that appeared only under moon\u2019s light, send the rescue signal to the village using Atrix, and finally, ensure Atrix returned safely with whatever assistance he could muster.\n\nArmed with her wits, a sword inherited from generations past, and charms of light and shadow, Cassia plunged into the labyrinth. The walls moved, groaned, their stones grinding against each other, reconfiguring the path relentlessly. Time seemed a forgotten concept, challenged only by her need to dodge lethal traps and solve enigmatic riddles that whispered from the lips of stone guardians.\n\nMalakar\u2019s presence was a constant threat, his essence seeping through the air like a pestilence. His shadows danced menacingly around Cassia, testing her resolve. Meanwhile, she collected the Eldorwood fruits, each hidden behind challenges that tested her strength and intellect. With Atrix's keen vision, they mapped the shifting paths, marking safe passages and dead ends alike.\n\nFinally, amidst a grove that glowed under a sliver of moonlight, Cassia found the celestial chest. No sooner had she laid hands on it than Malakar materialized, his form a swirling vortex of darkness. The air chilled, and shadows clawed at the edges of her light charms. Steeling her nerves, she recited the incantation the village elder had taught her, the words ringing out clear and true. The shadows recoiled. Malakar howled, a sound of pure spite and despair, as the light from Cassia's charms seared through his essence, dissolving it like mist under the sun.\n\nWith Malakar defeated and the chest in hand, Cassia dispatched Atrix to guide her village's warriors through the labyrinth's treacherous paths. Utilizing the moonlit exit, which revealed itself on the luminescent grove\u2019s edge, Cassia emerged under the starry sky, greeted by the awaiting villagers and her father, the village chief. Relief and pride filled their eyes as they beheld the treasures and the tales of valor that would henceforth flow through generations.",
+    "character_information": "Certainly! Below are descriptions for each character, crafted specifically to aid in generating sprites for a 2D game:\n\n1. **Cassia (Protagonist)**\n   - **Appearance:** Cassia is a young, athletic woman with long, braided dark hair and determined green eyes. She wears light leather armor adorned with forest-inspired motifs and carries a sleek, rune-engraved sword. A utility belt with pouches and a small, round shield strapped to her back complete her adventurer's attire.\n   - **Animations:** Walking, running, sword swinging, dodge-rolling, potion-drinking, interacting (e.g., picking up items), victory pose, and defeated pose.\n\n2. **Atrix (Falcon Companion)**\n   - **Appearance:** Atrix is a large falcon with majestic wings and sharp eyes. His feathers are a mix of dark gray and lighter silver highlights, symbolizing his connection to both the earthly woods and the ethereal skies.\n   - **Animations:** Flying, perching on Cassia\u2019s shoulder, swooping attack, carrying items, and blinking (resting state).\n\n3. **Malakar (Antagonist)**\n   - **Appearance:** Malakar is a towering wraith-like figure shrouded in swirling dark mist. His form is partially incorporeal, with glowing red eyes that pierce through the darkness. Ethereal tentacles of shadow emanate from his form, giving him a menacing look.\n   - **Animations:** Floating (hovering in place), attacking (swirling dark energy projectiles), taking damage (recoiling), and dissipating (defeat animation).\n\n4. **Stone Guardians (Puzzle NPCs)**\n   - **Appearance:** These are ancient, moss-covered stone statues with intricate carvings. Each guardian holds a different pose and wears a faintly glowing gem embedded in its forehead, indicating its mystical nature.\n   - **Animations:** Initial inanimate state, activating (glowing eyes and moving slightly), providing clues (a series of gem pulses), and returning to dormant state.\n\n5. **Village Elders and Warriors (Background Characters)**\n   - **Appearance:** The elders wear long, ornate robes with elder runes, leaning on carved wooden staffs. Warriors are clad in robust leather armor, carrying spears or bows, with protective gear made of wood and animal hides.\n   - **Animations:** Elders: nodding, speaking (gesture with hands), and celebration gesture. Warriors: standing guard, walking, running, and fighting stance.\n\nThe detailed descriptions should ensure that the sprites are consistent with the story\u2019s setting and the characters\u2019 roles, enhancing the visual storytelling of the game.",
+    "tile_mapping": {
+      "Forest Floor Grass": "a",
+      "Forest Floor Moss-covered Soil": "b",
+      "Forest Floor Mud Patches": "c",
+      "Forest Floor Flower Patches": "d",
+      "Forest Floor Fallen Leaves": "e",
+      "Labyrinth Path Stone": "f",
+      "Labyrinth Path Cracked Stone": "g",
+      "Labyrinth Path Mossy Stone": "h",
+      "Labyrinth Path Gravel": "i",
+      "Labyrinth Path Dirt": "j",
+      "Cave Sections Rocky Ground": "k",
+      "Cave Sections Wet Stones": "l",
+      "Cave Sections Crystal Formations": "m",
+      "River Water": "n",
+      "River Muddy Underwater Stones": "o",
+      "River Lilly Pads and Reeds": "p",
+      "Forest Trees Trunks": "q",
+      "Forest Trees Bushes and Shrubs": "r",
+      "Forest Trees Hollow Stumps": "s",
+      "Stone Walls Plain": "t",
+      "Stone Walls Ivy Covered": "u",
+      "Stone Walls Embedded Runes": "v",
+      "Cave Walls Rough Rock Face": "w",
+      "Cave Walls Stalactites": "x",
+      "Cave Walls Stalagmites": "y",
+      "Forest Decorative Tree Branches": "z",
+      "Forest Decorative Vines": "A",
+      "Forest Decorative Flowers": "B",
+      "Forest Decorative Mushrooms": "C",
+      "Forest Decorative Rocks": "D",
+      "Labyrinth Features Statues": "E",
+      "Labyrinth Features Torches": "F",
+      "Labyrinth Features Gates": "G",
+      "Labyrinth Features Traps": "H",
+      "Labyrinth Features Treasure Chests": "I",
+      "Village Thatched Roofs": "J",
+      "Village Tiled Roofs": "K",
+      "Village Wooden Doors": "L",
+      "Village Windows": "M",
+      "Village Market Stalls": "N",
+      "Village Fence": "O",
+      "Cave Details Crystal Clusters": "P",
+      "Cave Details Water Drips": "Q",
+      "Cave Details Mining Tools": "R",
+      "Miscellaneous Signs": "S",
+      "Miscellaneous Interactive Objects": "T",
+      "Overlay Effects Weather Rain": "U",
+      "Overlay Effects Weather Fog": "V",
+      "Overlay Effects Weather Night": "W",
+      "Overlay Effects Weather Sun Rays": "X",
+      "Overlay Effects Dynamic Water": "Y",
+      "Overlay Effects Dynamic Fire": "Z",
+      "Overlay Effects Dynamic Shadow": "1",
+      "green-cloaked adventurer": "@",
+      "shadowy wraith figure": "#"
+    },
+    "goals": "The main goal for the protagonist, Cassia, is to retrieve the celestial chest hidden within the mystical Labyrinth of Ghal-Maraz and defeat the malevolent wraith, Malakar, who threatens the entire world.\n\n### Small Goals:\n1. **Survive the Shifting Walls of the Labyrinth:**\n   - **Reward:** Discovering new areas and clues (+100 points).\n   - **Penalty:** Losing health when trapped between walls (-50 points).\n\n2. **Locate and Retrieve the Celestial Chest:**\n   - **Reward:** Gaining a powerful artifact that enhances abilities (+200 points).\n   - **Penalty:** If failed or skipped, unable to progress in story (-100 points).\n\n3. **Decode the Cryptic Puzzles Carved on the Stone Guardians:**\n   - **Reward:** Unlocks parts of the map or secret rooms (+150 points).\n   - **Penalty:** Delay in progression, wasting in-game time (-30 points).\n\n4. **Gather the Three Eldorwood Fruits:**\n   - **Reward:** Health regeneration or use as bartering items with NPC\u2019s (+120 points).\n   - **Penalty:** Losing the opportunity for additional support in final battle (-70 points).\n\n5. **Defeat Malakar, the Antagonist:**\n   - **Reward:** Saves the village and world, major story progression, high score bonus (+300 points).\n   - **Penalty:** Game ends, and player must restart from a checkpoint (-200 points).\n\n6. **Find the Mystical Exit that Appears Only Under Moonlight:**\n   - **Reward:** Escape the labyrinth safely, leading to further exploration opportunities (+180 points).\n   - **Penalty:** If not found in time, remain trapped for additional in-game time (-60 points).\n\n7. **Send the Rescue Signal to the Village Using Atrix:**\n   - **Reward:** Gains reinforcements or useful information (+90 points).\n   - **Penalty:** Loss of potential resources and support (-40 points).\n\n8. **Ensure Atrix Returns Safely with Assistance:**\n   - **Reward:** Successful completion of this mission ensures additional help and rewards (+110 points).\n   - **Penalty:** If Atrix does not return safely, lose a key ally (-100 points).\n\nThese goals are strategically created to ensure the progression of the story and the continuous engagement of the players, with each completed goal guiding Cassia closer to her ultimate aim. Rewards enhance her capabilities or provide strategic benefits, while penalties impose challenges or setbacks that emphasize the difficulty of her journey and the stakes at play.",
+    "objectives": {
+      "Survive the Shifting Walls of the Labyrinth": [
+        "f",
+        6,
+        3
+      ],
+      "Locate and Retrieve the Celestial Chest": [
+        "I",
+        4,
+        9
+      ],
+      "Decode the Cryptic Puzzles Carved on the Stone Guardians": [
+        "E",
+        4,
+        7
+      ],
+      "Gather the Three Eldorwood Fruits": [
+        "k",
+        3,
+        22
+      ],
+      "Defeat Malakar, the Antagonist": [
+        "#",
+        10,
+        8
+      ],
+      "Find the Mystical Exit that Appears Only Under Moonlight": [
+        "n",
+        5,
+        5
+      ],
+      "Send the Rescue Signal to the Village Using Atrix": [
+        "f",
+        6,
+        5
+      ],
+      "Ensure Atrix Returns Safely with Assistance": [
+        "f",
+        6,
+        4
+      ]
+    },
+    "important_tiles": "[\n    '@',  # Protagonist\n    '#',  # Antagonist\n    'f',  # Labyrinth Path Stone\n    'h',  # Labyrinth Path Mossy Stone\n    'E',  // Labyrinth Features Statues (important for decoding puzzles)\n    'H',  // Labyrinth Features Traps (important for challenge)\n    'I',  // Labyrinth Features Treasure Chests (key objective)\n    'G',  // Labyrinth Features Gates (important for progression)\n    'P',  // Cave Details Crystal Clusters (environmental detail)\n    'c',  // Forest Floor Mud Patches (common environmental hazard)\n    'k',  // Cave Sections Rocky Ground (common in cave environments)\n    'n',  // River Water (could be an obstacle or a resource)\n    'u',  // Stone Walls Ivy Covered (potentially hiding secrets or paths)\n    'y',  // Cave Walls Stalagmites (obstacle in caves)\n    'T'   // Miscellaneous Interactive Objects (critical for puzzles and unlocking paths)\n]",
+    "walkable_tiles": "[\n    'a',  # Forest Floor Grass\n    'b',  # Forest Floor Moss-covered Soil\n    'c',  # Forest Floor Mud Patches\n    'd',  # Forest Floor Flower Patches\n    'e',  # Forest Floor Fallen Leaves\n    'f',  # Labyrinth Path Stone\n    'g',  # Labyrinth Path Cracked Stone\n    'h',  # Labyrinth Path Mossy Stone\n    'i',  # Labyrinth Path Gravel\n    'j',  # Labyrinth Path Dirt\n    'k',  # Cave Sections Rocky Ground\n    'l',  # Cave Sections Wet Stones\n    'm',  # Cave Sections Crystal Formations\n    'n',  # River Water\n    'p',  # River Lilly Pads and Reeds\n    'q',  # Forest Trees Trunks\n    'r',  # Forest Trees Bushes and Shrubs\n    's',  # Forest Trees Hollow Stumps\n    'z',  # Forest Decorative Tree Branches\n    'A',  # Forest Decorative Vines\n    'B',  # Forest Decorative Flowers\n    'C',  # Forest Decorative Mushrooms\n    'D',  # Forest Decorative Rocks\n    'S',  # Miscellaneous Signs\n    'T'   # Miscellaneous Interactive Objects\n]",
+    "interactive_object_tiles": "['E', 'H', 'I', 'T']",
+    "world_1st_layer": {
+      "world": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaabbbccccccdddeeebbbbaaaaaa\naaabbbmbkhhhhkkbmmmbbkkgfffbbb\nabbfnhhhfGGEEEEEFGfhhhhkmmmbbb\nabbnhhhffHHfEfHHffhhhhhkkkmbba\nabbfnhhffHfffGfHHffhhhhmbbmbbb\nabbffnnnnffffnfnnnnfffkkkkkbba\naaabbfpffcccfpffpffcccbkmmmbbb\naaabbpapcdddpdddpdddddkkkkkkbb\nabbffpppppppppppppppppmmmmmbba\nabbbffpppcpppddpppppppkkkbbbba\nabbbffffpppppppppppffffffbbbbb\naaaaabbbbbbbaaaaaaaaaaaabbbbbb",
+      "tiles": {
+        "Forest Floor Grass": "a",
+        "Forest Floor Moss-covered Soil": "b",
+        "Forest Floor Mud Patches": "c",
+        "Forest Floor Flower Patches": "d",
+        "Forest Floor Fallen Leaves": "e",
+        "Labyrinth Path Stone": "f",
+        "Labyrinth Path Cracked Stone": "g",
+        "Labyrinth Path Mossy Stone": "h",
+        "Cave Sections Rocky Ground": "k",
+        "Cave Sections Crystal Formations": "m",
+        "River Water": "n",
+        "River Lilly Pads and Reeds": "p",
+        "Labyrinth Features Statues": "E",
+        "Labyrinth Features Torches": "F",
+        "Labyrinth Features Gates": "G",
+        "Labyrinth Features Traps": "H"
+      }
+    },
+    "world": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaabbbccccccdddeeebbbbaaaaaa\naaabbbmbkhhhhkkbmmmbbkkgfffbbb\nabbfnhhhfGGEEEEEFGfhhhhkmmmbbb\nabbnhhhffHHfEfHHffhhhhhkkTmbba\nabbfnhhffH@fGfHHffhhhhmbbmbbb\nabbffnnnnffffnfnnnnfffkkkkkbba\naaabbfpffcccfpffpffcccbkmmmbbb\naaabbpapcdddpdddpdddddkkkkkkbb\nabbffpppppppppppppppppmmmmmbba\nabbbffppp#pppddpppppppkkkbbbba\nabbbffffpppppppppppffffffbbbbb\naaaaabbbbbbbaaaaaaaaaaaabbbbbb",
+    "evaluations": {
+      "agent_reward": 0,
+      "astar_path": 26
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 15,
+      "story_paragraphs": [
+        6,
+        7
+      ],
+      "total_objectives": 8
+    }
+  },
+  "round_1": {
+    "story": "In the heart of the sprawling Eurekton Forest, where twisted trees clawed at the sky and streams whispered secrets of the old world, Cassia found herself staring down the mouth of the fabled Labyrinth of Ghal-Maraz. Legend said it concealed treasures beyond imagining, yet none before her had returned with either riches or reason. The entrance, an intimidating arch of ancient stone, swallowed light and sound, promising only peril within its depths.\n\nCassia, bearing the map tattooed onto the back of her trusted companion, the falcon Atrix, had eight objectives ordained to her by the village oracle. First, survive the shifting walls of the labyrinth. Second, locate and retrieve the celestial chest reputed to be hidden within. Third, decode the cryptic puzzles carved on the guardians of stone. Next, gather the three Eldorwood fruits, needed for their curative properties. Furthermore, defeat the malevolent wraith, Malakar, who sought the chest to plunge the world into eternal shadow. And, importantly, find the mystical exit that appeared only under moon\u2019s light, send the rescue signal to the village using Atrix, and finally, ensure Atrix returned safely with whatever assistance he could muster.\n\nArmed with her wits, a sword inherited from generations past, and charms of light and shadow, Cassia plunged into the labyrinth. The walls moved, groaned, their stones grinding against each other, reconfiguring the path relentlessly. Time seemed a forgotten concept, challenged only by her need to dodge lethal traps and solve enigmatic riddles that whispered from the lips of stone guardians.\n\nMalakar\u2019s presence was a constant threat, his essence seeping through the air like a pestilence. His shadows danced menacingly around Cassia, testing her resolve. Meanwhile, she collected the Eldorwood fruits, each hidden behind challenges that tested her strength and intellect. With Atrix's keen vision, they mapped the shifting paths, marking safe passages and dead ends alike.\n\nFinally, amidst a grove that glowed under a sliver of moonlight, Cassia found the celestial chest. No sooner had she laid hands on it than Malakar materialized, his form a swirling vortex of darkness. The air chilled, and shadows clawed at the edges of her light charms. Steeling her nerves, she recited the incantation the village elder had taught her, the words ringing out clear and true. The shadows recoiled. Malakar howled, a sound of pure spite and despair, as the light from Cassia's charms seared through his essence, dissolving it like mist under the sun.\n\nWith Malakar defeated and the chest in hand, Cassia dispatched Atrix to guide her village's warriors through the labyrinth's treacherous paths. Utilizing the moonlit exit, which revealed itself on the luminescent grove\u2019s edge, Cassia emerged under the starry sky, greeted by the awaiting villagers and her father, the village chief. Relief and pride filled their eyes as they beheld the treasures and the tales of valor that would henceforth flow through generations.",
+    "character_information": "Certainly! Below are descriptions for each character, crafted specifically to aid in generating sprites for a 2D game:\n\n1. **Cassia (Protagonist)**\n   - **Appearance:** Cassia is a young, athletic woman with long, braided dark hair and determined green eyes. She wears light leather armor adorned with forest-inspired motifs and carries a sleek, rune-engraved sword. A utility belt with pouches and a small, round shield strapped to her back complete her adventurer's attire.\n   - **Animations:** Walking, running, sword swinging, dodge-rolling, potion-drinking, interacting (e.g., picking up items), victory pose, and defeated pose.\n\n2. **Atrix (Falcon Companion)**\n   - **Appearance:** Atrix is a large falcon with majestic wings and sharp eyes. His feathers are a mix of dark gray and lighter silver highlights, symbolizing his connection to both the earthly woods and the ethereal skies.\n   - **Animations:** Flying, perching on Cassia\u2019s shoulder, swooping attack, carrying items, and blinking (resting state).\n\n3. **Malakar (Antagonist)**\n   - **Appearance:** Malakar is a towering wraith-like figure shrouded in swirling dark mist. His form is partially incorporeal, with glowing red eyes that pierce through the darkness. Ethereal tentacles of shadow emanate from his form, giving him a menacing look.\n   - **Animations:** Floating (hovering in place), attacking (swirling dark energy projectiles), taking damage (recoiling), and dissipating (defeat animation).\n\n4. **Stone Guardians (Puzzle NPCs)**\n   - **Appearance:** These are ancient, moss-covered stone statues with intricate carvings. Each guardian holds a different pose and wears a faintly glowing gem embedded in its forehead, indicating its mystical nature.\n   - **Animations:** Initial inanimate state, activating (glowing eyes and moving slightly), providing clues (a series of gem pulses), and returning to dormant state.\n\n5. **Village Elders and Warriors (Background Characters)**\n   - **Appearance:** The elders wear long, ornate robes with elder runes, leaning on carved wooden staffs. Warriors are clad in robust leather armor, carrying spears or bows, with protective gear made of wood and animal hides.\n   - **Animations:** Elders: nodding, speaking (gesture with hands), and celebration gesture. Warriors: standing guard, walking, running, and fighting stance.\n\nThe detailed descriptions should ensure that the sprites are consistent with the story\u2019s setting and the characters\u2019 roles, enhancing the visual storytelling of the game.",
+    "tile_mapping": {
+      "Forest Floor Grass": "a",
+      "Forest Floor Moss-covered Soil": "b",
+      "Forest Floor Mud Patches": "c",
+      "Forest Floor Flower Patches": "d",
+      "Forest Floor Fallen Leaves": "e",
+      "Labyrinth Path Stone": "f",
+      "Labyrinth Path Cracked Stone": "g",
+      "Labyrinth Path Mossy Stone": "h",
+      "Labyrinth Path Gravel": "i",
+      "Labyrinth Path Dirt": "j",
+      "Cave Sections Rocky Ground": "k",
+      "Cave Sections Wet Stones": "l",
+      "Cave Sections Crystal Formations": "m",
+      "River Water": "n",
+      "River Muddy Underwater Stones": "o",
+      "River Lilly Pads and Reeds": "p",
+      "Forest Trees Trunks": "q",
+      "Forest Trees Bushes and Shrubs": "r",
+      "Forest Trees Hollow Stumps": "s",
+      "Stone Walls Plain": "t",
+      "Stone Walls Ivy Covered": "u",
+      "Stone Walls Embedded Runes": "v",
+      "Cave Walls Rough Rock Face": "w",
+      "Cave Walls Stalactites": "x",
+      "Cave Walls Stalagmites": "y",
+      "Forest Decorative Tree Branches": "z",
+      "Forest Decorative Vines": "A",
+      "Forest Decorative Flowers": "B",
+      "Forest Decorative Mushrooms": "C",
+      "Forest Decorative Rocks": "D",
+      "Labyrinth Features Statues": "E",
+      "Labyrinth Features Torches": "F",
+      "Labyrinth Features Gates": "G",
+      "Labyrinth Features Traps": "H",
+      "Labyrinth Features Treasure Chests": "I",
+      "Village Thatched Roofs": "J",
+      "Village Tiled Roofs": "K",
+      "Village Wooden Doors": "L",
+      "Village Windows": "M",
+      "Village Market Stalls": "N",
+      "Village Fence": "O",
+      "Cave Details Crystal Clusters": "P",
+      "Cave Details Water Drips": "Q",
+      "Cave Details Mining Tools": "R",
+      "Miscellaneous Signs": "S",
+      "Miscellaneous Interactive Objects": "T",
+      "Overlay Effects Weather Rain": "U",
+      "Overlay Effects Weather Fog": "V",
+      "Overlay Effects Weather Night": "W",
+      "Overlay Effects Weather Sun Rays": "X",
+      "Overlay Effects Dynamic Water": "Y",
+      "Overlay Effects Dynamic Fire": "Z",
+      "Overlay Effects Dynamic Shadow": "1",
+      "green-cloaked adventurer": "@",
+      "shadowy wraith figure": "#"
+    },
+    "goals": "The main goal for the protagonist, Cassia, is to retrieve the celestial chest hidden within the mystical Labyrinth of Ghal-Maraz and defeat the malevolent wraith, Malakar, who threatens the entire world.\n\n### Small Goals:\n1. **Survive the Shifting Walls of the Labyrinth:**\n   - **Reward:** Discovering new areas and clues (+100 points).\n   - **Penalty:** Losing health when trapped between walls (-50 points).\n\n2. **Locate and Retrieve the Celestial Chest:**\n   - **Reward:** Gaining a powerful artifact that enhances abilities (+200 points).\n   - **Penalty:** If failed or skipped, unable to progress in story (-100 points).\n\n3. **Decode the Cryptic Puzzles Carved on the Stone Guardians:**\n   - **Reward:** Unlocks parts of the map or secret rooms (+150 points).\n   - **Penalty:** Delay in progression, wasting in-game time (-30 points).\n\n4. **Gather the Three Eldorwood Fruits:**\n   - **Reward:** Health regeneration or use as bartering items with NPC\u2019s (+120 points).\n   - **Penalty:** Losing the opportunity for additional support in final battle (-70 points).\n\n5. **Defeat Malakar, the Antagonist:**\n   - **Reward:** Saves the village and world, major story progression, high score bonus (+300 points).\n   - **Penalty:** Game ends, and player must restart from a checkpoint (-200 points).\n\n6. **Find the Mystical Exit that Appears Only Under Moonlight:**\n   - **Reward:** Escape the labyrinth safely, leading to further exploration opportunities (+180 points).\n   - **Penalty:** If not found in time, remain trapped for additional in-game time (-60 points).\n\n7. **Send the Rescue Signal to the Village Using Atrix:**\n   - **Reward:** Gains reinforcements or useful information (+90 points).\n   - **Penalty:** Loss of potential resources and support (-40 points).\n\n8. **Ensure Atrix Returns Safely with Assistance:**\n   - **Reward:** Successful completion of this mission ensures additional help and rewards (+110 points).\n   - **Penalty:** If Atrix does not return safely, lose a key ally (-100 points).\n\nThese goals are strategically created to ensure the progression of the story and the continuous engagement of the players, with each completed goal guiding Cassia closer to her ultimate aim. Rewards enhance her capabilities or provide strategic benefits, while penalties impose challenges or setbacks that emphasize the difficulty of her journey and the stakes at play.",
+    "objectives": {
+      "Survive the Shifting Walls of the Labyrinth": [
+        "f",
+        6,
+        1
+      ],
+      "Locate and Retrieve the Celestial Chest": [
+        "I",
+        13,
+        12
+      ],
+      "Decode the Cryptic Puzzles Carved on the Stone Guardians": [
+        "E",
+        13,
+        4
+      ],
+      "Gather the Three Eldorwood Fruits": [
+        "A",
+        11,
+        25
+      ],
+      "Defeat Malakar, the Antagonist": [
+        "#",
+        12,
+        21
+      ],
+      "Find the Mystical Exit that Appears Only Under Moonlight": [
+        "u",
+        8,
+        25
+      ],
+      "Send the Rescue Signal to the Village Using Atrix": [
+        "@",
+        11,
+        1
+      ],
+      "Ensure Atrix Returns Safely with Assistance": [
+        "@",
+        11,
+        1
+      ]
+    },
+    "important_tiles": "[\n    '@',  # Protagonist\n    '#',  # Antagonist\n    'f',  # Labyrinth Path Stone\n    'h',  # Labyrinth Path Mossy Stone\n    'E',  // Labyrinth Features Statues (important for decoding puzzles)\n    'H',  // Labyrinth Features Traps (important for challenge)\n    'I',  // Labyrinth Features Treasure Chests (key objective)\n    'G',  // Labyrinth Features Gates (important for progression)\n    'P',  // Cave Details Crystal Clusters (environmental detail)\n    'c',  // Forest Floor Mud Patches (common environmental hazard)\n    'k',  // Cave Sections Rocky Ground (common in cave environments)\n    'n',  // River Water (could be an obstacle or a resource)\n    'u',  // Stone Walls Ivy Covered (potentially hiding secrets or paths)\n    'y',  // Cave Walls Stalagmites (obstacle in caves)\n    'T'   // Miscellaneous Interactive Objects (critical for puzzles and unlocking paths)\n]",
+    "walkable_tiles": "[\n    'a',  # Forest Floor Grass\n    'b',  # Forest Floor Moss-covered Soil\n    'c',  # Forest Floor Mud Patches\n    'd',  # Forest Floor Flower Patches\n    'e',  # Forest Floor Fallen Leaves\n    'f',  # Labyrinth Path Stone\n    'g',  # Labyrinth Path Cracked Stone\n    'h',  # Labyrinth Path Mossy Stone\n    'i',  # Labyrinth Path Gravel\n    'j',  # Labyrinth Path Dirt\n    'k',  # Cave Sections Rocky Ground\n    'l',  # Cave Sections Wet Stones\n    'm',  # Cave Sections Crystal Formations\n    'n',  # River Water\n    'p',  # River Lilly Pads and Reeds\n    'q',  # Forest Trees Trunks\n    'r',  # Forest Trees Bushes and Shrubs\n    's',  # Forest Trees Hollow Stumps\n    'z',  # Forest Decorative Tree Branches\n    'A',  # Forest Decorative Vines\n    'B',  # Forest Decorative Flowers\n    'C',  # Forest Decorative Mushrooms\n    'D',  # Forest Decorative Rocks\n    'S',  # Miscellaneous Signs\n    'T'   # Miscellaneous Interactive Objects\n]",
+    "interactive_object_tiles": "['E', 'H', 'I', 'T']",
+    "world_1st_layer": {
+      "world": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naabcabcabcabcabcabcabcabcabcabca\nabfhifhifhifhifhifhifhifhifhifb\nacpipcpkcpkckfkckcpkcpkcpkcpicpa\nadididididididididididididididid\naeaeaearaearaearaearaearaearaeaea\nafafafafafafafafafafafafafafafaf\nabgbgbgbhbhbhbhbhbhbhbhbhbhbhgbga\nacncncncncncncncncncncncncncncnc\nadkdldrdldldrdldldrdldldldldkdld\naemememememememememememememememe\naprpnrlnrnlnrnlnrnlnrnlnrnlnrnpn\naszazaqazaAazaAazaAazaAazaAazaqz\naDCDCDCTSCTSCTBCDBCBDBCBSCDCDCDT\naplplplplplplplplplplplplplplplp",
+      "tiles": {
+        "Forest Floor Grass": "a",
+        "Forest Floor Moss-covered Soil": "b",
+        "Forest Floor Mud Patches": "c",
+        "Forest Floor Flower Patches": "d",
+        "Forest Floor Fallen Leaves": "e",
+        "Labyrinth Path Stone": "f",
+        "Labyrinth Path Cracked Stone": "g",
+        "Labyrinth Path Mossy Stone": "h",
+        "Labyrinth Path Gravel": "i",
+        "Cave Sections Rocky Ground": "k",
+        "Cave Sections Wet Stones": "l",
+        "Cave Sections Crystal Formations": "m",
+        "River Water": "n",
+        "River Lilly Pads and Reeds": "p",
+        "Forest Trees Trunks": "q",
+        "Forest Trees Bushes and Shrubs": "r",
+        "Forest Trees Hollow Stumps": "s",
+        "Forest Decorative Tree Branches": "z",
+        "Forest Decorative Vines": "A",
+        "Forest Decorative Flowers": "B",
+        "Forest Decorative Mushrooms": "C",
+        "Forest Decorative Rocks": "D",
+        "Miscellaneous Signs": "S",
+        "Miscellaneous Interactive Objects": "T"
+      }
+    },
+    "world": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naabcabcabcabcabcabcabcabcabcabca\nabfhifhifhifhifhifhifhifhifhifb\nacpipcpkcpkckfkckcpkcpkcpkcpicpa\nadididididididididididididididid\naeaeaearaearaearaearaearaearaeaea\nafafafafafafafafafafafafafafafaf\nabgbgbgbhbhbhbhbhbhbhbhbhbhbhgbga\nacncncncncncncncncncncncncncncnc\nadkdldrdldldrdldldrdldldldldkdld\naemememememememememememememememe\na@rnrlnrnlnrnlnrnlnrnlnrnlnrnpn\naszazaqazaAazaA#zaAazaAazaAazaqz\naDCDCDCTSCTSCTBCDBCBDBCBSCDCDCDT\naplplplplplplplplplplplplplplplp",
+    "evaluations": {
+      "agent_reward": -150,
+      "astar_path": 42
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 16,
+      "story_paragraphs": [
+        6,
+        7
+      ],
+      "total_objectives": 9
+    }
+  }
+}

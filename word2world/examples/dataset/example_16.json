@@ -1,0 +1,254 @@
+{
+  "round_0": {
+    "story": "In the mystical land of Eldoria, where dense forests intertwined with towering mountains, the village of Ardell lay nestled in a picturesque valley. This seemingly serene village held a dark secret: an ancient labyrinth hidden beneath the Earth, rumored to contain a powerful artifact known as the Heart of Eldoria. This artifact was said to grant unimaginable powers to its possessor. Driven by an insatiable curiosity and a desire to protect her village, the brave young adventurer Elara set out on a quest to retrieve the Heart before it fell into the wrong hands.\n\nHer journey began at the village edge, where the labyrinth\u2019s entrance was concealed by an enchanted grove filled with lush greenery and chirping birds. Elara\u2019s first objective was to find the secret passage into the labyrinth. Guided by a map left by a long-lost adventurer, Balen, who vanished years ago, her eyes scoured the grove's floor until they rested on a fallen oak tree marked with cryptic symbols. Pushing the tree aside, it revealed a stairway spiraling down into darkness.\n\nAs Elara descended into the depths of the labyrinth, she was met with her second objective: navigating the intricate maze while evading traps set by ancient protectors. Vines twisted around weathered stone walls, and eerie whispers seemed to echo from the shadows. The flicker of her torchlight illuminated carvings of past champions who had tried and failed. Despite the treacherous surroundings, Elara's resolve remained unshakeable, her mind focused on reaching the Heart.\n\nUnbeknownst to Elara, a shadowy figure known as Malgard, the Sorcerer of Shadows, was already in the labyrinth ahead of her. Malgard, seeking the Heart for its dark powers, became the antiforce determined to thwart Elara's quest. His minions, spectral wraiths, roamed the corridors, serving as her third challenge: surviving the waves of these sinister enemies determined to claim her spirit.\n\nTo counter this threat, Elara needed allies. Her fourth task was to locate and awaken the Guardians of Light, ancient statues hidden within the labyrinth. These celestial beings had the power to vanquish darkness. Elara\u2019s journey led her to a gleaming chamber bathed in a celestial glow, where she performed a sacred ritual to revive the Guardians. With them as her newfound protectors, she pressed onward towards the heart of the labyrinth.\n\nThe fifth objective presented itself as a riddle inscribed on a door sealing the Heart's chamber. Elara\u2019s sharp wit and knowledge from old Ardellian tales guided her in deciphering the riddle with ease, granting her passage into the chamber where the Heart awaited. However, Malgard was already there, the artifact nearly within his grasp. The sixth and critical objective was upon her \u2013 she had to confront and defeat Malgard.\n\nAn epic battle unfolded in the chamber, light clashing against shadow. Elara drew upon every lesson she\u2019d learned, her Guardians aiding with their radiant energy, to weaken Malgard\u2019s formidable powers. With a final surge of courage, Elara wielded the Heart's nascent energy to banish Malgard into the depths of the labyrinth forever.\n\nThe seventh objective was to safely transport the Heart back to Ardell. Amidst the joyous celebration upon her return, Elara realized that she had one final task: safeguarding the Heart for future generations, ensuring its power would only be used for good. With the Heart nestled in a sacred shrine, protected by Ardell's strongest magic, Elara completed her journey, securing the village\u2019s future and earning her place as one of Eldoria\u2019s greatest heroines.",
+    "character_information": "Certainly! Below are descriptions for each character that can be used as prompts for generating 2D game sprites:\n\n### Elara\n- **Description**: Elara is a young, fierce adventurer with an athletic build. She has long auburn hair tied in a ponytail and emerald green eyes, exuding determination and warmth. She wears practical adventuring clothes: a leather tunic, sturdy boots, and fingerless gloves, equipped for agility and protection. Her outfit is adorned with small charms and belts, including a pouch for her map. She's often seen holding a torch or a small dagger, ready for both exploration and combat.\n\n### Malgard, the Sorcerer of Shadows\n- **Description**: Malgard is a tall, gaunt figure wrapped in flowing dark robes that seem to blend into the shadows. His face is hidden beneath a hood, with only his piercing red eyes visible, glowing from the darkness. His skeletal hands grasp a twisted staff crowned with a glowing dark crystal. Malgard exudes an aura of menace and power, surrounded by faint wisps of shadow magic that drift around him menacingly.\n\n### Guardians of Light\n- **Description**: The Guardians of Light are ethereal beings with humanoid forms that emit a soft, golden glow. They possess slender, statuesque bodies sculpted as if from light itself, with intricate patterns resembling celestial constellations across their armor-like skin. Wings made of radiant energy extend from their backs, adding an aura of divine protection. Each Guardian carries a luminous spear or shield, embodying nobility and strength.\n\n### Spectral Wraiths (Malgard\u2019s Minions)\n- **Description**: The Spectral Wraiths are ghostly apparitions that hover above the ground. They have no defined form, resembling shadows with smoky trails, their insubstantial bodies shifting shape as if caught in an eternal wind. Their eyes are hollow voids, and faint whispers emanate from their presence, creating an unsettling atmosphere. Their misty arms carry shadowy swords or claws, ready to strike at Elara.\n\n### Balen (Non-Playable Character, Ghost Advisor)\n- **Description**: Balen is the spectral form of the long-lost adventurer. His appearance is semi-transparent with soft blue hues, resembling an older man with kind eyes and a wise demeanor. He wears traditional Eldorian adventuring attire, ghostly threads fluttering as if in a gentle breeze. Artifacts from his past life, like an old compass and a partially rolled map, hang from his belt, indicating his expertise in exploration.\n\n### Village Elder of Ardell (Non-Playable Character)\n- **Description**: The Village Elder is an elderly woman dressed in simple, yet vibrant robes that reflect the natural beauty of Ardell's surroundings. Her silver hair is long and braided, adorned with small flowers, symbolizing her connection to nature. She carries a wooden staff decorated with talismans made from twine and feathers, embodying wisdom and leadership. Her gentle, wrinkled face bears an expression of tranquility and kindness, eager to guide Elara on her journey.\n\nThese descriptions should help conjure the visual identities needed to create engaging and immersive sprites for the game's characters.",
+    "tile_mapping": {
+      "Grass Tile": "G",
+      "Forest Floor Tile": "F",
+      "Dirt Path Tile": "P",
+      "Bush Tile": "B",
+      "Tree Tile": "T",
+      "Flower Bed Tile": "L",
+      "Water/Stream Tile": "W",
+      "Village Cobblestone Tile": "C",
+      "Stone Wall Tile": "S",
+      "Mossy Wall Tile": "M",
+      "Broken Wall Tile": "D",
+      "Floor Tile": "R",
+      "Trap Tile": "X",
+      "Rubble Tile": "U",
+      "Ancient Symbol Tile": "A",
+      "Door Tile": "O",
+      "Enchanted Tree Tile": "E",
+      "Mushroom/Herb Tile": "H",
+      "Stone Circle Tile": "Z",
+      "Water Spring Tile": "Q",
+      "Glowing Floor Tile": "N",
+      "Statue Base Tile": "K",
+      "Celestial Marking Tile": "Y",
+      "Reflective Pool Tile": "J",
+      "Light Crystal Tile": "V",
+      "Heart Pedestal Tile": "I",
+      "Mystic Barrier Tile": "K",
+      "Inscription Tile": "B",
+      "Arcane Glow Tile": "C",
+      "Stair Tile": "Z",
+      "Crate/Barrel Tile": "B",
+      "Torches/Light Source Tile": "L",
+      "Animal/Creature Den Tile": "D",
+      "Guardians of Light": "&",
+      "Spectral Wraiths": "%",
+      "Balen": "$",
+      "Village Elder": "!",
+      "brown-haired girl in green cloak": "@",
+      "tall man in dark robes": "#"
+    },
+    "goals": "In the story, the main goal for the protagonist, Elara, is to retrieve the powerful artifact known as the Heart of Eldoria from the ancient labyrinth and ensure it is used to protect her village of Ardell, rather than fall into the wrong hands, particularly those of the antagonist, Malgard.\n\n### Small Goals for the Protagonist:\n\n1. **Find the Secret Passage to the Labyrinth**:\n   - **Reward**: Access to the labyrinth (Score: +10)\n   - **Penalty**: Delay in journey; risk of village being discovered by Malgard (Score: -5)\n\n2. **Navigate the Labyrinth and Evade Traps**:\n   - **Reward**: Safe passage through labyrinth corridors (Score: +15)\n   - **Penalty**: Triggering traps results in lost health or time (Score: -10)\n\n3. **Survive Waves of Spectral Wraiths**:\n   - **Reward**: Clear path to continue journey; increased experience (Score: +20)\n   - **Penalty**: Loss of health or resources, deterring progress (Score: -15)\n\n4. **Locate and Awaken the Guardians of Light**:\n   - **Reward**: Guardians as allies to aid against Malgard (Score: +30)\n   - **Penalty**: Reduced ability to combat dark enemies alone (Score: -15)\n\n5. **Solve the Riddle to Access the Heart\u2019s Chamber**:\n   - **Reward**: Entry to the Heart's chamber (Score: +25)\n   - **Penalty**: Indefinite stalling if riddle is unsolved (Score: -10)\n\n6. **Confront and Defeat Malgard**:\n   - **Reward**: Secure the Heart of Eldoria; eliminate threat (Score: +50)\n   - **Penalty**: Failure can result in capture or loss of Heart (Score: -30)\n\n7. **Safely Transport the Heart Back to Ardell**:\n   - **Reward**: Village safety ensured; completion of main mission (Score: +40)\n   - **Penalty**: If compromised, the village is at increased risk (Score: -20)\n\n8. **Secure the Heart for Future Generations**:\n   - **Reward**: Establishing long-term peace and security (Score: +30)\n   - **Penalty**: Unprotected Heart risks future threats (Score: -15)\n\n### Summary of Potential Scores:\n- **Total Potential Rewards Score**: +220\n- **Total Potential Penalties Score**: -120\n\nThe rewards and penalties associated with each small goal help to quantify the stakes of Elara's quest, where each step achieved or failed directly impacts the overall outcome of her mission and the safety of the village she aims to protect.",
+    "objectives": {
+      "Find the Secret Passage to the Labyrinth": [
+        "Z",
+        7,
+        8
+      ],
+      "Navigate the Labyrinth and Evade Traps": [
+        "X",
+        10,
+        5
+      ],
+      "Survive Waves of Spectral Wraiths": [
+        "%",
+        5,
+        2
+      ],
+      "Locate and Awaken the Guardians of Light": [
+        "&",
+        7,
+        14
+      ],
+      "Solve the Riddle to Access the Heart\u2019s Chamber": [
+        "O",
+        8,
+        8
+      ],
+      "Confront and Defeat Malgard": [
+        "#",
+        11,
+        11
+      ],
+      "Safely Transport the Heart Back to Ardell": [
+        "I",
+        12,
+        12
+      ],
+      "Secure the Heart for Future Generations": [
+        "!",
+        13,
+        13
+      ]
+    },
+    "important_tiles": "```python\n['@', '#', '!', '$', '&', '%', 'G', 'F', 'S', 'R', 'X', 'A', 'O', 'K', 'I']\n```",
+    "walkable_tiles": "```python\n['G', 'F', 'P', 'C', 'R']\n```",
+    "building_tiles": "```python\n['Stone Wall Tile', 'Mossy Wall Tile', 'Broken Wall Tile']\n```",
+    "interactive_object_tiles": "```python\n['X', 'U', 'A', 'O', 'B', 'I', 'K', 'Z', 'B', '#', '%', '$', '&', '!']\n```",
+    "world_1st_layer": {
+      "world": "GGGGGGGGGGGGGGG\nGFFFFFSSSSSFFFG\nGFFFFFSMMMMSFFG\nGSFFFSSMMMMMSSG\nGSSSSSSSSRMMSSG\nGSPPPPPRRMMMMSG\nGPRRRRRRRMMMMSG\nGPRKKRROORMMMSG\nGPRRRRROOORRMMG\nGPRXXRROOOORMSG\nGSXXXXRROOORRSG\nGSSSSSRRRNRRMSG\nGFFFSRRRRRRRMSG\nGFFFSSSRRRRSSSG\nGGGGGGSSSSSSGGG",
+      "tiles": {
+        "Grass Tile": "G",
+        "Forest Floor Tile": "F",
+        "Dirt Path Tile": "P",
+        "Stone Wall Tile": "S",
+        "Mossy Wall Tile": "M",
+        "Floor Tile": "R",
+        "Trap Tile": "X",
+        "Door Tile": "O",
+        "Glowing Floor Tile": "N",
+        "Statue Base Tile": "K",
+        "Mystic Barrier Tile": "K"
+      }
+    },
+    "world": "GGGGGGGGGGGGGGG\nGFFFFFSSSSSFFFG\nGFFFFFSMMMMSFFG\nGSFFFSSMMMMMSSG\nGSSSSSSSSRMMSSG\nGSPPPPPRRMMMMSG\nGPRRRRRRRMMMMSG\nGPRKKRROORMM&G\nGPRRRRROOORRMM\nGPRXXRROOOORMS\nGSRXXXRROOORRSG\nGSSSSSRRRNRRMSG\nGFFFSRRRRRRRI!G\nGFFFSSSRRRRSSSG\nGGGGGGSS#$SSGGG",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 66.66666666666666,
+      "Accuracy_of_important_tiles_placed": 80.0,
+      "Average_euclidean_distance": 0,
+      "agent_reward": 0,
+      "astar_path": 0
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 15,
+      "story_paragraphs": [
+        5,
+        6
+      ],
+      "total_objectives": 8
+    }
+  },
+  "round_1": {
+    "story": "In the mystical land of Eldoria, where dense forests intertwined with towering mountains, the village of Ardell lay nestled in a picturesque valley. This seemingly serene village held a dark secret: an ancient labyrinth hidden beneath the Earth, rumored to contain a powerful artifact known as the Heart of Eldoria. This artifact was said to grant unimaginable powers to its possessor. Driven by an insatiable curiosity and a desire to protect her village, the brave young adventurer Elara set out on a quest to retrieve the Heart before it fell into the wrong hands.\n\nHer journey began at the village edge, where the labyrinth\u2019s entrance was concealed by an enchanted grove filled with lush greenery and chirping birds. Elara\u2019s first objective was to find the secret passage into the labyrinth. Guided by a map left by a long-lost adventurer, Balen, who vanished years ago, her eyes scoured the grove's floor until they rested on a fallen oak tree marked with cryptic symbols. Pushing the tree aside, it revealed a stairway spiraling down into darkness.\n\nAs Elara descended into the depths of the labyrinth, she was met with her second objective: navigating the intricate maze while evading traps set by ancient protectors. Vines twisted around weathered stone walls, and eerie whispers seemed to echo from the shadows. The flicker of her torchlight illuminated carvings of past champions who had tried and failed. Despite the treacherous surroundings, Elara's resolve remained unshakeable, her mind focused on reaching the Heart.\n\nUnbeknownst to Elara, a shadowy figure known as Malgard, the Sorcerer of Shadows, was already in the labyrinth ahead of her. Malgard, seeking the Heart for its dark powers, became the antiforce determined to thwart Elara's quest. His minions, spectral wraiths, roamed the corridors, serving as her third challenge: surviving the waves of these sinister enemies determined to claim her spirit.\n\nTo counter this threat, Elara needed allies. Her fourth task was to locate and awaken the Guardians of Light, ancient statues hidden within the labyrinth. These celestial beings had the power to vanquish darkness. Elara\u2019s journey led her to a gleaming chamber bathed in a celestial glow, where she performed a sacred ritual to revive the Guardians. With them as her newfound protectors, she pressed onward towards the heart of the labyrinth.\n\nThe fifth objective presented itself as a riddle inscribed on a door sealing the Heart's chamber. Elara\u2019s sharp wit and knowledge from old Ardellian tales guided her in deciphering the riddle with ease, granting her passage into the chamber where the Heart awaited. However, Malgard was already there, the artifact nearly within his grasp. The sixth and critical objective was upon her \u2013 she had to confront and defeat Malgard.\n\nAn epic battle unfolded in the chamber, light clashing against shadow. Elara drew upon every lesson she\u2019d learned, her Guardians aiding with their radiant energy, to weaken Malgard\u2019s formidable powers. With a final surge of courage, Elara wielded the Heart's nascent energy to banish Malgard into the depths of the labyrinth forever.\n\nThe seventh objective was to safely transport the Heart back to Ardell. Amidst the joyous celebration upon her return, Elara realized that she had one final task: safeguarding the Heart for future generations, ensuring its power would only be used for good. With the Heart nestled in a sacred shrine, protected by Ardell's strongest magic, Elara completed her journey, securing the village\u2019s future and earning her place as one of Eldoria\u2019s greatest heroines.",
+    "character_information": "Certainly! Below are descriptions for each character that can be used as prompts for generating 2D game sprites:\n\n### Elara\n- **Description**: Elara is a young, fierce adventurer with an athletic build. She has long auburn hair tied in a ponytail and emerald green eyes, exuding determination and warmth. She wears practical adventuring clothes: a leather tunic, sturdy boots, and fingerless gloves, equipped for agility and protection. Her outfit is adorned with small charms and belts, including a pouch for her map. She's often seen holding a torch or a small dagger, ready for both exploration and combat.\n\n### Malgard, the Sorcerer of Shadows\n- **Description**: Malgard is a tall, gaunt figure wrapped in flowing dark robes that seem to blend into the shadows. His face is hidden beneath a hood, with only his piercing red eyes visible, glowing from the darkness. His skeletal hands grasp a twisted staff crowned with a glowing dark crystal. Malgard exudes an aura of menace and power, surrounded by faint wisps of shadow magic that drift around him menacingly.\n\n### Guardians of Light\n- **Description**: The Guardians of Light are ethereal beings with humanoid forms that emit a soft, golden glow. They possess slender, statuesque bodies sculpted as if from light itself, with intricate patterns resembling celestial constellations across their armor-like skin. Wings made of radiant energy extend from their backs, adding an aura of divine protection. Each Guardian carries a luminous spear or shield, embodying nobility and strength.\n\n### Spectral Wraiths (Malgard\u2019s Minions)\n- **Description**: The Spectral Wraiths are ghostly apparitions that hover above the ground. They have no defined form, resembling shadows with smoky trails, their insubstantial bodies shifting shape as if caught in an eternal wind. Their eyes are hollow voids, and faint whispers emanate from their presence, creating an unsettling atmosphere. Their misty arms carry shadowy swords or claws, ready to strike at Elara.\n\n### Balen (Non-Playable Character, Ghost Advisor)\n- **Description**: Balen is the spectral form of the long-lost adventurer. His appearance is semi-transparent with soft blue hues, resembling an older man with kind eyes and a wise demeanor. He wears traditional Eldorian adventuring attire, ghostly threads fluttering as if in a gentle breeze. Artifacts from his past life, like an old compass and a partially rolled map, hang from his belt, indicating his expertise in exploration.\n\n### Village Elder of Ardell (Non-Playable Character)\n- **Description**: The Village Elder is an elderly woman dressed in simple, yet vibrant robes that reflect the natural beauty of Ardell's surroundings. Her silver hair is long and braided, adorned with small flowers, symbolizing her connection to nature. She carries a wooden staff decorated with talismans made from twine and feathers, embodying wisdom and leadership. Her gentle, wrinkled face bears an expression of tranquility and kindness, eager to guide Elara on her journey.\n\nThese descriptions should help conjure the visual identities needed to create engaging and immersive sprites for the game's characters.",
+    "tile_mapping": {
+      "Grass Tile": "G",
+      "Forest Floor Tile": "F",
+      "Dirt Path Tile": "P",
+      "Bush Tile": "B",
+      "Tree Tile": "T",
+      "Flower Bed Tile": "L",
+      "Water/Stream Tile": "W",
+      "Village Cobblestone Tile": "C",
+      "Stone Wall Tile": "S",
+      "Mossy Wall Tile": "M",
+      "Broken Wall Tile": "D",
+      "Floor Tile": "R",
+      "Trap Tile": "X",
+      "Rubble Tile": "U",
+      "Ancient Symbol Tile": "A",
+      "Door Tile": "O",
+      "Enchanted Tree Tile": "E",
+      "Mushroom/Herb Tile": "H",
+      "Stone Circle Tile": "Z",
+      "Water Spring Tile": "Q",
+      "Glowing Floor Tile": "N",
+      "Statue Base Tile": "K",
+      "Celestial Marking Tile": "Y",
+      "Reflective Pool Tile": "J",
+      "Light Crystal Tile": "V",
+      "Heart Pedestal Tile": "I",
+      "Mystic Barrier Tile": "K",
+      "Inscription Tile": "B",
+      "Arcane Glow Tile": "C",
+      "Stair Tile": "Z",
+      "Crate/Barrel Tile": "B",
+      "Torches/Light Source Tile": "L",
+      "Animal/Creature Den Tile": "D",
+      "Guardians of Light": "&",
+      "Spectral Wraiths": "%",
+      "Balen": "$",
+      "Village Elder": "!",
+      "brown-haired girl in green cloak": "@",
+      "tall man in dark robes": "#"
+    },
+    "goals": "In the story, the main goal for the protagonist, Elara, is to retrieve the powerful artifact known as the Heart of Eldoria from the ancient labyrinth and ensure it is used to protect her village of Ardell, rather than fall into the wrong hands, particularly those of the antagonist, Malgard.\n\n### Small Goals for the Protagonist:\n\n1. **Find the Secret Passage to the Labyrinth**:\n   - **Reward**: Access to the labyrinth (Score: +10)\n   - **Penalty**: Delay in journey; risk of village being discovered by Malgard (Score: -5)\n\n2. **Navigate the Labyrinth and Evade Traps**:\n   - **Reward**: Safe passage through labyrinth corridors (Score: +15)\n   - **Penalty**: Triggering traps results in lost health or time (Score: -10)\n\n3. **Survive Waves of Spectral Wraiths**:\n   - **Reward**: Clear path to continue journey; increased experience (Score: +20)\n   - **Penalty**: Loss of health or resources, deterring progress (Score: -15)\n\n4. **Locate and Awaken the Guardians of Light**:\n   - **Reward**: Guardians as allies to aid against Malgard (Score: +30)\n   - **Penalty**: Reduced ability to combat dark enemies alone (Score: -15)\n\n5. **Solve the Riddle to Access the Heart\u2019s Chamber**:\n   - **Reward**: Entry to the Heart's chamber (Score: +25)\n   - **Penalty**: Indefinite stalling if riddle is unsolved (Score: -10)\n\n6. **Confront and Defeat Malgard**:\n   - **Reward**: Secure the Heart of Eldoria; eliminate threat (Score: +50)\n   - **Penalty**: Failure can result in capture or loss of Heart (Score: -30)\n\n7. **Safely Transport the Heart Back to Ardell**:\n   - **Reward**: Village safety ensured; completion of main mission (Score: +40)\n   - **Penalty**: If compromised, the village is at increased risk (Score: -20)\n\n8. **Secure the Heart for Future Generations**:\n   - **Reward**: Establishing long-term peace and security (Score: +30)\n   - **Penalty**: Unprotected Heart risks future threats (Score: -15)\n\n### Summary of Potential Scores:\n- **Total Potential Rewards Score**: +220\n- **Total Potential Penalties Score**: -120\n\nThe rewards and penalties associated with each small goal help to quantify the stakes of Elara's quest, where each step achieved or failed directly impacts the overall outcome of her mission and the safety of the village she aims to protect.",
+    "objectives": {
+      "Find the Secret Passage to the Labyrinth": [
+        "$",
+        5,
+        0
+      ],
+      "Navigate the Labyrinth and Evade Traps": [
+        "X",
+        9,
+        2
+      ],
+      "Survive Waves of Spectral Wraiths": [
+        "%",
+        3,
+        11
+      ],
+      "Locate and Awaken the Guardians of Light": [
+        "&",
+        7,
+        14
+      ],
+      "Solve the Riddle to Access the Heart\u2019s Chamber": [
+        "O",
+        8,
+        5
+      ],
+      "Confront and Defeat Malgard": [
+        "#",
+        9,
+        13
+      ],
+      "Safely Transport the Heart Back to Ardell": [
+        "@",
+        14,
+        14
+      ],
+      "Secure the Heart for Future Generations": [
+        "!",
+        15,
+        13
+      ]
+    },
+    "important_tiles": "```python\n['@', '#', '!', '$', '&', '%', 'G', 'F', 'S', 'R', 'X', 'A', 'O', 'K', 'I']\n```",
+    "walkable_tiles": "```python\n['G', 'F', 'P', 'C', 'R']\n```",
+    "building_tiles": "```python\n['Stone Wall Tile', 'Mossy Wall Tile', 'Broken Wall Tile']\n```",
+    "interactive_object_tiles": "```python\n['X', 'U', 'A', 'O', 'B', 'I', 'K', 'Z', 'B', '#', '%', '$', '&', '!']\n```",
+    "world_1st_layer": {
+      "world": "GGGGGGGGGGGGGGGG\nGFFFSSMMMSSFFFGG\nGFFFSMMMMMMFFFGG\nGSFFSSMMMMMRSSGG\nGSSSSSSRMMMRSSGG\nGSPPPRRRRRRMSGGG\nGPRRRRRRRRRRSSGG\nGPRKRRROOOKRMSGG\nGPRRRROOORRMMGGG\nGPRXXROOOORMSGGG\nGSXXXXROOORRSSGG\nGSSSSRRGGRNSMGGG\nGFFFSSRRGGRRRGGG\nGFFSSSRRRRRRSSGG\nGGGGGGSSSSSSGGGG",
+      "tiles": {
+        "Grass Tile": "G",
+        "Forest Floor Tile": "F",
+        "Dirt Path Tile": "P",
+        "Stone Wall Tile": "S",
+        "Mossy Wall Tile": "M",
+        "Floor Tile": "R",
+        "Trap Tile": "X",
+        "Door Tile": "O",
+        "Glowing Floor Tile": "N",
+        "Statue Base Tile": "K",
+        "Mystic Barrier Tile": "K"
+      }
+    },
+    "world": "GGGGGGGGGGGGGGGG\nGFFFSSMMMSSFFFGG\nGFFFSMMMMMMFFFGG\nGSFFSSMMMMMRSSGG\nGSSSSSSRMMMRSSGG\nGSPPPRRRRRRMSGG$\nGPRRRRRRRRRRSSGG\nGPRKRRROOOKRMS&G\nGPRRRROOORRMMGGG\nGPRXXROOOORMS#GG\nGSXXXXROOORRSSGG\nGSSSSRRGGRNSMGGG\nGFFFSSRRGGRRRGGG\nGFFSSSRRRRRRSSG@\nGGGGGGSSSSSS!GGG",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 83.33333333333334,
+      "Accuracy_of_important_tiles_placed": 80.0,
+      "Average_euclidean_distance": 382.7440397968334,
+      "agent_reward": 0,
+      "astar_path": 0
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 15,
+      "story_paragraphs": [
+        5,
+        6
+      ],
+      "total_objectives": 8
+    }
+  }
+}

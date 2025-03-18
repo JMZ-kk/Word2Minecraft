@@ -1,0 +1,234 @@
+{
+  "round_0": {
+    "story": "In the sprawling, rain-soaked city of Neuvarra, buildings stretched toward the sky like dark spires, their glass facades reflecting the ceaseless neon glow. Within this urban maze, Mara Thorn, a young software engineer with a penchant for AI ethics, had made it her mission to dismantle the pervasive control of Quantum Corp, a tech giant whose surveillance tools threatened individual freedoms. Her first objective was clear: infiltrate Quantum\u2019s highly guarded data center located beneath the bustling Tech Market district, a sprawling hub of innovation and corporate espionage.\n\nAs Mara navigated through the tight, crowded streets of the market, her second task involved procuring a set of illegal encryption chips from Gray, a shady vendor known for his cybernetic enhancements. These chips would allow her to access Quantum\u2019s server room undetected. Her third objective, acquire schematics of the building\u2019s layout, proved challenging but was accomplished with the help of a disillusioned Quantum architect who empathized with her cause. With the blueprints in hand, Mara mapped out her stealthy approach which constituted her fourth objective.\n\nMeanwhile, Quantum\u2019s head of security, Cyrus Knox, a brilliant yet ruthless strategist, had caught wind of Mara\u2019s intentions. Determined to maintain the supremacy of Quantum Corp, Knox bolstered the facility\u2019s defenses, making Mara\u2019s fifth objective\u2014to bypass their advanced biometric security systems\u2014her most daunting task yet. Utilizing the market's network of hackers, Mara gained access to a prototype biometric scrambler, bringing her one step closer to her goal.\n\nWith the security hurdle crossed during a tumultuous thunderstorm that provided cover noise and uncertainty, Mara's sixth goal was within the labyrinthine corridors of Quantum\u2019s data center to implant a virus that would disable the surveillance software. The environment inside was sterile and intimidating, with rows of servers humming ominously, a stark contrast to the chaotic energy of the city above.\n\nThe climax of Mara\u2019s mission approached as she finally confronted Cyrus Knox deep within the core of the data center. Their encounter\u2014her seventh objective\u2014involved a tense game of mental and technological chess. Mara, using a holographic interface, engaged in rapid cyber warfare against Knox, outmaneuvering his defense protocols. Winning this duel meant gaining control of the system, her penultimate goal.\n\nHaving disabled Quantum\u2019s surveillance capabilities and ensuring that the software could be used ethically, Mara achieved her final objective \u2014 escaping the facility amidst the chaos of system failures and alarms. Emerging into the early dawn, the city of Neuvarra appeared different to her now\u2014more hopeful. Mara knew that while her battle was won, the war against unchecked technological power would continue, and she was ready to fight it every step of the way, with the city's network of allies burgeoning in the shadows.",
+    "character_information": "Sure, let's detail the characters in a way suitable for creating sprites for a 2D game:\n\n**1. Mara Thorn (Protagonist):**\n   - **Appearance:** Mara is a young woman with a cyberpunk style. She has shoulder-length, wavy, bright blue hair, which contrasts sharply against her darker skin. Mara wears a sleek, form-fitting jumpsuit which is deep black with glow-in-the-dark cyan circuit patterns tracing along the suit seams. Her eyes are protected by a pair of high-tech goggles with glowing edges, showing data streams whenever active.\n   - **Accessories:** She carries a compact hacker toolkit strapped to her thigh and wears utility gloves equipped with data ports for quick interfacing with machines.\n   - **Animation Style:** Quick and agile movements, blinking lights on her outfit and goggles when she's hacking. \n\n**2. Cyrus Knox (Antagonist):**\n   - **Appearance:** Knox is a tall man appearing in his late forties, with a muscular build which suggests former military background. He has closely cropped silver-gray hair and a stern face, often set in a formidable scowl. His eyes seem to have a faint mechanical glint, hinting at cybernetic enhancements.\n   - **Outfit:** Wears a heavy-duty black combat suit tailored for tactical operations, incorporating several pieces of advanced body armor and a badge of Quantum Corp logo prominently displayed. His boots are sturdily built, suitable for both combat and long-durations stand.\n   - **Animation Style:** Deliberate, powerful movements. When engaging in cyber warfare with Mara, his eyes and accessories on his wrists light up with red interfaces.\n\n**3. Gray (Vendor NPC):**\n   - **Appearance:** Gray is scruffy with unkempt, short gray hair and multiple piercings in his ears. His appearance reflects his underground dealings, featuring a mix-match of patched clothing and cybernetic prostheses, visibly showing on his arms and part of his face.\n   - **Outfit:** Wears a patched old trench coat over a faded t-shirt, cargo pants filled with pockets, and heavy-duty boots. A belt packed with various gadgets and small electronic devices.\n   - **Animation Style:** Shifts weight from foot to foot, giving him a crafty, restless demeanor. Occasionally checks over his shoulder, reflecting his paranoid nature.\n\n**4. The Architect NPC:**\n   - **Appearance:** A neat and sophisticated middle-aged woman with sharp features, long sleek black hair pulled back into a low bun. She wears thin, rectangular glasses that highlight her stern demeanor.\n   - **Outfit:** Dresses in a smart formal suit, light gray, with a crisp white blouse underneath. Always seen carrying digital blueprints and a digital pen.\n   - **Animation Style:** Calm and composed movements, often interacting with holographic screens and data slates.\n\nThese descriptions should provide a solid foundation for creating detailed and expressive sprites for each character in your 2D game, aligning closely with the story's cyberpunk theme and setting.",
+    "tile_mapping": {
+      "City Pavement": "A",
+      "Neon Sidewalk": "B",
+      "Street": "C",
+      "Crowded Market Stall": "D",
+      "Neon Signs": "E",
+      "Rain Overlay": "F",
+      "Building Fa\u00e7ade": "G",
+      "Alleyway": "H",
+      "Underground Entrance": "I",
+      "Holographic Display": "J",
+      "Electronics Booth": "K",
+      "Crowd NPC": "L",
+      "Food Vendor": "M",
+      "Security Camera": "N",
+      "High-security Door": "O",
+      "Server Room": "P",
+      "Surveillance Hub": "Q",
+      "Biometric Scanner": "R",
+      "Corporate Logo": "S",
+      "Cooled Flooring": "T",
+      "Lighting": "U",
+      "Control Panel": "V",
+      "Ventilation System": "W",
+      "Data Interface Station": "X",
+      "Elevator": "Y",
+      "Emergency Exit": "Z",
+      "young software engineer in a black hoodie": "@",
+      "head of security in a crisp white suit": "#"
+    },
+    "goals": "The main goal for the protagonist, Mara Thorn, is to dismantle Quantum Corp's surveillance control, ensuring that their technology is used ethically or not at all.\n\n### Small Goals to Achieve the Main Goal:\n\n1. **Infiltrate Quantum\u2019s data center.**\n   - **Reward:** Gaining access to the facility (Score: +500)\n   - **Penalty:** Alerting security too early results in increased security measures (Score: -100)\n\n2. **Procure illegal encryption chips.**\n   - **Reward:** Ability to bypass initial digital security (Score: +300)\n   - **Penalty:** Poor negotiation increases cost or triggers a trap (Score: -50)\n\n3. **Acquire building schematics.**\n   - **Reward:** Detailed maps provide stealth route options (Score: +200)\n   - **Penalty:** Caught snooping by employees lowers trust among potential allies (Score: -100)\n\n4. **Stealthily bypass enhanced security systems.**\n   - **Reward:** Unhindered progress to critical areas (Score: +400)\n   - **Penalty:** Triggering alarms leads to a confrontation, wasting time (Score: -150)\n\n5. **Implant a disabling virus into the surveillance system.**\n   - **Reward:** Disables Quantum's surveillance capabilities temporarily (Score: +600)\n   - **Penalty:** Partially failed upload results in compromised functionality of the virus (Score: -200)\n\n6. **Confront Cyrus Knox in a cyber duel.**\n   - **Reward:** Gaining control over the mainframe (Score: +800)\n   - **Penalty:** Loss forces a retreat to reassess and gather more resources (Score: -300)\n\n7. **Escape the facility after mission completion.**\n   - **Reward:** Successfully leaving without being caught ensures no company retaliation (Score: +500)\n   - **Penalty:** Detected during escape increases future danger from Quantum Corp (Score: -250)\n\n### Main Objective:\n- **Disable Quantum Corp\u2019s surveillance mechanism.**\n   - **Reward:** Ensuring the ethical use of technology and gaining trust and support across the tech community (Score: +1000)\n   - **Penalty:** Failure to completely disable leads to increased surveillance on Mara and her allies (Score: -500)\n\nThese tasks and their associated rewards and penalties form the progression structure for Mara's storyline in the game, reflecting both the steps towards her ultimate objective and the real risks of challenging a powerful corporation in a dystopian setting.",
+    "objectives": {
+      "Infiltrate Quantum\u2019s data center": [
+        "I",
+        8,
+        7
+      ],
+      "Procure illegal encryption chips": [
+        "K",
+        3,
+        14
+      ],
+      "Acquire building schematics": [
+        "L",
+        11,
+        13
+      ],
+      "Stealthily bypass enhanced security systems": [
+        "R",
+        12,
+        5
+      ],
+      "Implant a disabling virus into the surveillance system": [
+        "Q",
+        12,
+        22
+      ],
+      "Confront Cyrus Knox in a cyber duel": [
+        "#",
+        8,
+        9
+      ],
+      "Escape the facility after mission completion": [
+        "Z",
+        10,
+        18
+      ]
+    },
+    "important_tiles": "[\n    '@',  # Protagonist\n    '#',  # Antagonist\n    'I',  # Underground Entrance\n    'O',  # High-security Door\n    'P',  # Server Room\n    'Q',  # Surveillance Hub\n    'R',  # Biometric Scanner\n    'V',  # Control Panel\n    'X',  # Data Interface Station\n    'Y',  # Elevator\n    'Z',  # Emergency Exit\n    'L',  # Crowd NPC\n    'K',  # Electronics Booth\n    'D',  # Crowded Market Stall\n    'N'   # Security Camera\n]",
+    "walkable_tiles": "['A', 'B', 'C', 'D', 'E', 'H', 'I', 'J', 'K', 'L', 'M', 'W', 'Y', 'Z']",
+    "interactive_object_tiles": "['D', 'K', 'O', 'N', 'R', 'V', 'X', 'Y', 'Z', '@', '#']",
+    "world_1st_layer": {
+      "world": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nABBBCBBBBBCCCCBBBCBBBBCCCCBBB\nAAABAMBBABBBBBCBBBBBMBCBBMBBBA\nADDADLADDDDDDKDDLDDLDDKDLDADDA\nAEDEEEEEEEEEDEEEEEEEEEEEEEEEE\nAAAHAAAHAAAHAHHAAHAAHAHAAAHHHHA\nADDDDDDKDDDDDDDDKDDDDDDKDDDDDA\nAAAAMAAAAMAAMMMMMMAAAAMAAAAMAA\nAAAAAAAIAAAAAAAAAWAAAAAAAAAAA\nABBBCBBBBBCYYYYCBBCYYYCYBCCBB\nAAAMBBAAMBZZZZAMBZZZZBMAMBAAA\nADRDRRDDDRDRORRDDROORROORRRRRD\nAPPPPPPPPPPQQQQPPQQQQPPPPPPPPP\nADDDRDDDDDRDDDDRDDDDDRDDDDDDD\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "tiles": {
+        "City Pavement": "A",
+        "Neon Sidewalk": "B",
+        "Street": "C",
+        "Crowded Market Stall": "D",
+        "Neon Signs": "E",
+        "Alleyway": "H",
+        "Underground Entrance": "I",
+        "Electronics Booth": "K",
+        "Crowd NPC": "L",
+        "Food Vendor": "M",
+        "High-security Door": "O",
+        "Server Room": "P",
+        "Surveillance Hub": "Q",
+        "Biometric Scanner": "R",
+        "Ventilation System": "W",
+        "Elevator": "Y",
+        "Emergency Exit": "Z"
+      }
+    },
+    "world": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nABBBCBBBBBCCCCBBBCBBBBCCCCBBB\nAAABAMBBABBBBBCBBBBBMBCBBMBBBA\nADDADLADDDDDDKDDLDDLDDKDLDADDA\nAEDEEEEEEEEEDEEEEEEEEEEEEEEEE\nAAAHAAAHAAAHAHHAAHAAHAHAAAHHHHA\nADDDDDDKDDDDDDDDKDD@DDKDDDDDA\nAAAAMAAAAMAAMMMMMMAAAAMAAAAMAA\nAAAAAAAI#AAAAAAAAWAAAAAAAAAAA\nABBBCBBBBBCYYYYCBBCYYYCYBCCBB\nAAAAMBAABZZZZAMBZZZZBMAMBAAA\nADRDRRDDDRDRORRDDROORROORRRRRD\nAPPPPPPPPPPQQQQPPQQQQPPPPPPPPP\nADDDRDDDDDRDDDDRDDDDDRDDDDDDD\nAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 100.0,
+      "Accuracy_of_important_tiles_placed": 80.0,
+      "Average_euclidean_distance": 378.67772327034254,
+      "agent_reward": 200,
+      "astar_path": 18
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 15,
+      "story_paragraphs": [
+        6,
+        7
+      ],
+      "total_objectives": 8
+    }
+  },
+  "round_1": {
+    "story": "In the sprawling, rain-soaked city of Neuvarra, buildings stretched toward the sky like dark spires, their glass facades reflecting the ceaseless neon glow. Within this urban maze, Mara Thorn, a young software engineer with a penchant for AI ethics, had made it her mission to dismantle the pervasive control of Quantum Corp, a tech giant whose surveillance tools threatened individual freedoms. Her first objective was clear: infiltrate Quantum\u2019s highly guarded data center located beneath the bustling Tech Market district, a sprawling hub of innovation and corporate espionage.\n\nAs Mara navigated through the tight, crowded streets of the market, her second task involved procuring a set of illegal encryption chips from Gray, a shady vendor known for his cybernetic enhancements. These chips would allow her to access Quantum\u2019s server room undetected. Her third objective, acquire schematics of the building\u2019s layout, proved challenging but was accomplished with the help of a disillusioned Quantum architect who empathized with her cause. With the blueprints in hand, Mara mapped out her stealthy approach which constituted her fourth objective.\n\nMeanwhile, Quantum\u2019s head of security, Cyrus Knox, a brilliant yet ruthless strategist, had caught wind of Mara\u2019s intentions. Determined to maintain the supremacy of Quantum Corp, Knox bolstered the facility\u2019s defenses, making Mara\u2019s fifth objective\u2014to bypass their advanced biometric security systems\u2014her most daunting task yet. Utilizing the market's network of hackers, Mara gained access to a prototype biometric scrambler, bringing her one step closer to her goal.\n\nWith the security hurdle crossed during a tumultuous thunderstorm that provided cover noise and uncertainty, Mara's sixth goal was within the labyrinthine corridors of Quantum\u2019s data center to implant a virus that would disable the surveillance software. The environment inside was sterile and intimidating, with rows of servers humming ominously, a stark contrast to the chaotic energy of the city above.\n\nThe climax of Mara\u2019s mission approached as she finally confronted Cyrus Knox deep within the core of the data center. Their encounter\u2014her seventh objective\u2014involved a tense game of mental and technological chess. Mara, using a holographic interface, engaged in rapid cyber warfare against Knox, outmaneuvering his defense protocols. Winning this duel meant gaining control of the system, her penultimate goal.\n\nHaving disabled Quantum\u2019s surveillance capabilities and ensuring that the software could be used ethically, Mara achieved her final objective \u2014 escaping the facility amidst the chaos of system failures and alarms. Emerging into the early dawn, the city of Neuvarra appeared different to her now\u2014more hopeful. Mara knew that while her battle was won, the war against unchecked technological power would continue, and she was ready to fight it every step of the way, with the city's network of allies burgeoning in the shadows.",
+    "character_information": "Sure, let's detail the characters in a way suitable for creating sprites for a 2D game:\n\n**1. Mara Thorn (Protagonist):**\n   - **Appearance:** Mara is a young woman with a cyberpunk style. She has shoulder-length, wavy, bright blue hair, which contrasts sharply against her darker skin. Mara wears a sleek, form-fitting jumpsuit which is deep black with glow-in-the-dark cyan circuit patterns tracing along the suit seams. Her eyes are protected by a pair of high-tech goggles with glowing edges, showing data streams whenever active.\n   - **Accessories:** She carries a compact hacker toolkit strapped to her thigh and wears utility gloves equipped with data ports for quick interfacing with machines.\n   - **Animation Style:** Quick and agile movements, blinking lights on her outfit and goggles when she's hacking. \n\n**2. Cyrus Knox (Antagonist):**\n   - **Appearance:** Knox is a tall man appearing in his late forties, with a muscular build which suggests former military background. He has closely cropped silver-gray hair and a stern face, often set in a formidable scowl. His eyes seem to have a faint mechanical glint, hinting at cybernetic enhancements.\n   - **Outfit:** Wears a heavy-duty black combat suit tailored for tactical operations, incorporating several pieces of advanced body armor and a badge of Quantum Corp logo prominently displayed. His boots are sturdily built, suitable for both combat and long-durations stand.\n   - **Animation Style:** Deliberate, powerful movements. When engaging in cyber warfare with Mara, his eyes and accessories on his wrists light up with red interfaces.\n\n**3. Gray (Vendor NPC):**\n   - **Appearance:** Gray is scruffy with unkempt, short gray hair and multiple piercings in his ears. His appearance reflects his underground dealings, featuring a mix-match of patched clothing and cybernetic prostheses, visibly showing on his arms and part of his face.\n   - **Outfit:** Wears a patched old trench coat over a faded t-shirt, cargo pants filled with pockets, and heavy-duty boots. A belt packed with various gadgets and small electronic devices.\n   - **Animation Style:** Shifts weight from foot to foot, giving him a crafty, restless demeanor. Occasionally checks over his shoulder, reflecting his paranoid nature.\n\n**4. The Architect NPC:**\n   - **Appearance:** A neat and sophisticated middle-aged woman with sharp features, long sleek black hair pulled back into a low bun. She wears thin, rectangular glasses that highlight her stern demeanor.\n   - **Outfit:** Dresses in a smart formal suit, light gray, with a crisp white blouse underneath. Always seen carrying digital blueprints and a digital pen.\n   - **Animation Style:** Calm and composed movements, often interacting with holographic screens and data slates.\n\nThese descriptions should provide a solid foundation for creating detailed and expressive sprites for each character in your 2D game, aligning closely with the story's cyberpunk theme and setting.",
+    "tile_mapping": {
+      "City Pavement": "A",
+      "Neon Sidewalk": "B",
+      "Street": "C",
+      "Crowded Market Stall": "D",
+      "Neon Signs": "E",
+      "Rain Overlay": "F",
+      "Building Fa\u00e7ade": "G",
+      "Alleyway": "H",
+      "Underground Entrance": "I",
+      "Holographic Display": "J",
+      "Electronics Booth": "K",
+      "Crowd NPC": "L",
+      "Food Vendor": "M",
+      "Security Camera": "N",
+      "High-security Door": "O",
+      "Server Room": "P",
+      "Surveillance Hub": "Q",
+      "Biometric Scanner": "R",
+      "Corporate Logo": "S",
+      "Cooled Flooring": "T",
+      "Lighting": "U",
+      "Control Panel": "V",
+      "Ventilation System": "W",
+      "Data Interface Station": "X",
+      "Elevator": "Y",
+      "Emergency Exit": "Z",
+      "young software engineer in a black hoodie": "@",
+      "head of security in a crisp white suit": "#"
+    },
+    "goals": "The main goal for the protagonist, Mara Thorn, is to dismantle Quantum Corp's surveillance control, ensuring that their technology is used ethically or not at all.\n\n### Small Goals to Achieve the Main Goal:\n\n1. **Infiltrate Quantum\u2019s data center.**\n   - **Reward:** Gaining access to the facility (Score: +500)\n   - **Penalty:** Alerting security too early results in increased security measures (Score: -100)\n\n2. **Procure illegal encryption chips.**\n   - **Reward:** Ability to bypass initial digital security (Score: +300)\n   - **Penalty:** Poor negotiation increases cost or triggers a trap (Score: -50)\n\n3. **Acquire building schematics.**\n   - **Reward:** Detailed maps provide stealth route options (Score: +200)\n   - **Penalty:** Caught snooping by employees lowers trust among potential allies (Score: -100)\n\n4. **Stealthily bypass enhanced security systems.**\n   - **Reward:** Unhindered progress to critical areas (Score: +400)\n   - **Penalty:** Triggering alarms leads to a confrontation, wasting time (Score: -150)\n\n5. **Implant a disabling virus into the surveillance system.**\n   - **Reward:** Disables Quantum's surveillance capabilities temporarily (Score: +600)\n   - **Penalty:** Partially failed upload results in compromised functionality of the virus (Score: -200)\n\n6. **Confront Cyrus Knox in a cyber duel.**\n   - **Reward:** Gaining control over the mainframe (Score: +800)\n   - **Penalty:** Loss forces a retreat to reassess and gather more resources (Score: -300)\n\n7. **Escape the facility after mission completion.**\n   - **Reward:** Successfully leaving without being caught ensures no company retaliation (Score: +500)\n   - **Penalty:** Detected during escape increases future danger from Quantum Corp (Score: -250)\n\n### Main Objective:\n- **Disable Quantum Corp\u2019s surveillance mechanism.**\n   - **Reward:** Ensuring the ethical use of technology and gaining trust and support across the tech community (Score: +1000)\n   - **Penalty:** Failure to completely disable leads to increased surveillance on Mara and her allies (Score: -500)\n\nThese tasks and their associated rewards and penalties form the progression structure for Mara's storyline in the game, reflecting both the steps towards her ultimate objective and the real risks of challenging a powerful corporation in a dystopian setting.",
+    "objectives": {
+      "Infiltrate Quantum\u2019s data center": [
+        "I",
+        5,
+        1
+      ],
+      "Procure illegal encryption chips": [
+        "K",
+        3,
+        15
+      ],
+      "Acquire building schematics": [
+        "D",
+        3,
+        12
+      ],
+      "Stealthily bypass enhanced security systems": [
+        "R",
+        12,
+        12
+      ],
+      "Implant a disabling virus into the surveillance system": [
+        "P",
+        11,
+        10
+      ],
+      "Confront Cyrus Knox in a cyber duel": [
+        "#",
+        12,
+        22
+      ],
+      "Escape the facility after mission completion": [
+        "Z",
+        19,
+        27
+      ]
+    },
+    "important_tiles": "[\n    '@',  # Protagonist\n    '#',  # Antagonist\n    'I',  # Underground Entrance\n    'O',  # High-security Door\n    'P',  # Server Room\n    'Q',  # Surveillance Hub\n    'R',  # Biometric Scanner\n    'V',  # Control Panel\n    'X',  # Data Interface Station\n    'Y',  # Elevator\n    'Z',  # Emergency Exit\n    'L',  # Crowd NPC\n    'K',  # Electronics Booth\n    'D',  # Crowded Market Stall\n    'N'   # Security Camera\n]",
+    "walkable_tiles": "['A', 'B', 'C', 'D', 'E', 'H', 'I', 'J', 'K', 'L', 'M', 'W', 'Y', 'Z']",
+    "interactive_object_tiles": "['D', 'K', 'O', 'N', 'R', 'V', 'X', 'Y', 'Z', '@', '#']",
+    "world_1st_layer": {
+      "world": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nABBBCBBBBCBCBBBBCCBCCBCBCBCCBBB\nAZAAHAWHWAHAAWAAAVWHAWAAHHAWZAA\nADDDDADDDADDKDLDDDADDDKDDKDKDAA\nAEDEEEEEEEEEDEEEEEEEEEEEEEDEEEE\nAIIAHWAHIHAWHAAHAHWAHAWHWAHAAHI\nADDDDADDDADDDDDDKDDDADDDKDDKDAA\nAMMAMMAMMAMMMMMMMMAMMMMMAMMMAMM\nABBBBCBBBBBCYYYYCBBBBBYYYYCBCCBC\nAWHAWAWHWHWHWHAHWAWWHAHWHWAWHAW\nAZZZAMAAMMZZZZAMZZZZMAZZZZMAZZZM\nAPPAPPPPAPPQQQQQPPPPPQQQPPPPAPAP\nADRRADARDRAOVDRDRORRDRRDRDORRRDD\nAEUEUEUEUEUUEUEUEUEUEUEUEUEUEUEE\nAIIAIWHAIWAIWIWAWAWAIAWAIWHAWHAI\nADDDDDDDKDDDDDKDDDDDDDKDDDDKDDD\nAMMMMMMMMAMMMAMAMMMMMAMMMMMAMMM\nABBCBYYBCBBBCBBBBYYBYYYBCBCYBBBC\nAHHHWHWHAAVWHWHWHAVHWAWHHWHHWAHH\nAZZZZZZZZZZZZZZZZZZZZZZZAZZZZZZZ\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "tiles": {
+        "City Pavement": "A",
+        "Neon Sidewalk": "B",
+        "Street": "C",
+        "Crowded Market Stall": "D",
+        "Neon Signs": "E",
+        "Alleyway": "H",
+        "Underground Entrance": "I",
+        "Electronics Booth": "K",
+        "Crowd NPC": "L",
+        "Food Vendor": "M",
+        "High-security Door": "O",
+        "Server Room": "P",
+        "Surveillance Hub": "Q",
+        "Biometric Scanner": "R",
+        "Lighting": "U",
+        "Control Panel": "V",
+        "Ventilation System": "W",
+        "Elevator": "Y",
+        "Emergency Exit": "Z"
+      }
+    },
+    "world": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nABBBCBBBBCBCBBBBCCBCCBCBCBCCBBB\nAZAAHAWHWAHAAWAAAVWHAWAAHHAWZAA\nADDDDADDDADDKDLDDDADDDKDDKDKDAA\nAEDEEEEEEEEEDEEEEEEEEEEEEEDEEEE\nAIIAHWAHIHAWHAAHAHWAHAWHWAHAAHI\nADDDDADDDADDDDDDKDDDADDDKDDKDAA\nAMMAMMAMMAMMMMMMMMAMMMMMAMMMAMM\nABBBBCBBBBBCYYYYCBBBBBYYYYCBCCBC\nAWHAWAWHWHWHWHAHWAWWHAHWHWAWHAW\nAZZZAMAAMMZZZZAMZZZZMAZZZZMAZZZM\nAPPAPPPPAPPQQQQQPPPPPQQQPPPPAPAP\nADRRADARDRA@VDRDR#RRDRRDRDORRRDD\nAEUEUEUEUEUUEUEUEUEUEUEUEUEUEUEE\nAIIAIWHAIWAIWIWAWAWAIAWAIWHAWHAI\nADDDDDDDKDDDDDKDDDDDDDKIXXXKDDD\nAMMMMMMMMAMMMAMAMMMMMAMMMMMAMMM\nABBCBYYBCBBBCBBBBYYBYYYBCBCYBBBC\nAHHHWHWHAAVWHWHWHAVHWAWHHWHHWAHH\nAZZZZZZZZZZZZZZZZZZZZZZZAZZZZZZZ\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 100.0,
+      "Accuracy_of_important_tiles_placed": 93.33333333333333,
+      "Average_euclidean_distance": 424.48629377296527,
+      "agent_reward": 0,
+      "astar_path": 1
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 15,
+      "story_paragraphs": [
+        6,
+        7
+      ],
+      "total_objectives": 8
+    }
+  }
+}

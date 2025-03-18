@@ -1,0 +1,300 @@
+{
+  "round_0": {
+    "story": "In the heart of Eldergrove, a secluded village nestled between the sprawling Whispering Woods and the jagged peaks of the Frostbite Mountains, the air buzzed with tension. The villagers whispered of the shattered peace, the shadow of the malevolent sorceress Morwenna that loomed ever closer. Darin, a courageous young man with an indomitable spirit, listened to the elders recount tales of the ancient artifact\u2014the Heart of Eldoria\u2014hidden deep in the Labyrinth of Shadows. It was said that whoever controlled the Heart could either restore the land\u2019s magic or plunge it into despair. Darin knew he had to find it before Morwenna did.\n\nWith a heart steeled by determination, Darin set forth into the Whispering Woods, the first environment he must conquer. The woods were a maze of darkened paths where the trees whispered secrets only the brave dared to uncover. His objectives were clear: first, he needed to gather sacred herbs from the Forest Guardian, a reclusive spirit known to be mistrustful of outsiders. The Guardian, a glowing figure wreathed in vines, initially dismissed Darin, but he showcased his genuine intent to protect Eldergrove. After a test of bravery against the twisted canopies of enchanted vines, the Guardian gifted Darin with the herbs.\n\nVenturing deeper into the woods, Darin encountered a lively stream populated by the Merfolks\u2014guardians of the Water Crystal. His second objective was to retrieve this crystal, as it held the power to purify the Heart of Eldoria. After understanding their mistrust of humans, he won them over by helping a trapped baby Merman escape from a tangle of debris. Grateful, the Merfolk bestowed upon him the Water Crystal, which shimmered with the promise of hope. However, Morwenna\u2019s minions were already shadowing his every move, a constant reminder of the threat looming over his mission.\n\nAs he ascended towards the Frostbite Mountains, the temperature plummeted. Frosted cliffs and treacherous blizzards formed the third environment, where Darin had to navigate the treacherous paths while retrieving shards of the Ice Gem from the Snow Spirits\u2014a volatile group that resented intruders. Their icy winds tested his resolve, but he managed to convince the Spirits of his noble quest, earning their trust with an earnest pledge of unity against Morwenna. Sweeping storms unleashed their fury, yet Darin stood tall, emerging victorious with the shards in hand.\n\nFinally, fortified with the herbs, the Water Crystal, and the Ice Gem, his last objective was to confront Morwenna in the Misty Citadel\u2014her dark lair. The environment was foreboding; swirling fog obscured the treacherous cliffs around the citadel, and jagged rocks jutted out of the depths below. Just as he stood against Morwenna, filled with desperation and malice, he realized the key to defeating her lay in his gathered powers. Using the magical objects, Darin channeled the forces of nature and light to confront her. In a ferocious battle of magic and will, he unleashed the combined strengths of the elements, banishing Morwenna from Eldergrove. \n\nWith peace finally restored, the Heart of Eldoria pulsed with renewed energy, illuminating the village once more. Darin returned home a hero, joined by the newfound allies he had made: the Forest Guardian, the Merfolk, and the Snow Spirits. Together, they vowed to protect Eldergrove from any future threats, forging an alliance that promised peace for generations to come.",
+    "character_information": "Certainly! Below are specific character descriptions for Darin, Morwenna, and the supporting NPCs (the Forest Guardian, the Merfolk, and the Snow Spirits) that can be used as prompts to generate sprites for the 2D game.\n\n### 1. **Darin (Protagonist)**\n**Description:** Darin is a brave young hero in his early twenties, with tousled chestnut hair and bright green eyes reflecting his determination. He wears a simple, rugged tunic in earthy tones\u2014greens and browns\u2014perfect for blending into the forest environment. His attire is accompanied by a leather belt equipped with a small satchel for herbs, a dagger, and sturdy boots for traversing rough terrains. The sprite should depict him looking alert and ready for adventure, with an expression of courage and resolve. \n\n### 2. **Morwenna (Antagonist)**\n**Description:** Morwenna is a formidable sorceress in her thirties, with long, flowing black hair that glows eerily with an ethereal blue light. Her skin is pale, contrasting with her dark, tattered robes that swirl around her like shadows. Her piercing violet eyes radiate power and malice, and hints of ancient runes adorn her clothing, signifying her mastery of dark magic. The sprite should convey an air of menace and authority, capturing the essence of her dangerous nature with a confident stance and a flickering staff topped with a glowing crystal.\n\n### 3. **Forest Guardian (NPC)**\n**Description:** The Forest Guardian appears as a mystical spirit draped in luminescent green and gold robes that shimmer with the essence of nature. Its form is ethereal, composed of swirling leaves and vines, with a gentle face that embodies wisdom and tranquility. The Guardian\u2019s eyes are deep-set and glimmer like emeralds, exuding warmth and concern. A crown of flowers and leaves rests on its head, signifying its connection to the forest. The sprite should express serenity and authority, with a pose that suggests both guidance and protection.\n\n### 4. **Merfolk (NPC)**\n**Description:** The Merfolk are enchanting underwater beings, depicted with glistening, scaly skin in varying shades of blue and turquoise, resembling the hues of the ocean. Their hair flows like seaweed, bright green or vibrant coral colors, accentuating their allure. They possess long, elegant tails with fin-like extensions, allowing them to glide gracefully through the water. The sprite should showcase a playful yet cautious demeanor, with wide, curious eyes, representing their dual nature of mistrust and friendliness.\n\n### 5. **Snow Spirits (NPC)**\n**Description:** The Snow Spirits are whimsical, frosty beings resembling small, floating snowflakes with animated faces. They bear an enchanting glow of icy blue and white hues, with wisps of frost trailing behind them. Each Spirit has unique markings resembling intricate patterns found in ice formations. Their expressions range from mischievous to wise, reflecting their playful yet temperamental personalities. The sprite should illustrate a sense of freedom and fluidity, capturing their elusive nature and the gentle snowflakes swirling around them.\n\nThese character descriptions can help artists create sprites that effectively convey each character's personality and role within the game's narrative.",
+    "tile_mapping": {
+      "Darin": "@",
+      "Morwenna": "#",
+      "Grass Tile": "G",
+      "Dirt Path Tile": "P",
+      "Leaf Litter Tile": "L",
+      "Moss-Covered Rock": "R",
+      "Tall Evergreen Tree": "T",
+      "Short Deciduous Tree": "D",
+      "Fallen Tree Trunk": "F",
+      "Glowing Orb Tree": "O",
+      "Small Bush": "B",
+      "Large Thorny Bush": "H",
+      "Vines Hanging from Trees": "V",
+      "Rock Formation": "Y",
+      "Small Pond": "W",
+      "Stream Left to Right": "<",
+      "Stream Right to Left": ">",
+      "Waterfall": "S",
+      "Spirit Aura Effect": "*",
+      "Glowing Flower": "Z",
+      "Snow-Covered Tile": "C",
+      "Ice Floor": "I",
+      "Rocky Terrain": "X",
+      "Steep Cliff Edge": "E",
+      "Gradual Slope": "A",
+      "Jagged Mountain Edge": "M",
+      "Snow Drift": "N",
+      "Ice Wall": "J",
+      "Icicle": "Q",
+      "Wind Gust Effect": "~",
+      "Frost Particle Effect": ".",
+      "Dark Stone Floor": "K",
+      "Fog-Filled Stone Path": "?",
+      "Rune Embedded Tile": "&",
+      "Tall Citadel Wall": "U",
+      "Entrance Archway": "V",
+      "Stone Tower": "1",
+      "Spire": "2",
+      "Tattered Banner": "3",
+      "Window": "4",
+      "Candle Sconce": "5",
+      "Chest": "6",
+      "NPC Indicator": "7",
+      "Campfire": "8",
+      "Thorny Vines": "9",
+      "Boulder": "0",
+      "Sinking Sand": "A",
+      "Pathway Transition": "D",
+      "Mirror Transition": "F",
+      "Portal": "G",
+      "courageous young man with determined eyes and a rustic tunic": "@",
+      "malevolent sorceress draped in dark robes with piercing green eyes": "#"
+    },
+    "goals": "### Main Goal:\n**To find the Heart of Eldoria before Morwenna does and use its power to restore peace to Eldergrove.**\n\n### Small Goals (Objectives):\n1. **Gather Sacred Herbs from the Forest Guardian.**\n   - **Reward:** +20 points (Herbs boost healing ability).\n   - **Penalty:** -5 points (Failing the test reduces trust with spirits).\n\n2. **Retrieve the Water Crystal from the Merfolk.**\n   - **Reward:** +25 points (Enhances water magic abilities).\n   - **Penalty:** -10 points (Frustrating the Merfolk leads to their hostility).\n\n3. **Collect Shards of the Ice Gem from the Snow Spirits.**\n   - **Reward:** +30 points (Increases defense against cold environments).\n   - **Penalty:** -15 points (Angering the spirits weakens stamina during snowy passages).\n\n4. **Find the entrance to the Labyrinth of Shadows.**\n   - **Reward:** +15 points (Opens passage to the labyrinth).\n   - **Penalty:** -5 points (If misled, risks wandering off course).\n\n5. **Navigate the challenges within the Labyrinth.**\n   - **Reward:** +35 points (Improves puzzle-solving skills).\n   - **Penalty:** -20 points (Getting trapped necessitates retrying at a cost).\n\n6. **Confront and defeat Morwenna.**\n   - **Reward:** +50 points (Success leads to ultimate restoration of peace).\n   - **Penalty:** -30 points (Failure results in temporary weakening of Darin's powers).\n\n7. **Forge alliances with the Forest Guardian, Merfolk, and Snow Spirits.**\n   - **Reward:** +40 points (Allies provide assistance in critical moments).\n   - **Penalty:** -10 points (Neglecting allies results in isolation during battles).\n\n8. **Return the Heart of Eldoria to the village.**\n   - **Reward:** +60 points (Final points awarded for completing the quest).\n   - **Penalty:** -20 points (If the Heart is misused during the quest, the villagers turn against Darin).\n\n### Summary of Scores:\n- **Max Possible Points:** 275 points (if all goals are successfully achieved).\n- **Min Possible Points:** -100 points (if all penalties are incurred without achieving goals). \n\nAdjusting the rewards and penalties based on the game\u2019s difficulty can create varying experiences for players, encouraging strategic planning to achieve the overarching goal.",
+    "objectives": {
+      "Gather Sacred Herbs from the Forest Guardian": [
+        "O",
+        6,
+        5
+      ],
+      "Retrieve the Water Crystal from the Merfolk": [
+        "W",
+        8,
+        2
+      ],
+      "Collect Shards of the Ice Gem from the Snow Spirits": [
+        "C",
+        15,
+        4
+      ],
+      "Find the entrance to the Labyrinth of Shadows": [
+        "K",
+        5,
+        9
+      ],
+      "Navigate the challenges within the Labyrinth": [
+        "D",
+        6,
+        7
+      ],
+      "Confront and defeat Morwenna": [
+        "#",
+        10,
+        6
+      ],
+      "Forge alliances with the Forest Guardian, Merfolk, and Snow Spirits": [
+        "1",
+        13,
+        1
+      ],
+      "Return the Heart of Eldoria to the village": [
+        "G",
+        7,
+        0
+      ]
+    },
+    "important_tiles": "```python\nimportant_tiles = [\n    'Darin',       # Protagonist\n    'Morwenna',    # Antagonist\n    'Forest Guardian',   # Important NPC for gathering sacred herbs\n    'Merfolk',     # Important NPC for retrieving the Water Crystal\n    'Snow Spirits', # Important NPC for collecting Ice Gem shards\n    'Tall Evergreen Tree',  # Common environment tile \n    'Small Pond',  # Water source in the Whispering Woods\n    'Stream Left to Right',  # Flowing water element \n    'Dark Stone Floor',  # Tile for Misty Citadel\n    'Tall Citadel Wall',  # Structure in the Misty Citadel\n    'Chest',        # Interactive object for rewards\n    'Candle Sconce', # Ambient lighting in the citadel\n    'Fallen Tree Trunk',  # Environmental obstacle\n    'Thorny Vines',  # Obstacles in the forest\n    'Ice Floor',    # Tile for the Frostbite Mountains\n    'Snow-Covered Tile'  # Tile for the snowy environment\n]\n```",
+    "walkable_tiles": "```python\nwalkable_tiles = ['G', 'P', 'L', 'R', 'T', 'D', 'F', 'O', 'B', 'H', 'V', 'Y', 'W', '<', '>', 'S', 'C', 'I', 'X', 'A', 'N', 'D', 'F', 'G', '8', '6']\n```",
+    "interactive_object_tiles": "```python\ninteractable_tiles = ['#', '6', '7', '8', '9', 'G']\n```",
+    "world_1st_layer": {
+      "world": "GGGGGGGGGGGGGGGGGGGG\nGGPPPPPPPPPPPPGGGGGG\nGGPLLLLLLLLLLLPGGGGG\nGGPRRRGGGGGGRRGGGGG\nGGPTTTTTTTTTKTGGGGG\nGGPDOOOOOOOOBGGGGGG\nGGPPPPPPPPPPPGGGGGG\nGGBBBBBBBBBBBGGGGGG\nGWW<WGGGGGGG\nGGGGGGGGGGGGGGGGGGGG\nGGGGGGHHHGGGGGGGGGGG\nGGGGGGVB|GGGGGGG\nGGGGG11KGGGGGGG\nGGGGG1GGGyGGGGGGG\nGGGGGGGGGGGGGGGGGGG\nCCCCCIIIIICCCCCCCCCC",
+      "tiles": {
+        "Grass Tile": "G",
+        "Dirt Path Tile": "P",
+        "Leaf Litter Tile": "L",
+        "Moss-Covered Rock": "R",
+        "Tall Evergreen Tree": "T",
+        "Short Deciduous Tree": "D",
+        "Glowing Orb Tree": "O",
+        "Small Bush": "B",
+        "Large Thorny Bush": "H",
+        "Vines Hanging from Trees": "V",
+        "Small Pond": "W",
+        "Stream Left to Right": "<",
+        "Snow-Covered Tile": "C",
+        "Ice Floor": "I",
+        "Dark Stone Floor": "K",
+        "Entrance Archway": "V",
+        "Stone Tower": "1",
+        "Pathway Transition": "D",
+        "Portal": "G"
+      }
+    },
+    "world": "GGGGGGGGGGGGGGGGGGGG\nGGPPPPPPPPPPPPGGGGGG\nGGPLLLLLLLLLLLPGGGGG\nGGPRRRGGGGGGRRGGGGG\nGGPTTTTTTTTTKTGGGGG\nGGPDOOOOOOOOBGGGGGG\nGGA@BGGGGGG\nGGPPPPPPPPPPPGGGGGG\nGGBBBBBBBBBBBGGGGGG\nGWW<WGGG#GGGG\nGGGGGGGGGGGGGGGGGGGG\nGGGGGGHHHGGGGGGGGGGG\nGGGGGGVB|GGGGGGG\nGGGGG11KGGGGGGG\nGGGGG1GGGyGGGGGGG\nGGGGGGGGGGGGGGGGGGG\nCCCCCIIIIICCCCCCCCCC",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 41.66666666666667,
+      "Accuracy_of_important_tiles_placed": 0,
+      "Average_euclidean_distance": 365.71784184797093,
+      "agent_reward": 25,
+      "astar_path": 26
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 15,
+      "story_paragraphs": [
+        4,
+        5
+      ],
+      "total_objectives": 8
+    }
+  },
+  "round_1": {
+    "story": "In the heart of Eldergrove, a secluded village nestled between the sprawling Whispering Woods and the jagged peaks of the Frostbite Mountains, the air buzzed with tension. The villagers whispered of the shattered peace, the shadow of the malevolent sorceress Morwenna that loomed ever closer. Darin, a courageous young man with an indomitable spirit, listened to the elders recount tales of the ancient artifact\u2014the Heart of Eldoria\u2014hidden deep in the Labyrinth of Shadows. It was said that whoever controlled the Heart could either restore the land\u2019s magic or plunge it into despair. Darin knew he had to find it before Morwenna did.\n\nWith a heart steeled by determination, Darin set forth into the Whispering Woods, the first environment he must conquer. The woods were a maze of darkened paths where the trees whispered secrets only the brave dared to uncover. His objectives were clear: first, he needed to gather sacred herbs from the Forest Guardian, a reclusive spirit known to be mistrustful of outsiders. The Guardian, a glowing figure wreathed in vines, initially dismissed Darin, but he showcased his genuine intent to protect Eldergrove. After a test of bravery against the twisted canopies of enchanted vines, the Guardian gifted Darin with the herbs.\n\nVenturing deeper into the woods, Darin encountered a lively stream populated by the Merfolks\u2014guardians of the Water Crystal. His second objective was to retrieve this crystal, as it held the power to purify the Heart of Eldoria. After understanding their mistrust of humans, he won them over by helping a trapped baby Merman escape from a tangle of debris. Grateful, the Merfolk bestowed upon him the Water Crystal, which shimmered with the promise of hope. However, Morwenna\u2019s minions were already shadowing his every move, a constant reminder of the threat looming over his mission.\n\nAs he ascended towards the Frostbite Mountains, the temperature plummeted. Frosted cliffs and treacherous blizzards formed the third environment, where Darin had to navigate the treacherous paths while retrieving shards of the Ice Gem from the Snow Spirits\u2014a volatile group that resented intruders. Their icy winds tested his resolve, but he managed to convince the Spirits of his noble quest, earning their trust with an earnest pledge of unity against Morwenna. Sweeping storms unleashed their fury, yet Darin stood tall, emerging victorious with the shards in hand.\n\nFinally, fortified with the herbs, the Water Crystal, and the Ice Gem, his last objective was to confront Morwenna in the Misty Citadel\u2014her dark lair. The environment was foreboding; swirling fog obscured the treacherous cliffs around the citadel, and jagged rocks jutted out of the depths below. Just as he stood against Morwenna, filled with desperation and malice, he realized the key to defeating her lay in his gathered powers. Using the magical objects, Darin channeled the forces of nature and light to confront her. In a ferocious battle of magic and will, he unleashed the combined strengths of the elements, banishing Morwenna from Eldergrove. \n\nWith peace finally restored, the Heart of Eldoria pulsed with renewed energy, illuminating the village once more. Darin returned home a hero, joined by the newfound allies he had made: the Forest Guardian, the Merfolk, and the Snow Spirits. Together, they vowed to protect Eldergrove from any future threats, forging an alliance that promised peace for generations to come.",
+    "character_information": "Certainly! Below are specific character descriptions for Darin, Morwenna, and the supporting NPCs (the Forest Guardian, the Merfolk, and the Snow Spirits) that can be used as prompts to generate sprites for the 2D game.\n\n### 1. **Darin (Protagonist)**\n**Description:** Darin is a brave young hero in his early twenties, with tousled chestnut hair and bright green eyes reflecting his determination. He wears a simple, rugged tunic in earthy tones\u2014greens and browns\u2014perfect for blending into the forest environment. His attire is accompanied by a leather belt equipped with a small satchel for herbs, a dagger, and sturdy boots for traversing rough terrains. The sprite should depict him looking alert and ready for adventure, with an expression of courage and resolve. \n\n### 2. **Morwenna (Antagonist)**\n**Description:** Morwenna is a formidable sorceress in her thirties, with long, flowing black hair that glows eerily with an ethereal blue light. Her skin is pale, contrasting with her dark, tattered robes that swirl around her like shadows. Her piercing violet eyes radiate power and malice, and hints of ancient runes adorn her clothing, signifying her mastery of dark magic. The sprite should convey an air of menace and authority, capturing the essence of her dangerous nature with a confident stance and a flickering staff topped with a glowing crystal.\n\n### 3. **Forest Guardian (NPC)**\n**Description:** The Forest Guardian appears as a mystical spirit draped in luminescent green and gold robes that shimmer with the essence of nature. Its form is ethereal, composed of swirling leaves and vines, with a gentle face that embodies wisdom and tranquility. The Guardian\u2019s eyes are deep-set and glimmer like emeralds, exuding warmth and concern. A crown of flowers and leaves rests on its head, signifying its connection to the forest. The sprite should express serenity and authority, with a pose that suggests both guidance and protection.\n\n### 4. **Merfolk (NPC)**\n**Description:** The Merfolk are enchanting underwater beings, depicted with glistening, scaly skin in varying shades of blue and turquoise, resembling the hues of the ocean. Their hair flows like seaweed, bright green or vibrant coral colors, accentuating their allure. They possess long, elegant tails with fin-like extensions, allowing them to glide gracefully through the water. The sprite should showcase a playful yet cautious demeanor, with wide, curious eyes, representing their dual nature of mistrust and friendliness.\n\n### 5. **Snow Spirits (NPC)**\n**Description:** The Snow Spirits are whimsical, frosty beings resembling small, floating snowflakes with animated faces. They bear an enchanting glow of icy blue and white hues, with wisps of frost trailing behind them. Each Spirit has unique markings resembling intricate patterns found in ice formations. Their expressions range from mischievous to wise, reflecting their playful yet temperamental personalities. The sprite should illustrate a sense of freedom and fluidity, capturing their elusive nature and the gentle snowflakes swirling around them.\n\nThese character descriptions can help artists create sprites that effectively convey each character's personality and role within the game's narrative.",
+    "tile_mapping": {
+      "Darin": "@",
+      "Morwenna": "#",
+      "Grass Tile": "G",
+      "Dirt Path Tile": "P",
+      "Leaf Litter Tile": "L",
+      "Moss-Covered Rock": "R",
+      "Tall Evergreen Tree": "T",
+      "Short Deciduous Tree": "D",
+      "Fallen Tree Trunk": "F",
+      "Glowing Orb Tree": "O",
+      "Small Bush": "B",
+      "Large Thorny Bush": "H",
+      "Vines Hanging from Trees": "V",
+      "Rock Formation": "Y",
+      "Small Pond": "W",
+      "Stream Left to Right": "<",
+      "Stream Right to Left": ">",
+      "Waterfall": "S",
+      "Spirit Aura Effect": "*",
+      "Glowing Flower": "Z",
+      "Snow-Covered Tile": "C",
+      "Ice Floor": "I",
+      "Rocky Terrain": "X",
+      "Steep Cliff Edge": "E",
+      "Gradual Slope": "A",
+      "Jagged Mountain Edge": "M",
+      "Snow Drift": "N",
+      "Ice Wall": "J",
+      "Icicle": "Q",
+      "Wind Gust Effect": "~",
+      "Frost Particle Effect": ".",
+      "Dark Stone Floor": "K",
+      "Fog-Filled Stone Path": "?",
+      "Rune Embedded Tile": "&",
+      "Tall Citadel Wall": "U",
+      "Entrance Archway": "V",
+      "Stone Tower": "1",
+      "Spire": "2",
+      "Tattered Banner": "3",
+      "Window": "4",
+      "Candle Sconce": "5",
+      "Chest": "6",
+      "NPC Indicator": "7",
+      "Campfire": "8",
+      "Thorny Vines": "9",
+      "Boulder": "0",
+      "Sinking Sand": "A",
+      "Pathway Transition": "D",
+      "Mirror Transition": "F",
+      "Portal": "G",
+      "courageous young man with determined eyes and a rustic tunic": "@",
+      "malevolent sorceress draped in dark robes with piercing green eyes": "#"
+    },
+    "goals": "### Main Goal:\n**To find the Heart of Eldoria before Morwenna does and use its power to restore peace to Eldergrove.**\n\n### Small Goals (Objectives):\n1. **Gather Sacred Herbs from the Forest Guardian.**\n   - **Reward:** +20 points (Herbs boost healing ability).\n   - **Penalty:** -5 points (Failing the test reduces trust with spirits).\n\n2. **Retrieve the Water Crystal from the Merfolk.**\n   - **Reward:** +25 points (Enhances water magic abilities).\n   - **Penalty:** -10 points (Frustrating the Merfolk leads to their hostility).\n\n3. **Collect Shards of the Ice Gem from the Snow Spirits.**\n   - **Reward:** +30 points (Increases defense against cold environments).\n   - **Penalty:** -15 points (Angering the spirits weakens stamina during snowy passages).\n\n4. **Find the entrance to the Labyrinth of Shadows.**\n   - **Reward:** +15 points (Opens passage to the labyrinth).\n   - **Penalty:** -5 points (If misled, risks wandering off course).\n\n5. **Navigate the challenges within the Labyrinth.**\n   - **Reward:** +35 points (Improves puzzle-solving skills).\n   - **Penalty:** -20 points (Getting trapped necessitates retrying at a cost).\n\n6. **Confront and defeat Morwenna.**\n   - **Reward:** +50 points (Success leads to ultimate restoration of peace).\n   - **Penalty:** -30 points (Failure results in temporary weakening of Darin's powers).\n\n7. **Forge alliances with the Forest Guardian, Merfolk, and Snow Spirits.**\n   - **Reward:** +40 points (Allies provide assistance in critical moments).\n   - **Penalty:** -10 points (Neglecting allies results in isolation during battles).\n\n8. **Return the Heart of Eldoria to the village.**\n   - **Reward:** +60 points (Final points awarded for completing the quest).\n   - **Penalty:** -20 points (If the Heart is misused during the quest, the villagers turn against Darin).\n\n### Summary of Scores:\n- **Max Possible Points:** 275 points (if all goals are successfully achieved).\n- **Min Possible Points:** -100 points (if all penalties are incurred without achieving goals). \n\nAdjusting the rewards and penalties based on the game\u2019s difficulty can create varying experiences for players, encouraging strategic planning to achieve the overarching goal.",
+    "objectives": {
+      "Gather Sacred Herbs from the Forest Guardian": [
+        "O",
+        5,
+        5
+      ],
+      "Retrieve the Water Crystal from the Merfolk": [
+        "<",
+        7,
+        7
+      ],
+      "Collect Shards of the Ice Gem from the Snow Spirits": [
+        "C",
+        14,
+        7
+      ],
+      "Find the entrance to the Labyrinth of Shadows": [
+        "V",
+        11,
+        5
+      ],
+      "Navigate the challenges within the Labyrinth": [
+        "#",
+        12,
+        2
+      ],
+      "Confront and defeat Morwenna": [
+        "#",
+        11,
+        3
+      ],
+      "Forge alliances with the Forest Guardian, Merfolk, and Snow Spirits": [
+        "O",
+        5,
+        5
+      ],
+      "Return the Heart of Eldoria to the village": [
+        "G",
+        0,
+        0
+      ]
+    },
+    "important_tiles": "```python\nimportant_tiles = [\n    'Darin',       # Protagonist\n    'Morwenna',    # Antagonist\n    'Forest Guardian',   # Important NPC for gathering sacred herbs\n    'Merfolk',     # Important NPC for retrieving the Water Crystal\n    'Snow Spirits', # Important NPC for collecting Ice Gem shards\n    'Tall Evergreen Tree',  # Common environment tile \n    'Small Pond',  # Water source in the Whispering Woods\n    'Stream Left to Right',  # Flowing water element \n    'Dark Stone Floor',  # Tile for Misty Citadel\n    'Tall Citadel Wall',  # Structure in the Misty Citadel\n    'Chest',        # Interactive object for rewards\n    'Candle Sconce', # Ambient lighting in the citadel\n    'Fallen Tree Trunk',  # Environmental obstacle\n    'Thorny Vines',  # Obstacles in the forest\n    'Ice Floor',    # Tile for the Frostbite Mountains\n    'Snow-Covered Tile'  # Tile for the snowy environment\n]\n```",
+    "walkable_tiles": "```python\nwalkable_tiles = ['G', 'P', 'L', 'R', 'T', 'D', 'F', 'O', 'B', 'H', 'V', 'Y', 'W', '<', '>', 'S', 'C', 'I', 'X', 'A', 'N', 'D', 'F', 'G', '8', '6']\n```",
+    "interactive_object_tiles": "```python\ninteractable_tiles = ['#', '6', '7', '8', '9', 'G']\n```",
+    "world_1st_layer": {
+      "world": "GGGGGGGGGGGGGGGGGGGGG\nGGPPPPPPPPPPPPPPPPGGG\nGGLLLLLLLLLLLLPPGGGGG\nGGPRRRGGGGRTGGGGGGG\nGGPTTTTTTTTTTTTTGGG\nGGPDOOOOOOOOBBGGGGGG\nGGBPBBBBBBBBBPGGGGGG\nGGWW<WGGGSGGGGGGGG\nGGGPPHGGGGGGGGGGGGG\nGGGHYYYYYYYYYYGGGGG\nGGGUUUUUUUUUUGGGGGG\nGGG1V1T5G6G9GGGGGGG\nGGG81D|G1G1GGGGGGG\nGGGGGGGGGGGGGGGGGGG\nWWWCCIIIIICCCWWGCGG\nGGGCCICCWWCCCCCCGGG",
+      "tiles": {
+        "Grass Tile": "G",
+        "Dirt Path Tile": "P",
+        "Leaf Litter Tile": "L",
+        "Moss-Covered Rock": "R",
+        "Tall Evergreen Tree": "T",
+        "Short Deciduous Tree": "D",
+        "Glowing Orb Tree": "O",
+        "Small Bush": "B",
+        "Large Thorny Bush": "H",
+        "Vines Hanging from Trees": "V",
+        "Rock Formation": "Y",
+        "Small Pond": "W",
+        "Stream Left to Right": "<",
+        "Waterfall": "S",
+        "Snow-Covered Tile": "C",
+        "Ice Floor": "I",
+        "Tall Citadel Wall": "U",
+        "Entrance Archway": "V",
+        "Stone Tower": "1",
+        "Candle Sconce": "5",
+        "Chest": "6",
+        "Campfire": "8",
+        "Thorny Vines": "9",
+        "Pathway Transition": "D",
+        "Portal": "G"
+      }
+    },
+    "world": "GGGGGGGGGGGGGGGGGGGGG\nGGPPPPPPPPPPPPPPPPGGG\nGGLLLLLLLLLLLLPPGGGGG\nGGPRRRGGGGRTGGGGGGG\nGGPTTTTTTTTTTTTTGGG\nGGPDOOOOOOOOBBGGGGGG\nGGBPBBBBBBBBBPGGGGGG\nGGWW<WGGGSGGGGGGGG\nGGGPPHGGGGGGGGGGGGG\nGGGHYYYYYYYYYYGGGGG\nG#GUUUUUUUUUUGGGGGG\nGGG1V1T5G6G9@GGGGGGG\nGGG81D|G1G1GGGGGGG\nGGGGGGGGGGGGGGGGGGG\nWWWCCIIIIICCCWWGCGG\nGGGCCICCWWCCCCCCGGG",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 75.0,
+      "Accuracy_of_important_tiles_placed": 0,
+      "Average_euclidean_distance": 375.01028737897536,
+      "agent_reward": -250,
+      "astar_path": 25
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 15,
+      "story_paragraphs": [
+        4,
+        5
+      ],
+      "total_objectives": 8
+    }
+  }
+}

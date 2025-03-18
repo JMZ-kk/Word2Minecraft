@@ -1,0 +1,230 @@
+{
+  "round_0": {
+    "story": "In the small, windswept town of Windmere, nestled between rolling hills and dense, foggy woods, there stood an ancient, crumbling labyrinth known as the Whispering Maze. The walls, once majestic and imposing, were now overgrown with ivy and moss, and the air was heavy with the scent of damp earth and decay. At the center of this labyrinth lay the legendary Everlight Chest, a treasure said to hold the power to grant one's heart's desire.\n\nElara, a young scholar with a passionate curiosity about ancient myths, had come to Windmere driven by the desire to find the Everlight Chest. Her journey wasn\u2019t just about the allure of the treasure but was crucial in proving her theories about the convergence of ley lines\u2014mystical alignments that, as per her research, intersected right underneath the labyrinth.\n\nBut her quest was thwarted by Morven, the self-appointed guardian of the maze. Dressed in tattered robes that whispered against the stones, Morven was a figure of shadow and lore, using his deep knowledge of the maze to keep all who entered either eternally lost within its walls or frightfully expelled by his devious tricks.\n\nThe first of Elara's many objectives was to find a map rumored to be hidden within the Keeper\u2019s Hall, an old, dust-laden library on the outskirts of the labyrinth. The once grand hall was now but a shadow of its former self, with rotting bookshelves and piles of forgotten scrolls. Elara\u2019s heart raced as she rifled through debris and ancient tomes, finally uncovering a brittle, yellowed map detailing the labyrinth's countless turns and dead ends.\n\nNext, she needed to gather specific items that, according to local legend, could counteract Morven\u2019s magic. These included the Mirror of Lysa, kept under the watch of a silent, wax statue in the chamber of reflections; the Bell of Arias, located in the crow\u2019s nest of an old, wrecked ship that bizarrely rested atop a hill, miles from any water; and finally, a lantern filled with the fire from the Everburning Flame, which flickered within a small, forgotten shrine nestled in the heart of the forest, surrounded by ancient stone sculptures that seemed to watch her every move.\n\nAs Elara collected each item, she had to contend with various challenges: whispering voices trying to lead her astray, sudden drops and unexpected dead ends, and illusions of fearsome creatures conjured by Morven to prey on her deepest fears. With each achievement, the exit of the labyrinth seemed tantalizingly within reach, yet the path twisted maliciously, as if reshaping itself.\n\nHer ultimate confrontation awaited at the heart of the maze. Using the elements she gathered, Elara disrupted Morven\u2019s influences, the lantern casting true light to reveal hidden passages, the bell silencing deceptive whispers, and the mirror reflecting back the reality of the maze rather than the illusions set to deter her.\n\nFinally facing Morven, whose frustration had grown as Elara navigated his traps and decoys, she held up the mirror. It reflected not just the decrepit, fearsome figure he had become but also the bright, guiding scholar he once was, reminding him of his original purpose to protect rather than imprison. The realization broke the spell that Morven had upon himself and the labyrinth.\n\nWith Morven\u2019s defeat, Elara found her path cleared, leading her directly to the Everlight Chest at the center of the maze. As she opened it, the chest didn\u2019t just hold treasures; it held answers, ancient manuscripts and artifacts proving the convergence of ley lines, thus fulfilling both her academic ambitions and the adventurous spark that had led her here. Windmere, with its Whispering Maze, would forever remember the scholar who unraveled its deepest secrets.",
+    "character_information": "Certainly! This will provide detailed character descriptions suitable for developing sprites in a 2D game environment:\n\n### 1. **Elara, the Protagonist**\n- **Appearance:** Elara is a young, spirited female scholar in her late twenties. She has medium-length brunette hair often tied back in a practical ponytail to keep it out of her face while she studies and explores. Her eyes are a sharp and curious green, always reflecting a mind at work.\n- **Outfit:** She wears a durable, leather-bound chestnut brown adventurer's tunic, with elbow patches and plenty of pockets for her tools and finds. Below, she sports rugged brown trousers tucked into calf-high leather boots adapted for extensive walking.\n- **Accessories:** Elara carries a satchel filled with scrolls, books, and the essential artifacts (Mirror, Bell, Lantern) she collects. Additionally, she wears a sturdy belt equipped with various pouches containing her exploratory tools like a compass, magnifying glass, and a small diary.\n- **Expression:** Determined and intelligent, with an almost constant thoughtful frown as she puzzles through the mysteries of the maze.\n\n### 2. **Morven, the Antagonist**\n- **Appearance:** Morven appears as an elder male figure, gaunt and tall with a somewhat stooped posture. His hair is long, unkempt, and white, cascading over his shoulders and blending with the mist of the labyrinth.\n- **Outfit:** Morven wears tattered, long robes that seem almost ghostly, swirling around him in mist-like patterns. The robes are a faded grey, almost silver, with arcane symbols etched along the hems.\n- **Accessories:** He carries a gnarled wooden staff, topped with a crystal that pulses with a faint, eerie light. Around his neck hangs an amulet with a labyrinth design, signifying his role as the guardian.\n- **Expression:** His face is weathered and lined with age, eyes a deep, piercing blue that seem both sad and menacing. His expression is usually a mix of melancholy and fierce resolve.\n\n### 3. **Silent Wax Statue (NPC)**\n- **Appearance:** The statue is life-sized, depicting a serene-faced monk in meditation. It\u2019s crafted from pale, almost translucent wax, giving it an ethereal quality.\n- **Outfit:** The statue wears simple, flowing robes carved intricately into the wax, suggesting folds. The robes are modest and unadorned, typical of a monastic figure.\n- **Expression:** The face is calm, eyes closed in eternal meditation, adding to the mysterious and ancient vibe of the chamber it protects.\n\n### 4. **Crows\u2019 Nest Lookout (Ship NPC)**\n- **Appearance:** This involves the wrecked remains of what was once a proud ship. The crow\u2019s nest is perched precariously at the top of a splintered mast, frayed ropes hanging from its sides.\n- **Details:** The wood is dark and weathered, with sea-salt stains and the occasional clinging barnacle, testament to its origin. The lookout should look aged but still formidable, offering a panoramic if desolate view of the surrounding hill.\n\nThese sprites would require animation elements reflecting their personalities and roles within the game. Elara\u2019s animations would be lively and adaptive, showing her engaging with the environment and utilizing the artifacts she gathers. Morven\u2019s animation would be more subtle, with a focus on mystical gestures and an eerie, floating movement that enhances his spectral presence. The NPCs would have fewer animations but should still resonate with the ambiance of their settings.",
+    "tile_mapping": {
+      "Grass Tile": "a",
+      "Dirt Path Tile": "b",
+      "Stone Path Tile": "c",
+      "Mossy Stone Tile": "d",
+      "Forest Floor Tile": "e",
+      "Water Tile": "f",
+      "Sky Tile": "g",
+      "Ancient Wall Tile": "h",
+      "Cracked Stone Tile": "i",
+      "Wooden Plank Tile": "j",
+      "Ivy-Covered Wall Tile": "k",
+      "Weathered Roof Tile": "l",
+      "Window Tile": "m",
+      "Bookshelf Tile": "n",
+      "Floorboards Tile": "o",
+      "Stone Floor Tile": "p",
+      "Carpet Tile": "q",
+      "Reflective Surfaces Tile": "r",
+      "Statue Tile": "s",
+      "Lantern Light Tile": "t",
+      "Artifact Tile": "u",
+      "Treasure Chest Tile": "v",
+      "Foliage Tile": "w",
+      "Flowering Plant Tile": "x",
+      "Mystical Symbol Tile": "y",
+      "Hidden Door Tile": "z",
+      "Illusion Tile": "A",
+      "Trap Tile": "B",
+      "young scholar with a map": "@",
+      "tattered robe wearing guardian": "#"
+    },
+    "goals": "### Main Goal for the Protagonist\n- **Elara's Main Goal:** To locate and secure the legendary Everlight Chest at the center of the Whispering Maze, which contains ancient manuscripts and artifacts crucial for her research and personal quest for knowledge.\n\n### Small Goals to Achieve the Main Goal\n1. **Find the Map in the Keeper\u2019s Hall:**\n   - **Reward:** Unlocks the ability to navigate through the labyrinth more efficiently (+500 points).\n   - **Penalty:** Without the map, movement speed decreases due to uncertainty and frequent backtracking (-50 points).\n\n2. **Collect the Mirror of Lysa from the Chamber of Reflections:**\n   - **Reward:** Can reveal hidden paths and see through illusions (+400 points).\n   - **Penalty:** Increased chance of falling for illusions without the mirror (-100 points).\n\n3. **Obtain the Bell of Arias from the ship\u2019s crow\u2019s nest:**\n   - **Reward:** Silences the deceptive whispers in the maze, preventing confusion and reducing time lost (+300 points).\n   - **Penalty:** Without the bell, duration of confusion effects doubled (-75 points).\n\n4. **Fetch the Lantern filled with the Everburning Flame:**\n   - **Reward:** Lights darker parts of the maze and protects against mystical cold that can slow the character down (+300 points).\n   - **Penalty:** Lower visibility in dark areas increases the chance of encountering traps (-50 points).\n\n5. **Navigate the labyrinth to its center successfully:**\n   - **Reward:** Gain access to the final area where the Everlight Chest is located (+600 points).\n   - **Penalty:** Taking wrong turns or backtracking frequently reduces score (-25 points per wrong turn).\n\n6. **Defeat Morven using gathered items:**\n   - **Reward:** Gaining full access to the Everlight Chest and stopping Morven's interference (+700 points).\n   - **Penalty:** Each failed attempt to neutralize Morven costs time and health/resources (-150 points).\n\n7. **Open the Everlight Chest:**\n   - **Reward:** Achieve the ancient knowledge and artifacts, completing the main quest (+1000 points and game completion bonus).\n\n8. **Document the findings for future reference (optional scholarly activity):**\n   - **Reward:** Bonus points for detailed documentation and insights gained from artifacts (+200 points).\n   - **Penalty:** Without documentation, some story and knowledge aspects remain locked (-100 points).\n\n### Summary of Rewards and Penalties\nThis structure incentivizes thorough exploration, thoughtful decision-making, and strategic use of resources, making gameplay engaging and the narrative progression rewarding. With these goals, penalties, and rewards, players are encouraged to engage deeply with the game mechanics and the story, enhancing both the challenge and the enjoyment of the game.",
+    "objectives": {
+      "Find the Map in the Keeper\u2019s Hall": [
+        "n",
+        8,
+        1
+      ],
+      "Collect the Mirror of Lysa from the Chamber of Reflections": [
+        "r",
+        8,
+        7
+      ],
+      "Obtain the Bell of Arias from the ship\u2019s crow\u2019s nest": [
+        "j",
+        9,
+        1
+      ],
+      "Fetch the Lantern filled with the Everburning Flame": [
+        "t",
+        1,
+        10
+      ],
+      "Navigate the labyrinth to its center successfully": [
+        "c",
+        5,
+        6
+      ],
+      "Defeat Morven using gathered items": [
+        "#",
+        2,
+        11
+      ],
+      "Open the Everlight Chest": [
+        "v",
+        1,
+        18
+      ]
+    },
+    "important_tiles": "[\n    '@',  # Protagonist\n    '#',  # Antagonist\n    'h',  # Ancient Wall Tile\n    'c',  # Stone Path Tile\n    'n',  # Bookshelf Tile\n    'u',  # Artifact Tile\n    'v',  # Treasure Chest Tile\n    's',  # Statue Tile\n    't',  # Lantern Light Tile\n    'r',  # Reflective Surfaces Tile\n    'j',  # Wooden Plank Tile\n    'b',  # Dirt Path Tile\n    'A',  # Illusion Tile\n    'B',  # Trap Tile\n    'z'   # Hidden Door Tile\n]",
+    "walkable_tiles": "['a', 'b', 'c', 'd', 'e', 'f', 'j', 'o', 'p', 'q', 'w', 'x', '@']",
+    "interactive_object_tiles": "['n', 'r', 's', 't', 'u', 'v', 'y', 'z', 'A', 'B']",
+    "world_1st_layer": {
+      "world": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa\nabbbbbbbbbaaaaaaaaabbbbbbbbbba\naccccccccceeccccccccecccccccca\nadddddddddddddddddddddddddddda\naeffffffffffffffffffffffffffea\najjjjjjjjjjjjjjjjjjjjjjjjjjjja\nabbbbbbbbbbbbbbbbbbbbbbbbbbbba\nacccccccccccccccccccccccccccca\nakkkkkkkkkkkkkkkkkkkkkkkkkkkka\nahhhhhhhhhhhhhhhhhhhhhhhhhhhha\nappppppppppppppppppppppppppppa\naqccccccccccccccccccccccccccqa\nawwwwwwwwwwwwwwwwwwwwwwwwwwwwa\naxxxxxxxxxxxxxxxxxxxxxxxxxxxxza",
+      "tiles": {
+        "Grass Tile": "a",
+        "Dirt Path Tile": "b",
+        "Stone Path Tile": "c",
+        "Mossy Stone Tile": "d",
+        "Forest Floor Tile": "e",
+        "Water Tile": "f",
+        "Ancient Wall Tile": "h",
+        "Wooden Plank Tile": "j",
+        "Ivy-Covered Wall Tile": "k",
+        "Stone Floor Tile": "p",
+        "Carpet Tile": "q",
+        "Foliage Tile": "w",
+        "Flowering Plant Tile": "x",
+        "Hidden Door Tile": "z"
+      }
+    },
+    "world": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa\nabbbbbbbbbaaaaaaaaabbbbbbbbbba\naccccccccc#@cccccccccecccccccca\nadddddddddddddddddddddddddddda\naeffffftfffffffvfffffffffffea\najjjjjjjjjjjjjjjjjjjjjjjjjjjja\nabbbbbbbbbbbbbbbbbbbbbbbbbbbba\nacccccscccccccccccccccccccccca\nakkkkkkkkkkkkkkkkkkkkkkkkkkkka\nahhhhhhhhhhhhhhhhhhhhhhhhhhhha\nappppppppppppppppppppppppppppa\naqccccccccccccccccccccccccccqa\nawwwwwwwwwwwwwwwwwwwwwwwwwwwwa\naxxuxxxxxxxxxxxxxxxxxxxxxxxxxca",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 100.0,
+      "Accuracy_of_important_tiles_placed": 66.66666666666666,
+      "Average_euclidean_distance": 0,
+      "agent_reward": -150,
+      "astar_path": 19
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 15,
+      "story_paragraphs": [
+        5,
+        6
+      ],
+      "total_objectives": 8
+    }
+  },
+  "round_1": {
+    "story": "In the small, windswept town of Windmere, nestled between rolling hills and dense, foggy woods, there stood an ancient, crumbling labyrinth known as the Whispering Maze. The walls, once majestic and imposing, were now overgrown with ivy and moss, and the air was heavy with the scent of damp earth and decay. At the center of this labyrinth lay the legendary Everlight Chest, a treasure said to hold the power to grant one's heart's desire.\n\nElara, a young scholar with a passionate curiosity about ancient myths, had come to Windmere driven by the desire to find the Everlight Chest. Her journey wasn\u2019t just about the allure of the treasure but was crucial in proving her theories about the convergence of ley lines\u2014mystical alignments that, as per her research, intersected right underneath the labyrinth.\n\nBut her quest was thwarted by Morven, the self-appointed guardian of the maze. Dressed in tattered robes that whispered against the stones, Morven was a figure of shadow and lore, using his deep knowledge of the maze to keep all who entered either eternally lost within its walls or frightfully expelled by his devious tricks.\n\nThe first of Elara's many objectives was to find a map rumored to be hidden within the Keeper\u2019s Hall, an old, dust-laden library on the outskirts of the labyrinth. The once grand hall was now but a shadow of its former self, with rotting bookshelves and piles of forgotten scrolls. Elara\u2019s heart raced as she rifled through debris and ancient tomes, finally uncovering a brittle, yellowed map detailing the labyrinth's countless turns and dead ends.\n\nNext, she needed to gather specific items that, according to local legend, could counteract Morven\u2019s magic. These included the Mirror of Lysa, kept under the watch of a silent, wax statue in the chamber of reflections; the Bell of Arias, located in the crow\u2019s nest of an old, wrecked ship that bizarrely rested atop a hill, miles from any water; and finally, a lantern filled with the fire from the Everburning Flame, which flickered within a small, forgotten shrine nestled in the heart of the forest, surrounded by ancient stone sculptures that seemed to watch her every move.\n\nAs Elara collected each item, she had to contend with various challenges: whispering voices trying to lead her astray, sudden drops and unexpected dead ends, and illusions of fearsome creatures conjured by Morven to prey on her deepest fears. With each achievement, the exit of the labyrinth seemed tantalizingly within reach, yet the path twisted maliciously, as if reshaping itself.\n\nHer ultimate confrontation awaited at the heart of the maze. Using the elements she gathered, Elara disrupted Morven\u2019s influences, the lantern casting true light to reveal hidden passages, the bell silencing deceptive whispers, and the mirror reflecting back the reality of the maze rather than the illusions set to deter her.\n\nFinally facing Morven, whose frustration had grown as Elara navigated his traps and decoys, she held up the mirror. It reflected not just the decrepit, fearsome figure he had become but also the bright, guiding scholar he once was, reminding him of his original purpose to protect rather than imprison. The realization broke the spell that Morven had upon himself and the labyrinth.\n\nWith Morven\u2019s defeat, Elara found her path cleared, leading her directly to the Everlight Chest at the center of the maze. As she opened it, the chest didn\u2019t just hold treasures; it held answers, ancient manuscripts and artifacts proving the convergence of ley lines, thus fulfilling both her academic ambitions and the adventurous spark that had led her here. Windmere, with its Whispering Maze, would forever remember the scholar who unraveled its deepest secrets.",
+    "character_information": "Certainly! This will provide detailed character descriptions suitable for developing sprites in a 2D game environment:\n\n### 1. **Elara, the Protagonist**\n- **Appearance:** Elara is a young, spirited female scholar in her late twenties. She has medium-length brunette hair often tied back in a practical ponytail to keep it out of her face while she studies and explores. Her eyes are a sharp and curious green, always reflecting a mind at work.\n- **Outfit:** She wears a durable, leather-bound chestnut brown adventurer's tunic, with elbow patches and plenty of pockets for her tools and finds. Below, she sports rugged brown trousers tucked into calf-high leather boots adapted for extensive walking.\n- **Accessories:** Elara carries a satchel filled with scrolls, books, and the essential artifacts (Mirror, Bell, Lantern) she collects. Additionally, she wears a sturdy belt equipped with various pouches containing her exploratory tools like a compass, magnifying glass, and a small diary.\n- **Expression:** Determined and intelligent, with an almost constant thoughtful frown as she puzzles through the mysteries of the maze.\n\n### 2. **Morven, the Antagonist**\n- **Appearance:** Morven appears as an elder male figure, gaunt and tall with a somewhat stooped posture. His hair is long, unkempt, and white, cascading over his shoulders and blending with the mist of the labyrinth.\n- **Outfit:** Morven wears tattered, long robes that seem almost ghostly, swirling around him in mist-like patterns. The robes are a faded grey, almost silver, with arcane symbols etched along the hems.\n- **Accessories:** He carries a gnarled wooden staff, topped with a crystal that pulses with a faint, eerie light. Around his neck hangs an amulet with a labyrinth design, signifying his role as the guardian.\n- **Expression:** His face is weathered and lined with age, eyes a deep, piercing blue that seem both sad and menacing. His expression is usually a mix of melancholy and fierce resolve.\n\n### 3. **Silent Wax Statue (NPC)**\n- **Appearance:** The statue is life-sized, depicting a serene-faced monk in meditation. It\u2019s crafted from pale, almost translucent wax, giving it an ethereal quality.\n- **Outfit:** The statue wears simple, flowing robes carved intricately into the wax, suggesting folds. The robes are modest and unadorned, typical of a monastic figure.\n- **Expression:** The face is calm, eyes closed in eternal meditation, adding to the mysterious and ancient vibe of the chamber it protects.\n\n### 4. **Crows\u2019 Nest Lookout (Ship NPC)**\n- **Appearance:** This involves the wrecked remains of what was once a proud ship. The crow\u2019s nest is perched precariously at the top of a splintered mast, frayed ropes hanging from its sides.\n- **Details:** The wood is dark and weathered, with sea-salt stains and the occasional clinging barnacle, testament to its origin. The lookout should look aged but still formidable, offering a panoramic if desolate view of the surrounding hill.\n\nThese sprites would require animation elements reflecting their personalities and roles within the game. Elara\u2019s animations would be lively and adaptive, showing her engaging with the environment and utilizing the artifacts she gathers. Morven\u2019s animation would be more subtle, with a focus on mystical gestures and an eerie, floating movement that enhances his spectral presence. The NPCs would have fewer animations but should still resonate with the ambiance of their settings.",
+    "tile_mapping": {
+      "Grass Tile": "a",
+      "Dirt Path Tile": "b",
+      "Stone Path Tile": "c",
+      "Mossy Stone Tile": "d",
+      "Forest Floor Tile": "e",
+      "Water Tile": "f",
+      "Sky Tile": "g",
+      "Ancient Wall Tile": "h",
+      "Cracked Stone Tile": "i",
+      "Wooden Plank Tile": "j",
+      "Ivy-Covered Wall Tile": "k",
+      "Weathered Roof Tile": "l",
+      "Window Tile": "m",
+      "Bookshelf Tile": "n",
+      "Floorboards Tile": "o",
+      "Stone Floor Tile": "p",
+      "Carpet Tile": "q",
+      "Reflective Surfaces Tile": "r",
+      "Statue Tile": "s",
+      "Lantern Light Tile": "t",
+      "Artifact Tile": "u",
+      "Treasure Chest Tile": "v",
+      "Foliage Tile": "w",
+      "Flowering Plant Tile": "x",
+      "Mystical Symbol Tile": "y",
+      "Hidden Door Tile": "z",
+      "Illusion Tile": "A",
+      "Trap Tile": "B",
+      "young scholar with a map": "@",
+      "tattered robe wearing guardian": "#"
+    },
+    "goals": "### Main Goal for the Protagonist\n- **Elara's Main Goal:** To locate and secure the legendary Everlight Chest at the center of the Whispering Maze, which contains ancient manuscripts and artifacts crucial for her research and personal quest for knowledge.\n\n### Small Goals to Achieve the Main Goal\n1. **Find the Map in the Keeper\u2019s Hall:**\n   - **Reward:** Unlocks the ability to navigate through the labyrinth more efficiently (+500 points).\n   - **Penalty:** Without the map, movement speed decreases due to uncertainty and frequent backtracking (-50 points).\n\n2. **Collect the Mirror of Lysa from the Chamber of Reflections:**\n   - **Reward:** Can reveal hidden paths and see through illusions (+400 points).\n   - **Penalty:** Increased chance of falling for illusions without the mirror (-100 points).\n\n3. **Obtain the Bell of Arias from the ship\u2019s crow\u2019s nest:**\n   - **Reward:** Silences the deceptive whispers in the maze, preventing confusion and reducing time lost (+300 points).\n   - **Penalty:** Without the bell, duration of confusion effects doubled (-75 points).\n\n4. **Fetch the Lantern filled with the Everburning Flame:**\n   - **Reward:** Lights darker parts of the maze and protects against mystical cold that can slow the character down (+300 points).\n   - **Penalty:** Lower visibility in dark areas increases the chance of encountering traps (-50 points).\n\n5. **Navigate the labyrinth to its center successfully:**\n   - **Reward:** Gain access to the final area where the Everlight Chest is located (+600 points).\n   - **Penalty:** Taking wrong turns or backtracking frequently reduces score (-25 points per wrong turn).\n\n6. **Defeat Morven using gathered items:**\n   - **Reward:** Gaining full access to the Everlight Chest and stopping Morven's interference (+700 points).\n   - **Penalty:** Each failed attempt to neutralize Morven costs time and health/resources (-150 points).\n\n7. **Open the Everlight Chest:**\n   - **Reward:** Achieve the ancient knowledge and artifacts, completing the main quest (+1000 points and game completion bonus).\n\n8. **Document the findings for future reference (optional scholarly activity):**\n   - **Reward:** Bonus points for detailed documentation and insights gained from artifacts (+200 points).\n   - **Penalty:** Without documentation, some story and knowledge aspects remain locked (-100 points).\n\n### Summary of Rewards and Penalties\nThis structure incentivizes thorough exploration, thoughtful decision-making, and strategic use of resources, making gameplay engaging and the narrative progression rewarding. With these goals, penalties, and rewards, players are encouraged to engage deeply with the game mechanics and the story, enhancing both the challenge and the enjoyment of the game.",
+    "objectives": {
+      "Find the Map in the Keeper\u2019s Hall": [
+        "n",
+        2,
+        33
+      ],
+      "Collect the Mirror of Lysa from the Chamber of Reflections": [
+        "r",
+        19,
+        16
+      ],
+      "Obtain the Bell of Arias from the ship\u2019s crow\u2019s nest": [
+        "j",
+        8,
+        31
+      ],
+      "Fetch the Lantern filled with the Everburning Flame": [
+        "t",
+        17,
+        13
+      ],
+      "Navigate the labyrinth to its center successfully": [
+        "v",
+        3,
+        33
+      ],
+      "Defeat Morven using gathered items": [
+        "#",
+        17,
+        23
+      ],
+      "Open the Everlight Chest": [
+        "v",
+        3,
+        33
+      ]
+    },
+    "important_tiles": "[\n    '@',  # Protagonist\n    '#',  # Antagonist\n    'h',  # Ancient Wall Tile\n    'c',  # Stone Path Tile\n    'n',  # Bookshelf Tile\n    'u',  # Artifact Tile\n    'v',  # Treasure Chest Tile\n    's',  # Statue Tile\n    't',  # Lantern Light Tile\n    'r',  # Reflective Surfaces Tile\n    'j',  # Wooden Plank Tile\n    'b',  # Dirt Path Tile\n    'A',  # Illusion Tile\n    'B',  # Trap Tile\n    'z'   # Hidden Door Tile\n]",
+    "walkable_tiles": "['a', 'b', 'c', 'd', 'e', 'f', 'j', 'o', 'p', 'q', 'w', 'x', '@']",
+    "interactive_object_tiles": "['n', 'r', 's', 't', 'u', 'v', 'y', 'z', 'A', 'B']",
+    "world_1st_layer": {
+      "world": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\nabbbbbbbbbaaaaaaaabbbbbbbbbbbbbbbbbbbbbba\naccccccccceeeeeecccccccccccecccccccccccca\nddddddddddddddddddddddddddddddddddddddddd\naeffffffffffffffffffeffffffffffffffffffea\najjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjja\nabbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaaaaaa\naccccccecccccccccccccceecccccbddddddddddb\nakkkkkkkhhhhhhkkkkkkkkkkkkkkkbppppppppppb\nahhhhhhhhhhhhhhhhhhhhhhhhhhhhbaaaaaaaaaaa\napppppppqqqqqqqqpppppppppppppbaaaaaaaaaaa\naqccccccqccccccccccccccccccccbcccccccccca\nawwewwwwewwwwwwwwwwwwwwwwwwwwwcddddddddda\naxxxxpxxxxxxxxxxxxxxxxxxxxxxxxxceeeeeeeefa\naeefffpefffffffffffffffffffffffffffffffffa\najjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjja\nabbaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\naccacccccccccccccccccccccccccccccccccccca\nadddhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh\naefffffffffffeefffffffffffeffffffffffffea\najjooooooooooojjjjjjjjjjjjjjjjjjjjjjjjjjja\nabbaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbb\nacccccccceccccccccccccccccccccajjjjjjjjjba\nadddbbdddhhhhhhdddddddddddddddapppppppppba\naeeeffeeeeffffffffffffffffffeaaccccccccca\najjjjjjjjjjjjjjjjjjjjjjjjjjjjjaaddddddddda\nabbbbbbbbbbbbbbbbbbbaaaaaaaaaaefffffffffea\nahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhaajjjjjjjja\nappppppppppppppppppppppppppppppppppppppppa\naqccccccccccccccccccccccccbcccccccccccccca\nawwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwa\naxxxxpxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "tiles": {
+        "Grass Tile": "a",
+        "Dirt Path Tile": "b",
+        "Stone Path Tile": "c",
+        "Mossy Stone Tile": "d",
+        "Forest Floor Tile": "e",
+        "Water Tile": "f",
+        "Ancient Wall Tile": "h",
+        "Wooden Plank Tile": "j",
+        "Ivy-Covered Wall Tile": "k",
+        "Floorboards Tile": "o",
+        "Stone Floor Tile": "p",
+        "Carpet Tile": "q",
+        "Foliage Tile": "w",
+        "Flowering Plant Tile": "x"
+      }
+    },
+    "world": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\nabbbbbbbbbaaaaaaaabbbbbbbbbbbbbbbbbbbbbba\naccccccccceeeeeeccccccccccceccccuucccccca\nddddddddddddddddddddddddddddddddvvddddddd\naeffffffffffffffffffeffffffffffffffffffea\najjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjja\nabbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaaaaaa\nacccccccecccccccccccccceeccccbAdddddddddb\nakkkkkkkhhhhhhkkkkkkkkkkkkkkkbppppppppppb\nahhhhhhhhhhhhhhhhhhhhhhhhhhhhbaaaaaaaaaaa\napppppppqqqqqqqqpppppppppppppba@aaaaaaaaa\naqccccccqccccccccccccccccccccbcccccccccca\nawwewwwwewwwwwwwwwwwwwwwwwwwwwcddddddddda\naxxxxpxxxxxxxxxxxxxxxxxxxxxxxxxceeeeeeeefa\naeefffpefffttffffffffffffffffffffffffffffa\najjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjja\nabbaaaaaabbbbbbbbbbbbhhbbbbbbbbbbbbbbbbbb\naccacccccccccccccc#ccccccecccccccccccccca\naBddbhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh\naefffffffffffeeeffrrrrrrrfffefffffffffffj\njjjojjjjjjjjjoooojjjjjjjjjjjjjjjjjjjjjjjj\nabbaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbb\nacccccccceccccccccccccccccccccajjjjjjjjjb\nadddbbdddhhhhhhdddddddddddddddapppppppppb\nayeeffsryyyffffffffffffffseaffaaccccccccc\njjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjaaddddddda\nabbbbbbbbbzhbbbbbaaaaaaaaaaeffffffffffffa\nahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhaaajjjjjjja\nappppppppppppppppppppppppppppppppppppppppa\naqcccccccccccczzzzzccccccccccccczcccccccc\nawwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwa\naxxxxpxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 100.0,
+      "Accuracy_of_important_tiles_placed": 93.33333333333333,
+      "Average_euclidean_distance": 483.95247700574896,
+      "agent_reward": -150,
+      "astar_path": 18
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 15,
+      "story_paragraphs": [
+        5,
+        6
+      ],
+      "total_objectives": 8
+    }
+  }
+}

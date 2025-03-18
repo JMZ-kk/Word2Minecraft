@@ -1,3 +1,4 @@
+import numpy as np
 from PIL import Image
 import pygame
 import sys
@@ -5,9 +6,9 @@ import json
 import imageio
 import os
 import argparse
+import openai
 
-
-from utils import map_to_list, find_most_similar_images
+from utils import map_to_list, find_most_similar_images,extract_list,extract_dict
 from solvers import find_characters
 from fixers import pad_rows_to_max_length
 
@@ -35,6 +36,7 @@ if args.game_path:
         data = json.load(file)
 else:
     game = "example_1"
+    #game='data_gen_Your_word2world_4'
     game_dir = os.path.join(f"word2world", "examples")
 
     with open(f'{game_dir}/{game}.json', 'r') as file:
@@ -43,27 +45,193 @@ else:
     # with open('word2world/examples/example_1.json', 'r') as file:
     #     data = json.load(file)
 
+def pick_building_tiles(tiles_1st_layer,tile_map):
+    cfg=Config()
+    pick_building_prompt = (f'Given a 2D map \n{tile_map}\n, and a dictionary {tiles_1st_layer} where each key is a tile\'s '
+                            f'description and each value is the notation for that tile in the map.'
+                            f'identify which tile notations in the map need to be scaled?'
+                            f'A tile is considered scaled if it should occupy more than one grid cell,'
+                            f' such as a \'house\' or similar object.'
+                            f'create a Python list of tiles, formatted as a list of tile codes (e.g., `[\'a\',\'b\']`)')
+    print(pick_building_prompt)
+    pick_building_discriptions = openai.ChatCompletion.create(model=cfg.model, messages=[
+        {"role": "user", "content": pick_building_prompt}
+    ], temperature=1)
+    building_tiles_list = extract_list(pick_building_discriptions['choices'][0]['message']['content'])
+    print(building_tiles_list)
+    print("\n")
+    return building_tiles_list, pick_building_discriptions,pick_building_prompt
+
+def extract_building_size(story,pick_building_discriptions, pick_building_prompt):
+    cfg=Config()
+    extract_size_prompt = ("Assign each tile a size from the options: small, medium,"
+                            " or big, formatted as a dict of tile codes (e.g., {'a':'big','b':'small'}),"
+                            " without any additional text or explanation.")
+    print(pick_building_prompt)
+    story_prompt = f"Write a {cfg.story_paragraphs[0]}-{cfg.story_paragraphs[1]} paragraph story which has characters including the protagonist trying to achieve something and the antagonist wanting to stop the protagonist. The story should describe an environment(s) where the story is set up."
+
+    size_discriptions = openai.ChatCompletion.create(model=cfg.model, messages=[
+        {"role": "user", "content": story_prompt},
+        {"role": "assistant", "content": story},
+        {"role": "user", "content": pick_building_prompt},
+        {"role": "assistant", "content": pick_building_discriptions['choices'][0]['message']['content']},
+        {"role": "user", "content": extract_size_prompt}
+    ],
+                                                              temperature=1)
+    size_dict = extract_dict(size_discriptions['choices'][0]['message']['content'])
+    print(size_dict)
+    print("\n")
+    return size_dict, size_discriptions,extract_size_prompt
+
+def modify_string(s, k, new_char):
+    s_list = list(s)
+    s_list[k] = new_char
+    return ''.join(s_list)
+
 round_number = "round_0"
 character_descriptions_dict = {}
 gen_story = data[round_number]["story"]
 grid_str = data[round_number]["world"]
+print(grid_str)
 grid_str = pad_rows_to_max_length(grid_str)
+print('---')
+print(grid_str)
 grid_world = map_to_list(grid_str)
 
 char_tile_mapping = data[round_number]["tile_mapping"]
 
 walkables = data[round_number]["walkable_tiles"]
+
+print(walkables)
+print('---')
+
 important_tiles = data[round_number]["important_tiles"]
+print('important')
+print(important_tiles)
+
 interactive_object_tiles = data[round_number]["interactive_object_tiles"]
 goals = data[round_number]["goals"]
+
+print('object_tiles')
+print(interactive_object_tiles)
+print('---')
+
 
 world_1st_layer = data[round_number]["world_1st_layer"]["world"]
 world_1st_layer = pad_rows_to_max_length(world_1st_layer)
 grid_1st_layer = map_to_list(world_1st_layer)
 
+tile_counts = {}
+for row in world_1st_layer:
+    for tile in row:
+        if tile not in tile_counts:
+            tile_counts[tile] = 1
+        else:
+            tile_counts[tile] += 1
+
+sorted_items = sorted(tile_counts.items(), key=lambda x: x[1], reverse=True)
+top_half = sorted_items[:len(tile_counts) // 2]
+top_half_keys = {k for k, v in top_half}
+
+check=np.zeros((len(grid_1st_layer), len(grid_1st_layer[0])))
+for i in range(len(grid_1st_layer)):
+    for j in range(len(grid_1st_layer[0])):
+        if f'''{grid_world[i][j]}''' not in walkables:
+            for m in [-1,0,1]:
+                for n in [-1,0,1]:
+                    try:
+                        if check[i+m][j+n]==0:
+                            check[i+m][j+n]=2
+                    except:
+                        pass
+            check[i][j]=1
+        elif f'''{grid_world[i][j]}''' in interactive_object_tiles:
+            for m in [-1,0,1]:
+                for n in [-1,0,1]:
+                    try:
+                        if check[i+m][j+n]==0:
+                            check[i+m][j+n]=2
+                    except:
+                        pass
+            check[i][j]=3
+
 tiles_1st_layer = data[round_number]["world_1st_layer"]["tiles"]
 
-tileset, _s = find_most_similar_images(char_tile_mapping, cfg.tile_data_dir)
+tileset, _s = find_most_similar_images(char_tile_mapping, cfg.tile_data_dir,interactive_object_tiles)
+
+print(tiles_1st_layer)
+story=data[round_number]['story']
+non_object_dict={k: v for k, v in tiles_1st_layer.items()
+                 if v not in interactive_object_tiles}
+building_tiles_list, pick_building_discriptions, pick_building_prompt=pick_building_tiles(non_object_dict,world_1st_layer)
+print(building_tiles_list)
+size_dict, size_discriptions,extract_size_prompt=extract_building_size(story,pick_building_discriptions, pick_building_prompt)
+print(size_dict)
+
+for i in range(len(grid_1st_layer)):
+    for j in range(len(grid_1st_layer[0])):
+        if grid_1st_layer[i][j] in building_tiles_list:
+            check[i][j]=4
+
+
+
+def tile_evaluation(check,m,n,tile_counts,grid_1st_layer,tar):
+    # 0-2: common tiles
+    # 3: object
+    # 4: house
+    # 5: new house
+    if check[m][n] == 3 or check[m][n] == 5:
+        return -10000
+    if check[m][n] == 4:
+        if grid_1st_layer[m][n] == tar:
+            return 200
+        else:
+            return -10000
+    return tile_counts[grid_1st_layer[m][n]]
+
+def block_evaluation(check,m,n,tile_counts,grid_1st_layer,tar,block_size):
+    sum=0
+    for i in range(block_size):
+        for j in range(block_size):
+            sum+=tile_evaluation(check,m+i,n+j,tile_counts,grid_1st_layer,tar)
+    return sum
+
+def update_map(check,biggest_m,biggest_n,block_size,tar):
+    for i in range(block_size):
+        for j in range(block_size):
+            check[biggest_m+i][biggest_n+j] = 5
+            grid_1st_layer[biggest_m + i] = modify_string(grid_1st_layer[biggest_m + i], biggest_n+j,
+                                                          tar)
+
+
+for i in range(len(grid_1st_layer)):
+    for j in range(len(grid_1st_layer[0])):
+        if grid_1st_layer[i][j] in building_tiles_list:
+            size=size_dict[grid_1st_layer[i][j]]
+            tar=grid_1st_layer[i][j]
+            if size=='medium':
+                block_size=2
+            elif size=='big':
+                block_size=3
+            else:
+                continue
+            biggest_m=-1
+            biggest_n=-1
+            biggest=0
+            for m in [i-1,i]:
+                for n in [j-1,j]:
+                    try:
+                        tsum=block_evaluation(check,m,n,tile_counts,grid_1st_layer,tar,block_size)
+                        if tsum>biggest:
+                            biggest=tsum
+                            biggest_n=n
+                            biggest_m=m
+                    except:
+                        pass
+            if biggest_m>-1:
+                update_map(check, biggest_m, biggest_n, block_size, tar)
+print(grid_1st_layer)
+
 
 
 WIDTH = CAMERA_WIDTH * TILE_SIZE
@@ -98,12 +266,14 @@ def pil_to_pygame(pil_image):
 tile_counts = {}
 for row in world_1st_layer:
     for tile in row:
-        if tile in walkables:
+        if f'''{tile}''' in walkables :
             if tile not in tile_counts:
                 tile_counts[tile] = 1
             else:
                 tile_counts[tile] += 1
 default_walkable_tile = max(tile_counts, key=tile_counts.get)
+print(default_walkable_tile)
+
 
 def draw_map():
     for y in range(CAMERA_HEIGHT):
@@ -215,7 +385,7 @@ def move_player(dx, dy):
         return False  # Don't move if out of bounds
 
     # Check for collisions
-    if grid_world[new_y][new_x] not in walkables:
+    if f'''{grid_world[new_y][new_x]}''' not in walkables:
         return False  # Can't move into walls
 
     player_pos[0] = new_x
@@ -255,7 +425,7 @@ def move_enemy():
         return
 
     # Check if the new position is out of bounds or collides with a wall
-    if new_x < 0 or new_x >= len(grid_world[0]) or grid_world[enemy_pos[1]][new_x] not in walkables:
+    if new_x < 0 or new_x >= len(grid_world[0]) or f'''{grid_world[enemy_pos[1]][new_x]}''' not in walkables:
         enemy_direction *= -1  # Change direction if it hits a boundary or a non-walkable tile
     else:
         enemy_pos[0] = new_x  # Update the enemy's position if it's a valid move
@@ -298,7 +468,7 @@ def move_bullets():
             print("Player hit!")
             running = False  # End the game if the player is hit
 
-        if bullet[0] < 0 or bullet[0] >= len(grid_world[0]) or bullet[1] < 0 or bullet[1] >= len(grid_world) or grid_world[bullet[1]][bullet[0]] not in walkables:
+        if bullet[0] < 0 or bullet[0] >= len(grid_world[0]) or bullet[1] < 0 or bullet[1] >= len(grid_world) or f'''{grid_world[bullet[1]][bullet[0]]}''' not in walkables:
             enemy_bullets.remove(bullet)
     for bullet in player_bullets[:]:
         bullet[0] += bullet[2]
@@ -307,7 +477,7 @@ def move_bullets():
             print("Enemy hit!")
             enemy_pos[0], enemy_pos[1] = -1, -1  
             player_bullets.remove(bullet)
-        if bullet[0] < 0 or bullet[0] >= len(grid_world[0]) or bullet[1] < 0 or bullet[1] >= len(grid_world) or grid_world[bullet[1]][bullet[0]] not in walkables:
+        if bullet[0] < 0 or bullet[0] >= len(grid_world[0]) or bullet[1] < 0 or bullet[1] >= len(grid_world) or f'''{grid_world[bullet[1]][bullet[0]]}''' not in walkables:
             player_bullets.remove(bullet)
 
 def hit_enemy():

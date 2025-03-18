@@ -1,0 +1,225 @@
+{
+  "round_0": {
+    "story": "In the heart of an ancient, sprawling forest, cloaked in thick mist and perpetual twilight, lay the Labyrinth of Myros. This enigmatic maze was said to hold the Casket of Shadows, a chest containing powers that could control reality itself. Many had entered its confines, but none had returned. Yet Aria, a determined young wanderer with a keen mind and a brave heart, dared to challenge its depths. Her ultimate goal was to retrieve the chest and use its powers to heal her dying village.\n\nThe Labyrinth was no mere puzzle of paths and walls but a living, breathing entity, guarded by the cunning and malevolent Sphinx, Seraphine. She was a creature of legend, whose life was bound to the labyrinth; her survival depended on keeping the Casket of Shadows hidden and unclaimed. Seraphine powerfully manipulated the maze, shifting its walls and paths to confuse and entrap intruders. \n\nAria's first objective was to find an ancient map hidden within a tree trunk near the entrance of the labyrinth, rumored to guide the bearer through the initial deceiving traps. Once inside, her next goal was to find the mythical Lantern of Eld, known to unmask illusions and reveal the true path forward. She faced waves of minor spectral beings, remnants of those who failed before her. These encounters tested her resolve and honed her survival instincts, as each wave grew increasingly vicious.\n\nThe environment of the maze was relentless; carnivorous plants, hidden pits, and sudden, steep cliffs were frequent. As she navigated these dangers, Aria\u2019s third objective was to gather three Silver Leaves, a necessary offering to the Oracle of the Maze, a neutral spirit who would grant her the knowledge to reach the heart of the labyrinth. The Oracle, after taking her offering, told Aria of a hidden lever disguised as a vine-covered statue, which when activated, would open the way to the innermost circle.\n\nWith the Oracle\u2019s guidance, Aria finally reached the heart of the labyrinth where the Casket of Shadows was fabled to rest. But Seraphine confronted her, determined to end Aria\u2019s quest. The final objectives were clear: Aria needed to outsmart Seraphine by using the very walls of the labyrinth against her. Skillfully leading the Sphinx into a newly revealed dead-end created by the shifting labyrinth, Aria trapped her. \n\nWith Seraphine temporarily out of play, Aria hurried to the center where the Casket was hidden. There, under a beam of luminescent moonlight breaking through the canopy, stood the Casket of Shadows, just as the legends described. With a trembling hand, Aria opened the chest, her heart full of hope for her village. Inside, instead of formidable powers, lay a simple crystal vial containing a single drop of pure water\u2014the essence of life itself, capable of healing any blight or disease. Understanding the true power was life, not control over it, Aria carried the vial back through the maze, which seemed to bow to her newfound wisdom, the walls no longer shifting, as if respecting her victory.\n\nSeraphine, defeated and acknowledging Aria\u2019s pure intent, ceased her pursuit. As Aria exited the labyrinth, the natural world around her seemed to breathe a sigh of relief, the balance restored with the Sphinx at peace. Returning to her village, Aria used the water to heal her people, becoming a beacon of hope and bravery. The Labyrinth of Myros stood silent, its heart conquered by a soul true and kind, awaiting the next chapter, should the balance of power ever tip again.",
+    "character_information": "Certainly! Below is the detailed description of each character in the story, tailored for the creation of game sprites:\n\n### Aria (Protagonist)\n**Appearance:**\n- **Age:** Early 20s\n- **Build:** Slender and athletic\n- **Height:** Medium\n- **Hair:** Long, flowing silver hair that glimmers with a hint of blue. Tied in a low, practical ponytail.\n- **Outfit:** A leaf green tunic with gold trim, leather armor on her chest and shoulders, brown leather boots. She wears gloves and a small, round hat with a feather.\n- **Accessories:** Carries a backpack loaded with essential gear and a long wooden staff capped with a glowing crystal.\n- **Animation Traits:** Agile and swift movements. Her dodges show a trace of light to emphasize speed.\n\n### Seraphine (Antagonist)\n**Appearance:**\n- **Age:** Ageless\n- **Build:** Tall and thin, with an otherworldly grace\n- **Height:** Tall\n- **Hair:** Black and wavy, cascading down her back, partially obscuring her face.\n- **Outfit:** A dark, flowing robe that seems to merge with the shadows. The robe has intricate silver lines that form mysterious symbols.\n- **Accessories:** Dark crown-like tiara on her head with spiking forms that resemble thorns. Eyes glow red when agitated.\n- **Animation Traits:** Smooth, floating movements. When manipulating the labyrinth, her hands perform elegant, swirling motions.\n\n### Minor Spectral Beings (Enemies)\n**Appearance:**\n- **Build:** Ethereal, ghostly figures with varying sizes, mostly small.\n- **Color Palette:** Pale blue and white with transparency effects to give a ghost-like appearance.\n- **Features:** Vaguely human shapes, some remnants of clothes, distorted faces.\n- **Animation Traits:** Flickering as if unstable. Moves in jerky, sudden motions to startle the player.\n\n### The Oracle of the Maze (Neutral NPC)\n**Appearance:**\n- **Age:** Appears elderly\n- **Build:** Frail and stooped\n- **Height:** Short\n- **Features:** A long, wispy white beard. Eyes are closed, as if blind.\n- **Outfit:** Wears a robe of deep purple with stars and moons patterned on it.\n- **Accessories:** Holds a tall, twisted wooden staff topped with a glowing orb.\n- **Animation Traits:** Moves slowly and speaks with gestures of profound wisdom\u2014a shimmer appears around him when giving important advice.\n\nThese character designs focus on distinct visual elements to make each character immediately recognizable and expressive in a 2D game setting. Their costumes and physical traits mirror their roles and personalities as described in the story. This will help players quickly identify and relate to each character during gameplay.",
+    "tile_mapping": {
+      "Grass Tile": "A",
+      "Earth Path Tile": "B",
+      "Stone Wall Tile": "C",
+      "Stone Floor Tile": "D",
+      "Vine-Covered Wall Tile": "E",
+      "Thorn Bush Tile": "F",
+      "Pit Trap Tile": "G",
+      "Water Tile": "H",
+      "Bridge Tile": "I",
+      "Mossy Stone Tile": "J",
+      "Cracked Stone Wall Tile": "K",
+      "Tree Tile": "L",
+      "Bush Tile": "M",
+      "Rock Tile": "N",
+      "Fallen Leaves Tile": "O",
+      "Flower Patch Tile": "P",
+      "Hidden Door Tile (Stone Wall Variant)": "Q",
+      "Statue Tile": "R",
+      "Chest Tile": "S",
+      "Lantern Tile": "T",
+      "Crystal Vial Tile": "U",
+      "Carnivorous Plant Tile": "V",
+      "Spiked Floor Tile": "W",
+      "Oracle Zone Tile": "X",
+      "Glowing Moonlight Tile": "Y",
+      "Flame Torch Tile": "Z",
+      "Water Ripple Tile": "a",
+      "Magic Symbol Floor Tile": "b",
+      "keen-minded young wanderer with a brave heart": "@",
+      "cunning and malevolent Sphinx": "#"
+    },
+    "goals": "The main goal for the protagonist, Aria, is to retrieve the Casket of Shadows from the Labyrinth of Myros to heal her dying village using its powerful contents.\n\n### Small Goals to Achieve the Main Goal:\n1. **Find the Ancient Map**: This map guides Aria through the initial deceptive traps of the labyrinth.\n2. **Acquire the Lantern of Eld**: This lantern reveals true paths and dispels illusions within the maze.\n3. **Survive Waves of Spectral Beings**: Aria must endure attacks from ghostly remnants to progress.\n4. **Gather Three Silver Leaves**: Essential items to be offered to the Oracle for crucial information.\n5. **Find and Activate the Hidden Lever**: This lever disguised as a vine-covered statue opens the way to the inner maze.\n6. **Navigate to the Labyrinth\u2019s Heart**: Reaching the center where the Casket of Shadows is kept.\n7. **Outsmart the Antagonist, Seraphine**: Aria must use her wit to trap or elude Seraphine to gain access to the Casket.\n8. **Open the Casket of Shadows**: Successfully retrieving the contents inside.\n\n### Rewards and Penalties\nEach of these small goals has corresponding rewards for achievements and penalties for failures, directly impacting the gameplay by influencing the final score or Aria's health/strength metrics.\n\n#### Rewards:\n- **Finding the Ancient Map**: +150 points. Aria gains clarity for initial paths.\n- **Acquiring the Lantern of Eld**: +200 points. Paths and traps become easier to navigate.\n- **Surviving Waves of Spectral Beings**: +100 points per wave. Aria gains experience and resilience.\n- **Gathering Three Silver Leaves**: +300 points. Gains access to Oracle.\n- **Finding and Activating the Hidden Lever**: +250 points. Progress to the next level of maze.\n- **Navigating to the Labyrinth\u2019s Heart**: +400 points. One step closer to final goal.\n- **Outsmarting Seraphine**: +500 points. Eliminates major threat and accesses the Casket.\n- **Opening the Casket of Shadows**: +1000 points. Main mission accomplished, leading to end-game rewards.\n\n#### Penalties:\n- **Failure to Find the Ancient Map**: -50 points. Higher chance of encountering early traps.\n- **Failure to Acquire the Lantern of Eld**: -100 points. Increased difficulty in navigation.\n- **Failure in Surviving Waves of Spectral Beings**: -50 points per failed wave. Reduction in health.\n- **Failure to Gather Three Silver Leaves**: -150 points. Cannot progress to meet the Oracle.\n- **Failure to Find/Activate Hidden Lever**: -100 points. Stuck in current level of the maze.\n- **Failure to Navigate to the Labyrinth\u2019s Heart**: -200 points. Wasted resources and time.\n- **Failure to Outsmart Seraphine**: -300 points. Increased conflict and potential game over.\n- **Failure to Open the Casket of Shadows**: -500 points. Mission remains incomplete, impacting village survival.\n\nThese reward and penalty systems are designed to enhance gameplay by emphasizing strategic decision-making and skillful navigation of the challenges presented in the game, directly reflecting the consequences of the player's actions in achieving the overarching goal.",
+    "objectives": {
+      "Find the Ancient Map": [
+        "L",
+        4,
+        21
+      ],
+      "Acquire the Lantern of Eld": [
+        "T",
+        7,
+        47
+      ],
+      "Survive Waves of Spectral Beings": [
+        "B",
+        4,
+        55
+      ],
+      "Gather Three Silver Leaves": [
+        "O",
+        4,
+        60
+      ],
+      "Find and Activate the Hidden Lever": [
+        "R",
+        9,
+        42
+      ],
+      "Navigate to the Labyrinth\u2019s Heart": [
+        "Y",
+        8,
+        64
+      ],
+      "Outsmart the Antagonist, Seraphine": [
+        "#",
+        4,
+        22
+      ],
+      "Open the Casket of Shadows": [
+        "S",
+        8,
+        59
+      ]
+    },
+    "important_tiles": "[\n    '@',  # Protagonist\n    '#',  # Antagonist\n    'S',  # Chest Tile\n    'T',  # Lantern Tile\n    'U',  # Crystal Vial Tile\n    'X',  # Oracle Zone Tile\n    'Q',  # Hidden Door Tile (Stone Wall Variant)\n    'R',  # Statue Tile\n    'E',  # Vine-Covered Wall Tile\n    'F',  # Thorn Bush Tile\n    'V',  # Carnivorous Plant Tile\n    'W',  # Spiked Floor Tile\n    'Y',  # Glowing Moonlight Tile\n    'Z',  # Flame Torch Tile\n    'G'   # Pit Trap Tile\n]",
+    "walkable_tiles": "[\n    'A',  # Grass Tile\n    'B',  # Earth Path Tile\n    'D',  # Stone Floor Tile\n    'H',  # Water Tile\n    'I',  # Bridge Tile\n    'J',  # Mossy Stone Tile\n    'L',  # Tree Tile\n    'M',  # Bush Tile\n    'N',  # Rock Tile\n    'O',  # Fallen Leaves Tile\n    'P',  # Flower Patch Tile\n    'Q',  # Hidden Door Tile (Stone Wall Variant)\n    'R',  # Statue Tile\n    'S',  # Chest Tile\n    'T',  # Lantern Tile\n    'U',  # Crystal Vial Tile\n    'X',  # Oracle Zone Tile\n    'Y',  # Glowing Moonlight Tile\n    'Z',  # Flame Torch Tile\n    'a',  # Water Ripple Tile\n    'b',  # Magic Symbol Floor Tile\n]",
+    "building_tiles": "['Stone Wall Tile', 'Stone Floor Tile', 'Vine-Covered Wall Tile']",
+    "interactive_object_tiles": "['Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'b']",
+    "world_1st_layer": {
+      "world": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC\nCBCBCBCBCBCJBCJBCJBCJBCJBCBCJBBCJBCBCBCBCBBBBBCBCJBCJBCJBCJBCJBBCJBCJBCBCJBCBCBCBCJBCBCBCBC\nCDCCCCCCCCDDCCCDCDCCCCCCCCCCCCCCCCCCCDCDCCCCCCCCCCCCCCCCCDCCCCCCCCCCCDCDCCDCDCDCCCCCCCDCDCDC\nCDJDDDJDDDDDJJDJJDDDDJDDDDDDDDDJDJJJJDDJDDDDDDDDDJDDDDDDDDJDJJDDJDDDDDJDJDDJDDJDDDJDJDDJDDD\nCBBCBBBCBBBCBBBBBCBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCBBBCBBBBCCCCBBBBCCCCBBBBBBCCCCCC\nCBCBCBCJBCJBJBCJBCJBJBCJBCJBCJBBCJBCJBJBCJBCBCBCJBCJBCBCBCBCBCJBCJBCJBCBJBCJBCJBJBCJBCJBCJBB\nCDCCCCDDDDDDCDDDDDCCCCDCCCCCDCDDDDDDDDCDDCDDDDDDCCCCCDCCDCDCDCDDDCDCCCDCDCDDDCDDDCDCDCDCDDDC\nCDJDDJDDDDJDDJDJDDJDDDDDDDDDDJDDDDJJDJDDDJDJDDJDDJDDDDJDDJDJJJDDJJDJDJJDJDDDDDDJDJDDJDDDJDJ\nCBBCBCBBBBCBBCCCCBBCBBCBBBBBBBBBBBBBBCBBBBBBCCCCBBBCBBCBCCCCBBCBBBBBBCBBCBBBBBBCBBBBCBBBC\nCBCBCJBCBCJBCJBCBCBCJBCBCJBCJBJBCBCBCBCJBJBCJBCBJBCBJBCBCBCJBCBCJBCJBCBCJBCBCJBCBCJBCBCBCJBC\nCDCCCCDCDCDCDCCCCDCDDCCCCDCDCDCDCDCDCCCCCDDCCCCCCDCDDCDDCDCCCCDDCCCCCCDCDDDCDDCCCCDCDDDDDCCC\nCDJDDJDDDJDDJDJDDDJDDDDDJDDJDDDDDDJDDJDDJDJDDDDDJDJJDDDJDDDDJDDDDDDDDDDDJDJDDDJDDDDDDJDDDJDD\nCBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\nCBCJBCJBCJBCJBCJBCJBCJBCJBCBCJBCJBCJBCJBCJBCBCBCJBCBCJBCJBCJBCJBCJBCBCJBCJBCJBCJBCJBCJBCJBC\nCDCCCCCCDCDDCDDCDCDCCCCDCCCCCDDDCDDCCCCCCCDCDCCCCCCCCCDDDCDCDDCCDDCDDDCDCCCCDCDCCCCDCDCDCCC\nCDJDJDDJDJDDDDJDDJDJDDDDJDDJDDJJDJDJDDDDJJDJDDJDDDDJDDDDJDDJDJDDDDJJDDDDDJDDJDJDDJDJDDDDJDD\nCBBBCBCBBBBCBBBBCBBBBCBBCBBCBBCBBCBBCBBBCBCBBBBBBCBCBBBBBBCBBBBCBBBBBBCBBBBBBCBBCBCBBBBBBCB\nCBCBCJBJBCBCBCBCJBCJBBJBBJBCJBBJCJBCBJBCBJBCBJBCBCJBCBJBCJBCJBCBCBCJBJBCJBCJBBJBBCBCJBCJBCBC\nCDCCCCDCDCDCDCDCDCDDCDCDDDCDCDDDCDDDDCDDCDDCDDDCDCDDCDCDDCDCDCDCCCCDDDCDCCDCDCDDCCCCDDCDCCCDC\nCDJDDJJDDDDJDDJDDJDDDDJDDDDDDDDDJDDJDDJDDJDDDJDDDDDJDDDDDDJDDDJDJDDJDDJDDDDDJDDDJDJJDJDDJDJ\nCBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+      "tiles": {
+        "Earth Path Tile": "B",
+        "Stone Wall Tile": "C",
+        "Stone Floor Tile": "D",
+        "Mossy Stone Tile": "J"
+      }
+    },
+    "world": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC\nCBCBCBCBCBCJBCJBCJBCJBCJBCBCJBBCJBCBCBCBCBBBBBCBCJBCJBCJBCJBCJBBCJBCJBCBCJBCBCBCBCJBCBCBCBC\nCDCCCCCCCCDDCCCDCDCCCCCCCCCCCCCCCCCCCDCDCCCCCCCCCCCCCCCCCDCCCCCCCCCCCDCDCCDCDCDCCCCCCCDCDCDC\nCDJDDDJDDDDDJJDJJDDDDJDDDDDDDDDJDJJJJDDJDDDDDDDDDJDDDDDDDDJDJJDDJDDDDDJDJDDJDDJDDDJDJDDJDDD\nCBBCBBBCBBBCBBBBB#@BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCBBBCBBBSBCCCCBBBBCCCCBBBBBBCCCCCC\nCBCBCBCJBCJBJBCJBCJBJBCJBCJBCJBBCJBCJBJBCJBCBCBCJBCJBCBCBCBCBCJBCJBCJBCBJBCJBCJBJBCJBCJBCJBB\nCDCCCCDDDDDDCDDDDDCCCCDCCCCCDCDDDDDDDDCDDCDDDDDDCCCCCDCCDCDCDCDDDCDCCCDCDCDDDCDDDCDCDCDCDDDC\nCDJDDJDDDDJDDJDJDDJDDDDDDDDDDJDDDDJJDJDDDJDJDDJDDJDDDDJDDJDJTJDDJJDJDJJDJDDDDDDJDJDDJDDDJDJ\nCBBCBCBBBBCBBCCCCBBCBBCBBBBBBBBBBBBBBCBBBBBBCCCCBBBCBBCBCCCCBUBBBBCBBCBBBBBBCBBBBCBBBC\nCBCBCJBCBCJBCJBCBCBCJBCBCJBCJBJBCBCBCBCJBJBCJBCBJBCBJBCBCBCJBCBCJQCRJBCBCJBCBCJBCBCJBCBCBCJBC\nCDCCCCDCDCDCDCCCCCDDCCCCDCDCDCDCDCDCCCCCDDCCCCCCDCDDCDDCDCCCCDDCCCCCCDCDDDCDDCCCCDCDDDDDCCC\nCDJDDJDDDJDDJDJDDDJDDDDDJDDJDDDDDDJDDJDDJDJDDDDDJDJJDDDJDDDDJDDDDDDDDDDDJDJDDDJDDDDDDJDDDJDD\nCBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\nCBCJBCJBCJBCJBCJBCJBCJBCJBCBCJBCJBCJBCJBCJBCBCBCJBCBCJBCJBCJBCJBCJBCBCJBCJBCJBCJBCJBCJBCJBC\nCDCCCCCCDCDDCDDCDCDCCCCDCCCCCDDDCDDCCCCCCCDCDCCCCCCCCCDDDCDCDDCCDDCDDDCDCCCCDCDCCCCDCDCDCCC\nCDJDJDDJDJDDDDJDDJDJDDDDJDDJDDJJDJDJDDDDJJDJDDJDDDDJDDDDJDDJDJDDDDJJDDDDDJDDJDJDDJDJDDDDJDD\nCBBBCBCBBBBCBBBBCBBBBCBBCBBCBBCBBCBBCBBBCBCBBBBBBCBCBBBBBBCBBBBCBBBBBBCBBBBBBCBBCBCBBBBBBCB\nCBCBCJBJBCBCBCBCJBCJBBJBBJBCJBBJCJBCBJBCBJBCBJBCBCJBCBJBCJBCJBCBCBCJBJBCJBCJBBJBBCBCJBCJBCBC\nCDCCCCDCDCDCDCDCDCDDCDCDDDCDCDDDCDDDDCDDCDDCDDDCDCDDCDCDDCDCDCDCCCCDDDCDCCDCDCDDCCCCDDCDCCCDC\nCDJDDJJDDDDJDDJDDJDDDDJDDDDDDDDDJDDJDDJDDJDDDJDDDDDJDDDDDDJDDDJDJDDJDDJDDDDDJDDDJDJJDJDDJDJ\nCBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 100.0,
+      "Accuracy_of_important_tiles_placed": 46.666666666666664,
+      "Average_euclidean_distance": 0,
+      "agent_reward": -450,
+      "astar_path": 89
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 15,
+      "story_paragraphs": [
+        6,
+        7
+      ],
+      "total_objectives": 8
+    }
+  },
+  "round_1": {
+    "story": "In the heart of an ancient, sprawling forest, cloaked in thick mist and perpetual twilight, lay the Labyrinth of Myros. This enigmatic maze was said to hold the Casket of Shadows, a chest containing powers that could control reality itself. Many had entered its confines, but none had returned. Yet Aria, a determined young wanderer with a keen mind and a brave heart, dared to challenge its depths. Her ultimate goal was to retrieve the chest and use its powers to heal her dying village.\n\nThe Labyrinth was no mere puzzle of paths and walls but a living, breathing entity, guarded by the cunning and malevolent Sphinx, Seraphine. She was a creature of legend, whose life was bound to the labyrinth; her survival depended on keeping the Casket of Shadows hidden and unclaimed. Seraphine powerfully manipulated the maze, shifting its walls and paths to confuse and entrap intruders. \n\nAria's first objective was to find an ancient map hidden within a tree trunk near the entrance of the labyrinth, rumored to guide the bearer through the initial deceiving traps. Once inside, her next goal was to find the mythical Lantern of Eld, known to unmask illusions and reveal the true path forward. She faced waves of minor spectral beings, remnants of those who failed before her. These encounters tested her resolve and honed her survival instincts, as each wave grew increasingly vicious.\n\nThe environment of the maze was relentless; carnivorous plants, hidden pits, and sudden, steep cliffs were frequent. As she navigated these dangers, Aria\u2019s third objective was to gather three Silver Leaves, a necessary offering to the Oracle of the Maze, a neutral spirit who would grant her the knowledge to reach the heart of the labyrinth. The Oracle, after taking her offering, told Aria of a hidden lever disguised as a vine-covered statue, which when activated, would open the way to the innermost circle.\n\nWith the Oracle\u2019s guidance, Aria finally reached the heart of the labyrinth where the Casket of Shadows was fabled to rest. But Seraphine confronted her, determined to end Aria\u2019s quest. The final objectives were clear: Aria needed to outsmart Seraphine by using the very walls of the labyrinth against her. Skillfully leading the Sphinx into a newly revealed dead-end created by the shifting labyrinth, Aria trapped her. \n\nWith Seraphine temporarily out of play, Aria hurried to the center where the Casket was hidden. There, under a beam of luminescent moonlight breaking through the canopy, stood the Casket of Shadows, just as the legends described. With a trembling hand, Aria opened the chest, her heart full of hope for her village. Inside, instead of formidable powers, lay a simple crystal vial containing a single drop of pure water\u2014the essence of life itself, capable of healing any blight or disease. Understanding the true power was life, not control over it, Aria carried the vial back through the maze, which seemed to bow to her newfound wisdom, the walls no longer shifting, as if respecting her victory.\n\nSeraphine, defeated and acknowledging Aria\u2019s pure intent, ceased her pursuit. As Aria exited the labyrinth, the natural world around her seemed to breathe a sigh of relief, the balance restored with the Sphinx at peace. Returning to her village, Aria used the water to heal her people, becoming a beacon of hope and bravery. The Labyrinth of Myros stood silent, its heart conquered by a soul true and kind, awaiting the next chapter, should the balance of power ever tip again.",
+    "character_information": "Certainly! Below is the detailed description of each character in the story, tailored for the creation of game sprites:\n\n### Aria (Protagonist)\n**Appearance:**\n- **Age:** Early 20s\n- **Build:** Slender and athletic\n- **Height:** Medium\n- **Hair:** Long, flowing silver hair that glimmers with a hint of blue. Tied in a low, practical ponytail.\n- **Outfit:** A leaf green tunic with gold trim, leather armor on her chest and shoulders, brown leather boots. She wears gloves and a small, round hat with a feather.\n- **Accessories:** Carries a backpack loaded with essential gear and a long wooden staff capped with a glowing crystal.\n- **Animation Traits:** Agile and swift movements. Her dodges show a trace of light to emphasize speed.\n\n### Seraphine (Antagonist)\n**Appearance:**\n- **Age:** Ageless\n- **Build:** Tall and thin, with an otherworldly grace\n- **Height:** Tall\n- **Hair:** Black and wavy, cascading down her back, partially obscuring her face.\n- **Outfit:** A dark, flowing robe that seems to merge with the shadows. The robe has intricate silver lines that form mysterious symbols.\n- **Accessories:** Dark crown-like tiara on her head with spiking forms that resemble thorns. Eyes glow red when agitated.\n- **Animation Traits:** Smooth, floating movements. When manipulating the labyrinth, her hands perform elegant, swirling motions.\n\n### Minor Spectral Beings (Enemies)\n**Appearance:**\n- **Build:** Ethereal, ghostly figures with varying sizes, mostly small.\n- **Color Palette:** Pale blue and white with transparency effects to give a ghost-like appearance.\n- **Features:** Vaguely human shapes, some remnants of clothes, distorted faces.\n- **Animation Traits:** Flickering as if unstable. Moves in jerky, sudden motions to startle the player.\n\n### The Oracle of the Maze (Neutral NPC)\n**Appearance:**\n- **Age:** Appears elderly\n- **Build:** Frail and stooped\n- **Height:** Short\n- **Features:** A long, wispy white beard. Eyes are closed, as if blind.\n- **Outfit:** Wears a robe of deep purple with stars and moons patterned on it.\n- **Accessories:** Holds a tall, twisted wooden staff topped with a glowing orb.\n- **Animation Traits:** Moves slowly and speaks with gestures of profound wisdom\u2014a shimmer appears around him when giving important advice.\n\nThese character designs focus on distinct visual elements to make each character immediately recognizable and expressive in a 2D game setting. Their costumes and physical traits mirror their roles and personalities as described in the story. This will help players quickly identify and relate to each character during gameplay.",
+    "tile_mapping": {
+      "Grass Tile": "A",
+      "Earth Path Tile": "B",
+      "Stone Wall Tile": "C",
+      "Stone Floor Tile": "D",
+      "Vine-Covered Wall Tile": "E",
+      "Thorn Bush Tile": "F",
+      "Pit Trap Tile": "G",
+      "Water Tile": "H",
+      "Bridge Tile": "I",
+      "Mossy Stone Tile": "J",
+      "Cracked Stone Wall Tile": "K",
+      "Tree Tile": "L",
+      "Bush Tile": "M",
+      "Rock Tile": "N",
+      "Fallen Leaves Tile": "O",
+      "Flower Patch Tile": "P",
+      "Hidden Door Tile (Stone Wall Variant)": "Q",
+      "Statue Tile": "R",
+      "Chest Tile": "S",
+      "Lantern Tile": "T",
+      "Crystal Vial Tile": "U",
+      "Carnivorous Plant Tile": "V",
+      "Spiked Floor Tile": "W",
+      "Oracle Zone Tile": "X",
+      "Glowing Moonlight Tile": "Y",
+      "Flame Torch Tile": "Z",
+      "Water Ripple Tile": "a",
+      "Magic Symbol Floor Tile": "b",
+      "keen-minded young wanderer with a brave heart": "@",
+      "cunning and malevolent Sphinx": "#"
+    },
+    "goals": "The main goal for the protagonist, Aria, is to retrieve the Casket of Shadows from the Labyrinth of Myros to heal her dying village using its powerful contents.\n\n### Small Goals to Achieve the Main Goal:\n1. **Find the Ancient Map**: This map guides Aria through the initial deceptive traps of the labyrinth.\n2. **Acquire the Lantern of Eld**: This lantern reveals true paths and dispels illusions within the maze.\n3. **Survive Waves of Spectral Beings**: Aria must endure attacks from ghostly remnants to progress.\n4. **Gather Three Silver Leaves**: Essential items to be offered to the Oracle for crucial information.\n5. **Find and Activate the Hidden Lever**: This lever disguised as a vine-covered statue opens the way to the inner maze.\n6. **Navigate to the Labyrinth\u2019s Heart**: Reaching the center where the Casket of Shadows is kept.\n7. **Outsmart the Antagonist, Seraphine**: Aria must use her wit to trap or elude Seraphine to gain access to the Casket.\n8. **Open the Casket of Shadows**: Successfully retrieving the contents inside.\n\n### Rewards and Penalties\nEach of these small goals has corresponding rewards for achievements and penalties for failures, directly impacting the gameplay by influencing the final score or Aria's health/strength metrics.\n\n#### Rewards:\n- **Finding the Ancient Map**: +150 points. Aria gains clarity for initial paths.\n- **Acquiring the Lantern of Eld**: +200 points. Paths and traps become easier to navigate.\n- **Surviving Waves of Spectral Beings**: +100 points per wave. Aria gains experience and resilience.\n- **Gathering Three Silver Leaves**: +300 points. Gains access to Oracle.\n- **Finding and Activating the Hidden Lever**: +250 points. Progress to the next level of maze.\n- **Navigating to the Labyrinth\u2019s Heart**: +400 points. One step closer to final goal.\n- **Outsmarting Seraphine**: +500 points. Eliminates major threat and accesses the Casket.\n- **Opening the Casket of Shadows**: +1000 points. Main mission accomplished, leading to end-game rewards.\n\n#### Penalties:\n- **Failure to Find the Ancient Map**: -50 points. Higher chance of encountering early traps.\n- **Failure to Acquire the Lantern of Eld**: -100 points. Increased difficulty in navigation.\n- **Failure in Surviving Waves of Spectral Beings**: -50 points per failed wave. Reduction in health.\n- **Failure to Gather Three Silver Leaves**: -150 points. Cannot progress to meet the Oracle.\n- **Failure to Find/Activate Hidden Lever**: -100 points. Stuck in current level of the maze.\n- **Failure to Navigate to the Labyrinth\u2019s Heart**: -200 points. Wasted resources and time.\n- **Failure to Outsmart Seraphine**: -300 points. Increased conflict and potential game over.\n- **Failure to Open the Casket of Shadows**: -500 points. Mission remains incomplete, impacting village survival.\n\nThese reward and penalty systems are designed to enhance gameplay by emphasizing strategic decision-making and skillful navigation of the challenges presented in the game, directly reflecting the consequences of the player's actions in achieving the overarching goal.",
+    "objectives": {
+      "Find the Ancient Map": [
+        "L",
+        5,
+        1
+      ],
+      "Acquire the Lantern of Eld": [
+        "T",
+        5,
+        75
+      ],
+      "Survive Waves of Spectral Beings": [
+        "D",
+        5,
+        74
+      ],
+      "Gather Three Silver Leaves": [
+        "O",
+        5,
+        2
+      ],
+      "Find and Activate the Hidden Lever": [
+        "R",
+        15,
+        73
+      ],
+      "Navigate to the Labyrinth\u2019s Heart": [
+        "X",
+        15,
+        74
+      ],
+      "Outsmart the Antagonist, Seraphine": [
+        "#",
+        5,
+        65
+      ],
+      "Open the Casket of Shadows": [
+        "S",
+        15,
+        75
+      ]
+    },
+    "important_tiles": "[\n    '@',  # Protagonist\n    '#',  # Antagonist\n    'S',  # Chest Tile\n    'T',  # Lantern Tile\n    'U',  # Crystal Vial Tile\n    'X',  # Oracle Zone Tile\n    'Q',  # Hidden Door Tile (Stone Wall Variant)\n    'R',  # Statue Tile\n    'E',  # Vine-Covered Wall Tile\n    'F',  # Thorn Bush Tile\n    'V',  # Carnivorous Plant Tile\n    'W',  # Spiked Floor Tile\n    'Y',  # Glowing Moonlight Tile\n    'Z',  # Flame Torch Tile\n    'G'   # Pit Trap Tile\n]",
+    "walkable_tiles": "[\n    'A',  # Grass Tile\n    'B',  # Earth Path Tile\n    'D',  # Stone Floor Tile\n    'H',  # Water Tile\n    'I',  # Bridge Tile\n    'J',  # Mossy Stone Tile\n    'L',  # Tree Tile\n    'M',  # Bush Tile\n    'N',  # Rock Tile\n    'O',  # Fallen Leaves Tile\n    'P',  # Flower Patch Tile\n    'Q',  # Hidden Door Tile (Stone Wall Variant)\n    'R',  # Statue Tile\n    'S',  # Chest Tile\n    'T',  # Lantern Tile\n    'U',  # Crystal Vial Tile\n    'X',  # Oracle Zone Tile\n    'Y',  # Glowing Moonlight Tile\n    'Z',  # Flame Torch Tile\n    'a',  # Water Ripple Tile\n    'b',  # Magic Symbol Floor Tile\n]",
+    "building_tiles": "['Stone Wall Tile', 'Stone Floor Tile', 'Vine-Covered Wall Tile']",
+    "interactive_object_tiles": "['Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'b']",
+    "world_1st_layer": {
+      "world": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC\nCBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBC\nCDJDJDDJDJDDJDDJDJDDJDJDDJDJDJDDJDDJDJDDJDJDDJDJDJDDJDDJDJDDJDJDDJDJDJDDJDJDDJDJDC\nCBNJNPNJNBNJNPNJNBNJNPNJNBNJNPNJNPNJNPNJNPNJNPNJNJNJNJNPNJNPNJNJNJNJNPNJNBJNBNJNBC\nCDJDJDDJDJDDJDDJDDDJDJDDJDDJDDJDJDDJDJDDJDJDJDDJDJDDJDJDDJDJDJDDJDJDDJDJDJDDJDJDC\nCBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBC\nCDJDJDDJDJDDJDDJDJDDJDJDDJDDJDDJDJDDJDJDDJDJDJDDJDJDDJDJDDJDDJDDJDJDDJDJDJDDJDJDC\nCBNJNPNJNPNJNPNJNBNJNPNJNBNJNPNJNBNJNPNJNPNJNPNJNPNJNPNJNPNJNPNJNPNJNPNJNPNJNBC\nCDJDJDDJDJDDJDDJDJDDJDJDDJDDJDDJDJDDJDJDDJDJDJDDJDJDDJDJDDJDDJDDJDJDDJDJDJDDJDJDC\nCBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBC\nCDJDJDDJDJDDJDDJDJDDJDJDDJDDJDJDDJDJDDJDDJDJDJDDJDJDDJDJDDJDJDJDDJDJDDJDJDJDDJDJDC\nCBNJNPNJNPNJNPNJNBNJNPNJNBNJNPNJNBNJNPNJNPNJNPNJNPNJNPNJNPNJNPNJNPNJNPNJNPNJNBC\nCDJDJDJDJDDJDDJDJDJDDJDDJJDJDJDDJDJDDJDDJDJDJDDJDJDDJDJDDJDJDJDDJDJDJDJDJDDJDJDC\nCBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBC\nCDJDJDDJDJDDJDDJDJDDJDJDDJDDJDJDDJDJDDJDJDJDDJDJJDDJDJDJDJDJDDJDJDDJDJDJDDJDJDC\nCBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBC\nCDJDJDDJDJDDJDDJDJDJDDJDDJJDJDDJDJDJDDJDJDJDDJDJDDJDJDDJDJDJDDJDJDJDJDJDDJDJDC\nCBNJNPNJNPNJNPNJNBNJNPNJNBNJNPNJNBNJNPNJNBNJNPNJNBNJNPNJNPNJNPNJNPNJNPNJNPNJNBC\nCDJDJDJDJDDJDDJDJDJDDJDDJJDJDJDDJDJDJDJDJDJDJDDJDJDDJDJDJDJDJDJJDJDJDJDJDDJDJDC\nCBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBC\nCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+      "tiles": {
+        "Earth Path Tile": "B",
+        "Stone Wall Tile": "C",
+        "Stone Floor Tile": "D",
+        "Mossy Stone Tile": "J",
+        "Tree Tile": "L",
+        "Rock Tile": "N",
+        "Flower Patch Tile": "P"
+      }
+    },
+    "world": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC\nCBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBC\nCDJDJDDJDJDDJDDJDJDDJDJDDJDJDJDDJDDJDJDDJDJDDJDJDJDDJDDJDJDDJDJDDJDJDJDDJDJDDJDJDC\nCBNJNPNJNBNJNPNJNBNJNPNJNBNJNPNJNPNJNPNJNPNJNPNJNJNJNJNPNJNPNJNJNJNJNPNJNBJNBNJNBC\nCDJDJDDJDJDDJDDJDDDJDJDDJDDJDDJDJDDJDJDDJDJDJDDJDJDDJDJDDJDJDJDDJDJDDJDJDJDDJDJDC\nCBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBL#LBLBLBLBLBL@LBLBLBC\nCDJDJDDJSJDDJDDJDJDDJDJDDJDDJDDJDJDDJDJDDJDJDJDDJDJDDJDJDDJDDJDDDJDJDJDDJDJDDJDJDC\nCBNJNPNJNPNJNPNJNBNJNPNJNBNJNPNJNBNJNPNJNPNJNPNJNPNJNPNJNPNJNPNJNPNJNPNJNPNJNBC\nCDJDJDDJDJDDJDDJDJDDJDJDDJDDJDDJDJDDJDJDDJDJDJDDJDJDDJDDJDDJDDJDJDDJDJDJDDJDJDC\nCBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBC\nCDJDJDDJDJDDJDDJDJDDJDJDDJDDJDJDDJDJDDJDDJDJDJDDJDJDDJDJDDJDJDJDDJDJDDJDJDJDDJDJDC\nCBNJNPNJNPNJNPNJNBNJNPNJNBNJNPNJNBNJNPNJNPNJNPNJNPNJNPNJNPNJNPNJNPNJNPNJNPNJNBC\nCDJDJDJDJDDJDDJDJDJDDJDDJJDJDJDDJDJDDJDDJDJDJDDJDJDDJDJDDJDJDJDDJDJDJDJDJDDJDJDC\nCBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBC\nCDJDJDDJDJDDJDDJDJDDJDJDDJDDJDJDDJDJDDJDJDJDDJDJJDDJDJDJDJDJDDJDJDDJDJDJDDJDJDC\nCBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLYLBLBLBLBLXLBLBLBLBLBLBLBC\nCDJDJDDJDJDDJDDJDJRURDDJDDJJDJDDJDJDJDDJDJDJDDJDJDDJDJDDJDJDJDDJDJDJDJDJDDJDJDC\nCBNJNPNJNPNJNPNJNBNJNPNJNBNJNPNJNBNJNPNJNBNJNPNJNBNJNPNJNPNJNPNJNPNJNPNJNPNJNBC\nCDJDJDJDJDDJDDJDJDJDDJDDJJDJDJDDJDJDJDJDJDJDJDDJDJDDJDJDJDJDJDJJDJDJDJDJDDJDJDC\nCBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBLBC\nCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 100.0,
+      "Accuracy_of_important_tiles_placed": 46.666666666666664,
+      "Average_euclidean_distance": 440.8208252793872,
+      "agent_reward": 0,
+      "astar_path": 33
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 16,
+      "story_paragraphs": [
+        6,
+        7
+      ],
+      "total_objectives": 9
+    }
+  }
+}

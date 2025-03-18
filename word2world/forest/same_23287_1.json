@@ -1,0 +1,248 @@
+{
+  "round_0": {
+    "story": "In the lush, verdant heart of the Eldwood Forest, young Alia, an aspiring herbalist, embarked on a quest to find the legendary Moonflower, a rare plant said to have immense healing properties. Her journey was crucial not just for her own apprenticeship, but to save her ailing grandmother, who resided on the outskirts of the forest in a quaint, vine-wrapped cottage. The forest, a sprawling canopy of emerald and jade hues, was a sanctuary of tranquility but also a realm of hidden perils.\n\nAlia's first objective was to navigate through the deceptive Whispering Thicket, a dense part of the forest where the trees seemed to murmur secrets. Here, she encountered a chatty squirrel named Finick, who knew every knotted tree and hidden path. Finick agreed to guide Alia through the thicket in exchange for protection from the forest hawks. Together, they reached Brightfall River, a sparkling body of water whose current could help transport Alia deeper into the forest. However, creating a sturdy raft from the surrounding timber without disturbing the river sprites demanded patience and careful negotiation.\n\nAs Alia progressed, her third challenge was to decipher the ancient runes on the Stones of Skylea, believed to point the way to the Moonflower. Each rune represented a different element of nature, requiring Alia to balance water, fire, earth, and air in a harmonious ritual to reveal the path forward. This delicate task was interrupted by the arrival of Eldren, a cunning fox and the forest\u2019s self-appointed guardian who mistrusted humans and their intentions. Eldren, with his blazing amber eyes and swift paws, set traps to disorient Alia and lure her away from her path.\n\nUndeterred, Alia sought the help of the wise old owl, Orin, perched in the ancient Watcher\u2019s Tree. Her fourth objective involved climbing the colossal tree in the dead of night to converse with Orin, who agreed to share his wisdom in exchange for Alia\u2019s promise to protect the forest\u2019s sacred groves. From Orin, Alia learned the art of moving unseen and silently through the underbrush, a skill she would soon need.\n\nAs she grew closer to her goal, Alia was faced with her fifth and sixth objectives: gathering duskberries and moonwater during the night when both ingredients were most potent. These components were essential to create a luminous potion which, when poured over the Moonflower, would awaken it from its slumber. Each of these tasks took her through perilous parts of the forest where the terrain was treacherous and the nocturnal predators roamed silently.\n\nFinally reaching the Grove of Silver Shadows, Alia found the Moonflower, bathed in moonlight and as radiant as the stories foretold. However, Eldren ambushed her, intent on ending her quest to prevent what he believed was the inevitable exploitation of the forest\u2019s treasures. The confrontation led to her ultimate and eighth objective: to convince Eldren of her true intention\u2014to heal, not harm. Demonstrating her respect and love for Eldwood through her knowledge of nature and her gentle handling of the Moonflower, Alia gained Eldren\u2019s trust. Together, they carefully harvested the Moonflower, ensuring its survival and continued growth.\n\nAlia returned home, her quest complete, with not only the Moonflower to save her grandmother but also a new ally and guardian in Eldren, ensuring the protection of Eldwood Forest for generations to come. The forest remained an enigmatic, evergreen world, thriving under the watchful eyes of those who loved and defended it.",
+    "character_information": "Certainly! Here are specific sprite descriptions suitable for each character in the 2D game inspired by the above story:\n\n1. **Alia (Protagonist)**\n   - **Appearance:** Alia is a young herbalist with a determined and kind expression. She has long, wavy brown hair tied back with a green ribbon and bright, curious green eyes. Her outfit consists of a practical, earth-toned tunic with a belt where she carries her herbalist tools, sturdy brown boots, and a small backpack filled with jars and pouches for her collected ingredients.\n   - **Accessories:** A leather pouch belt, a small sickle for harvesting herbs, and a glowing amulet symbolizing her connection to nature.\n   - **Animation Suggestions:** Walking and collecting animations, interacting with NPCs, and a special animation for creating potions.\n\n2. **Finick (NPC - Squirrel)**\n   - **Appearance:** A small, agile squirrel with a bushy tail and bright eyes, Finick is an energetic character. His fur is a mix of light brown and white. He often stands on his hind legs, gesturing animatedly with his tiny paws.\n   - **Animation Suggestions:** Quick movements, jumping from ground to Alia\u2019s shoulder, running animations, and alert stance when spotting danger.\n\n3. **Eldren (Antagonist - Fox)**\n   - **Appearance:** Eldren is a sleek fox with a sharp, wary expression. His fur is a deep, rich red with a fluffy white underbelly and tail tip. His eyes are piercing amber, and he carries an aura of both elegance and cunning.\n   - **Accessories:** Perhaps a distinctive scar across one eye to signify past battles.\n   - **Animation Suggestions:** Stealthy movements, pouncing, setting traps, and a begrudging respect gesture towards Alia at the end.\n\n4. **Orin (NPC - Owl)**\n   - **Appearance:** Orin is an ancient, wise owl with expansive wings and deep, knowing eyes that seem to glow slightly in the dark. His feathers are a dusky grey with hints of blue and silver reflecting his connection to the moon and night sky.\n   - **Animation Suggestions:** Slow, graceful flapping of wings, a rotating head, and a mystical, glowing effect when sharing knowledge.\n\nEach sprite should reflect these detailed characteristics to ensure the characters are visually distinct and immediately recognizable by players, enhancing the immersive quality of the game.",
+    "tile_mapping": {
+      "Dirt Path Tile": "A",
+      "Grassy Tile": "B",
+      "Mossy Tile": "C",
+      "Rocky Ground Tile": "D",
+      "Mud Tile": "E",
+      "Sparkling River Tile": "F",
+      "River Edge Tile": "G",
+      "River Rapid Tile": "H",
+      "Pond Tile": "I",
+      "Thicket Tile": "J",
+      "Tree Tile": "K",
+      "Overgrown Tree Roots Tile": "L",
+      "Fallen Logs Tile": "M",
+      "Flower Patch Tile": "N",
+      "Vines Tile": "O",
+      "Mushroom Clusters Tile": "P",
+      "Wooden Bridge Tile": "Q",
+      "Stone Ruins Tile": "R",
+      "Watcher\u2019s Tree Tile": "S",
+      "Cave Entrance Tile": "T",
+      "Ancient Runes Stone Tile": "U",
+      "Grove Tile": "V",
+      "Light Beam Tile": "W",
+      "Traps Tile": "X",
+      "Fog/Mist Tile": "Y",
+      "Night Time Tile": "Z",
+      "Sparkling Stars Tile": "a",
+      "Campfire Tile": "b",
+      "NPC Placeholders": "c",
+      "Herb Plants Tile": "d",
+      "Tool and Item Scatter Tile": "e",
+      "Interactive Object Tiles": "f",
+      "NPC Finick": "*",
+      "NPC Orin": "!",
+      "young aspiring herbalist": "@",
+      "cunning guardian fox": "#"
+    },
+    "goals": "The main goal for Alia, the protagonist in the story, is to obtain the legendary Moonflower to create a healing elixir for her ailing grandmother. \n\n### Small Goals leading to the Main Goal:\n1. **Navigate through the Whispering Thicket.**\n   - *Reward:* Gaining trust and assistance from the squirrel Finick. (+10 points)\n   - *Penalty:* Losing time if lost or caught in traps reducing overall health. (-5 points)\n\n2. **Successfully create a raft and cross the Brightfall River.**\n   - *Reward:* Quick access to deeper parts of the forest. (+15 points)\n   - *Penalty:* Getting wet which slows movement temporarily and lessens item durability. (-10 points)\n\n3. **Decipher the ancient runes on the Stones of Skylea.**\n   - *Reward:* Revealing the correct path to the Moonflower, gaining knowledge that might help with other forest puzzles. (+20 points)\n   - *Penalty:* Misinterpretation leads to a longer route or encountering dangerous areas. (-15 points)\n\n4. **Climb the Watcher\u2019s Tree to speak with Orin.**\n   - *Reward:* Learning valuable stealth skills for future challenges. (+25 points)\n   - *Penalty:* Falling results in minor injury, temporarily reducing speed. (-20 points)\n\n5. **Collect duskberries and moonwater.**\n   - *Reward:* Items necessary for the luminous potion, essential for fetching the Moonflower. (+30 points for each, total +60 points)\n   - *Penalty:* Each incorrect or failed attempt to gather results in lost time and resources. (-5 points for each failed attempt)\n\n6. **Find and awaken the Moonflower at the Grove of Silver Shadows.**\n   - *Reward:* Acquiring the Moonflower, which is the key component in saving her grandmother. (+50 points)\n   - *Penalty:* Disturbing hostile creatures in the Grove results in loss of health or resources. (-30 points)\n\n7. **Convince Eldren of her pure intentions.**\n   - *Reward:* Gaining an ally in Eldren and ensuring safe passage through the forest in future ventures. (+40 points)\n   - *Penalty:* Failure to convince results in being banned from the forest, making it much harder to revisit crucial places. (-50 points)\n\n### Main Goal:\n- **Successfully create the healing elixir from the Moonflower for her grandmother.**\n  - *Reward:* Saving her grandmother and securing her future as a recognized and skilled herbalist. (+100 points)\n  - *Penalty:* Failure results in grandmother's continued illness and loss of confidence in her herbalist skills. (-100 points)\n\nThese structured goals, rewards, and penalties help shape the progression in the game, adding layers of complexity and consequence that reinforce the player's engagement with Alia\u2019s quest and character development.",
+    "objectives": {
+      "Navigate through the Whispering Thicket": [
+        "J",
+        1,
+        11
+      ],
+      "Successfully create a raft and cross the Brightfall River": [
+        "F",
+        3,
+        10
+      ],
+      "Decipher the ancient runes on the Stones of Skylea": [
+        "U",
+        10,
+        13
+      ],
+      "Climb the Watcher\u2019s Tree to speak with Orin": [
+        "S",
+        11,
+        9
+      ],
+      "Collect duskberries and moonwater": [
+        "N",
+        9,
+        16
+      ],
+      "Find and awaken the Moonflower at the Grove of Silver Shadows": [
+        "V",
+        9,
+        19
+      ],
+      "Convince Eldren of her pure intentions": [
+        "#",
+        14,
+        8
+      ]
+    },
+    "important_tiles": "[\n    '@',  # Protagonist\n    '#',  # Antagonist\n    '*',  # NPC Finick\n    '!',  # NPC Orin\n    'J',  # Thicket Tile\n    'F',  # Sparkling River Tile\n    'Q',  # Wooden Bridge Tile\n    'U',  # Ancient Runes Stone Tile\n    'S',  # Watcher\u2019s Tree Tile\n    'V',  # Grove Tile\n    'N',  # Flower Patch Tile (Moonflower location)\n    'd',  # Herb Plants Tile\n    'H',  # River Rapid Tile\n    'X',  # Traps Tile\n    'T'   # Cave Entrance Tile\n]",
+    "walkable_tiles": "[\n    'A',  # Dirt Path Tile\n    'B',  # Grassy Tile\n    'C',  # Mossy Tile\n    'D',  # Rocky Ground Tile\n    'E',  # Mud Tile\n    'F',  # Sparkling River Tile\n    'G',  # River Edge Tile\n    'I',  # Pond Tile\n    'J',  # Thicket Tile\n    'K',  # Tree Tile\n    'L',  # Overgrown Tree Roots Tile\n    'M',  # Fallen Logs Tile\n    'N',  # Flower Patch Tile\n    'O',  # Vines Tile\n    'P',  # Mushroom Clusters Tile\n    'Q',  # Wooden Bridge Tile\n    'T',  # Cave Entrance Tile\n    'b',  # Campfire Tile\n    'd',  # Herb Plants Tile\n    'e',  # Tool and Item Scatter Tile\n    'f'   # Interactive Object Tiles\n]",
+    "interactive_object_tiles": "['U', 'd', 'e', 'f']",
+    "world_1st_layer": {
+      "world": "BBBBBBBBBBBBBBBBBBBBBB\nBAAAAAAABBBJJJJJBBAAAB\nBAAAAABBBFFFFFQBBBBJAB\nBAAABBFAAAAAFGAAABJJAB\nBABBFAAAAAFGAAAAABBBAB\nBAFAAAHAAFGAAAA,BAB\nBAFAFHHHXFGAAAWWBAB\nBAFFHHXXHFGWWWBB\nBBBFFHXXXIAVNNNNVNNNDB\nBBBBBFFFFINNNSB\nBBBBBBBBSTTUUUSSSB\nBBB.SSSSBB\nBBBBBB\nBBBBBB\nBBBBBBBBBBBBBBBBBBBBBB",
+      "tiles": {
+        "Dirt Path Tile": "A",
+        "Grassy Tile": "B",
+        "Rocky Ground Tile": "D",
+        "Sparkling River Tile": "F",
+        "River Edge Tile": "G",
+        "River Rapid Tile": "H",
+        "Pond Tile": "I",
+        "Thicket Tile": "J",
+        "Flower Patch Tile": "N",
+        "Wooden Bridge Tile": "Q",
+        "Watcher\u2019s Tree Tile": "S",
+        "Cave Entrance Tile": "T",
+        "Ancient Runes Stone Tile": "U",
+        "Grove Tile": "V",
+        "Light Beam Tile": "W",
+        "Traps Tile": "X"
+      }
+    },
+    "world": "BBBBBBBBBBBBBBBBBBBBBB\nBAAAAAAABBBJJJJJBBAAAB\nBAAAAABBBFFFFFQBBBBJAB\nBAAABBFAAAAAFGAAABJJAB\nBABBFAAAAAFGAAAAABBBAB\nBAFAAAHAAFGAAA@,BAB\nBAFAFHHHXFGAAAWWBAB\nBAFFHHXXHFGWWWBB\nBBBFFHXXXIAVNNNNVNNNDB\nBBBBBFFFFINNNSB\nBBBBBBBBSTTUUUSSSB\nBBB.SSSSBB\nBBBBBB\nBBBBBB#f\nBBBBBBBBBBBBBBBBBBBBBB",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 100.0,
+      "Accuracy_of_important_tiles_placed": 80.0,
+      "Average_euclidean_distance": 623.9236666285792,
+      "agent_reward": -300,
+      "astar_path": 32
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 15,
+      "story_paragraphs": [
+        6,
+        7
+      ],
+      "total_objectives": 8
+    }
+  },
+  "round_1": {
+    "story": "In the lush, verdant heart of the Eldwood Forest, young Alia, an aspiring herbalist, embarked on a quest to find the legendary Moonflower, a rare plant said to have immense healing properties. Her journey was crucial not just for her own apprenticeship, but to save her ailing grandmother, who resided on the outskirts of the forest in a quaint, vine-wrapped cottage. The forest, a sprawling canopy of emerald and jade hues, was a sanctuary of tranquility but also a realm of hidden perils.\n\nAlia's first objective was to navigate through the deceptive Whispering Thicket, a dense part of the forest where the trees seemed to murmur secrets. Here, she encountered a chatty squirrel named Finick, who knew every knotted tree and hidden path. Finick agreed to guide Alia through the thicket in exchange for protection from the forest hawks. Together, they reached Brightfall River, a sparkling body of water whose current could help transport Alia deeper into the forest. However, creating a sturdy raft from the surrounding timber without disturbing the river sprites demanded patience and careful negotiation.\n\nAs Alia progressed, her third challenge was to decipher the ancient runes on the Stones of Skylea, believed to point the way to the Moonflower. Each rune represented a different element of nature, requiring Alia to balance water, fire, earth, and air in a harmonious ritual to reveal the path forward. This delicate task was interrupted by the arrival of Eldren, a cunning fox and the forest\u2019s self-appointed guardian who mistrusted humans and their intentions. Eldren, with his blazing amber eyes and swift paws, set traps to disorient Alia and lure her away from her path.\n\nUndeterred, Alia sought the help of the wise old owl, Orin, perched in the ancient Watcher\u2019s Tree. Her fourth objective involved climbing the colossal tree in the dead of night to converse with Orin, who agreed to share his wisdom in exchange for Alia\u2019s promise to protect the forest\u2019s sacred groves. From Orin, Alia learned the art of moving unseen and silently through the underbrush, a skill she would soon need.\n\nAs she grew closer to her goal, Alia was faced with her fifth and sixth objectives: gathering duskberries and moonwater during the night when both ingredients were most potent. These components were essential to create a luminous potion which, when poured over the Moonflower, would awaken it from its slumber. Each of these tasks took her through perilous parts of the forest where the terrain was treacherous and the nocturnal predators roamed silently.\n\nFinally reaching the Grove of Silver Shadows, Alia found the Moonflower, bathed in moonlight and as radiant as the stories foretold. However, Eldren ambushed her, intent on ending her quest to prevent what he believed was the inevitable exploitation of the forest\u2019s treasures. The confrontation led to her ultimate and eighth objective: to convince Eldren of her true intention\u2014to heal, not harm. Demonstrating her respect and love for Eldwood through her knowledge of nature and her gentle handling of the Moonflower, Alia gained Eldren\u2019s trust. Together, they carefully harvested the Moonflower, ensuring its survival and continued growth.\n\nAlia returned home, her quest complete, with not only the Moonflower to save her grandmother but also a new ally and guardian in Eldren, ensuring the protection of Eldwood Forest for generations to come. The forest remained an enigmatic, evergreen world, thriving under the watchful eyes of those who loved and defended it.",
+    "character_information": "Certainly! Here are specific sprite descriptions suitable for each character in the 2D game inspired by the above story:\n\n1. **Alia (Protagonist)**\n   - **Appearance:** Alia is a young herbalist with a determined and kind expression. She has long, wavy brown hair tied back with a green ribbon and bright, curious green eyes. Her outfit consists of a practical, earth-toned tunic with a belt where she carries her herbalist tools, sturdy brown boots, and a small backpack filled with jars and pouches for her collected ingredients.\n   - **Accessories:** A leather pouch belt, a small sickle for harvesting herbs, and a glowing amulet symbolizing her connection to nature.\n   - **Animation Suggestions:** Walking and collecting animations, interacting with NPCs, and a special animation for creating potions.\n\n2. **Finick (NPC - Squirrel)**\n   - **Appearance:** A small, agile squirrel with a bushy tail and bright eyes, Finick is an energetic character. His fur is a mix of light brown and white. He often stands on his hind legs, gesturing animatedly with his tiny paws.\n   - **Animation Suggestions:** Quick movements, jumping from ground to Alia\u2019s shoulder, running animations, and alert stance when spotting danger.\n\n3. **Eldren (Antagonist - Fox)**\n   - **Appearance:** Eldren is a sleek fox with a sharp, wary expression. His fur is a deep, rich red with a fluffy white underbelly and tail tip. His eyes are piercing amber, and he carries an aura of both elegance and cunning.\n   - **Accessories:** Perhaps a distinctive scar across one eye to signify past battles.\n   - **Animation Suggestions:** Stealthy movements, pouncing, setting traps, and a begrudging respect gesture towards Alia at the end.\n\n4. **Orin (NPC - Owl)**\n   - **Appearance:** Orin is an ancient, wise owl with expansive wings and deep, knowing eyes that seem to glow slightly in the dark. His feathers are a dusky grey with hints of blue and silver reflecting his connection to the moon and night sky.\n   - **Animation Suggestions:** Slow, graceful flapping of wings, a rotating head, and a mystical, glowing effect when sharing knowledge.\n\nEach sprite should reflect these detailed characteristics to ensure the characters are visually distinct and immediately recognizable by players, enhancing the immersive quality of the game.",
+    "tile_mapping": {
+      "Dirt Path Tile": "A",
+      "Grassy Tile": "B",
+      "Mossy Tile": "C",
+      "Rocky Ground Tile": "D",
+      "Mud Tile": "E",
+      "Sparkling River Tile": "F",
+      "River Edge Tile": "G",
+      "River Rapid Tile": "H",
+      "Pond Tile": "I",
+      "Thicket Tile": "J",
+      "Tree Tile": "K",
+      "Overgrown Tree Roots Tile": "L",
+      "Fallen Logs Tile": "M",
+      "Flower Patch Tile": "N",
+      "Vines Tile": "O",
+      "Mushroom Clusters Tile": "P",
+      "Wooden Bridge Tile": "Q",
+      "Stone Ruins Tile": "R",
+      "Watcher\u2019s Tree Tile": "S",
+      "Cave Entrance Tile": "T",
+      "Ancient Runes Stone Tile": "U",
+      "Grove Tile": "V",
+      "Light Beam Tile": "W",
+      "Traps Tile": "X",
+      "Fog/Mist Tile": "Y",
+      "Night Time Tile": "Z",
+      "Sparkling Stars Tile": "a",
+      "Campfire Tile": "b",
+      "NPC Placeholders": "c",
+      "Herb Plants Tile": "d",
+      "Tool and Item Scatter Tile": "e",
+      "Interactive Object Tiles": "f",
+      "NPC Finick": "*",
+      "NPC Orin": "!",
+      "young aspiring herbalist": "@",
+      "cunning guardian fox": "#"
+    },
+    "goals": "The main goal for Alia, the protagonist in the story, is to obtain the legendary Moonflower to create a healing elixir for her ailing grandmother. \n\n### Small Goals leading to the Main Goal:\n1. **Navigate through the Whispering Thicket.**\n   - *Reward:* Gaining trust and assistance from the squirrel Finick. (+10 points)\n   - *Penalty:* Losing time if lost or caught in traps reducing overall health. (-5 points)\n\n2. **Successfully create a raft and cross the Brightfall River.**\n   - *Reward:* Quick access to deeper parts of the forest. (+15 points)\n   - *Penalty:* Getting wet which slows movement temporarily and lessens item durability. (-10 points)\n\n3. **Decipher the ancient runes on the Stones of Skylea.**\n   - *Reward:* Revealing the correct path to the Moonflower, gaining knowledge that might help with other forest puzzles. (+20 points)\n   - *Penalty:* Misinterpretation leads to a longer route or encountering dangerous areas. (-15 points)\n\n4. **Climb the Watcher\u2019s Tree to speak with Orin.**\n   - *Reward:* Learning valuable stealth skills for future challenges. (+25 points)\n   - *Penalty:* Falling results in minor injury, temporarily reducing speed. (-20 points)\n\n5. **Collect duskberries and moonwater.**\n   - *Reward:* Items necessary for the luminous potion, essential for fetching the Moonflower. (+30 points for each, total +60 points)\n   - *Penalty:* Each incorrect or failed attempt to gather results in lost time and resources. (-5 points for each failed attempt)\n\n6. **Find and awaken the Moonflower at the Grove of Silver Shadows.**\n   - *Reward:* Acquiring the Moonflower, which is the key component in saving her grandmother. (+50 points)\n   - *Penalty:* Disturbing hostile creatures in the Grove results in loss of health or resources. (-30 points)\n\n7. **Convince Eldren of her pure intentions.**\n   - *Reward:* Gaining an ally in Eldren and ensuring safe passage through the forest in future ventures. (+40 points)\n   - *Penalty:* Failure to convince results in being banned from the forest, making it much harder to revisit crucial places. (-50 points)\n\n### Main Goal:\n- **Successfully create the healing elixir from the Moonflower for her grandmother.**\n  - *Reward:* Saving her grandmother and securing her future as a recognized and skilled herbalist. (+100 points)\n  - *Penalty:* Failure results in grandmother's continued illness and loss of confidence in her herbalist skills. (-100 points)\n\nThese structured goals, rewards, and penalties help shape the progression in the game, adding layers of complexity and consequence that reinforce the player's engagement with Alia\u2019s quest and character development.",
+    "objectives": {
+      "Navigate through the Whispering Thicket": [
+        "J",
+        1,
+        12
+      ],
+      "Successfully create a raft and cross the Brightfall River": [
+        "F",
+        4,
+        4
+      ],
+      "Decipher the ancient runes on the Stones of Skylea": [
+        "U",
+        10,
+        17
+      ],
+      "Climb the Watcher\u2019s Tree to speak with Orin": [
+        "S",
+        10,
+        7
+      ],
+      "Collect duskberries and moonwater": [
+        "N",
+        9,
+        14
+      ],
+      "Find and awaken the Moonflower at the Grove of Silver Shadows": [
+        "V",
+        8,
+        12
+      ],
+      "Convince Eldren of her pure intentions": [
+        "#",
+        7,
+        11
+      ]
+    },
+    "important_tiles": "[\n    '@',  # Protagonist\n    '#',  # Antagonist\n    '*',  # NPC Finick\n    '!',  # NPC Orin\n    'J',  # Thicket Tile\n    'F',  # Sparkling River Tile\n    'Q',  # Wooden Bridge Tile\n    'U',  # Ancient Runes Stone Tile\n    'S',  # Watcher\u2019s Tree Tile\n    'V',  # Grove Tile\n    'N',  # Flower Patch Tile (Moonflower location)\n    'd',  # Herb Plants Tile\n    'H',  # River Rapid Tile\n    'X',  # Traps Tile\n    'T'   # Cave Entrance Tile\n]",
+    "walkable_tiles": "[\n    'A',  # Dirt Path Tile\n    'B',  # Grassy Tile\n    'C',  # Mossy Tile\n    'D',  # Rocky Ground Tile\n    'E',  # Mud Tile\n    'F',  # Sparkling River Tile\n    'G',  # River Edge Tile\n    'I',  # Pond Tile\n    'J',  # Thicket Tile\n    'K',  # Tree Tile\n    'L',  # Overgrown Tree Roots Tile\n    'M',  # Fallen Logs Tile\n    'N',  # Flower Patch Tile\n    'O',  # Vines Tile\n    'P',  # Mushroom Clusters Tile\n    'Q',  # Wooden Bridge Tile\n    'T',  # Cave Entrance Tile\n    'b',  # Campfire Tile\n    'd',  # Herb Plants Tile\n    'e',  # Tool and Item Scatter Tile\n    'f'   # Interactive Object Tiles\n]",
+    "interactive_object_tiles": "['U', 'd', 'e', 'f']",
+    "world_1st_layer": {
+      "world": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\nBAAAAAAABBBJJJJJBBBBBAAABBBKBBBBJJBBB\nBAAAAABBBFFFFFQBBBBJFBBBBJAAAAAAAABAB\nBAAAABBBBAAAAFGHBBJFBBJJBBBBBBABBBBB\nBABBFAAAABBGAAAAABFBAAJFABBFBBABBBBB\nBAFAAAHAAFGAAAAABBFABBBBBBBFABBBBBB\nBAFAFHFFXFGGAAAWWFFBBBFBFBBFBABBBBB\nBAFFHHXXHFGBWWWBBFFBBBBBKBBBFBBBBBB\nBBBFFHXXXIAVVVNNNNNNNNNNNNVNNNNNNDB\nBBBBBFFFFINNNSSSNNNNNNNNNNVVVVVVVVN\nBBBBBBBBSVNNSTTUUUSSSSBBBBBBBBBBBB\nBBBBBBBBSSSSBBBBBBBBBBCBBBBBBBBBBB\nBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\nBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\nBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+      "tiles": {
+        "Dirt Path Tile": "A",
+        "Grassy Tile": "B",
+        "Mossy Tile": "C",
+        "Rocky Ground Tile": "D",
+        "Sparkling River Tile": "F",
+        "River Edge Tile": "G",
+        "River Rapid Tile": "H",
+        "Pond Tile": "I",
+        "Thicket Tile": "J",
+        "Tree Tile": "K",
+        "Flower Patch Tile": "N",
+        "Wooden Bridge Tile": "Q",
+        "Watcher\u2019s Tree Tile": "S",
+        "Cave Entrance Tile": "T",
+        "Ancient Runes Stone Tile": "U",
+        "Grove Tile": "V",
+        "Light Beam Tile": "W",
+        "Traps Tile": "X"
+      }
+    },
+    "world": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\nBAAAAAAABBBJJJJJBBBBBAAABBBKBBBBJJBBB\nBAAAAABBBFFFFFQBBBBJFBBBBJAAAAAAAABAB\nBAAAABBBBAAAAFGHBBJFA@JJBBBBBBABBBBB\nBABBFAAAABBGAAAAABFBAAJFABBFBBABBBBB\nBAFAAAHAAFGAAAA*BBFABBBBBBBFABBBBBB\nBAFAFHFFXFGGAAAWWFFBBBFBFBBFBABBBBB\nBAFFHHXXHFGBWWWB#FFBBBBBKBBBFBBBBBB\nBBBFFHXXXIAVVVNNNNNNNNNNNNVNNNNNNUDB\nBBBBBFFFFINNNSSSNNNNNNNNNNVVVVVVVVN\nBBBBBBBBSVNNSTTfUUUSSSSBBBBBBBBBBBB\nBBBBBBBBSSSSBBBBBBBBBBCBBBBBBBBBBBc\nBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBT\nBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBd\nBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBd",
+    "evaluations": {
+      "Accuracy_of_characters_placed": 75.0,
+      "Accuracy_of_important_tiles_placed": 93.33333333333333,
+      "Average_euclidean_distance": 668.200033174821,
+      "agent_reward": -150,
+      "astar_path": 22
+    },
+    "complexity": {
+      "good_feedback_check": 0,
+      "bad_feedback_check": 0,
+      "no_of_important_tiles": 16,
+      "story_paragraphs": [
+        6,
+        7
+      ],
+      "total_objectives": 9
+    }
+  }
+}
