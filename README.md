@@ -58,3 +58,13 @@ If you meet problems when executing this command and you are using IDEs like Pyc
 #### Buildings:
 ![image](https://github.com/JMZ-kk/Word2Minecraft/blob/word2mc_v0/pictures/buildings.png)
 
+#### Main maps:
+![image](https://github.com/JMZ-kk/Word2Minecraft/blob/word2mc_v0/pictures/037fcbc262e8825faec1132fa71f12b.png)
+![image](https://github.com/JMZ-kk/Word2Minecraft/blob/word2mc_v0/pictures/23ea935ed8d849380f7e9463ec62e36.png)
+![image](https://github.com/JMZ-kk/Word2Minecraft/blob/word2mc_v0/pictures/dla.png)
+
+### Sub maps:
+![image](https://github.com/JMZ-kk/Word2Minecraft/blob/word2mc_v0/pictures/gate.png)
+![image](https://github.com/JMZ-kk/Word2Minecraft/blob/word2mc_v0/pictures/gem2.png)
+![image](https://github.com/JMZ-kk/Word2Minecraft/blob/word2mc_v0/pictures/mirror%20lake.png)
+
