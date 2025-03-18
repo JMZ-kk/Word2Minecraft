@@ -50,10 +50,11 @@ To play the generated game:
 
 ```
 python word2world/gen_mc_main.py
-If you meet problems when executing this command and you are using IDEs like Pycharm, try to set the working directory as .../Word2World/word2world
 ```
+If you meet problems when executing this command and you are using IDEs like Pycharm, try to set the working directory as .../Word2World/word2world
 
 
 ### Results:
+#### Buildings:
 
 
