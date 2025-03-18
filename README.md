@@ -56,5 +56,5 @@ If you meet problems when executing this command and you are using IDEs like Pyc
 
 ### Results:
 #### Buildings:
-![image](https://github.com/JMZ-kk/Word2Minecraft/tree/word2mc_v0/pictures/buildings.png)
+![image](https://github.com/JMZ-kk/Word2Minecraft/blob/word2mc_v0/pictures/buildings.png)
 
