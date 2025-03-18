@@ -1,18 +1,18 @@
-# Word2World
+# Word2Minecraft
 
-![image](https://github.com/umair-nasir14/Word2World/assets/68095790/c7e5af2e-a948-4eda-9e9c-4c0e0f0f2f46)
+![image](https://github.com/JMZ-kk/Word2Minecraft/blob/main/picture/main_framework_3.png)
 
-This repository contains to code for [Word2World: Generating Stories and Worlds through Large Language Models](https://arxiv.org/abs/2405.06686).
+This repository contains to code for [Word2Minecraft: Generating 3D Game Levels through Large Language Models].
 
 ### Abstract:
 
-Large Language Models (LLMs) have proven their worth across a diverse spectrum of disciplines. LLMs have shown great potential in Procedural Content Generation (PCG) as well, but directly generating a level through a pre-trained LLM is still challenging. This work introduces `Word2World`, a system that enables LLMs to procedurally design playable games through stories, without any task-specific fine-tuning. `Word2World` leverages the abilities of LLMs to create diverse content and extract information. Combining these abilities, LLMs can create a story for the game, design narrative, and place tiles in appropriate places to create coherent worlds and playable games. We test `Word2World` with different LLMs and perform a thorough ablation study to validate each step.
+We present Word2Minecraft, a system that leverages large language models to generate playable game levels in Minecraft based on structured stories. The system transforms narrative elements—such as protagonist goals, antagonist challenges, and environmental settings—into game levels with both spatial and gameplay constraints. We introduce a flexible framework that allows for the customization of story complexity, enabling dynamic level generation. The system employs a scaling algorithm to maintain spatial consistency while adapting key game elements. We evaluate Word2Minecraft using both metric-based and human-based methods. Our results show that GPT-4-Turbo outperforms GPT-4o-Mini in most areas, including story coherence and objective enjoyment, while the latter excels in aesthetic appeal. We also demonstrate the system’s ability to generate levels with high map enjoyment, offering a promising step forward in the intersection of story generation and game design.
 
 ### Usage:
 
 Clone the repo:
 
-`https://github.com/umair-nasir14/Word2World.git`
+`https://github.com/JMZ-kk/Word2Minecraft.git`
 
 Install the environment and activate it:
 
