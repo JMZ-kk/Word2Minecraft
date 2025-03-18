@@ -1,6 +1,6 @@
 # Word2Minecraft
 
-![image](https://github.com/JMZ-kk/Word2Minecraft/tree/word2mc_v0/pictures/main_framework_3.png)
+![image](https://github.com/JMZ-kk/Word2Minecraft/blob/word2mc_v0/pictures/main_framework_3.png)
 
 This repository contains to code for [Word2Minecraft: Generating 3D Game Levels through Large Language Models].
 
