@@ -1,6 +1,6 @@
 # Word2Minecraft
 
-![image](https://github.com/JMZ-kk/Word2Minecraft/blob/main/picture/main_framework_3.png)
+![image](https://github.com/JMZ-kk/Word2Minecraft/tree/word2mc_v0/pictures/main_framework_3.png)
 
 This repository contains to code for [Word2Minecraft: Generating 3D Game Levels through Large Language Models].
 
@@ -56,5 +56,5 @@ If you meet problems when executing this command and you are using IDEs like Pyc
 
 ### Results:
 #### Buildings:
-
+![image](https://github.com/JMZ-kk/Word2Minecraft/tree/word2mc_v0/pictures/buildings.png)
 
